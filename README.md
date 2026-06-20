@@ -22,7 +22,7 @@ not just what they list for.
 - [What it does](#what-it-does)
 - [Using the app](#using-the-app)
 - [How it works](#how-it-works)
-- [Getting started](#getting-started)
+- [How it evolved](#how-it-evolved-from-perfect-car-picker)
 - [Project structure](#project-structure)
 - [Data pipeline](#data-pipeline)
 - [Deploying](#deploying)
@@ -112,29 +112,64 @@ a single estimated monthly cost — the figure used to rank and compare vehicles
 
 ---
 
-## Getting started
+## How it evolved (from Perfect Car Picker)
 
-```bash
-git clone <your-repo-url> ev-true-cost-explorer
-cd ev-true-cost-explorer/frontend
-npm install
-npm run dev          # http://localhost:5173
-```
+EVsense is the next iteration of an earlier full-stack project,
+[Perfect Car Picker](https://github.com/jorosenberg/perfect-car-picker) — an
+AI-powered car recommender that answered *"which car fits me?"* with a machine-
+learning model and a server-side cost calculator. That project deliberately
+showed off a production-shaped cloud stack. EVsense keeps the engineering
+discipline but rethinks the three hardest parts — the recommendation logic, the
+cost model, and the architecture — around transparency, accuracy, and near-zero
+running cost.
 
-No environment variables or accounts required — the dev server reads the data
-files committed in `frontend/public/data/` directly.
+**Recommendation: from a black-box match to an explainable scoring engine.**
+Perfect Car Picker used a k-nearest-neighbors model over normalized preference
+vectors — simple and effective, but it can't explain *why* it chose a car, and a
+generic distance metric weighs every dimension the same. EVsense replaces it with
+a weighted, multi-criteria scoring engine: each factor — total cost of ownership,
+efficiency (cents per mile), range versus your *real* need plus headroom, and
+budget fit — is its own continuous, individually calibrated sub-score, combined
+using weights derived from the user's stated priorities. The output is ranked
+matches with a match percentage and a plain-English reason for each pick, and
+budget bands that adapt to how you pay (leasing is scored on a lower monthly
+ladder than financing). Trading KNN for a tuned, explainable model was a
+deliberate choice: I gave up "machine learning" as a headline to gain rankings I
+can reason about, debug, and defend line by line.
 
-Common scripts (run from `frontend/`):
+**Cost model: from server-side estimate to client-side, data-grounded math.**
+The earlier app computed cost of ownership in a serverless function and leaned on
+estimates for the trickiest inputs — its own README flagged a depreciation
+calculator from scraped value data as the missing piece. EVsense builds that
+depreciation curve from public resale data, adds real lease math (residual values
+and money-factor-style terms taken from public lease data instead of guessed),
+and runs the *entire* model in the browser, so every input — mileage, electricity
+rate, term, incentives, trim — recomputes instantly with nothing sent to a server.
 
-| Command | What it does |
-|---|---|
-| `npm run dev` | Start the dev server with hot reload |
-| `npm run build` | Build the production app to `frontend/dist` |
-| `npm run preview` | Preview the production build locally |
-| `npm run test` | Run the unit tests |
+**Architecture: from an always-on stack to static files behind a CDN.**
+Perfect Car Picker was a real cloud build — a containerized compute backend, a
+managed database, an API gateway, secret management, and a networked VPC, all in
+Terraform with a GitHub Actions GitOps pipeline. EVsense applies the same
+infrastructure-as-code discipline but draws the sharper conclusion about the
+problem: the app is really just files plus a calculator, so it needs no server in
+the request path at all. The frontend builds to static assets served from object
+storage behind a CDN, the data is versioned JSON in the repo, and the pipeline
+runs locally (or on a schedule) and commits results. Same free-tier cost
+awareness, taken to its logical end — roughly $0/month, with no instance to
+patch, no database to seed, and no cold starts.
 
-For the full setup, data pipeline, and deploy details, see
-[IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md).
+**Data: from a seeded database to a transparent, versioned dataset.**
+Instead of seeding a private database through a secured tunnel, EVsense keeps the
+whole catalog as committed JSON gathered from public sources. The dataset is
+auditable in git history, trivial to roll back, and free to host — and it
+directly answers the earlier project's other noted gap (a short vehicle list) by
+tracking far more vehicles with real, publicly sourced pricing, lease, and
+incentive data.
+
+**What carried over.** The parts that worked were kept and refined: Terraform for
+fully reproducible infrastructure, GitHub Actions for automation, strict AWS
+free-tier cost discipline, and a cost-of-ownership-first philosophy that compares
+cash, finance, and lease side by side.
 
 ---
 
