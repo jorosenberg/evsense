@@ -11,9 +11,9 @@ let cachedVehicles = null
 /**
  * Merge scores (vehicle_scores.json) into each vehicle. Kept generic in the data
  * model so the UI shows a "Score" without naming the provider.
- *   v.expertRating    — overall 0–10 score
- *   v.expertSubscores — { value, storageMax }
- *   v.cargoVolumeCuFt — from storageMax (feeds the Browse cargo slider/sort)
+ *   v.expertRating   , overall 0–10 score
+ *   v.expertSubscores, { value, storageMax }
+ *   v.cargoVolumeCuFt, from storageMax (feeds the Browse cargo slider/sort)
  */
 function mergeScores(vehicles, scoreMap) {
   if (!scoreMap) return vehicles
@@ -34,8 +34,8 @@ function mergeScores(vehicles, scoreMap) {
 
 /**
  * Merge Edmunds EV Range Test results (tested_specs.json) onto each vehicle:
- *   v.testedRange       — real-world tested range, mi (shown on cards)
- *   v.testedConsumption — kWh/100mi (optional)
+ *   v.testedRange      , real-world tested range, mi (shown on cards)
+ *   v.testedConsumption, kWh/100mi (optional)
  * EPA range stays on v.rangeEpa so the detail page can show both.
  */
 function mergeTested(vehicles, testedMap) {
@@ -145,7 +145,7 @@ export function useFilteredVehicles() {
     // Horsepower
     if (filters.minHorsepower > 0 && (v.horsepower || 0) < filters.minHorsepower) return false
 
-    // Cargo volume (cu ft) — from curated specs. Vehicles without a known cargo
+    // Cargo volume (cu ft), from curated specs. Vehicles without a known cargo
     // figure pass through (so the slider doesn't empty the grid).
     if (filters.minCargo > 0 && v.cargoVolumeCuFt != null && v.cargoVolumeCuFt < filters.minCargo) return false
 
@@ -156,7 +156,7 @@ export function useFilteredVehicles() {
   })
 
   // Mode-aware cost metric per vehicle (total price for cash, monthly all-in
-  // TCO for finance/lease). Computed once per render — not inside the comparator.
+  // TCO for finance/lease). Computed once per render, not inside the comparator.
   const costOf = {}
   for (const v of filtered) {
     costOf[v.id] = cardCostMetric(v, {

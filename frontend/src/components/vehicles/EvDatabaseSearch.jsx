@@ -137,7 +137,7 @@ function CatalogResult({ v }) {
         <div className="min-w-0">
           <div className="font-medium text-sm text-ink truncate">{v.name}</div>
           <div className="text-xs text-ink-subtle mt-0.5">
-            {v.body_shape || 'Unknown body'} · {v.drivetrain || '—'} · {v.year_from || '—'}
+            {v.body_shape || 'Unknown body'} · {v.drivetrain || '-'} · {v.year_from || '-'}
             {v.year_to ? `–${v.year_to}` : ''}
           </div>
         </div>
@@ -155,14 +155,14 @@ function CatalogResult({ v }) {
       </div>
 
       <div className="grid grid-cols-3 gap-2 mt-3 text-center">
-        <Stat label="Range" value={v.range_mi ? `${v.range_mi} mi` : '—'} />
-        <Stat label="Battery" value={v.battery_kwh ? `${v.battery_kwh} kWh` : '—'} />
-        <Stat label="Est. MSRP" value={v.msrp_usd_estimate ? formatCurrency(v.msrp_usd_estimate) : '—'} />
+        <Stat label="Range" value={v.range_mi ? `${v.range_mi} mi` : '-'} />
+        <Stat label="Battery" value={v.battery_kwh ? `${v.battery_kwh} kWh` : '-'} />
+        <Stat label="Est. MSRP" value={v.msrp_usd_estimate ? formatCurrency(v.msrp_usd_estimate) : '-'} />
       </div>
 
       {!v.sold_in_us && (
         <div className="text-[11px] text-status-yellow bg-status-yellow-bg rounded p-1.5 mt-2 leading-tight">
-          Not sold in the US — pricing converted from EU listings.
+          Not sold in the US, pricing converted from EU listings.
         </div>
       )}
     </Link>

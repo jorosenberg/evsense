@@ -1,5 +1,5 @@
 /**
- * incentivesByVehicle.js — single source of truth for manufacturer incentives.
+ * incentivesByVehicle.js, single source of truth for manufacturer incentives.
  *
  * Loads /data/incentives_by_vehicle.json (produced by the Edmunds incentive
  * scraper, localized to ZIP 10005 / New York) and exposes it to the Browse
@@ -7,7 +7,7 @@
  * SAME NY offer for a given trim + payment type.
  *
  * DEMO SCOPE: the only region modeled is New York (ZIP 10005). Offers are
- * MANUFACTURER cash / APR / lease deals — no state purchase rebate is applied
+ * MANUFACTURER cash / APR / lease deals, no state purchase rebate is applied
  * here (see IncentiveNotice). The scrape is refreshed monthly.
  *
  * Data shape (per vehicle):
@@ -15,7 +15,7 @@
  *     scraped: true,
  *     scrapedAt: "2026-…",
  *     edmundsUrl: "https://…",
- *     // model-level "best" summary (always present — backward compatible):
+ *     // model-level "best" summary (always present, backward compatible):
  *     cashRebate, financeApr, financeTerm, leaseMonthly, leaseDownPayment, leaseTerm,
  *     // optional per-trim breakdown (preferred when present):
  *     trims: {
@@ -65,7 +65,7 @@ function ageDays(scrapedAt) {
   return Number.isFinite(ms) ? (Date.now() - ms) / 86_400_000 : Infinity
 }
 
-// Targeted / conditional offers — these require qualifying (own a competitor,
+// Targeted / conditional offers, these require qualifying (own a competitor,
 // be a student/military/grad, finance through the captive lender, buy a
 // charger, etc.) or are a separate state rebate. They must NOT be subtracted
 // from the headline "after incentive" price the way broadly-available cash is.
@@ -244,7 +244,7 @@ export function offerForTrim(rec, trimName, mode, msrp = 0, preferredTerm = 36) 
       dueAtSigning: chosen?.dueAtSigning ?? null,
       milesPerYear: chosen?.milesPerYear ?? 10000,
       terms: terms || {},
-      leaseCash,                 // popup only — do NOT add to totals
+      leaseCash,                 // popup only, do NOT add to totals
       stale: rec.stale,
       edmundsUrl: rec.edmundsUrl,
     }

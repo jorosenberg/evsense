@@ -15,9 +15,9 @@ import {
  * When a ZIP is resolved, also updates the user's state for electricity rates.
  *
  * Props:
- *   hideButton  — when true, renders only the modal (no trigger button).
+ *   hideButton , when true, renders only the modal (no trigger button).
  *                 Used by App.jsx to show the prompt on first load.
- *   defaultRate — fallback DCFC rate shown in the unconfigured state.
+ *   defaultRate, fallback DCFC rate shown in the unconfigured state.
  */
 export default function ChargingLocationPopup({ defaultRate = 45, hideButton = false }) {
   const userPrefs = useUserPreferencesStore()
@@ -54,7 +54,7 @@ export default function ChargingLocationPopup({ defaultRate = 45, hideButton = f
     }
 
     if (!configured) {
-      // No OCM key — still save ZIP/state, then close.
+      // No OCM key, still save ZIP/state, then close.
       userPrefs.setFinancialProfile({ dcfcLocationPromptDismissed: true })
       setOpen(false)
       return
@@ -119,7 +119,7 @@ export default function ChargingLocationPopup({ defaultRate = 45, hideButton = f
                   onSubmit={fetchFor}
                 />
                 <button onClick={dismiss} className="text-xs text-ink-subtle hover:text-ink w-full text-center pt-1">
-                  Skip — use New York defaults
+                  Skip, use New York defaults
                 </button>
               </div>
             )}
@@ -183,7 +183,7 @@ export default function ChargingLocationPopup({ defaultRate = 45, hideButton = f
 }
 
 /**
- * ZipLookup — resolves a US ZIP to lat/lng + state via zippopotam.us,
+ * ZipLookup, resolves a US ZIP to lat/lng + state via zippopotam.us,
  * then calls onSubmit(lat, lng, zip, stateAbbr).
  */
 function ZipLookup({ defaultZip = '', onSubmit }) {
@@ -210,7 +210,7 @@ function ZipLookup({ defaultZip = '', onSubmit }) {
       const stateAbbr = place['state abbreviation'] || null
       onSubmit(Number(place.latitude), Number(place.longitude), zip, stateAbbr)
     } catch {
-      setError('Network error — try again.')
+      setError('Network error, try again.')
     } finally {
       setSubmitting(false)
     }

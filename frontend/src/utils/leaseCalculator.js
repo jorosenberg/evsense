@@ -1,5 +1,5 @@
 /**
- * Lease Calculator — LeaseHackr-style
+ * Lease Calculator, LeaseHackr-style
  * Supports: Standard, One-Pay, Multiple Security Deposits (MSD)
  */
 

@@ -4,7 +4,7 @@ import { persist } from 'zustand/middleware'
 export const useUserPreferencesStore = create(
   persist(
     (set, get) => ({
-      // Location — defaults to New York.
+      // Location, defaults to New York.
       state: 'NY',
       zip: '10001',                    // US ZIP; drives nearby station lookup + state
       stateDetectionMethod: 'default', // "ip" | "manual" | "default"
@@ -21,7 +21,7 @@ export const useUserPreferencesStore = create(
         publicL2: 10,
         dcFast: 10,
       },
-      // DCFC pricing — overrides the state-derived default when set.
+      // DCFC pricing, overrides the state-derived default when set.
       // Populated by the Open Charge Map popup (or left null to fall back).
       dcfcRateCentsPerKwh: null,        // null = use 45¢ default
       dcfcLocationPromptDismissed: false,
@@ -39,7 +39,7 @@ export const useUserPreferencesStore = create(
       downPaymentPercent: 10,
       preferredTermMonths: 60,
 
-      // How the shopper plans to pay — drives the "/mo all-in" shown on every
+      // How the shopper plans to pay, drives the "/mo all-in" shown on every
       // browse card via quickTco. 'finance' | 'lease' | 'cash'.
       purchaseMode: 'finance',
       // Lease term (months) the shopper wants quotes for. Only meaningful when

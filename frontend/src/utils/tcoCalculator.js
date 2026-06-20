@@ -20,11 +20,11 @@ import { calculateDepreciationLoss } from './depreciationCalculator.js'
 export function calculateTCO({ vehicle, calcState, userPrefs, stateData }) {
   const trim = vehicle.trims?.[calcState.selectedTrimIndex] || vehicle.trims?.[0] || {}
   // Many detail-JSON trims carry msrp: null (EPA-derived rows), and some detail
-  // files have no top-level msrpFrom — which made baseMsrp collapse to 0 and the
+  // files have no top-level msrpFrom, which made baseMsrp collapse to 0 and the
   // lease residual (msrp × residual%) show $0. Fall back to the scraped Edmunds
   // lease-calculator MSRP, which the CostCalculator passes through.
   const baseMsrp = trim.msrp || vehicle.msrpFrom || calcState.leaseScrapedMsrp || 0
-  // userInputPrice — if the buyer pasted an online listing price, use it as
+  // userInputPrice, if the buyer pasted an online listing price, use it as
   // the basis for tax, finance principal, and lease cap cost. Depreciation
   // still uses baseMsrp below since residual curves are anchored to MSRP.
   const msrp = (calcState.userInputPrice != null && calcState.userInputPrice > 0)
@@ -61,7 +61,7 @@ export function calculateTCO({ vehicle, calcState, userPrefs, stateData }) {
   // Manual override (the user's real number from a quote or current-offers page)
   // wins over our estimates. We fold the whole override into the "state rebate"
   // slot and zero out the federal credit so the total incentives equal exactly
-  // what the user entered — no double counting.
+  // what the user entered, no double counting.
   const hasManualOverride =
     calcState.manualIncentiveOverride != null && calcState.manualIncentiveOverride >= 0
   const stateRebate = hasManualOverride ? calcState.manualIncentiveOverride : computedStateRebate
@@ -95,12 +95,12 @@ export function calculateTCO({ vehicle, calcState, userPrefs, stateData }) {
   } else if (calcState.mode === 'lease') {
     const offerMf = trim.leaseOffers?.[0]?.moneyFactor || 0.00125
     const offerResidual = trim.leaseOffers?.[0]?.residualPercent || 50
-    // Residual is always anchored to the vehicle's actual trim MSRP — lease
+    // Residual is always anchored to the vehicle's actual trim MSRP, lease
     // residual % is defined as a percentage of MSRP, so we must use the trim's
     // real MSRP (not the user's discounted price or the Edmunds base-model MSRP,
     // which may be from a different, cheaper trim than the one being leased).
     const leaseMsrp = trim.msrp || calcState.leaseScrapedMsrp || msrp
-    // Cap cost uses the user's entered online price when available — that is the
+    // Cap cost uses the user's entered online price when available, that is the
     // actual negotiated selling price that becomes the lease cap cost. Fall back to
     // the Edmunds scraped selling price, then to the MSRP-based selling price.
     const leaseSellingPrice = (calcState.userInputPrice != null && calcState.userInputPrice > 0)
@@ -111,7 +111,7 @@ export function calculateTCO({ vehicle, calcState, userPrefs, stateData }) {
     // Manufacturer EV lease cash (e.g. CLA $5,500) is a lease-only incentive
     // applied to the cap cost. Fold it in as a rebate-to-cap so it lowers the
     // monthly (it isn't money the lessee pays, so it must NOT inflate due-at-
-    // signing — hence a rebate, not a cap cost reduction). Added on top of any
+    // signing, hence a rebate, not a cap cost reduction). Added on top of any
     // state/federal rebates already applied to the cap.
     const leaseCashIncentive = calcState.leaseCashIncentive || 0
     leaseDetails = calculateLeasePayment({
@@ -167,7 +167,7 @@ export function calculateTCO({ vehicle, calcState, userPrefs, stateData }) {
     calcState.maintenanceOverride ?? vehicle.maintenance?.averageAnnualCostUsd ?? 600
 
   // Depreciation (only relevant for non-lease)
-  // Depreciation curves are anchored to MSRP — using the user's negotiated
+  // Depreciation curves are anchored to MSRP, using the user's negotiated
   // online price here would understate residual value at year-N.
   const depreciationData = calcState.mode !== 'lease'
     ? calculateDepreciationLoss(baseMsrp, vehicle.depreciation, ownershipYears)
@@ -183,7 +183,7 @@ export function calculateTCO({ vehicle, calcState, userPrefs, stateData }) {
   const annualRegistrationFees = registrationFee + annualRoadFee
   const monthlyRegistrationFees = annualRegistrationFees / 12
 
-  // Complimentary Electrify America charging (if applicable) — a pre-computed
+  // Complimentary Electrify America charging (if applicable), a pre-computed
   // monthly DC-fast-charging savings, amortized over ownership. Reduces charging.
   const eaChargingSavingsMonthly = Math.max(0, calcState.eaChargingSavingsMonthly || 0)
 

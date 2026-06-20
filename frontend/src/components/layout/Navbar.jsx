@@ -4,7 +4,7 @@ import { useUserPreferencesStore } from '../../store/userPreferencesStore'
 import { STATE_OPTIONS } from '../../utils/stateFeesData'
 import { usePWAInstall } from '../../hooks/usePWAInstall'
 
-// The EVsense logo mark — app icon (favicon.png).
+// The EVsense logo mark, app icon (favicon.png).
 function LogoMark({ className = 'w-8 h-8' }) {
   return (
     <img

@@ -11,7 +11,7 @@ import {
 } from '../utils/chargingCostCalculator.js'
 
 // ─── Default mix scenario ─────────────────────────────────────────────────────
-describe('calculateChargingCosts — default mix (80/10/10)', () => {
+describe('calculateChargingCosts, default mix (80/10/10)', () => {
   const result = calculateChargingCosts({
     annualMiles: 12000,
     milesPerKwh: 4.0,
@@ -58,7 +58,7 @@ describe('calculateChargingCosts — default mix (80/10/10)', () => {
 })
 
 // ─── All home charging ────────────────────────────────────────────────────────
-describe('calculateChargingCosts — 100% home charging', () => {
+describe('calculateChargingCosts, 100% home charging', () => {
   it('L2 and DCFC costs are 0 when 100% home', () => {
     const r = calculateChargingCosts({
       annualMiles: 12000,
@@ -74,7 +74,7 @@ describe('calculateChargingCosts — 100% home charging', () => {
 })
 
 // ─── Off-peak rate ────────────────────────────────────────────────────────────
-describe('calculateChargingCosts — off-peak rate', () => {
+describe('calculateChargingCosts, off-peak rate', () => {
   it('off-peak rate reduces home charging cost vs standard rate', () => {
     const standard = calculateChargingCosts({
       annualMiles: 12000,
@@ -98,7 +98,7 @@ describe('calculateChargingCosts — off-peak rate', () => {
 })
 
 // ─── Charging network subscription ───────────────────────────────────────────
-describe('calculateChargingCosts — subscription fee', () => {
+describe('calculateChargingCosts, subscription fee', () => {
   it('$12.99/mo subscription adds $155.88/yr to annual total', () => {
     const noSub = calculateChargingCosts({
       annualMiles: 12000, milesPerKwh: 4, homeRateCentsPerKwh: 18, hasOffPeakRate: false,
@@ -113,7 +113,7 @@ describe('calculateChargingCosts — subscription fee', () => {
 })
 
 // ─── Efficiency sensitivity ───────────────────────────────────────────────────
-describe('calculateChargingCosts — efficiency sensitivity', () => {
+describe('calculateChargingCosts, efficiency sensitivity', () => {
   it('more efficient vehicle (higher mi/kWh) costs less to charge', () => {
     const lowEff = calculateChargingCosts({ annualMiles: 12000, milesPerKwh: 3.0, homeRateCentsPerKwh: 18, hasOffPeakRate: false })
     const hiEff  = calculateChargingCosts({ annualMiles: 12000, milesPerKwh: 5.0, homeRateCentsPerKwh: 18, hasOffPeakRate: false })

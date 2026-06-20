@@ -21,7 +21,7 @@ import {
 } from '../utils/batteryDegradation.js'
 
 // ─── New vehicle baseline ─────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — new vehicle', () => {
+describe('estimateBatteryDegradation, new vehicle', () => {
   it('brand-new car (0 years, 0 miles) has 0% loss', () => {
     const r = estimateBatteryDegradation({ ageYears: 0, mileage: 0 })
     expect(r.percentLost).toBe(0)
@@ -40,7 +40,7 @@ describe('estimateBatteryDegradation — new vehicle', () => {
 })
 
 // ─── Age-based degradation ────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — time-based', () => {
+describe('estimateBatteryDegradation, time-based', () => {
   it('1-year-old car with 12k miles loses ~2.5% (NCM)', () => {
     const r = estimateBatteryDegradation({ ageYears: 1, mileage: 12000 })
     expect(r.percentLost).toBeCloseTo(2.5, 0)
@@ -71,7 +71,7 @@ describe('estimateBatteryDegradation — time-based', () => {
 })
 
 // ─── Mileage penalty ──────────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — mileage penalty', () => {
+describe('estimateBatteryDegradation, mileage penalty', () => {
   it('high-mileage car loses more than average-mileage same-age car', () => {
     const avg = estimateBatteryDegradation({ ageYears: 5, mileage: 60000 })
     const high = estimateBatteryDegradation({ ageYears: 5, mileage: 120000 })
@@ -79,7 +79,7 @@ describe('estimateBatteryDegradation — mileage penalty', () => {
   })
 
   it('mileage below expected (12k/yr) does not add extra penalty', () => {
-    // 1-year-old car with only 5k miles — no excess mileage penalty
+    // 1-year-old car with only 5k miles, no excess mileage penalty
     const lowMi = estimateBatteryDegradation({ ageYears: 1, mileage: 5000 })
     // Expected miles = 1 * 12000 = 12000; actual = 5000; excessMi = 0
     // percentLost = 2.5 * 1.0 = 2.5%
@@ -94,7 +94,7 @@ describe('estimateBatteryDegradation — mileage penalty', () => {
 })
 
 // ─── Chemistry multipliers ────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — chemistry', () => {
+describe('estimateBatteryDegradation, chemistry', () => {
   it('LFP chemistry loses less than NCM for same age/mileage', () => {
     const ncm = estimateBatteryDegradation({ ageYears: 5, mileage: 60000, chemistry: 'ncm' })
     const lfp = estimateBatteryDegradation({ ageYears: 5, mileage: 60000, chemistry: 'lfp' })
@@ -120,7 +120,7 @@ describe('estimateBatteryDegradation — chemistry', () => {
 })
 
 // ─── Confidence levels ────────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — confidence', () => {
+describe('estimateBatteryDegradation, confidence', () => {
   it('returns high confidence for new/low-mileage vehicles', () => {
     const r = estimateBatteryDegradation({ ageYears: 1, mileage: 10000 })
     expect(r.confidence).toBe('high')
@@ -133,7 +133,7 @@ describe('estimateBatteryDegradation — confidence', () => {
 })
 
 // ─── 40% degradation cap ─────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — 40% cap', () => {
+describe('estimateBatteryDegradation, 40% cap', () => {
   it('degradation never exceeds 40% regardless of age/mileage', () => {
     const extreme = estimateBatteryDegradation({ ageYears: 30, mileage: 500000 })
     expect(extreme.percentLost).toBeLessThanOrEqual(40)
@@ -142,7 +142,7 @@ describe('estimateBatteryDegradation — 40% cap', () => {
 })
 
 // ─── Negative / invalid inputs ────────────────────────────────────────────────
-describe('estimateBatteryDegradation — input safety', () => {
+describe('estimateBatteryDegradation, input safety', () => {
   it('handles negative age gracefully (clamps to 0)', () => {
     const r = estimateBatteryDegradation({ ageYears: -5, mileage: 0 })
     expect(r.percentLost).toBeGreaterThanOrEqual(0)
@@ -161,7 +161,7 @@ describe('estimateBatteryDegradation — input safety', () => {
 })
 
 // ─── Below-80% warning ───────────────────────────────────────────────────────
-describe('estimateBatteryDegradation — warranty threshold warning', () => {
+describe('estimateBatteryDegradation, warranty threshold warning', () => {
   it('adds warning note when capacity drops below 80%', () => {
     // Need >20% loss: age=20 should be well past 80% threshold
     const old = estimateBatteryDegradation({ ageYears: 20, mileage: 240000 })

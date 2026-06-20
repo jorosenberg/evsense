@@ -1,5 +1,5 @@
 /**
- * REMOVED — Gas savings comparison was intentionally removed from EVsense per
+ * REMOVED, Gas savings comparison was intentionally removed from EVsense per
  * scope clarification on 2026-05-27. Monthly charging cost in the TCO is the
  * canonical view; gas vs. EV side-by-side comparison is no longer in scope.
  *

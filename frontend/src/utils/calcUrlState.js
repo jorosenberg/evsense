@@ -1,5 +1,5 @@
 /**
- * calcUrlState.js — Encode / decode calculator state as URL search params.
+ * calcUrlState.js, Encode / decode calculator state as URL search params.
  *
  * Enables sharing a fully configured cost scenario via a URL, e.g.:
  *   /vehicles/tesla-model-3?m=finance&s=CA&apr=5.99&n=60&mi=15000&oy=5
@@ -38,7 +38,7 @@ const KEY_MAP = {
 // Reverse map: short → semantic
 const REVERSE_MAP = Object.fromEntries(Object.entries(KEY_MAP).map(([k, v]) => [v, k]))
 
-// Default values — we only encode when the value differs from the default
+// Default values, we only encode when the value differs from the default
 const DEFAULTS = {
   mode:             'finance',
   state:            null,   // null = don't suppress; always encode state
@@ -65,9 +65,9 @@ const DEFAULTS = {
 /**
  * Encode calculator and user preference state into a URL query string.
  *
- * @param {object} calcState  — from calculatorStore.getVehicleCalc(id)
- * @param {object} userPrefs  — from userPreferencesStore
- * @returns {string} — query string (without leading "?")
+ * @param {object} calcState , from calculatorStore.getVehicleCalc(id)
+ * @param {object} userPrefs , from userPreferencesStore
+ * @returns {string}, query string (without leading "?")
  */
 export function encodeCalcState(calcState, userPrefs) {
   const params = new URLSearchParams()
@@ -115,7 +115,7 @@ export function encodeCalcState(calcState, userPrefs) {
 /**
  * Decode a URL query string back into calculator and preference updates.
  *
- * @param {string} searchString — e.g. "?m=finance&s=CA&apr=5.99" or from location.search
+ * @param {string} searchString, e.g. "?m=finance&s=CA&apr=5.99" or from location.search
  * @returns {{ calcUpdates: object, prefUpdates: object, hasCalcParams: boolean }}
  */
 export function decodeCalcState(searchString) {
@@ -180,7 +180,7 @@ export function decodeCalcState(searchString) {
  * @param {string} vehicleId
  * @param {object} calcState
  * @param {object} userPrefs
- * @returns {string} — full absolute URL
+ * @returns {string}, full absolute URL
  */
 export function buildShareUrl(vehicleId, calcState, userPrefs) {
   const queryString = encodeCalcState(calcState, userPrefs)

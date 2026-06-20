@@ -25,7 +25,7 @@ export function usePWAInstall() {
       return
     }
 
-    // Capture the install prompt — browser fires this when PWA criteria are met
+    // Capture the install prompt, browser fires this when PWA criteria are met
     function handleBeforeInstall(e) {
       e.preventDefault() // Suppress the automatic prompt
       setInstallPrompt(e)

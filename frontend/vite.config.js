@@ -21,7 +21,7 @@ export default defineConfig({
   // ─── Vitest configuration ──────────────────────────────────────────────────
   test: {
     globals: true,           // describe / it / expect available without imports
-    environment: 'node',     // pure util tests — no DOM needed
+    environment: 'node',     // pure util tests, no DOM needed
     include: ['src/**/*.{test,spec}.{js,jsx}'],
     coverage: {
       provider: 'v8',

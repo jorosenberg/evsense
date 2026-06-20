@@ -1,5 +1,5 @@
 /**
- * EV Primer — "EV 101: Everything a first-time buyer needs to know"
+ * EV Primer, "EV 101: Everything a first-time buyer needs to know"
  * Route: /ev-101
  *
  * Scannable guide structured as expandable sections. No jargon without explanation.
@@ -15,11 +15,11 @@ const SECTIONS = [
     id: 'cost',
     emoji: '💰',
     title: 'How much does an EV actually cost?',
-    summary: 'MSRP is just the starting point. Here\'s what you\'ll really pay — and save.',
+    summary: 'MSRP is just the starting point. Here\'s what you\'ll really pay, and save.',
     content: (
       <div className="space-y-4 text-sm text-ink-muted leading-relaxed">
         <p>
-          The sticker price of an EV is called the <GlossaryTip term="msrp">MSRP</GlossaryTip>. But what you pay at the dealer is different — it includes:
+          The sticker price of an EV is called the <GlossaryTip term="msrp">MSRP</GlossaryTip>. But what you pay at the dealer is different, it includes:
         </p>
         <ul className="space-y-2">
           {[
@@ -46,7 +46,7 @@ const SECTIONS = [
           <p className="mt-2 text-xs text-status-green">Use EVsense to see incentives for your specific state automatically.</p>
         </div>
         <p>
-          <strong className="text-ink">Bottom line:</strong> On a $42,000 EV in California, your drive-away price might be $44,500 before any incentives — but after state + utility rebates, it could be $37,000 or less. Always calculate your net price, not the MSRP.
+          <strong className="text-ink">Bottom line:</strong> On a $42,000 EV in California, your drive-away price might be $44,500 before any incentives, but after state + utility rebates, it could be $37,000 or less. Always calculate your net price, not the MSRP.
         </p>
       </div>
     ),
@@ -59,11 +59,11 @@ const SECTIONS = [
     content: (
       <div className="space-y-4 text-sm text-ink-muted leading-relaxed">
         <p>
-          <GlossaryTip term="epa range">EPA range</GlossaryTip> is measured on a controlled test cycle — not real-world driving. In practice, most drivers see <strong className="text-ink">80–90% of the EPA number</strong>.
+          <GlossaryTip term="epa range">EPA range</GlossaryTip> is measured on a controlled test cycle, not real-world driving. In practice, most drivers see <strong className="text-ink">80–90% of the EPA number</strong>.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           {[
-            { label: 'Highway at 75+ mph', impact: '−15 to −25%', color: 'red', why: 'Air resistance increases with speed. Highway driving is harder on range than city driving — opposite of gas cars.' },
+            { label: 'Highway at 75+ mph', impact: '−15 to −25%', color: 'red', why: 'Air resistance increases with speed. Highway driving is harder on range than city driving, opposite of gas cars.' },
             { label: 'Cold weather (below 20°F)', impact: '−20 to −40%', color: 'red', why: 'Batteries are less efficient in cold. The heater also drains range. Lithium iron phosphate (LFP) batteries handle cold worse than NCM.' },
             { label: 'City driving', impact: '+5 to +15%', color: 'green', why: 'Regenerative braking recovers energy every time you slow down. EVs often exceed EPA range in stop-and-go traffic.' },
           ].map(({ label, impact, color, why }) => (
@@ -75,7 +75,7 @@ const SECTIONS = [
           ))}
         </div>
         <p>
-          <strong className="text-ink">Rule of thumb:</strong> For comfortable daily use, your target range should be at least 1.5× your daily round-trip commute. For a 60-mile commute, aim for 90+ miles of real-world range — so at least 110 miles EPA.
+          <strong className="text-ink">Rule of thumb:</strong> For comfortable daily use, your target range should be at least 1.5× your daily round-trip commute. For a 60-mile commute, aim for 90+ miles of real-world range, so at least 110 miles EPA.
         </p>
         <p>
           <strong className="text-ink">For road trips:</strong> Most EV owners plan charging stops every 150–200 miles (80% charge). A 300-mile EPA range EV can typically do 2–2.5 hours between 20-minute charging stops on a road trip.
@@ -135,13 +135,13 @@ const SECTIONS = [
         <div className="bg-brand-blue-light border border-brand-blue/20 rounded-xl p-4">
           <p className="text-sm font-semibold text-brand-blue mb-1">💡 The single biggest EV cost tip</p>
           <p className="text-xs text-brand-blue/80">
-            If you can charge at home, your fuel cost drops to roughly $0.04–0.07/mile — vs. $0.12–0.18/mile for a gas car.
-            Ask your utility about a <GlossaryTip term="tou rate"><span className="text-brand-blue font-medium underline underline-offset-2">time-of-use rate</span></GlossaryTip> — charging overnight (9pm–6am) typically costs 5–10¢/kWh instead of 14–25¢.
+            If you can charge at home, your fuel cost drops to roughly $0.04–0.07/mile, vs. $0.12–0.18/mile for a gas car.
+            Ask your utility about a <GlossaryTip term="tou rate"><span className="text-brand-blue font-medium underline underline-offset-2">time-of-use rate</span></GlossaryTip>, charging overnight (9pm–6am) typically costs 5–10¢/kWh instead of 14–25¢.
             That alone can save $600–$1,200/year.
           </p>
         </div>
         <p>
-          <strong className="text-ink">Charging network:</strong> Most 2025 EVs use <GlossaryTip term="nacs">NACS</GlossaryTip> (formerly Tesla's connector), giving access to 20,000+ Superchargers. Older EVs use <GlossaryTip term="ccs1">CCS1</GlossaryTip> — a $200 adapter provides Supercharger access.
+          <strong className="text-ink">Charging network:</strong> Most 2025 EVs use <GlossaryTip term="nacs">NACS</GlossaryTip> (formerly Tesla's connector), giving access to 20,000+ Superchargers. Older EVs use <GlossaryTip term="ccs1">CCS1</GlossaryTip>, a $200 adapter provides Supercharger access.
         </p>
       </div>
     ),
@@ -150,7 +150,7 @@ const SECTIONS = [
     id: 'lease-vs-finance',
     emoji: '📄',
     title: 'Should I lease or finance?',
-    summary: 'Leasing an EV is often smarter than you think — especially for entry-level models.',
+    summary: 'Leasing an EV is often smarter than you think, especially for entry-level models.',
     content: (
       <div className="space-y-4 text-sm text-ink-muted leading-relaxed">
         <p>
@@ -189,12 +189,12 @@ const SECTIONS = [
           <ul className="space-y-1">
             <li>• <strong><GlossaryTip term="acquisition fee">Acquisition fee</GlossaryTip>:</strong> $695–$1,095, rarely negotiable, due at signing</li>
             <li>• <strong><GlossaryTip term="disposition fee">Disposition fee</GlossaryTip>:</strong> $300–$500 when you return the car (waived if you re-lease same brand)</li>
-            <li>• <strong>Excess mileage:</strong> 20–30¢/mile over the cap — $600–$900 extra for 3,000 over-miles</li>
+            <li>• <strong>Excess mileage:</strong> 20–30¢/mile over the cap, $600–$900 extra for 3,000 over-miles</li>
             <li>• <strong><GlossaryTip term="cap cost reduction">Cap cost reduction</GlossaryTip>:</strong> Cash you put down on a lease is lost if the car is totaled</li>
           </ul>
         </div>
         <p>
-          <strong className="text-ink">Key number to know:</strong> A "good" lease deal follows the 1% rule — monthly payment is ≤1% of MSRP. A $40,000 car should lease for ≤$400/month. If it's higher, ask why or walk away. Use EVsense's lease calculator to check the <GlossaryTip term="money factor">money factor</GlossaryTip> against market rates.
+          <strong className="text-ink">Key number to know:</strong> A "good" lease deal follows the 1% rule, monthly payment is ≤1% of MSRP. A $40,000 car should lease for ≤$400/month. If it's higher, ask why or walk away. Use EVsense's lease calculator to check the <GlossaryTip term="money factor">money factor</GlossaryTip> against market rates.
         </p>
       </div>
     ),
@@ -236,7 +236,7 @@ const SECTIONS = [
     id: 'depreciation',
     emoji: '📉',
     title: 'How fast do EVs depreciate?',
-    summary: 'Faster than ICE cars historically — but the market is stabilizing.',
+    summary: 'Faster than ICE cars historically, but the market is stabilizing.',
     content: (
       <div className="space-y-4 text-sm text-ink-muted leading-relaxed">
         <p>
@@ -268,10 +268,10 @@ const SECTIONS = [
               ))}
             </tbody>
           </table>
-          <p className="text-[11px] text-ink-subtle mt-2">Source: iSeeCars, CarEdge depreciation data (2024). Approximate — actual values vary by trim, mileage, and market conditions.</p>
+          <p className="text-[11px] text-ink-subtle mt-2">Source: iSeeCars, CarEdge depreciation data (2024). Approximate, actual values vary by trim, mileage, and market conditions.</p>
         </div>
         <p><strong className="text-ink">What affects depreciation most:</strong> Range (longer = holds value better), brand reputation, charging network access (NACS helps), and whether a federal tax credit is still available on newer models.</p>
-        <p><strong className="text-ink">Leasing eliminates depreciation risk.</strong> If you lease, depreciation is the manufacturer's problem — you just pay for the decline. This is one reason leasing EVs makes financial sense for many buyers.</p>
+        <p><strong className="text-ink">Leasing eliminates depreciation risk.</strong> If you lease, depreciation is the manufacturer's problem, you just pay for the decline. This is one reason leasing EVs makes financial sense for many buyers.</p>
       </div>
     ),
   },
@@ -300,7 +300,7 @@ const SECTIONS = [
           },
           {
             step: '4',
-            title: 'Test drive — and drive it on the highway',
+            title: 'Test drive, and drive it on the highway',
             desc: 'Dealerships often demo in a parking lot. Insist on a highway test drive. This is where you\'ll feel the real-world range difference and charging anxiety (or lack thereof).',
           },
           {
@@ -372,7 +372,7 @@ export default function EvPrimerPage() {
     <>
       <Helmet>
         <title>EV 101: First-Time Buyer's Guide to Electric Vehicles | EVsense</title>
-        <meta name="description" content="Everything a first-time EV buyer needs to know — real costs, range explained, charging demystified, lease vs. finance, and a pre-dealer checklist. No jargon." />
+        <meta name="description" content="Everything a first-time EV buyer needs to know, real costs, range explained, charging demystified, lease vs. finance, and a pre-dealer checklist. No jargon." />
       </Helmet>
 
       <div className="relative overflow-hidden animate-screen-in">
@@ -388,7 +388,7 @@ export default function EvPrimerPage() {
           </div>
           <h1 className="font-display text-display-lg text-ink mb-3">EV <span className="italic text-brand-indigo">101</span></h1>
           <p className="text-ink-muted text-lg leading-relaxed">
-            Everything a first-time buyer needs to know — in plain English.
+            Everything a first-time buyer needs to know, in plain English.
             No dealership jargon, no hidden fees, no surprises.
           </p>
           <div className="flex flex-wrap gap-3 mt-5">
@@ -418,7 +418,7 @@ export default function EvPrimerPage() {
         <div className="mt-10 card p-6 text-center">
           <div className="text-3xl mb-3">🚗</div>
           <h2 className="font-serif text-display-md text-ink mb-2">Ready to find your EV?</h2>
-          <p className="text-ink-muted text-sm mb-5">Answer 5 questions and get matched with your top 3 vehicles — with real cost estimates for your state.</p>
+          <p className="text-ink-muted text-sm mb-5">Answer 5 questions and get matched with your top 3 vehicles, with real cost estimates for your state.</p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Link to="/matcher" className="btn-primary px-6 py-3">⚡ Start EV Matcher →</Link>
             <Link to="/browse" className="btn-secondary px-6 py-3">Browse All EVs</Link>

@@ -1,5 +1,5 @@
 /**
- * State EV incentive data — all 50 states + DC
+ * State EV incentive data, all 50 states + DC
  * Last updated: 2026-05
  *
  * Sources: DOE AFDC State Laws & Incentives, direct state program pages,
@@ -51,7 +51,7 @@ export const STATE_INCENTIVES = {
       notes: 'Income-qualified only. Must scrap an older vehicle. Up to $12,000 if replacing a diesel vehicle.',
     },
     {
-      name: 'EVSE Rebate — PG&E / SCE / SDG&E',
+      name: 'EVSE Rebate, PG&E / SCE / SDG&E',
       amount: 500,
       type: 'rebate',
       appliesTo: ['home_charger'],
@@ -85,7 +85,7 @@ export const STATE_INCENTIVES = {
 
   CT: [
     {
-      name: 'CHEAPR — Connecticut Hydrogen and Electric Automobile Purchase Rebate',
+      name: 'CHEAPR, Connecticut Hydrogen and Electric Automobile Purchase Rebate',
       amount: 2250,
       type: 'rebate',
       appliesTo: ['new'],
@@ -336,7 +336,7 @@ export const STATE_INCENTIVES = {
       type: 'rebate',
       appliesTo: ['new'],
       maxMsrp: 42000,
-      // NY does not disqualify cars over the cap — it pays a reduced flat
+      // NY does not disqualify cars over the cap, it pays a reduced flat
       // rebate of $500 for EVs with MSRP ≥ $42,000 (full $2,000 below).
       reducedAmount: 500,
       url: 'https://driveelectric.ny.gov/rebate',
@@ -546,7 +546,7 @@ export function getStateIncentives(stateAbbr) {
  *
  * Most programs are flat: pay `amount` while MSRP ≤ maxMsrp, otherwise $0.
  * Some programs (e.g. NY Drive Clean) pay a *reduced* flat amount above the
- * cap instead of disqualifying the vehicle — represented by `reducedAmount`.
+ * cap instead of disqualifying the vehicle, represented by `reducedAmount`.
  *
  * @returns {number} effective rebate/credit dollars for this vehicle
  */

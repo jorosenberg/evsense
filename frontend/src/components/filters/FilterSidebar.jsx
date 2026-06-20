@@ -3,7 +3,7 @@ import { useFilterStore } from '../../store/filterStore'
 import { useVehicles } from '../../hooks/useVehicles'
 import { useUserPreferencesStore } from '../../store/userPreferencesStore'
 
-// Monthly payment calculator — the pay-method toggle is wired to the GLOBAL
+// Monthly payment calculator, the pay-method toggle is wired to the GLOBAL
 // purchase mode, so switching lease/finance instantly re-prices every card AND
 // re-targets the budget filter at that payment type. Budget applies live.
 const FINANCE_DEFAULT_MAX = [0, 2000]
@@ -145,7 +145,7 @@ export default function FilterSidebar({ onClose }) {
 
   return (
     <div className="pb-6">
-      {/* Monthly payment calculator — at the top like Recharged */}
+      {/* Monthly payment calculator, at the top like Recharged */}
       <PaymentCalculator />
 
       {/* Header */}
@@ -319,7 +319,7 @@ export default function FilterSidebar({ onClose }) {
         </label>
       </FilterSection>
 
-      {/* Cargo volume — curated spec (cu ft). */}
+      {/* Cargo volume, curated spec (cu ft). */}
       <FilterSection title="Min. Cargo Volume" defaultOpen={false}>
         <div className="space-y-2">
           <div className="text-xs text-ink-muted">

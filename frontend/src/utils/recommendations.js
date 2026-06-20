@@ -2,7 +2,7 @@
  * Recommendations engine.
  *
  * Surfaces 2-5 contextual tips based on the configured vehicle, the user's
- * driving profile, and the calculated TCO. Pure function — no side effects,
+ * driving profile, and the calculated TCO. Pure function, no side effects,
  * easy to unit test.
  */
 
@@ -41,7 +41,7 @@ export function buildRecommendations({ vehicle, tco, userPrefs, isUsed = false, 
   if (userPrefs.hasHomeCharger && !userPrefs.hasOffPeakRate) {
     recs.push({
       title: 'Ask your utility about a TOU rate',
-      body: `Most US utilities offer time-of-use plans that drop overnight rates to 5–12¢/kWh. If yours does, enabling it can shave $20–60/mo off your charging bill — see the Charging tab.`,
+      body: `Most US utilities offer time-of-use plans that drop overnight rates to 5–12¢/kWh. If yours does, enabling it can shave $20–60/mo off your charging bill, see the Charging tab.`,
       severity: 'tip',
     })
   }
@@ -51,7 +51,7 @@ export function buildRecommendations({ vehicle, tco, userPrefs, isUsed = false, 
   if (leaseOffer?.isSubventioned && tco.mode === 'finance') {
     recs.push({
       title: 'Subsidized lease may beat financing',
-      body: `This vehicle has a manufacturer-subvented lease (low money factor). Run the numbers in the Lease tab — for EVs, subvented leases often beat purchasing thanks to the dealer capturing the EV credit and passing it through.`,
+      body: `This vehicle has a manufacturer-subvented lease (low money factor). Run the numbers in the Lease tab, for EVs, subvented leases often beat purchasing thanks to the dealer capturing the EV credit and passing it through.`,
       severity: 'tip',
     })
   }
@@ -60,7 +60,7 @@ export function buildRecommendations({ vehicle, tco, userPrefs, isUsed = false, 
   const mpkwh = specs.milesPerKwh || specs.efficiency_mi_per_kwh
   if (mpkwh && mpkwh < 2.8) {
     recs.push({
-      title: 'Low efficiency — DCFC trips will cost more',
+      title: 'Low efficiency, DCFC trips will cost more',
       body: `This vehicle is ${mpkwh} mi/kWh, below the EV average of ~3.5. On a 200 mi DCFC trip at 45¢/kWh you'll spend roughly $${Math.round((200 / mpkwh) * 0.45)} vs. $${Math.round((200 / 3.5) * 0.45)} for a typical mid-size EV.`,
       severity: 'info',
     })
@@ -93,7 +93,7 @@ export function buildRecommendations({ vehicle, tco, userPrefs, isUsed = false, 
   // ── Mileage / lease fit ────────────────────────────────────────────────
   if (tco.mode === 'lease' && userPrefs.annualMileage > 15000) {
     recs.push({
-      title: 'High mileage — leasing may not be optimal',
+      title: 'High mileage, leasing may not be optimal',
       body: `At ${userPrefs.annualMileage.toLocaleString()} mi/yr you'll likely exceed standard 12k/yr lease allowances. Excess-mileage fees (typically 20–30¢/mi) add up fast. Consider financing or negotiating a 15k mi lease.`,
       severity: 'warn',
     })
@@ -103,7 +103,7 @@ export function buildRecommendations({ vehicle, tco, userPrefs, isUsed = false, 
   if (vehicle.sold_in_us === false) {
     recs.push({
       title: 'Vehicle not sold in the US',
-      body: `This model is not sold in the United States. Pricing shown is converted from EU listings — actual US import / grey-market pricing varies wildly. Use the custom price field for a realistic estimate.`,
+      body: `This model is not sold in the United States. Pricing shown is converted from EU listings, actual US import / grey-market pricing varies wildly. Use the custom price field for a realistic estimate.`,
       severity: 'warn',
     })
   }

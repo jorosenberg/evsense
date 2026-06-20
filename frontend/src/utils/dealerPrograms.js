@@ -1,17 +1,17 @@
 /**
- * dealerPrograms.js — Manufacturer & third-party discount programs
+ * dealerPrograms.js, Manufacturer & third-party discount programs
  *
  * These programs can significantly reduce the effective purchase price of a vehicle
  * but are rarely surfaced upfront. EVsense includes them prominently in the calculator.
  *
  * Types:
- *  - "third_party"  : Costco, Sam's Club, AAA, USAA — negotiated pricing programs
+ *  - "third_party"  : Costco, Sam's Club, AAA, USAA, negotiated pricing programs
  *  - "loyalty"      : Discount for current/recent owners of the same brand
  *  - "conquest"     : Discount for switching FROM a competitor brand
  *  - "affinity"     : Military, first responder, college grad, employee
  *  - "fleet"        : Business/fleet purchase pricing
  *
- * Amounts are typical ranges — actual amounts vary by model, trim, and region.
+ * Amounts are typical ranges, actual amounts vary by model, trim, and region.
  * Always verify with the dealer and the program's official site.
  *
  * Last verified: 2025-01
@@ -23,7 +23,7 @@ export const THIRD_PARTY_PROGRAMS = [
     name: 'Costco Auto Program',
     type: 'third_party',
     typicalSavings: { min: 500, max: 2000 },
-    description: 'Pre-negotiated pricing below MSRP through Costco\'s dealer network. No haggling — price is set before you walk in.',
+    description: 'Pre-negotiated pricing below MSRP through Costco\'s dealer network. No haggling, price is set before you walk in.',
     eligibility: 'Costco membership required ($65/year). Savings vary by make and region.',
     url: 'https://www.costcoauto.com',
     supportedBrands: ['Hyundai', 'Kia', 'Volvo', 'Subaru', 'Chevrolet', 'Buick', 'GMC', 'Cadillac', 'Chrysler', 'Dodge', 'Jeep', 'Ram', 'Nissan', 'Infiniti', 'Ford', 'Lincoln'],
@@ -35,7 +35,7 @@ export const THIRD_PARTY_PROGRAMS = [
     name: "Sam's Club Auto Buying Program",
     type: 'third_party',
     typicalSavings: { min: 300, max: 1500 },
-    description: "Similar to Costco Auto — pre-negotiated dealer pricing for Sam's Club members.",
+    description: "Similar to Costco Auto, pre-negotiated dealer pricing for Sam's Club members.",
     eligibility: "Sam's Club membership required ($50/year).",
     url: 'https://www.samsclub.com/content/auto-buying',
     supportedBrands: ['Chevrolet', 'Buick', 'GMC', 'Cadillac', 'Ford', 'Lincoln', 'Hyundai', 'Kia', 'Nissan'],
@@ -46,7 +46,7 @@ export const THIRD_PARTY_PROGRAMS = [
     name: 'TrueCar Certified Dealer Price',
     type: 'third_party',
     typicalSavings: { min: 0, max: 1500 },
-    description: 'Shows what others paid and connects you with dealers who agree to a price upfront. Not a guaranteed discount — a pricing transparency tool.',
+    description: 'Shows what others paid and connects you with dealers who agree to a price upfront. Not a guaranteed discount, a pricing transparency tool.',
     eligibility: 'Free to use.',
     url: 'https://www.truecar.com',
     supportedBrands: 'most',
@@ -205,25 +205,25 @@ export const BRAND_PROGRAMS = {
   },
   // Direct-sale brands: no dealer network, no traditional loyalty/conquest
   Tesla: {
-    notes: 'Tesla sells direct — no dealer loyalty or conquest programs. Referral credits occasionally available through Tesla\'s referral program.',
+    notes: 'Tesla sells direct, no dealer loyalty or conquest programs. Referral credits occasionally available through Tesla\'s referral program.',
     loyalty: null,
     conquest: null,
     affinityPrograms: [],
   },
   Rivian: {
-    notes: 'Rivian sells direct — no dealer loyalty or conquest programs.',
+    notes: 'Rivian sells direct, no dealer loyalty or conquest programs.',
     loyalty: null,
     conquest: null,
     affinityPrograms: [],
   },
   Lucid: {
-    notes: 'Lucid sells direct — no dealer loyalty or conquest programs.',
+    notes: 'Lucid sells direct, no dealer loyalty or conquest programs.',
     loyalty: null,
     conquest: null,
     affinityPrograms: [],
   },
   Polestar: {
-    notes: 'Polestar sells online-first — no traditional dealer programs. Occasionally offers trade-in bonuses.',
+    notes: 'Polestar sells online-first, no traditional dealer programs. Occasionally offers trade-in bonuses.',
     loyalty: null,
     conquest: null,
     affinityPrograms: [],

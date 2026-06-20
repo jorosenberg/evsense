@@ -1,5 +1,5 @@
 /**
- * IncentiveNotice — demo-scope banner.
+ * IncentiveNotice, demo-scope banner.
  *
  * For this demo the only incentives modeled are MANUFACTURER offers (cash / APR /
  * lease), scraped for New York (ZIP 10005). No state purchase rebate is applied.
@@ -14,7 +14,7 @@ export default function IncentiveNotice({ className = '' }) {
       <span aria-hidden="true"></span>
       <span>
         <strong>Demo scope:</strong> incentives shown are <strong>manufacturer offers
-        for New York (ZIP&nbsp;10005)</strong> — cash, APR, and lease deals refreshed
+        for New York (ZIP&nbsp;10005)</strong>, cash, APR, and lease deals refreshed
         monthly. New York is the only state modeled here, and no state purchase
         rebate is applied; payments reflect the manufacturer incentive only.
       </span>

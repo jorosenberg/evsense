@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react'
  * The JSON ships statically with the build (frontend/public/data/ev_database.json).
  *
  * Returns:
- *   catalog        — { source, scraped_at, vehicles[] }
+ *   catalog       , { source, scraped_at, vehicles[] }
  *   loading, error
- *   findByName(q)  — case-insensitive substring search across name field
+ *   findByName(q) , case-insensitive substring search across name field
  *   findById(id)
  */
 

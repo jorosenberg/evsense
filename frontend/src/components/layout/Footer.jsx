@@ -12,12 +12,12 @@ export default function Footer() {
             </div>
             <p className="text-sm text-ink-muted max-w-sm leading-relaxed">
               A personal portfolio project exploring what an EV <em className="not-italic text-brand-indigo font-semibold">actually</em> costs
-              to own — beyond the sticker price.
+              to own, beyond the sticker price.
             </p>
             <p className="mt-3 text-xs text-ink-subtle leading-relaxed max-w-sm">
               Vehicle specs, prices and incentives are compiled from public, scraped sources and
-              may be incomplete or out of date. Every ownership cost shown is a close estimate —
-              not a quote — so treat the numbers as a guide, not financial advice.
+              may be incomplete or out of date. Every ownership cost shown is a close estimate,
+              not a quote, so treat the numbers as a guide, not financial advice.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 text-xs text-ink-subtle">
-          <span>© {new Date().getFullYear()} EVsense — a personal portfolio project.</span>
+          <span>© {new Date().getFullYear()} EVsense, a personal portfolio project.</span>
           <span>Built from public data · costs are estimates, not quotes.</span>
         </div>
       </div>

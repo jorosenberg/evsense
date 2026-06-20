@@ -1,11 +1,11 @@
 /**
- * cardTco.js — single source of truth for a Browse card's lease/finance/cash
+ * cardTco.js, single source of truth for a Browse card's lease/finance/cash
  * economics, so the cards AND the Browse "Price: Low → High" sort agree.
  *
  * Key rule for LEASES: the Edmunds lease-CALCULATOR monthly (leaseCalcFor.monthly)
  * already nets the scraped cash incentive and uses the right residual / money
  * factor, so it is the payment basis. We do NOT also subtract the cash via the
- * incentive amortizer — doing both previously zeroed the payment out (e.g. a
+ * incentive amortizer, doing both previously zeroed the payment out (e.g. a
  * $15,000 lease cash over 24 mo = $625/mo wiped out a $619 teaser payment,
  * leaving only operating cost). The "Include incentives" toggle adds the cash
  * back when off.
@@ -31,7 +31,7 @@ export function resolveCardEconomics(vehicle, { prefs = {}, incRec = null, eaOff
 
   const offer = offerForTrim(incRec, null, mode, vehicle.msrpFrom, leaseTerm)
   // Lease cash + lease-calc monthly come from the Edmunds lease CALCULATOR data
-  // for the selected term (base style on Browse) — the same numbers the
+  // for the selected term (base style on Browse), the same numbers the
   // detail-page lease-basis banner and the lease chip show.
   const leaseCalc = leaseCalcRec ? leaseCalcFor(leaseCalcRec, null, leaseTerm) : null
   const leaseCalcMonthly = leaseCalc?.monthly ?? null

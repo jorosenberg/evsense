@@ -1,5 +1,5 @@
 /**
- * useMatcherVehicles.js — Loads the expanded vehicle pool for the EV Matcher.
+ * useMatcherVehicles.js, Loads the expanded vehicle pool for the EV Matcher.
  *
  * Data source:
  *   public/data/matcher_vehicles.json  ← built by scraper/processors/matcher_generator.py
@@ -45,7 +45,7 @@ export async function loadMatcherVehicles() {
       }
     })
     .catch(async () => {
-      // Fallback — Matcher should always work, even pre-scrape
+      // Fallback, Matcher should always work, even pre-scrape
       const r = await fetch(`${base}data/vehicles_summary.json`)
       if (!r.ok) throw new Error(`fallback summary: ${r.status}`)
       const vehicles = await r.json()
@@ -61,7 +61,7 @@ export async function loadMatcherVehicles() {
     })
     .then(async result => {
       // Merge scores when available (optional file). Kept generic in the data
-      // model (expertRating / expertSubscores) — no provider name in the UI.
+      // model (expertRating / expertSubscores), no provider name in the UI.
       try {
         const er = await fetch(`${base}data/vehicle_scores.json`)
         if (er.ok) {
@@ -75,7 +75,7 @@ export async function loadMatcherVehicles() {
               : v
           })
         }
-      } catch { /* vehicle_scores.json optional — ignore */ }
+      } catch { /* vehicle_scores.json optional, ignore */ }
       try {
         const tr = await fetch(`${base}data/tested_specs.json`)
         if (tr.ok) {
@@ -85,7 +85,7 @@ export async function loadMatcherVehicles() {
             return rec ? { ...v, testedRange: rec.testedRange ?? null } : v
           })
         }
-      } catch { /* tested_specs.json optional — ignore */ }
+      } catch { /* tested_specs.json optional, ignore */ }
       _cache = result
       _inflight = null
       return result

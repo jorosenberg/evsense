@@ -17,7 +17,7 @@ export default {
           purple: '#6B5CFF',
           'purple-soft': '#8C7DFF',
         },
-        // ── Ink (text) — light on dark ─────────────────────────
+        // ── Ink (text), light on dark ─────────────────────────
         ink: {
           DEFAULT: '#E7EBF3',
           muted: '#9BA3B2',
@@ -28,7 +28,7 @@ export default {
           DEFAULT: '#262D3D',
           strong: '#38415A',
         },
-        // ── Surfaces — dark ────────────────────────────────────
+        // ── Surfaces, dark ────────────────────────────────────
         surface: {
           DEFAULT: '#0B0E16',   // page
           raised: '#161A26',    // card

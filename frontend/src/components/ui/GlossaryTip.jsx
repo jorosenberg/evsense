@@ -5,9 +5,9 @@ import { AnimatePresence, motion } from 'framer-motion'
  * Inline glossary tooltip for EV jargon.
  *
  * Usage:
- *   <GlossaryTip term="money factor" />          — renders underlined term + tooltip
- *   <GlossaryTip term="DCFC" label="DC Fast Charging" />  — custom display label
- *   <GlossaryTip term="TCO">Total Cost of Ownership</GlossaryTip>  — children override label
+ *   <GlossaryTip term="money factor" />         , renders underlined term + tooltip
+ *   <GlossaryTip term="DCFC" label="DC Fast Charging" /> , custom display label
+ *   <GlossaryTip term="TCO">Total Cost of Ownership</GlossaryTip> , children override label
  */
 
 const GLOSSARY = {
@@ -16,7 +16,7 @@ const GLOSSARY = {
     url: null,
   },
   'mf': {
-    short: 'Money Factor — the lease equivalent of an interest rate. Multiply by 2,400 to get an approximate APR.',
+    short: 'Money Factor, the lease equivalent of an interest rate. Multiply by 2,400 to get an approximate APR.',
     url: null,
   },
   'residual value': {
@@ -28,19 +28,19 @@ const GLOSSARY = {
     url: null,
   },
   'msrp': {
-    short: "Manufacturer's Suggested Retail Price — the sticker price before any dealer markups, discounts, or incentives.",
+    short: "Manufacturer's Suggested Retail Price, the sticker price before any dealer markups, discounts, or incentives.",
     url: null,
   },
   'apr': {
-    short: 'Annual Percentage Rate — the yearly interest rate on a loan. A 6% APR on a $35,000 loan over 60 months costs about $5,600 in total interest.',
+    short: 'Annual Percentage Rate, the yearly interest rate on a loan. A 6% APR on a $35,000 loan over 60 months costs about $5,600 in total interest.',
     url: null,
   },
   'tco': {
-    short: 'Total Cost of Ownership — the full 5-year cost of owning a vehicle including payments, fuel/charging, insurance, maintenance, registration fees, and depreciation.',
+    short: 'Total Cost of Ownership, the full 5-year cost of owning a vehicle including payments, fuel/charging, insurance, maintenance, registration fees, and depreciation.',
     url: null,
   },
   'dcfc': {
-    short: 'DC Fast Charging — high-power charging (50–350 kW) that can add 150–200 miles in about 20–40 minutes. Also called Level 3. Typically 2–3× more expensive than home charging.',
+    short: 'DC Fast Charging, high-power charging (50–350 kW) that can add 150–200 miles in about 20–40 minutes. Also called Level 3. Typically 2–3× more expensive than home charging.',
     url: null,
   },
   'dc fast charging': {
@@ -52,15 +52,15 @@ const GLOSSARY = {
     url: null,
   },
   'l2': {
-    short: 'Level 2 charging (240V) — the standard for home EV charging. Adds 15–30 miles per hour. A home charger installation typically costs $400–$1,500.',
+    short: 'Level 2 charging (240V), the standard for home EV charging. Adds 15–30 miles per hour. A home charger installation typically costs $400–$1,500.',
     url: null,
   },
   'kwh': {
-    short: 'Kilowatt-hour — the unit of energy used to measure battery size and electricity consumption. A 75 kWh battery in a car is roughly equivalent to 2.5 gallons of gas worth of energy. Average home electricity costs 13–16¢ per kWh.',
+    short: 'Kilowatt-hour, the unit of energy used to measure battery size and electricity consumption. A 75 kWh battery in a car is roughly equivalent to 2.5 gallons of gas worth of energy. Average home electricity costs 13–16¢ per kWh.',
     url: null,
   },
   'mi/kwh': {
-    short: 'Miles per kilowatt-hour — the EV equivalent of MPG. Higher is more efficient. Average EVs get 3.0–4.5 mi/kWh. A 3.5 mi/kWh vehicle costs about $0.05/mile to charge at home (at 16¢/kWh).',
+    short: 'Miles per kilowatt-hour, the EV equivalent of MPG. Higher is more efficient. Average EVs get 3.0–4.5 mi/kWh. A 3.5 mi/kWh vehicle costs about $0.05/mile to charge at home (at 16¢/kWh).',
     url: null,
   },
   'miles per kwh': {
@@ -68,11 +68,11 @@ const GLOSSARY = {
     url: null,
   },
   'nacs': {
-    short: "North American Charging Standard — Tesla's connector, now adopted by most US automakers. Gives native access to 20,000+ Tesla Superchargers. Vehicles with CCS1 connectors need a $200 adapter.",
+    short: "North American Charging Standard, Tesla's connector, now adopted by most US automakers. Gives native access to 20,000+ Tesla Superchargers. Vehicles with CCS1 connectors need a $200 adapter.",
     url: null,
   },
   'ccs1': {
-    short: 'Combined Charging System — the non-Tesla DC fast charging standard used by most non-Tesla EVs until recently. CCS1 vehicles can use a $200 adapter for Tesla Superchargers. Most 2025+ EVs have switched to NACS.',
+    short: 'Combined Charging System, the non-Tesla DC fast charging standard used by most non-Tesla EVs until recently. CCS1 vehicles can use a $200 adapter for Tesla Superchargers. Most 2025+ EVs have switched to NACS.',
     url: null,
   },
   'chademo': {
@@ -92,7 +92,7 @@ const GLOSSARY = {
     url: null,
   },
   'cap cost': {
-    short: 'Capitalized cost — the "selling price" of a leased vehicle. Reducing the cap cost (via cash down, rebates, or dealer discount) lowers your monthly payment.',
+    short: 'Capitalized cost, the "selling price" of a leased vehicle. Reducing the cap cost (via cash down, rebates, or dealer discount) lowers your monthly payment.',
     url: null,
   },
   'cap cost reduction': {
@@ -100,7 +100,7 @@ const GLOSSARY = {
     url: null,
   },
   'msd': {
-    short: 'Multiple Security Deposits — an optional lease strategy where prepaying 1–10 extra monthly-payment-sized deposits reduces the money factor (interest rate). Returned at lease end. Not all brands allow it.',
+    short: 'Multiple Security Deposits, an optional lease strategy where prepaying 1–10 extra monthly-payment-sized deposits reduces the money factor (interest rate). Returned at lease end. Not all brands allow it.',
     url: null,
   },
   'one-pay lease': {
@@ -112,19 +112,19 @@ const GLOSSARY = {
     url: null,
   },
   'v2l': {
-    short: 'Vehicle-to-Load — the ability to power household appliances or tools directly from the car battery via an AC outlet (usually 120V/1.9 kW). Available on IONIQ 5, EV6, F-150 Lightning, Rivian R1T, Cybertruck.',
+    short: 'Vehicle-to-Load, the ability to power household appliances or tools directly from the car battery via an AC outlet (usually 120V/1.9 kW). Available on IONIQ 5, EV6, F-150 Lightning, Rivian R1T, Cybertruck.',
     url: null,
   },
   '800v architecture': {
-    short: 'A high-voltage charging system (vs. the standard 400V) that allows much faster DC fast charging — typically 10→80% in 18 minutes. Found in Hyundai IONIQ 5/6, Kia EV6/EV9, Porsche Taycan, Lucid Air, Audi e-tron GT.',
+    short: 'A high-voltage charging system (vs. the standard 400V) that allows much faster DC fast charging, typically 10→80% in 18 minutes. Found in Hyundai IONIQ 5/6, Kia EV6/EV9, Porsche Taycan, Lucid Air, Audi e-tron GT.',
     url: null,
   },
   'doc fee': {
-    short: 'Dealer documentation fee — charged to prepare paperwork. Ranges from $0 to $1,200+ depending on state laws. Some states cap this fee; others do not. Always negotiate or shop around.',
+    short: 'Dealer documentation fee, charged to prepare paperwork. Ranges from $0 to $1,200+ depending on state laws. Some states cap this fee; others do not. Always negotiate or shop around.',
     url: null,
   },
   'destination charge': {
-    short: "A mandatory fee covering the cost of shipping the vehicle from factory to dealer, set by the manufacturer. Ranges from $1,095 to $2,295. Non-negotiable — every buyer pays the same amount.",
+    short: "A mandatory fee covering the cost of shipping the vehicle from factory to dealer, set by the manufacturer. Ranges from $1,095 to $2,295. Non-negotiable, every buyer pays the same amount.",
     url: null,
   },
   'ev road fee': {
@@ -132,7 +132,7 @@ const GLOSSARY = {
     url: null,
   },
   'tou rate': {
-    short: 'Time-of-Use rate — a utility pricing plan where electricity is cheaper during off-peak hours (typically 9pm–6am) and more expensive during peak hours. Most EV owners save $20–60/month by charging overnight on a TOU plan.',
+    short: 'Time-of-Use rate, a utility pricing plan where electricity is cheaper during off-peak hours (typically 9pm–6am) and more expensive during peak hours. Most EV owners save $20–60/month by charging overnight on a TOU plan.',
     url: null,
   },
   'battery degradation': {
@@ -140,7 +140,7 @@ const GLOSSARY = {
     url: null,
   },
   'bms': {
-    short: 'Battery Management System — the onboard computer that monitors and controls battery charging, temperature, and state of health. Can be read by a technician to report battery capacity remaining.',
+    short: 'Battery Management System, the onboard computer that monitors and controls battery charging, temperature, and state of health. Can be read by a technician to report battery capacity remaining.',
     url: null,
   },
 }

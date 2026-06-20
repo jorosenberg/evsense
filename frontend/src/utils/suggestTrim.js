@@ -1,5 +1,5 @@
 /**
- * suggestTrim.js — pick ONE specific trim to recommend for a matched vehicle,
+ * suggestTrim.js, pick ONE specific trim to recommend for a matched vehicle,
  * driven by the user's top priority. Pure function over the detail-JSON
  * `trims` array (see /data/vehicles/{id}.json), so it's easy to unit-test.
  *
@@ -13,7 +13,7 @@
  * Returns null when there's no usable trim data so callers can hide the chip.
  */
 
-// Some trim names are auto-generated like "RWD · 230 mi" — keep them, just
+// Some trim names are auto-generated like "RWD · 230 mi", keep them, just
 // collapse whitespace. Real names ("Long Range AWD", "Limited RWD") pass through.
 function cleanName(name) {
   return (name || '').replace(/\s+/g, ' ').trim() || 'Base'
@@ -33,7 +33,7 @@ function sweetSpot(trims, withMsrp) {
       .slice()
       .sort((a, b) => rangeOf(b) - rangeOf(a))[0]
   }
-  // No prices at all — fall back to the longest-range trim.
+  // No prices at all, fall back to the longest-range trim.
   return trims.slice().sort((a, b) => rangeOf(b) - rangeOf(a))[0]
 }
 
@@ -62,17 +62,17 @@ export function suggestTrim(detail, { priorities = [], minRange = 0 } = {}) {
       break
     case 'range':
       pick = trims.slice().sort((a, b) => rangeOf(b) - rangeOf(a))[0]
-      reason = rangeOf(pick) ? `longest range — ${rangeOf(pick)} mi` : 'longest range'
+      reason = rangeOf(pick) ? `longest range, ${rangeOf(pick)} mi` : 'longest range'
       break
     case 'performance':
       pick = trims.slice().sort((a, b) => hpOf(b) - hpOf(a) || rangeOf(b) - rangeOf(a))[0]
-      reason = hpOf(pick) ? `most power — ${hpOf(pick)} hp` : 'quickest trim'
+      reason = hpOf(pick) ? `most power, ${hpOf(pick)} hp` : 'quickest trim'
       break
     case 'storage':
       // Cargo volume is a model-level figure (doesn't change by trim), so the
       // sensible pick is the most affordable trim that still has the space.
       pick = sweetSpot(trims, withMsrp)
-      reason = 'best value — cargo is the same across trims'
+      reason = 'best value, cargo is the same across trims'
       break
     case 'luxury':
       pick = sweetSpot(trims, withMsrp)
@@ -89,7 +89,7 @@ export function suggestTrim(detail, { priorities = [], minRange = 0 } = {}) {
   const pickRange = rangeOf(pick)
   if (minRange > 0) {
     if (belowFloor) {
-      reason = `longest range (${pickRange} mi) — no trim hits your ${minRange} mi min`
+      reason = `longest range (${pickRange} mi), no trim hits your ${minRange} mi min`
     } else if (top !== 'range') {
       reason = `${reason} · ${pickRange} mi clears your ${minRange} mi min`
     }

@@ -1,5 +1,5 @@
 /**
- * vehicleFilters.js — Static option definitions for all filter dimensions.
+ * vehicleFilters.js, Static option definitions for all filter dimensions.
  * These drive the FilterSidebar checkboxes and select menus.
  */
 
@@ -19,9 +19,9 @@ export const CONDITION_OPTIONS = [
 ]
 
 export const DRIVETRAIN_OPTIONS = [
-  { value: 'RWD', label: 'RWD — Rear-Wheel Drive' },
-  { value: 'AWD', label: 'AWD — All-Wheel Drive' },
-  { value: 'FWD', label: 'FWD — Front-Wheel Drive' },
+  { value: 'RWD', label: 'RWD, Rear-Wheel Drive' },
+  { value: 'AWD', label: 'AWD, All-Wheel Drive' },
+  { value: 'FWD', label: 'FWD, Front-Wheel Drive' },
 ]
 
 export const BODY_STYLE_OPTIONS = [

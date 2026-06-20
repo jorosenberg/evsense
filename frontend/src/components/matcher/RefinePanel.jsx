@@ -1,8 +1,8 @@
 /**
- * RefinePanel.jsx — Local-only refinement sliders for the Matcher results.
+ * RefinePanel.jsx, Local-only refinement sliders for the Matcher results.
  *
  * Sits between the "Top matches" heading and the result cards. Adjusting any
- * slider re-filters + re-ranks the existing `matches` array in-memory — no API
+ * slider re-filters + re-ranks the existing `matches` array in-memory, no API
  * calls, no re-scoring, sub-millisecond response.
  *
  * Defaults are "off" (no filter applied) so the initial result set matches
@@ -90,7 +90,7 @@ export default function RefinePanel({ totalCount, filteredCount, refinements, on
 
   return (
     <div className="card overflow-hidden border-border mb-6">
-      {/* Header bar — always visible */}
+      {/* Header bar, always visible */}
       <button
         type="button"
         onClick={() => setOpen(o => !o)}
@@ -240,7 +240,7 @@ export default function RefinePanel({ totalCount, filteredCount, refinements, on
 }
 
 /**
- * Apply refinements to a scored match array. Pure function — exported so tests
+ * Apply refinements to a scored match array. Pure function, exported so tests
  * (and the page that uses RefinePanel) share one implementation.
  */
 export function applyRefinements(matches, refinements) {

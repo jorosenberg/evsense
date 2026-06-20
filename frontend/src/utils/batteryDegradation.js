@@ -13,7 +13,7 @@
  * default and let the caller pass a chemistry hint to tune the floor.
  *
  * Outputs are conservative. Real loss varies with climate, charging habits,
- * and DOD cycling — your mileage may vary (literally).
+ * and DOD cycling, your mileage may vary (literally).
  */
 
 const NCM_DEFAULT_CHEMISTRY = 'ncm'
@@ -65,10 +65,10 @@ export function estimateBatteryDegradation({ ageYears, mileage, chemistry = NCM_
 
   const notes = []
   if (capacityRemainingPct < 80) {
-    notes.push('Below 80% — may approach the manufacturer battery warranty threshold. Check warranty terms before purchase.')
+    notes.push('Below 80%, may approach the manufacturer battery warranty threshold. Check warranty terms before purchase.')
   }
   if (mi > 120000) {
-    notes.push('High mileage — request a battery health report (BMS readout) from the seller.')
+    notes.push('High mileage, request a battery health report (BMS readout) from the seller.')
   }
   if (chemistry === 'lfp') {
     notes.push('LFP chemistry degrades more slowly than NCM/NCA. Estimates are conservative.')

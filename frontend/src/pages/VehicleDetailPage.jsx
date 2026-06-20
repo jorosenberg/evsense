@@ -25,7 +25,7 @@ export default function VehicleDetailPage() {
   const { addToCompare, removeFromCompare, isInCompare, state: stateCode, setState, setFinancialProfile, setElectricityRate, setChargingMix } = useUserPreferencesStore()
   const setVehicleCalc = useCalculatorStore(s => s.setVehicleCalc)
   // Subscribe to the selected trim so the header (MSRP, range, specs) stays in
-  // sync with the calculator's trim picker — change it in either place and both
+  // sync with the calculator's trim picker, change it in either place and both
   // update together.
   const selectedTrimIndex = useCalculatorStore(s => s.vehicles[id]?.selectedTrimIndex ?? 0)
   const leaseCalcRec = useLeaseCalc()[id] || null
@@ -35,7 +35,7 @@ export default function VehicleDetailPage() {
   const didDecodeUrl = useRef(false)
 
   // Decode URL params (from a shared link) and pre-populate calculator state.
-  // Runs once when the vehicle loads for the first time — not on every re-render.
+  // Runs once when the vehicle loads for the first time, not on every re-render.
   useEffect(() => {
     if (!vehicle || didDecodeUrl.current) return
     if (!location.search) return
@@ -85,7 +85,7 @@ export default function VehicleDetailPage() {
   // models). Falls back to the model-level specs for trims without overrides.
   const trimSpecs = { ...(vehicle.specs || {}), ...(selectedTrim?.specs || {}) }
   // Edmunds tested range for the selected trim. When per-trim data exists
-  // (testedByTrim), ONLY the trims listed there show a tested range — the model
+  // (testedByTrim), ONLY the trims listed there show a tested range, the model
   // figure is NOT applied to every trim (a tested figure is one specific trim).
   // Vehicles with no per-trim map keep the model-level fallback.
   const testedRangeForTrim = vehicle.testedByTrim
@@ -99,8 +99,8 @@ export default function VehicleDetailPage() {
     <>
       <Helmet>
         <title>{title} True Cost of Ownership | EVsense: EV Buyer's Guide</title>
-        <meta name="description" content={`Real total cost of owning a ${title}. Includes financing, charging costs, state incentives, depreciation, and insurance — all 50 states.`} />
-        <meta property="og:title"       content={`${title} — True Cost of Ownership`} />
+        <meta name="description" content={`Real total cost of owning a ${title}. Includes financing, charging costs, state incentives, depreciation, and insurance, all 50 states.`} />
+        <meta property="og:title"       content={`${title}, True Cost of Ownership`} />
         <meta property="og:description" content={`Know what a ${title} will actually cost you per month including charging, incentives, and fees.`} />
         <meta property="og:image"       content={vehicle.imageUrl || '/og-image.png'} />
         <meta property="og:type"        content="article" />
@@ -108,7 +108,7 @@ export default function VehicleDetailPage() {
 
       {stale && (
         <div className="stale-banner">
-          Data may be outdated — last updated {formatDate(vehicle.lastUpdated)}. Verify pricing with the manufacturer.
+          Data may be outdated, last updated {formatDate(vehicle.lastUpdated)}. Verify pricing with the manufacturer.
         </div>
       )}
 
@@ -125,7 +125,7 @@ export default function VehicleDetailPage() {
         <EstimateNotice className="mb-5" />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-          {/* Hero image gallery — branded dark disc stage */}
+          {/* Hero image gallery, branded dark disc stage */}
           <div className="card image-disc overflow-hidden">
             <ImageGallery
               primaryImage={vehicle.imageUrl}
@@ -147,7 +147,7 @@ export default function VehicleDetailPage() {
               </div>
             </div>
 
-            {/* Trim selector — drives the MSRP, range, and specs shown below,
+            {/* Trim selector, drives the MSRP, range, and specs shown below,
                 and stays in sync with the calculator's trim picker. */}
             {trims.length > 1 && (
               <div className="mt-4">
@@ -219,12 +219,12 @@ export default function VehicleDetailPage() {
             <div className="grid grid-cols-3 gap-3 mt-5">
               {[
                 ...(testedRangeForTrim ? [{ label: 'Tested Range', value: `${testedRangeForTrim} mi` }] : []),
-                { label: 'EPA Range', value: trimSpecs.range ? `${trimSpecs.range} mi` : '—' },
-                { label: '0–60', value: trimSpecs.zeroToSixty ? `${trimSpecs.zeroToSixty}s` : '—' },
-                { label: 'Horsepower', value: trimSpecs.horsepower ? `${trimSpecs.horsepower} hp` : '—' },
-                { label: 'Battery', value: trimSpecs.batteryKwh ? `${trimSpecs.batteryKwh} kWh` : '—' },
-                { label: 'Seating', value: trimSpecs.seatingCapacity ? `${trimSpecs.seatingCapacity} seats` : '—' },
-                { label: 'DCFC Speed', value: trimSpecs.chargingSpeedDcFastKw ? `${trimSpecs.chargingSpeedDcFastKw} kW` : '—' },
+                { label: 'EPA Range', value: trimSpecs.range ? `${trimSpecs.range} mi` : '-' },
+                { label: '0–60', value: trimSpecs.zeroToSixty ? `${trimSpecs.zeroToSixty}s` : '-' },
+                { label: 'Horsepower', value: trimSpecs.horsepower ? `${trimSpecs.horsepower} hp` : '-' },
+                { label: 'Battery', value: trimSpecs.batteryKwh ? `${trimSpecs.batteryKwh} kWh` : '-' },
+                { label: 'Seating', value: trimSpecs.seatingCapacity ? `${trimSpecs.seatingCapacity} seats` : '-' },
+                { label: 'DCFC Speed', value: trimSpecs.chargingSpeedDcFastKw ? `${trimSpecs.chargingSpeedDcFastKw} kW` : '-' },
               ].map(({ label, value }) => (
                 <div key={label} className="bg-surface-sunken rounded-lg p-3 text-center">
                   <div className="text-xs text-ink-subtle">{label}</div>
@@ -335,7 +335,7 @@ export default function VehicleDetailPage() {
                       {safety.iihs.overall === 'TSP+' ? '' : '✓'} IIHS {safety.iihs.overall}
                     </div>
                     <p className="text-xs text-ink-muted mt-2">
-                      {safety.iihs.overall === 'TSP+' ? 'Top Safety Pick+ — the highest IIHS designation.' : 'Top Safety Pick — meets IIHS safety standards.'}
+                      {safety.iihs.overall === 'TSP+' ? 'Top Safety Pick+, the highest IIHS designation.' : 'Top Safety Pick, meets IIHS safety standards.'}
                     </p>
                   </>
                 ) : (
@@ -361,7 +361,7 @@ export default function VehicleDetailPage() {
         <div ref={calcRef}>
           <h2 className="font-serif text-display-md text-ink mb-1">True Cost Calculator</h2>
           <p className="text-sm text-ink-subtle mb-4">
-            A close estimate built from public data — charging, incentives, depreciation, insurance &amp; fees.
+            A close estimate built from public data, charging, incentives, depreciation, insurance &amp; fees.
             Not a quote.
           </p>
 

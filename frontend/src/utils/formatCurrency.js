@@ -4,7 +4,7 @@
 
 export function formatCurrency(amount, opts = {}) {
   const { decimals = 0, compact = false } = opts
-  if (amount == null || isNaN(amount)) return '—'
+  if (amount == null || isNaN(amount)) return '-'
 
   if (compact && Math.abs(amount) >= 1000) {
     const k = amount / 1000
@@ -20,7 +20,7 @@ export function formatCurrency(amount, opts = {}) {
 }
 
 export function formatNumber(n, decimals = 0) {
-  if (n == null || isNaN(n)) return '—'
+  if (n == null || isNaN(n)) return '-'
   return new Intl.NumberFormat('en-US', {
     minimumFractionDigits: decimals,
     maximumFractionDigits: decimals,
@@ -28,18 +28,18 @@ export function formatNumber(n, decimals = 0) {
 }
 
 export function formatPercent(n, decimals = 1) {
-  if (n == null || isNaN(n)) return '—'
+  if (n == null || isNaN(n)) return '-'
   return `${n.toFixed(decimals)}%`
 }
 
 export function formatMoneyFactor(mf) {
-  if (mf == null) return '—'
+  if (mf == null) return '-'
   return mf.toFixed(5)
 }
 
 /** Format a date string to "Jan 31, 2025" */
 export function formatDate(dateStr) {
-  if (!dateStr) return '—'
+  if (!dateStr) return '-'
   return new Date(dateStr).toLocaleDateString('en-US', {
     month: 'short',
     day: 'numeric',

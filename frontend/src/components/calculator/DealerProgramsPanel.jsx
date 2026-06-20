@@ -54,7 +54,7 @@ export default function DealerProgramsPanel({ make, programs, onChange, totalSav
 
   return (
     <div className="border border-border rounded-lg overflow-hidden">
-      {/* Header — always visible */}
+      {/* Header, always visible */}
       <button
         onClick={() => setExpanded(!expanded)}
         className="w-full flex items-center justify-between px-4 py-3 bg-surface-raised hover:bg-surface-sunken transition-colors text-left"
@@ -90,7 +90,7 @@ export default function DealerProgramsPanel({ make, programs, onChange, totalSav
           {/* Direct-sale brands note */}
           {isDirectSale && (
             <div className="bg-surface-sunken rounded-lg p-3 text-sm text-ink-muted">
-              <span className="font-medium text-ink">{make}</span> sells directly — no dealer loyalty,
+              <span className="font-medium text-ink">{make}</span> sells directly, no dealer loyalty,
               conquest, or third-party buying programs apply.{' '}
               {brandPrograms.notes}
             </div>
@@ -141,7 +141,7 @@ export default function DealerProgramsPanel({ make, programs, onChange, totalSav
 
                 <p className="text-xs text-ink-subtle bg-surface-sunken rounded p-2">
                   ℹThird-party programs and dealer discounts typically cannot both apply to the same deal.
-                  Use whichever gets you the lower out-the-door price — Costco pricing is usually the floor
+                  Use whichever gets you the lower out-the-door price, Costco pricing is usually the floor
                   before any additional negotiation.
                 </p>
               </div>
@@ -215,7 +215,7 @@ export default function DealerProgramsPanel({ make, programs, onChange, totalSav
                   <span className="text-sm text-ink-muted">None apply to me</span>
                 </label>
 
-                {/* Group options — only show groups that at least one program supports */}
+                {/* Group options, only show groups that at least one program supports */}
                 {AFFINITY_GROUPS.filter((group) =>
                   brandPrograms.affinityPrograms.some((p) => p.groups.includes(group.id))
                 ).map((group) => {
@@ -252,7 +252,7 @@ export default function DealerProgramsPanel({ make, programs, onChange, totalSav
           <section>
             <h4 className="section-label mb-2">Manual Override</h4>
             <p className="text-xs text-ink-subtle mb-2">
-              Know your exact program discount from a dealer quote? Enter it here —
+              Know your exact program discount from a dealer quote? Enter it here,
               this overrides all checkbox estimates above.
             </p>
             <div className="flex items-center gap-2">

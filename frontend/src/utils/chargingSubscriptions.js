@@ -1,7 +1,7 @@
 /**
  * Charging network subscription plans
  * Last updated: 2025-01
- * Note: Pricing changes frequently — verify at each network's website before use.
+ * Note: Pricing changes frequently, verify at each network's website before use.
  */
 export const CHARGING_SUBSCRIPTIONS = [
   {
@@ -10,7 +10,7 @@ export const CHARGING_SUBSCRIPTIONS = [
     monthlyFee: 0,
     l2RatePerKwh: null,
     dcfcRatePerKwh: null,
-    notes: 'Pay as you go — rates vary by location',
+    notes: 'Pay as you go, rates vary by location',
   },
   {
     id: 'tesla-member',

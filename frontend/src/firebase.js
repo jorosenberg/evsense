@@ -6,9 +6,9 @@ import { getStorage } from 'firebase/storage'
 //
 // Vite's env handling can double-encode JSON in .env.local.
 // e.g. VITE_FIREBASE_CONFIG={"apiKey":"..."} arrives as the string:
-//   '{"apiKey":"..."}' — one parse needed
+//   '{"apiKey":"..."}', one parse needed
 // But sometimes Vite wraps it in extra quotes:
-//   '"{\\"apiKey\\":\\"...\\"}"' — two parses needed
+//   '"{\\"apiKey\\":\\"...\\"}"', two parses needed
 //
 // We try both. The .env.local value should NOT have surrounding quotes:
 //   CORRECT:   VITE_FIREBASE_CONFIG={"apiKey":"..."}
@@ -43,7 +43,7 @@ function parseFirebaseConfig() {
 const firebaseConfig = parseFirebaseConfig()
 
 // ─── App init ─────────────────────────────────────────────────────────────────
-// Only initialise if we have a valid config — avoids the "projectId not provided" error.
+// Only initialise if we have a valid config, avoids the "projectId not provided" error.
 // Without Firebase, the app still works: Browse page uses static JSON,
 // calculator is fully client-side. Only vehicle detail pages need Firestore.
 
@@ -59,7 +59,7 @@ if (firebaseConfig?.projectId) {
 } else {
   if (import.meta.env.DEV) {
     console.info(
-      '[Firebase] Running without Firestore — vehicle detail pages will use mock data.\n' +
+      '[Firebase] Running without Firestore, vehicle detail pages will use mock data.\n' +
       'To connect Firebase, add VITE_FIREBASE_CONFIG to frontend/.env.local'
     )
   }

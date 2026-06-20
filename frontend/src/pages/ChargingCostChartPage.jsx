@@ -54,7 +54,7 @@ export default function ChargingCostChartPage() {
         <div className="mt-6 text-xs text-ink-subtle">
           <strong>Methodology:</strong> Cost = (1,000 ÷ miles per kWh) × electricity rate.
           Uses EPA-rated efficiency figures. Real-world efficiency varies with driving style,
-          temperature, and speed. Public charging rates are not included — this chart shows
+          temperature, and speed. Public charging rates are not included, this chart shows
           home charging cost only for comparability. Figures are close estimates from public data.
         </div>
         </div>

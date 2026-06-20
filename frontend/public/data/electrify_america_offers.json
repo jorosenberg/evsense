@@ -1,7 +1,7 @@
 {
   "asOf": "2026-06",
   "source": "https://www.electrifyamerica.com/premium-offers/",
-  "disclaimer": "Complimentary Electrify America (EA) charging offers vary by brand, model, and purchase/lease date and change frequently. Values below are best-effort and flagged with `verified`. Edit this file to correct terms. Enrollment is required (in the EA app or the brand's app). Idle fees, taxes, and any usage beyond the plan are not covered. NOTE: Hyundai (IONIQ 5/9) ended its complimentary Electrify America charging for new purchases/leases — removed.",
+  "disclaimer": "Complimentary Electrify America (EA) charging offers vary by brand, model, and purchase/lease date and change frequently. Values below are best-effort and flagged with `verified`. Edit this file to correct terms. Enrollment is required (in the EA app or the brand's app). Idle fees, taxes, and any usage beyond the plan are not covered. NOTE: Hyundai (IONIQ 5/9) ended its complimentary Electrify America charging for new purchases/leases, removed.",
   "plans": {
     "unlimited_dcfc": "Complimentary 30-minute DC fast-charging sessions on the EA network for the benefit period (modeled as free DC fast charging).",
     "kwh": "A fixed allotment of complimentary kWh on the EA network over the benefit period."
@@ -56,7 +56,7 @@
     },
     "bmw-i4-2025": {
       "provider": "Electrify America",
-      "summary": "Complimentary DC fast charging — verify current term",
+      "summary": "Complimentary DC fast charging, verify current term",
       "plan": "unlimited_dcfc",
       "years": 1,
       "coversPublicL2": false,
@@ -65,7 +65,7 @@
     },
     "bmw-i5-2025": {
       "provider": "Electrify America",
-      "summary": "Complimentary DC fast charging — verify current term",
+      "summary": "Complimentary DC fast charging, verify current term",
       "plan": "unlimited_dcfc",
       "years": 1,
       "coversPublicL2": false,
@@ -74,7 +74,7 @@
     },
     "bmw-i7-2025": {
       "provider": "Electrify America",
-      "summary": "Complimentary DC fast charging — verify current term",
+      "summary": "Complimentary DC fast charging, verify current term",
       "plan": "unlimited_dcfc",
       "years": 1,
       "coversPublicL2": false,
@@ -83,7 +83,7 @@
     },
     "bmw-ix-2025": {
       "provider": "Electrify America",
-      "summary": "Complimentary DC fast charging — verify current term",
+      "summary": "Complimentary DC fast charging, verify current term",
       "plan": "unlimited_dcfc",
       "years": 1,
       "coversPublicL2": false,

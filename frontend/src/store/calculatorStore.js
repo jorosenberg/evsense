@@ -4,7 +4,7 @@ const defaultVehicleCalc = {
   selectedTrimIndex: 0,
   mode: 'finance', // "cash" | "finance" | "lease"
 
-  // User-supplied price — when set (> 0), overrides MSRP as the basis for
+  // User-supplied price, when set (> 0), overrides MSRP as the basis for
   // sales tax, finance principal, and lease cap cost. Lets a buyer plug in
   // an online listing price and reuse the site's specs for that vehicle.
   // Depreciation still uses MSRP as the residual-curve anchor.
@@ -30,7 +30,7 @@ const defaultVehicleCalc = {
   leaseIsOnePay: false,
   leaseMsdCount: 0,
 
-  // Sales tax override — null = use state default, number = user-supplied %
+  // Sales tax override, null = use state default, number = user-supplied %
   // (covers county add-ons, out-of-state registration, dealer negotiated treatment)
   salesTaxOverride: null,
 

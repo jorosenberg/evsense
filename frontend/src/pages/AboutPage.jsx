@@ -19,13 +19,13 @@ export default function AboutPage() {
 
         <div className="relative z-[1] max-w-3xl mx-auto px-4 sm:px-6 py-12">
         <h1 className="font-display text-display-md text-ink mb-2">About <span className="italic text-brand-indigo">EVsense</span></h1>
-        <p className="text-ink-muted mb-6">A personal portfolio project — why it exists and how it works</p>
+        <p className="text-ink-muted mb-6">A personal portfolio project, why it exists and how it works</p>
 
         <div className="card p-4 mb-10 text-sm text-ink-muted leading-relaxed">
           EVsense is a <span className="text-ink font-semibold">personal portfolio project</span>, not a commercial
           product. Everything you see is built from <span className="text-ink font-semibold">public, scraped data</span>,
           and every ownership cost is a <span className="text-ink font-semibold">close estimate</span> meant to help you
-          reason about the numbers — not a quote, an offer, or financial advice.
+          reason about the numbers, not a quote, an offer, or financial advice.
         </div>
 
         <div className="prose prose-sm max-w-none space-y-8">
@@ -34,7 +34,7 @@ export default function AboutPage() {
             <p className="text-ink-muted leading-relaxed">
               Most EV buying guides quote sticker prices. But the real cost of ownership includes
               charging infrastructure, electricity rates (which vary 4x across states), state incentives
-              and fees, depreciation, insurance, and maintenance — none of which show up in a headline MSRP.
+              and fees, depreciation, insurance, and maintenance, none of which show up in a headline MSRP.
               At the same time, the tools that <em>do</em> model these costs are buried inside dealer
               websites with obvious conflicts of interest.
             </p>
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 ['Depreciation data', 'iSeeCars historical data'],
                 ['Maintenance costs', 'RepairPal'],
                 ['State electricity rates', 'EIA (Energy Information Administration) annual averages'],
-                ['Federal tax credit eligibility', 'IRS Energy Credits Online — refreshed quarterly via manual workflow'],
+                ['Federal tax credit eligibility', 'IRS Energy Credits Online, refreshed quarterly via manual workflow'],
                 ['State incentives', 'DOE AFDC State Laws & Incentives API'],
                 ['State fees & road taxes', 'Compiled from state DMV publications; last verified Jan 2025'],
               ].map(([source, description]) => (
@@ -77,9 +77,9 @@ export default function AboutPage() {
             <h2 className="font-semibold text-ink text-lg mb-2">What This Tool Is Not</h2>
             <ul className="space-y-1.5 text-ink-muted list-disc list-inside">
               <li>Not affiliated with any manufacturer, dealer, or charging network</li>
-              <li>Not a source of binding purchase quotes — always get a written quote from a dealer</li>
-              <li>Not financial advice — consult a tax professional about federal and state credits</li>
-              <li>Not real-time — pricing data is updated annually and may not reflect recent changes</li>
+              <li>Not a source of binding purchase quotes, always get a written quote from a dealer</li>
+              <li>Not financial advice, consult a tax professional about federal and state credits</li>
+              <li>Not real-time, pricing data is updated annually and may not reflect recent changes</li>
             </ul>
           </section>
 
@@ -87,7 +87,7 @@ export default function AboutPage() {
             <h2 className="font-semibold text-ink text-lg mb-2">Open Source</h2>
             <p className="text-ink-muted leading-relaxed">
               This project is open source. The scraper, frontend, and all data are published on GitHub.
-              Pull requests welcome — especially for correcting state fee data, adding new vehicle scrapers,
+              Pull requests welcome, especially for correcting state fee data, adding new vehicle scrapers,
               or updating incentive information.
             </p>
           </section>
@@ -97,7 +97,7 @@ export default function AboutPage() {
             <p className="text-ink-muted leading-relaxed">
               This tool includes annual EV road use fees in its cost calculations. As of 2025, 31 states
               levy these fees ranging from $50 to $294/year. The stated rationale is to replace gas tax
-              revenue that EVs don't generate. Critics — including many EV advocacy organizations — argue
+              revenue that EVs don't generate. Critics, including many EV advocacy organizations, argue
               that some fee amounts are disproportionately high relative to actual road use, and that
               fossil fuel industry lobbying influenced several state legislatures in setting fee levels.
               We present the fees factually and let you draw your own conclusions.

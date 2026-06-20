@@ -169,7 +169,7 @@ export default function CatalogDetailPage() {
   return (
     <>
       <Helmet>
-        <title>{title} — True Cost | EVsense</title>
+        <title>{title}, True Cost | EVsense</title>
         <meta name="description" content={`Cost of ownership analysis for ${title} using ev-database.org specs.`} />
       </Helmet>
 
@@ -202,23 +202,23 @@ export default function CatalogDetailPage() {
           <div>
             <div className="flex flex-wrap gap-2 mb-2">
               {!entry.sold_in_us && <span className="badge badge-yellow">Not sold in US</span>}
-              {entry.status === 'archive' && <span className="badge badge-grey">Discontinued — used</span>}
+              {entry.status === 'archive' && <span className="badge badge-grey">Discontinued, used</span>}
               {entry.status === 'upcoming' && <span className="badge badge-blue">Upcoming</span>}
               {isUsedTreatment && entry.sold_in_us && <span className="badge badge-grey">Used treatment</span>}
             </div>
             <h1 className="font-serif text-display-md text-ink leading-tight">{title}</h1>
             <p className="text-sm text-ink-subtle mt-1">
-              {entry.body_shape} · {entry.drivetrain || '—'} · {entry.year_from}
+              {entry.body_shape} · {entry.drivetrain || '-'} · {entry.year_from}
               {entry.year_to ? `–${entry.year_to}` : ''}
             </p>
 
             <div className="grid grid-cols-2 gap-2 mt-4">
-              <Stat label="EPA range" value={effectiveRange ? `${effectiveRange} mi` : '—'} sub={degradation ? 'after degradation' : null} />
-              <Stat label="Battery" value={entry.battery_kwh ? `${entry.battery_kwh} kWh` : '—'} />
-              <Stat label="Efficiency" value={effectiveEfficiency ? `${effectiveEfficiency} mi/kWh` : '—'} />
-              <Stat label="DCFC" value={entry.fast_charge_kw ? `${entry.fast_charge_kw} kW` : '—'} />
-              <Stat label="0–60" value={entry.accel_0_60_s ? `${entry.accel_0_60_s} s` : '—'} />
-              <Stat label="Seats" value={entry.seat_count || '—'} />
+              <Stat label="EPA range" value={effectiveRange ? `${effectiveRange} mi` : '-'} sub={degradation ? 'after degradation' : null} />
+              <Stat label="Battery" value={entry.battery_kwh ? `${entry.battery_kwh} kWh` : '-'} />
+              <Stat label="Efficiency" value={effectiveEfficiency ? `${effectiveEfficiency} mi/kWh` : '-'} />
+              <Stat label="DCFC" value={entry.fast_charge_kw ? `${entry.fast_charge_kw} kW` : '-'} />
+              <Stat label="0–60" value={entry.accel_0_60_s ? `${entry.accel_0_60_s} s` : '-'} />
+              <Stat label="Seats" value={entry.seat_count || '-'} />
             </div>
 
             <a
@@ -252,7 +252,7 @@ export default function CatalogDetailPage() {
               <p className="text-xs text-ink-subtle mt-1">
                 {entry.msrp_usd_estimate
                   ? `Default: ${formatCurrency(entry.msrp_usd_estimate)} (converted from ${Object.values(entry.prices)[0]?.raw || 'EU listing'})`
-                  : 'No reference price — enter your own.'}
+                  : 'No reference price, enter your own.'}
               </p>
             </div>
 
@@ -314,8 +314,8 @@ export default function CatalogDetailPage() {
             <h2 className="font-semibold text-ink mb-3">Battery Health Estimate</h2>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               <BigStat label="Capacity remaining" value={`${degradation.capacityRemainingPct}%`} highlight />
-              <BigStat label="Range (degraded)" value={effectiveRange ? `${effectiveRange} mi` : '—'} />
-              <BigStat label="Range (new)" value={entry.range_mi ? `${entry.range_mi} mi` : '—'} muted />
+              <BigStat label="Range (degraded)" value={effectiveRange ? `${effectiveRange} mi` : '-'} />
+              <BigStat label="Range (new)" value={entry.range_mi ? `${entry.range_mi} mi` : '-'} muted />
               <BigStat label="Confidence" value={degradation.confidence} muted />
             </div>
             {degradation.notes.length > 0 && (
@@ -378,7 +378,7 @@ export default function CatalogDetailPage() {
         )}
 
         <p className="text-xs text-ink-subtle text-center">
-          Catalog data: ev-database.org · Last scraped: {catalog?.scraped_at?.slice(0, 10)} · Estimates only — verify pricing with dealers.
+          Catalog data: ev-database.org · Last scraped: {catalog?.scraped_at?.slice(0, 10)} · Estimates only, verify pricing with dealers.
         </p>
       </div>
     </>

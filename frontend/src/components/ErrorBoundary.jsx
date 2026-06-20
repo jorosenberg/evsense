@@ -55,7 +55,7 @@ export default class ErrorBoundary extends Component {
           </h1>
           <p className="text-ink-muted mb-2 leading-relaxed">
             EVsense encountered an unexpected error. This is usually caused by a
-            network hiccup or a temporary data issue — not your fault.
+            network hiccup or a temporary data issue, not your fault.
           </p>
           <p className="text-ink-subtle text-sm mb-8">
             Try refreshing the page. If it keeps happening, the vehicle data may
@@ -77,7 +77,7 @@ export default class ErrorBoundary extends Component {
             </Link>
           </div>
 
-          {/* Error details — only shown in development */}
+          {/* Error details, only shown in development */}
           {import.meta.env.DEV && this.state.error && (
             <details className="text-left bg-surface-sunken rounded-lg p-4 text-xs font-mono overflow-auto max-h-48">
               <summary className="cursor-pointer text-ink-subtle mb-2 font-sans font-medium">

@@ -33,7 +33,7 @@ export default function NotFoundPage() {
           {isVehicleUrl ? (
             <p className="text-ink-muted mb-8 leading-relaxed">
               The vehicle <code className="bg-surface-sunken px-1.5 py-0.5 rounded text-sm font-mono">{vehicleId}</code> doesn't
-              exist in our database yet — it may be a coming-soon model or a URL typo.
+              exist in our database yet, it may be a coming-soon model or a URL typo.
               Check the browse page for all vehicles we currently track.
             </p>
           ) : (

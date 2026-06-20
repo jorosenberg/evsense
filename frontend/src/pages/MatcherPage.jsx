@@ -25,7 +25,7 @@ import EstimateNotice from '../components/ui/EstimateNotice'
 // offers. useIncentives() returns { vehicleId → normalized incentive record }.
 
 // Sum of new-vehicle rebates/credits for a state, derived from the same data
-// the calculator's Incentives & Fees tab uses. Single source of truth — no
+// the calculator's Incentives & Fees tab uses. Single source of truth, no
 // drift between the matcher's estimate and the per-vehicle calculator.
 // When vehicleMsrp is provided, MSRP-capped programs (e.g. NY Drive Clean)
 // resolve to their effective per-vehicle amount ($500 above the cap instead
@@ -101,12 +101,12 @@ const CARGO_OPTIONS = [
     bodyStyles: ['truck', 'van', 'suv'],
     icon: '',
     fits: ['4×8 sheet of plywood', 'Tow a trailer / boat', 'ATV or riding mower', 'Tool chests & gear', 'Full couch or furniture'],
-    wontFit: 'Nothing — this is the max',
+    wontFit: 'Nothing, this is the max',
     vehicles: 'Pickup trucks & full-size SUVs',
   },
 ]
 
-// Body-style preference (Stage 1). Optional — pick one or more shapes to keep
+// Body-style preference (Stage 1). Optional, pick one or more shapes to keep
 // the results to. Maps onto vehicle.bodyStyle (with minivan folded into van).
 const BODY_TYPE_OPTIONS = [
   { value: 'suv',       label: 'SUV',       icon: '' },
@@ -163,7 +163,7 @@ const LEASE_TIERS = [
   { label: 'Over $1,000/mo',   max: 2200, type: 'monthly' },
 ]
 
-// How the buyer plans to pay — drives which monthly payment the TCO ranking
+// How the buyer plans to pay, drives which monthly payment the TCO ranking
 // uses. Finance is the default (most common). Cash ranks on operating cost +
 // sticker price; Lease ranks on advertised lease payments where available.
 const PURCHASE_OPTIONS = [
@@ -189,7 +189,7 @@ const LIFESTYLE_OPTIONS = [
     value: 'carplay',
     label: 'Apple CarPlay / Android Auto',
     icon: '',
-    tooltip: "Tesla vehicles don't support CarPlay or Android Auto — they use Tesla's proprietary OS. Most other EV brands support both.",
+    tooltip: "Tesla vehicles don't support CarPlay or Android Auto, they use Tesla's proprietary OS. Most other EV brands support both.",
   },
   {
     value: 'v2l',
@@ -213,7 +213,7 @@ const LIFESTYLE_OPTIONS = [
     value: 'phoneKey',
     label: 'Phone-as-Key / App Unlock',
     icon: '',
-    tooltip: 'Use your phone as the key — lock, unlock, and start the car from an app (e.g. Tesla app, Hyundai/Kia Digital Key, Ford Phone As A Key).',
+    tooltip: 'Use your phone as the key, lock, unlock, and start the car from an app (e.g. Tesla app, Hyundai/Kia Digital Key, Ford Phone As A Key).',
   },
   {
     value: 'advDriverAssist',
@@ -225,7 +225,7 @@ const LIFESTYLE_OPTIONS = [
     value: 'thirdRow',
     label: 'Third-Row Seating',
     icon: '',
-    tooltip: 'Seats 6 or more — a usable third row. Available on the Kia EV9, Hyundai IONIQ 9, Rivian R1S, Tesla Model X, Lucid Gravity, and VW ID.Buzz.',
+    tooltip: 'Seats 6 or more, a usable third row. Available on the Kia EV9, Hyundai IONIQ 9, Rivian R1S, Tesla Model X, Lucid Gravity, and VW ID.Buzz.',
   },
 ]
 
@@ -265,7 +265,7 @@ const VEHICLE_FEATURES = {
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Luxury preference (Stage 5 — new)
+// Luxury preference (Stage 5, new)
 // ══════════════════════════════════════════════════════════════════
 //
 // 5 tiers map directly onto the luxuryScore.js getLuxuryTier() output.
@@ -279,7 +279,7 @@ const LUXURY_PREFERENCES = [
 ]
 
 // ══════════════════════════════════════════════════════════════════
-// Priorities — "what matters most to you?" (Stage 5)
+// Priorities, "what matters most to you?" (Stage 5)
 // ══════════════════════════════════════════════════════════════════
 //
 // Each priority the user picks BOOSTS the weight of one or more scoring
@@ -321,7 +321,7 @@ export function computeWeights(priorities = []) {
   return w
 }
 
-// Typical max cargo (cu ft, seats folded) by body style — fallback when a
+// Typical max cargo (cu ft, seats folded) by body style, fallback when a
 // vehicle has no measured storageMax in vehicle_scores.json.
 const STORAGE_FALLBACK_BY_BODY = {
   truck: 120, van: 145, suv: 75, wagon: 55, hatchback: 50, sedan: 22, coupe: 15,
@@ -344,7 +344,7 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   const weights = computeWeights(priorities)
 
   // ── Budget (soft penalty, not hard cutoff) ───────────────────────
-  // IRA §30D federal EV credit was repealed in 2025 — no federal subsidy.
+  // IRA §30D federal EV credit was repealed in 2025, no federal subsidy.
   // Subtract manufacturer cash rebates from incentives_by_vehicle.json.
   const incRec = incentivesMap[vehicle.id] || null
   const purchaseMode = answers.purchaseMode || 'finance'
@@ -379,14 +379,14 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   // use it as the payment basis so the ranking reflects the actual deal.
   //
   // Lease payment precedence (highest → lowest):
-  //   1. Manufacturer NY offer monthly  — the actual advertised deal
-  //   2. Edmunds lease-calc monthly      — residual-based, chosen term, $0-down
-  //   3. vehicle.leaseFrom               — teaser "lease from" (often a
-  //      high-down/specific-trim special, e.g. Model 3 $329) — last resort
+  //   1. Manufacturer NY offer monthly , the actual advertised deal
+  //   2. Edmunds lease-calc monthly     , residual-based, chosen term, $0-down
+  //   3. vehicle.leaseFrom              , teaser "lease from" (often a
+  //      high-down/specific-trim special, e.g. Model 3 $329), last resort
   // (2) keeps the headline Monthly TCO consistent with the "≈ $X/mo lease"
   // chip on the same card, which is also driven by the lease-calc data.
   // Previously the TCO used (3) while the chip used (2), so the all-in TCO
-  // could read LOWER than the standalone lease payment — confusing.
+  // could read LOWER than the standalone lease payment, confusing.
   // Both (1) and (2) honor the user's selected 24/36-month term.
   const leaseCalcMonthly = (purchaseMode === 'lease' && !offer?.monthlyPayment)
     ? (leaseCalcFor(leaseCalcMap[vehicle.id], null, leaseTerm)?.monthly ?? null)
@@ -414,11 +414,11 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
     eaOffer: eaOffersMap[vehicle.id] || null,
   })
 
-  // ── Budget penalty — compares the basis that matches the pay plan ──
+  // ── Budget penalty, compares the basis that matches the pay plan ──
   // GRADED (not cliff) so it never flattens the ordering: every increment over
   // budget shaves the cost score proportionally, down to a 0.4 floor. The old
-  // 0.10/0.30 hard caps pinned every over-budget car to the same value, which —
-  // under a tight budget — erased the cheaper-car advantage entirely and let
+  // 0.10/0.30 hard caps pinned every over-budget car to the same value, which,
+  // under a tight budget, erased the cheaper-car advantage entirely and let
   // pricey luxury cars float to the top on expert rating / storage.
   if (isMonthlyBudget) {
     const over = budgetMax > 0 ? tco.monthlyTco / budgetMax : 1
@@ -431,7 +431,7 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   // ── S_tco (0–1) ─────────────────────────────────────────────────
   // ABSOLUTE cost scale: a cheaper car ALWAYS scores higher, regardless of how
   // much budget headroom there is. A budget-RELATIVE score saturates to 1.0 for
-  // everything comfortably under budget — so "value" stopped preferring the
+  // everything comfortably under budget, so "value" stopped preferring the
   // genuinely cheaper car and collapsed onto the same long-range luxury list as
   // "range". Mapping the all-in monthly TCO across its realistic span fixes that:
   //   ~$600/mo (cheap lease) → 1.0 · ~$1,100 → ~0.69 · ~$1,500 → ~0.44 · ≥$2,200 → floor
@@ -459,11 +459,11 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   const headroom = Math.min(1.0, rangeEpa / 500)
   let S_range = 0.6 * need + 0.4 * headroom
   // First-time EV + frequent road trip with <310mi range still appears but
-  // ranks lower — the Stage 3 amber tip banner already warned the user.
+  // ranks lower, the Stage 3 amber tip banner already warned the user.
   S_range = S_range * firstEvRoadTripPenalty
   // Hard minimum-range floor the user set: a vehicle whose best range is under
   // it is demoted hard (it can still appear, but sinks). rangeEpa is the
-  // longest-trim range, so a model qualifies if ANY trim clears the floor — the
+  // longest-trim range, so a model qualifies if ANY trim clears the floor, the
   // per-trim recommendation then steers them to a trim that actually meets it.
   if (minRange > 0 && rangeEpa < minRange) S_range = Math.min(S_range, 0.1)
 
@@ -494,7 +494,7 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   const cargoOption = CARGO_OPTIONS.find(c => c.value === cargo)
   const bodyBonus = cargoOption?.bodyStyles?.includes(vehicle.bodyStyle) ? 0.15 : 0
 
-  // `thirdRow` isn't in the curated feature-flag map — derive it from seating
+  // `thirdRow` isn't in the curated feature-flag map, derive it from seating
   // capacity (6+ seats ⇒ a usable third row) so we don't have to hand-flag
   // every vehicle. Everything else is a lookup in VEHICLE_FEATURES.
   const hasFeature = f => f === 'thirdRow'
@@ -530,7 +530,7 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
     }
   }
 
-  // ── S_efficiency (0–1) — reward low ¢/mi ────────────────────────
+  // ── S_efficiency (0–1), reward low ¢/mi ────────────────────────
   // 3¢/mi → 1.0, 6¢/mi → 0.7, 10¢/mi → 0.3, 15¢/mi+ → 0.1
   // Continuous ¢/mi → score (was bucketed, so 2.8¢ and 3.4¢ both scored 1.0).
   // ~2¢/mi → 1.0, 5¢ → 0.70, 10¢ → 0.20, 12¢+ → floor. Small efficiency gaps
@@ -538,7 +538,7 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   const cpm = tco.centsPerMile
   let S_efficiency = Math.max(0.10, Math.min(1.0, 1.20 - 0.10 * cpm))
 
-  // ── S_storage (0–1) — max cargo space ───────────────────────────
+  // ── S_storage (0–1), max cargo space ───────────────────────────
   // "Max space" = cargo volume with the seats folded (storageMax, cu ft) from
   // vehicle_scores.json, merged onto the vehicle as expertSubscores.storageMax.
   // Fall back to a body-style typical when a vehicle hasn't been measured.
@@ -553,7 +553,7 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
   else if (storageMax >= 28)  S_storage = 0.40
   else                        S_storage = 0.25
 
-  // ── S_performance (0–1) — 0-60 first, horsepower as backstop ─────
+  // ── S_performance (0–1), 0-60 first, horsepower as backstop ─────
   const zeroToSixty = vehicle.zeroToSixty || null
   const hp = vehicle.horsepower || null
   let S_performance
@@ -613,12 +613,12 @@ function scoreVehicle(vehicle, answers, stateRebate, stateCode, annualMileage, c
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Why-this-match narrative — one short sentence for the #1 result
+// Why-this-match narrative, one short sentence for the #1 result
 // ══════════════════════════════════════════════════════════════════
 //
 // Picks the strongest contributing factors (any S_* ≥ 0.85) and stitches
 // them into a single sentence that names the user's stated preference and
-// the TCO number. Intentionally short — under ~25 words.
+// the TCO number. Intentionally short, under ~25 words.
 function topMatchNarrative(result, answers) {
   const { vehicle, S_tco, S_range, S_charging, S_port, S_features, S_luxury, S_performance, S_storage, storageMax, zeroToSixty, tco } = result
   const prioritized = answers.priorities || []
@@ -626,7 +626,7 @@ function topMatchNarrative(result, answers) {
 
   if (S_tco       >= 0.85) reasons.push(`fits your budget at ${formatCurrency(tco.monthlyTco)}/mo`)
   if (S_range     >= 0.85) reasons.push(`covers your ${answers.roadTrip === 'often' ? 'frequent road trips' : 'driving range'}`)
-  if (S_performance >= 0.85 && prioritized.includes('performance')) reasons.push(zeroToSixty ? `is quick — ${zeroToSixty}s 0–60` : 'delivers the performance you want')
+  if (S_performance >= 0.85 && prioritized.includes('performance')) reasons.push(zeroToSixty ? `is quick, ${zeroToSixty}s 0–60` : 'delivers the performance you want')
   if (S_storage   >= 0.85 && prioritized.includes('storage')) reasons.push(storageMax ? `hauls ${Math.round(storageMax)} cu ft of cargo` : 'has the cargo room you want')
   if (S_features  >= 0.85 && (answers.lifestyle || []).length > 0) reasons.push('matches your must-have features')
   if (S_charging  >= 0.85) reasons.push('aligns with how you plan to charge')
@@ -635,7 +635,7 @@ function topMatchNarrative(result, answers) {
 
   // Always lead with the vehicle name; if nothing scored a true standout,
   // fall back to a generic but truthful sentence.
-  const lead = `Top pick — the ${vehicle.year} ${vehicle.make} ${vehicle.model}`
+  const lead = `Top pick, the ${vehicle.year} ${vehicle.make} ${vehicle.model}`
   if (reasons.length === 0) {
     return `${lead} scored highest overall on your priorities at ${formatCurrency(tco.monthlyTco)}/mo.`
   }
@@ -731,14 +731,14 @@ function NavButtons({ onBack, onNext, nextLabel = 'Continue →', nextDisabled =
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Stage 1 — Cargo size
+// Stage 1, Cargo size
 // ══════════════════════════════════════════════════════════════════
 
 function Stage1({ answers, setAnswer, onNext }) {
   return (
     <div>
       <h2 className="font-serif text-display-md text-ink mb-1">What do you need to fit?</h2>
-      <p className="text-ink-muted text-sm mb-6">Pick the biggest thing you'd regularly carry — we'll match you to the right size vehicle.</p>
+      <p className="text-ink-muted text-sm mb-6">Pick the biggest thing you'd regularly carry, we'll match you to the right size vehicle.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-2">
         {CARGO_OPTIONS.map(opt => {
           const active = answers.cargo === opt.value
@@ -779,7 +779,7 @@ function Stage1({ answers, setAnswer, onNext }) {
               </div>
 
               {/* Won't fit note */}
-              {opt.wontFit !== 'Nothing — this is the max' && (
+              {opt.wontFit !== 'Nothing, this is the max' && (
                 <p className="text-[11px] text-ink-subtle">
                   <span className="opacity-60">Won't quite fit:</span> {opt.wontFit}
                 </p>
@@ -794,10 +794,10 @@ function Stage1({ answers, setAnswer, onNext }) {
         })}
       </div>
 
-      {/* Body-type preference — optional narrowing on top of cargo size */}
+      {/* Body-type preference, optional narrowing on top of cargo size */}
       <div className="mt-5 mb-2">
         <p className="text-sm font-medium text-ink mb-1">Preferred body style <span className="text-ink-subtle font-normal text-xs">(optional)</span></p>
-        <p className="text-xs text-ink-muted mb-3">Pick one or more to keep results to those shapes — or leave blank for any.</p>
+        <p className="text-xs text-ink-muted mb-3">Pick one or more to keep results to those shapes, or leave blank for any.</p>
         <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
           {BODY_TYPE_OPTIONS.map(opt => {
             const sel = (answers.bodyTypePref || []).includes(opt.value)
@@ -827,7 +827,7 @@ function Stage1({ answers, setAnswer, onNext }) {
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Stage 2 — Budget & Affordability
+// Stage 2, Budget & Affordability
 // ══════════════════════════════════════════════════════════════════
 
 function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) {
@@ -849,7 +849,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
         setZipMsg({ type: 'ok', text: `Detected state: ${st}` })
       }
     } catch {
-      setZipMsg({ type: 'err', text: 'ZIP not recognized — using selected state.' })
+      setZipMsg({ type: 'err', text: 'ZIP not recognized, using selected state.' })
     } finally {
       setZipLoading(false)
     }
@@ -900,7 +900,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
           {totalSubsidy > 0 ? (
             <>
               <strong>Est. state incentives: ${totalSubsidy.toLocaleString()}</strong>
-              {' '}— state rebate for {stateCode} residents. Manufacturer cash rebates are applied per vehicle in results.
+              {' '}state rebate for {stateCode} residents. Manufacturer cash rebates are applied per vehicle in results.
             </>
           ) : (
             <>
@@ -911,7 +911,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
         </div>
       </div>
 
-      {/* Purchase type — drives the monthly-cost ranking AND the budget tiers */}
+      {/* Purchase type, drives the monthly-cost ranking AND the budget tiers */}
       <p className="text-sm font-medium text-ink mb-3">How do you plan to pay?</p>
       <div className="grid grid-cols-3 gap-3 mb-5">
         {PURCHASE_OPTIONS.map(opt => {
@@ -923,7 +923,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
               onClick={() => {
                 // Each pay plan has its own budget ladder (cash = sticker price,
                 // finance vs lease = different all-in monthly ranges), so any
-                // mode change invalidates the prior pick — clear it to re-pick.
+                // mode change invalidates the prior pick, clear it to re-pick.
                 if (opt.value !== (answers.purchaseMode || 'finance')) {
                   setAnswer('budgetTier', null)
                 }
@@ -943,7 +943,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
         })}
       </div>
 
-      {/* Lease term — only relevant when leasing. Shorter terms cost more per
+      {/* Lease term, only relevant when leasing. Shorter terms cost more per
           month but keep you in newer cars; the lease payment scales with it. */}
       {answers.purchaseMode === 'lease' && (
         <div className="mb-5">
@@ -971,7 +971,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
         </div>
       )}
 
-      {/* Budget tiers — total price for cash, monthly payment for finance/lease */}
+      {/* Budget tiers, total price for cash, monthly payment for finance/lease */}
       <p className="text-sm font-medium text-ink mb-3">
         {(answers.purchaseMode || 'finance') === 'cash'
           ? 'Budget before incentives (total price)'
@@ -995,7 +995,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
         ))}
       </div>
 
-      {/* Monthly TCO is always shown on the result cards now — the old
+      {/* Monthly TCO is always shown on the result cards now, the old
           show/hide toggle was tied to the (now-removed) gas-savings pill. */}
 
       <NavButtons onBack={onBack} onNext={onNext} nextDisabled={!answers.budgetTier} />
@@ -1004,7 +1004,7 @@ function Stage2({ answers, setAnswer, onNext, onBack, stateCode, stateRebate }) 
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Stage 3 — Driving habits & range
+// Stage 3, Driving habits & range
 // ══════════════════════════════════════════════════════════════════
 
 function Stage3({ answers, setAnswer, onNext, onBack }) {
@@ -1038,7 +1038,7 @@ function Stage3({ answers, setAnswer, onNext, onBack }) {
 
       {/* Road trip frequency */}
       <div className="mb-6">
-        <p className="text-sm font-medium text-ink mb-3">Road trips (&gt;150 miles) — how often?</p>
+        <p className="text-sm font-medium text-ink mb-3">Road trips (&gt;150 miles), how often?</p>
         <div className="grid grid-cols-3 gap-3">
           {ROAD_TRIP_OPTIONS.map(opt => (
             <button
@@ -1061,7 +1061,7 @@ function Stage3({ answers, setAnswer, onNext, onBack }) {
       {/* Minimum range floor */}
       <div className="mb-6">
         <p className="text-sm font-medium text-ink mb-1">Minimum range you'll accept</p>
-        <p className="text-xs text-ink-muted mb-3">A hard floor — vehicles (and trims) under this are pushed down, and we'll recommend a trim that clears it.</p>
+        <p className="text-xs text-ink-muted mb-3">A hard floor, vehicles (and trims) under this are pushed down, and we'll recommend a trim that clears it.</p>
         <div className="grid grid-cols-4 gap-2">
           {MIN_RANGE_OPTIONS.map(opt => {
             const active = (answers.minRange || 0) === opt.value
@@ -1100,7 +1100,7 @@ function Stage3({ answers, setAnswer, onNext, onBack }) {
             className="bg-status-yellow-bg border border-status-yellow/30 rounded-xl p-4 text-sm text-status-yellow"
           >
             <strong>Range tip:</strong> For first-time EV owners who road-trip frequently, we recommend at
-            least 310 miles of EPA range — enough to complete most highway trips with one or zero charging stops.
+            least 310 miles of EPA range, enough to complete most highway trips with one or zero charging stops.
             We'll apply this as a filter to your results.
           </motion.div>
         )}
@@ -1112,7 +1112,7 @@ function Stage3({ answers, setAnswer, onNext, onBack }) {
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Stage 4 — Charging infrastructure
+// Stage 4, Charging infrastructure
 // ══════════════════════════════════════════════════════════════════
 
 function Stage4({ answers, setAnswer, onNext, onBack }) {
@@ -1128,7 +1128,7 @@ function Stage4({ answers, setAnswer, onNext, onBack }) {
   return (
     <div>
       <h2 className="font-serif text-display-md text-ink mb-1">How will you charge?</h2>
-      <p className="text-ink-muted text-sm mb-6">Select all that apply — your charging situation is the biggest real-world cost driver.</p>
+      <p className="text-ink-muted text-sm mb-6">Select all that apply, your charging situation is the biggest real-world cost driver.</p>
 
       <div className="space-y-3 mb-5">
         {CHARGING_OPTIONS.map(opt => {
@@ -1164,7 +1164,7 @@ function Stage4({ answers, setAnswer, onNext, onBack }) {
         <div className="flex items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <p className="text-sm font-medium text-ink">Prioritize NACS connector</p>
-            <Tooltip text="NACS (North American Charging Standard) gives native access to Tesla Superchargers — 20,000+ locations in the US. CCS1 vehicles need an adapter (~$200). Most 2025 EVs ship with NACS now.">
+            <Tooltip text="NACS (North American Charging Standard) gives native access to Tesla Superchargers, 20,000+ locations in the US. CCS1 vehicles need an adapter (~$200). Most 2025 EVs ship with NACS now.">
               <span className="text-xs text-ink-subtle bg-border rounded-full px-1.5 py-0.5 cursor-help">?</span>
             </Tooltip>
           </div>
@@ -1181,7 +1181,7 @@ function Stage4({ answers, setAnswer, onNext, onBack }) {
 }
 
 // ══════════════════════════════════════════════════════════════════
-// Stage 5 — Lifestyle features
+// Stage 5, Lifestyle features
 // ══════════════════════════════════════════════════════════════════
 
 function Stage5({ answers, setAnswer, onNext, onBack }) {
@@ -1210,17 +1210,17 @@ function Stage5({ answers, setAnswer, onNext, onBack }) {
   return (
     <div>
       <h2 className="font-serif text-display-md text-ink mb-1">Any must-have features?</h2>
-      <p className="text-ink-muted text-sm mb-6">Select what matters to you — or skip this step if you don't have specific preferences.</p>
+      <p className="text-ink-muted text-sm mb-6">Select what matters to you, or skip this step if you don't have specific preferences.</p>
 
       {/* ── What matters most (priorities) ────────────────────────────── */}
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-1">
           <p className="text-sm font-medium text-ink">What matters most?</p>
-          <Tooltip text="Pick up to 3. Your choices boost how heavily we weight those factors when ranking — e.g. choosing Performance & Storage pushes quick, roomy vehicles to the top.">
+          <Tooltip text="Pick up to 3. Your choices boost how heavily we weight those factors when ranking, e.g. choosing Performance & Storage pushes quick, roomy vehicles to the top.">
             <span className="text-xs text-ink-subtle bg-border rounded-full px-1.5 py-0.5 cursor-help">?</span>
           </Tooltip>
         </div>
-        <p className="text-xs text-ink-muted mb-3">Choose up to {MAX_PRIORITIES} — we'll weight your results toward them.</p>
+        <p className="text-xs text-ink-muted mb-3">Choose up to {MAX_PRIORITIES}, we'll weight your results toward them.</p>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
           {PRIORITY_OPTIONS.map(opt => {
             const active = priorities.includes(opt.value)
@@ -1441,7 +1441,7 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
   )
 
   // The base TCO (from scoring) is the lowest/base style. Re-cost it for the
-  // SUGGESTED trim so the headline reflects the trim we actually recommend —
+  // SUGGESTED trim so the headline reflects the trim we actually recommend,
   // swap the payment (the part that varies by trim) and keep the shared
   // operating costs. Lease uses that trim's lease-calc monthly; finance uses an
   // estimate from the trim MSRP; cash has no payment.
@@ -1481,7 +1481,7 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
     <div className={`group card overflow-hidden relative ${isBest ? 'ring-1 ring-accent-lime' : ''}`}>
       {isBest && <div className="absolute top-0 left-0 bottom-0 w-1.5 z-10" style={{ background: 'linear-gradient(180deg,#CFF44A,#b9e22f)' }} />}
 
-      {/* Hero — Browse-style row: faded photo behind the name + stat row + extras */}
+      {/* Hero, Browse-style row: faded photo behind the name + stat row + extras */}
       <div className="relative px-5 sm:px-6 pt-5 pb-5 overflow-hidden">
         {imgSrc && (
           <img
@@ -1503,7 +1503,7 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
               </div>
               <div className="font-grotesk font-semibold text-[20px] tracking-tight leading-tight" style={{ textShadow: TS }}>{vehicle.year} {vehicle.make} {vehicle.model}</div>
             </div>
-            {/* Match % — top right */}
+            {/* Match %, top right */}
             <div className={`shrink-0 text-white text-center px-3 py-1.5 rounded-pill ${badgeColor}`}>
               <span className="font-grotesk text-sm font-bold">{pct}%</span>
               <span className="text-[10px] opacity-80 ml-1">match</span>
@@ -1522,22 +1522,22 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
             </button>
           </div>
 
-          {/* Stat row — matches Browse */}
+          {/* Stat row, matches Browse */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-3.5">
             <div><div className="text-nano font-bold uppercase tracking-wider text-ink-subtle mb-1">MSRP</div><div className="font-grotesk font-semibold text-lg text-ink-muted leading-none" style={{ textShadow: TS }}>{formatCurrency(vehicle.msrpFrom)}</div></div>
             <div><div className="text-nano font-bold uppercase tracking-wider text-brand-blue mb-1">Mo. TCO{trimMonthlyTco != null ? ' · trim' : ''}</div><div className="font-grotesk font-semibold text-lg text-brand-blue leading-none" style={{ textShadow: TS }}>{formatCurrency(displayMonthlyTco)}<span className="text-[11px] text-ink-subtle font-medium">/mo</span></div></div>
-            <div><div className="text-nano font-bold uppercase tracking-wider text-ink-subtle mb-1">Range</div><div className="font-grotesk font-semibold text-lg text-ink-muted leading-none" style={{ textShadow: TS }}>{vehicle.testedRange || vehicle.rangeEpa || '—'} mi</div></div>
+            <div><div className="text-nano font-bold uppercase tracking-wider text-ink-subtle mb-1">Range</div><div className="font-grotesk font-semibold text-lg text-ink-muted leading-none" style={{ textShadow: TS }}>{vehicle.testedRange || vehicle.rangeEpa || '-'} mi</div></div>
             <div><div className="text-nano font-bold uppercase tracking-wider text-ink-subtle mb-1">¢/mile</div><div className="font-grotesk font-semibold text-lg text-ink-muted leading-none" style={{ textShadow: TS }}>{tco.centsPerMile}¢</div></div>
           </div>
 
-          {/* Why-this-match narrative — only on the #1 result */}
+          {/* Why-this-match narrative, only on the #1 result */}
           {isBest && narrative && (
             <p className="mt-1.5 text-xs italic text-ink-muted leading-snug">
               {narrative}
             </p>
           )}
 
-          {/* Suggested trim — picked for the user's top priority */}
+          {/* Suggested trim, picked for the user's top priority */}
           {suggestedTrim && (
             <div className="mt-2 flex items-start gap-2 rounded-lg border border-brand-blue/20 bg-brand-blue-light/40 px-2.5 py-1.5">
               <span className="mt-0.5 w-1.5 h-1.5 rounded-full bg-brand-blue shrink-0" />
@@ -1553,7 +1553,7 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
           )}
 
           <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-2 text-[11px] text-ink-muted">
-            <span>{vehicle.testedRange || vehicle.rangeEpa || '—'} mi {vehicle.testedRange ? 'tested' : 'range'}</span>
+            <span>{vehicle.testedRange || vehicle.rangeEpa || '-'} mi {vehicle.testedRange ? 'tested' : 'range'}</span>
             <span>{formatCurrency(effectiveMsrp)} after incentives</span>
             {conditionalCash > 0 && (
               <span
@@ -1566,7 +1566,7 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
             {eaOffer && (
               <span
                 className="px-1.5 py-0.5 rounded-full border border-status-green/30 bg-status-green-bg text-status-green text-[10px] font-medium"
-                title={`${eaOffer.provider}: ${eaOffer.summary}. Enroll via ${eaOffer.enroll}.${tco.eaSavings ? ` ≈ ${formatCurrency(tco.eaSavings)}/mo reflected in charging.` : ''} Terms vary — verify.`}
+                title={`${eaOffer.provider}: ${eaOffer.summary}. Enroll via ${eaOffer.enroll}.${tco.eaSavings ? ` ≈ ${formatCurrency(tco.eaSavings)}/mo reflected in charging.` : ''} Terms vary, verify.`}
               >
                 Free EA charging{tco.eaSavings ? ` · −${formatCurrency(tco.eaSavings)}/mo` : ''}
               </span>
@@ -1580,7 +1580,7 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
             {vehicle.dataQuality === 'estimated' && (
               <span
                 className="px-1.5 py-0.5 rounded-full border border-status-yellow/30 bg-status-yellow-bg text-status-yellow text-[10px] font-medium"
-                title="Numbers are estimated from MSRP + battery — exact offers not yet scraped"
+                title="Numbers are estimated from MSRP + battery, exact offers not yet scraped"
               >
                 ⓘ Estimated
               </span>
@@ -1662,23 +1662,23 @@ function MatchCard({ result, rank, narrative, isExpanded, onToggle, onTestDrive,
 // Results view
 // ══════════════════════════════════════════════════════════════════
 
-// Result-aware compare fields — operate on the full match result (vehicle + tco + luxuryScore)
+// Result-aware compare fields, operate on the full match result (vehicle + tco + luxuryScore)
 const COMPARE_FIELDS = [
   { label: 'Monthly TCO',  key: r => formatCurrency(r.tco.monthlyTco) + '/mo',  emphasis: true },
   { label: 'Cost / mile',  key: r => r.tco.centsPerMile + '¢/mi (blended)',       emphasis: true },
   { label: '⚡ DCFC /mi',  key: r => r.tco.fastCentsPerMile + '¢/mi',            emphasis: false },
-  { label: 'Range',        key: r => r.vehicle.rangeEpa       ? `${r.vehicle.rangeEpa} mi` : '—' },
+  { label: 'Range',        key: r => r.vehicle.rangeEpa       ? `${r.vehicle.rangeEpa} mi` : '-' },
   { label: 'Real-world',   key: r => r.tco.efficiency.mi_per_kwh.toFixed(1) + ' mi/kWh' },
-  { label: 'Base MSRP',    key: r => r.vehicle.msrpFrom       ? formatCurrency(r.vehicle.msrpFrom) : '—' },
+  { label: 'Base MSRP',    key: r => r.vehicle.msrpFrom       ? formatCurrency(r.vehicle.msrpFrom) : '-' },
   { label: 'Luxury tier',  key: r => {
       const t = getLuxuryTier(r.luxuryScore)
-      return t ? `${t.label} (${r.luxuryScore}/10)` : '—'
+      return t ? `${t.label} (${r.luxuryScore}/10)` : '-'
     } },
-  { label: 'Charging Port', key: r => r.vehicle.chargingPort  || '—' },
-  { label: 'Drivetrain',    key: r => r.vehicle.drivetrains?.join(' / ') || '—' },
-  { label: 'Seating',       key: r => r.vehicle.seatingCapacity ? `${r.vehicle.seatingCapacity} seats` : '—' },
-  { label: 'Lease From',    key: r => r.vehicle.leaseFrom    ? `$${r.vehicle.leaseFrom}/mo`  : '—' },
-  { label: '0–60 mph',      key: r => r.vehicle.zeroToSixty  ? `${r.vehicle.zeroToSixty}s`   : '—' },
+  { label: 'Charging Port', key: r => r.vehicle.chargingPort  || '-' },
+  { label: 'Drivetrain',    key: r => r.vehicle.drivetrains?.join(' / ') || '-' },
+  { label: 'Seating',       key: r => r.vehicle.seatingCapacity ? `${r.vehicle.seatingCapacity} seats` : '-' },
+  { label: 'Lease From',    key: r => r.vehicle.leaseFrom    ? `$${r.vehicle.leaseFrom}/mo`  : '-' },
+  { label: '0–60 mph',      key: r => r.vehicle.zeroToSixty  ? `${r.vehicle.zeroToSixty}s`   : '-' },
 ]
 
 function Results({ matches, answers, onRestart, refinements, setRefinements }) {
@@ -1712,7 +1712,7 @@ function Results({ matches, answers, onRestart, refinements, setRefinements }) {
         <EstimateNotice className="mt-3" />
       </div>
 
-      {/* Local refinement sliders — pure post-processing, no API calls */}
+      {/* Local refinement sliders, pure post-processing, no API calls */}
       {matches.length > 0 && (
         <RefinePanel
           totalCount={matches.length}
@@ -1800,7 +1800,7 @@ function Results({ matches, answers, onRestart, refinements, setRefinements }) {
                       <td className="px-4 py-2 text-xs text-ink-subtle font-medium">Est. After Incentives</td>
                       {top3.map(r => (
                         <td key={r.vehicle.id} className="px-4 py-2 text-xs text-ink font-medium">
-                          ${r.effectiveMsrp > 0 ? r.effectiveMsrp.toLocaleString() : '—'}
+                          ${r.effectiveMsrp > 0 ? r.effectiveMsrp.toLocaleString() : '-'}
                         </td>
                       ))}
                     </tr>
@@ -1869,8 +1869,8 @@ const INITIAL_ANSWERS = {
   cargo: null,
   bodyTypePref: [],        // preferred body styles (empty = any)
   budgetTier: null,
-  purchaseMode: 'finance', // 'cash' | 'finance' | 'lease' — drives the TCO ranking
-  leaseTermMonths: 36,     // 24 | 36 — only used when purchaseMode === 'lease'
+  purchaseMode: 'finance', // 'cash' | 'finance' | 'lease', drives the TCO ranking
+  leaseTermMonths: 36,     // 24 | 36, only used when purchaseMode === 'lease'
   state: null,
   commuteMiles: 30,
   minRange: 0,             // hard minimum EPA range floor (0 = none)
@@ -1974,7 +1974,7 @@ export default function MatcherPage() {
   return (
     <>
       <Helmet>
-        <title>EV Matcher — Find Your Perfect Electric Vehicle | EVsense</title>
+        <title>EV Matcher, Find Your Perfect Electric Vehicle | EVsense</title>
         <meta
           name="description"
           content="Answer 5 quick questions and get matched with the best EV for your lifestyle, budget, and driving habits. Includes incentive estimates and real cost analysis."
@@ -1992,17 +1992,17 @@ export default function MatcherPage() {
           </AnimatePresence>
         ) : (
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
-            {/* Left — low-poly 3D car scene that re-poses per question */}
+            {/* Left, low-poly 3D car scene that re-poses per question */}
             <div className="relative rounded-[26px] overflow-hidden min-h-[520px] hidden lg:block">
               <div className="absolute -top-12 -left-10 w-64 h-64 rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle, rgba(47,91,255,.16), transparent 70%)' }} />
               <div className="absolute -bottom-14 -right-8 w-72 h-72 rounded-full pointer-events-none" style={{ background: 'radial-gradient(circle, rgba(207,244,74,.20), transparent 70%)' }} />
               <ev-car-scene mode={sceneMode} step={String(stage)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />
               <p className="absolute bottom-3 left-0 right-0 text-center text-[11px] italic text-ink-subtle/70 pointer-events-none select-none px-6">
-                sorry for the cheap animation — couldn&apos;t afford real assets
+                sorry for the cheap animation, couldn&apos;t afford real assets
               </p>
             </div>
 
-            {/* Right — progress + question */}
+            {/* Right, progress + question */}
             <div className="flex flex-col justify-center">
               <span className="text-xs font-bold uppercase tracking-widest text-ink-subtle mb-3">Step {stage} of {TOTAL_STAGES}</span>
               <div className="h-1.5 rounded-full bg-surface-sunken overflow-hidden mb-8">

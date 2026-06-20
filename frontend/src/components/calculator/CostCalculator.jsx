@@ -48,7 +48,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
     .reduce((sum, i) => sum + getEffectiveIncentiveAmount(i, msrp), 0)
   const usingManualOverride = calc.manualIncentiveOverride != null && calc.manualIncentiveOverride >= 0
 
-  // Effective sales tax — user override takes precedence over state default
+  // Effective sales tax, user override takes precedence over state default
   const stateTaxPercent = stateData?.salesTaxPercent ?? 0
   const effectiveTaxPercent = calc.salesTaxOverride ?? stateTaxPercent
   const usingTaxOverride = calc.salesTaxOverride != null
@@ -61,7 +61,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
   return (
     <div className="space-y-6">
 
-      {/* NY (ZIP 10005) manufacturer offer — applied to the numbers below */}
+      {/* NY (ZIP 10005) manufacturer offer, applied to the numbers below */}
       {nyOffer && !nyOffer.stale && (nyOffer.cashRebate || nyOffer.apr != null || nyOffer.monthlyPayment || nyOffer.leaseCash) && (
         <div className="rounded-lg border border-brand-blue/30 bg-brand-blue-light px-3 py-2 text-[12px] leading-snug text-brand-blue">
           <div className="flex items-start gap-2">
@@ -77,11 +77,11 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
                       : 'no advertised lease payment'
                   }.</>
                 : offerMode === 'finance'
-                  ? <>{nyOffer.apr != null ? `${nyOffer.apr}% APR for ${nyOffer.termMonths} mo` : 'APR offer'}{nyOffer.cashRebate ? ` + ${formatCurrency(nyOffer.cashRebate)} cash` : ''}{nyCashApplied ? ' — applied below.' : '.'}</>
-                  : <>{formatCurrency(nyOffer.cashRebate)} manufacturer cash{nyCashApplied ? ' — applied to the price below.' : ' (your manual override is in use).'}</>}
+                  ? <>{nyOffer.apr != null ? `${nyOffer.apr}% APR for ${nyOffer.termMonths} mo` : 'APR offer'}{nyOffer.cashRebate ? ` + ${formatCurrency(nyOffer.cashRebate)} cash` : ''}{nyCashApplied ? ', applied below.' : '.'}</>
+                  : <>{formatCurrency(nyOffer.cashRebate)} manufacturer cash{nyCashApplied ? ', applied to the price below.' : ' (your manual override is in use).'}</>}
             </span>
           </div>
-          {/* Lease cash — informational popup; NOT applied to any total. */}
+          {/* Lease cash, informational popup; NOT applied to any total. */}
           {nyOffer.leaseCash > 0 && (
             <div className="mt-1 ml-6 text-[11px] text-status-yellow">
               <span
@@ -90,7 +90,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
               >
                 +{formatCurrency(nyOffer.leaseCash)} lease cash ⓘ
               </span>{' '}
-              <span>shown for reference — not included in totals.</span>
+              <span>shown for reference, not included in totals.</span>
             </div>
           )}
         </div>
@@ -129,7 +129,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
                 className="input-base"
               >
                 {vehicle.trims.map((t, i) => (
-                  <option key={i} value={i}>{t.name} — {formatCurrency(t.msrp)}</option>
+                  <option key={i} value={i}>{t.name}, {formatCurrency(t.msrp)}</option>
                 ))}
               </select>
             </div>
@@ -179,9 +179,9 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
               />
             </div>
             {usingUserPrice ? (
-              <p className="text-xs text-status-green mt-1">Using your online price of {formatCurrency(calc.userInputPrice)} — MSRP is {formatCurrency(baseMsrp)}.</p>
+              <p className="text-xs text-status-green mt-1">Using your online price of {formatCurrency(calc.userInputPrice)}, MSRP is {formatCurrency(baseMsrp)}.</p>
             ) : (
-              <p className="text-xs text-ink-subtle mt-1">Found this car listed online for a different price? Paste it here — specs stay the same.</p>
+              <p className="text-xs text-ink-subtle mt-1">Found this car listed online for a different price? Paste it here, specs stay the same.</p>
             )}
           </div>
         </div>
@@ -201,7 +201,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
           </a>
         </div>
 
-        {/* Manual override — Edmunds link prompts them to look up real numbers */}
+        {/* Manual override, Edmunds link prompts them to look up real numbers */}
         <div className={`rounded-lg border p-4 mb-4 ${usingManualOverride ? 'border-brand-blue bg-brand-blue-light' : 'border-border bg-surface-sunken'}`}>
           <div className="flex items-center gap-2 mb-1.5">
             <span className="text-lg">✏</span>
@@ -238,8 +238,8 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
           </div>
           <p className={`text-xs mt-1.5 ${usingManualOverride ? 'text-brand-blue' : 'text-ink-subtle'}`}>
             {usingManualOverride
-              ? `Using your figure of ${formatCurrency(calc.manualIncentiveOverride)} — the estimates below are ignored in totals.`
-              : `Site estimate for ${stateData?.name || 'your state'}: ${formatCurrency(estimatedStateTotal)} (state only — federal credit repealed).`}
+              ? `Using your figure of ${formatCurrency(calc.manualIncentiveOverride)}, the estimates below are ignored in totals.`
+              : `Site estimate for ${stateData?.name || 'your state'}: ${formatCurrency(estimatedStateTotal)} (state only, federal credit repealed).`}
           </p>
         </div>
 
@@ -266,7 +266,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
 
         {/* State incentives */}
         <div className="mb-4">
-          <h4 className="font-medium text-ink text-sm mb-2">State Incentives — {stateData?.name}</h4>
+          <h4 className="font-medium text-ink text-sm mb-2">State Incentives, {stateData?.name}</h4>
           {stateIncentives.filter((i) => i.appliesTo?.includes('new')).length > 0 ? (
             <div className="space-y-2">
               {stateIncentives.filter((i) => i.appliesTo?.includes('new')).map((incentive, idx) => {
@@ -279,10 +279,10 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
                       <div className="font-medium text-sm text-ink">{incentive.name}</div>
                       {incentive.notes && <p className="text-xs text-ink-muted mt-0.5">{incentive.notes}</p>}
                       {overCap && incentive.reducedAmount != null && (
-                        <p className="text-xs text-status-yellow mt-0.5">Reduced to {formatCurrency(incentive.reducedAmount)} — MSRP is at or above the {formatCurrency(incentive.maxMsrp)} cap.</p>
+                        <p className="text-xs text-status-yellow mt-0.5">Reduced to {formatCurrency(incentive.reducedAmount)}, MSRP is at or above the {formatCurrency(incentive.maxMsrp)} cap.</p>
                       )}
                       {overCap && incentive.reducedAmount == null && (
-                        <p className="text-xs text-status-red mt-0.5">Not eligible — MSRP exceeds the {formatCurrency(incentive.maxMsrp)} program maximum.</p>
+                        <p className="text-xs text-status-red mt-0.5">Not eligible, MSRP exceeds the {formatCurrency(incentive.maxMsrp)} program maximum.</p>
                       )}
                     </div>
                     {eff > 0 && (
@@ -300,7 +300,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
             </div>
           ) : (
             <div className="bg-surface-sunken rounded-lg p-4 text-sm text-ink-muted">
-              No state EV rebates found for {stateData?.name}. Programs change frequently — verify with your state energy office.
+              No state EV rebates found for {stateData?.name}. Programs change frequently, verify with your state energy office.
             </div>
           )}
         </div>
@@ -350,7 +350,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
               <div className="flex justify-between text-xs text-ink-subtle mt-0.5">
                 <span>
                   {usingTaxOverride
-                    ? `Override — ${stateData?.name} default is ${stateTaxPercent}%`
+                    ? `Override, ${stateData?.name} default is ${stateTaxPercent}%`
                     : `${stateData?.name} state rate (auto-filled)`}
                 </span>
                 <span>= {formatCurrency(effectiveTaxPercent / 100 * msrp)}</span>
@@ -398,7 +398,7 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
         {/* Annual mileage */}
         <div className="sm:col-span-2">
           <label className="section-label block mb-1.5">
-            Annual Mileage — {userPrefs.annualMileage?.toLocaleString()} miles/year
+            Annual Mileage, {userPrefs.annualMileage?.toLocaleString()} miles/year
           </label>
           <input
             type="range" min={3000} max={25000} step={1000}
@@ -411,11 +411,11 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
           </div>
         </div>
 
-        {/* Ownership years — hidden for leases (term is fixed by the lease contract) */}
+        {/* Ownership years, hidden for leases (term is fixed by the lease contract) */}
         {calc.mode !== 'lease' && (
           <div className="sm:col-span-2">
             <label className="section-label block mb-1.5">
-              Ownership Period — {userPrefs.ownershipYears} year{userPrefs.ownershipYears !== 1 ? 's' : ''}
+              Ownership Period, {userPrefs.ownershipYears} year{userPrefs.ownershipYears !== 1 ? 's' : ''}
             </label>
             <input
               type="range" min={1} max={10} step={1}
@@ -505,11 +505,11 @@ function AcquisitionTab({ vehicle, calc, set, userPrefs, stateData, stateIncenti
   )
 }
 
-// Live True Cost preview bar — pinned to bottom of the card on tab 0
+// Live True Cost preview bar, pinned to bottom of the card on tab 0
 function LiveCostBar({ tco, mode, ownershipYears, leaseTermMonths = 36 }) {
   const modeLabel = mode === 'finance' ? 'Loan' : mode === 'lease' ? 'Lease' : 'Cash'
   // A lease only runs for its term, so the "total" should cover the lease period
-  // (2 yr for 24 mo, 3 yr for 36 mo) — not the 5-year ownership horizon used for
+  // (2 yr for 24 mo, 3 yr for 36 mo), not the 5-year ownership horizon used for
   // cash/finance. Total over the lease = all monthly costs across the term plus
   // the upfront due-at-signing (minus the first month, already in the monthly).
   const isLease = mode === 'lease'
@@ -645,7 +645,7 @@ export default function CostCalculator({ vehicle }) {
       // EV lease cash (lease-only) → applied to the lease cap cost so it lowers
       // the monthly TCO. Prefer the Edmunds lease-CALCULATOR cash for the
       // selected trim+term (the figure shown in the lease-basis banner), which
-      // varies per trim — not the flat amount from the older incentives scrape.
+      // varies per trim, not the flat amount from the older incentives scrape.
       leaseCashIncentive: calc.mode === 'lease'
         ? (scrapedLease?.cashIncentives ?? nyOffer?.leaseCash ?? 0)
         : 0,
@@ -676,28 +676,28 @@ export default function CostCalculator({ vehicle }) {
       </div>
 
       <div className="p-5">
-        {/* Edmunds lease basis — residual seeded into the lease math below */}
+        {/* Edmunds lease basis, residual seeded into the lease math below */}
         {calc.mode === 'lease' && scrapedLease && (
           <div className="mb-4 flex items-start gap-2 rounded-lg border border-brand-blue/30 bg-brand-blue-light px-3 py-2 text-[12px] leading-snug text-brand-blue">
             <span aria-hidden="true"></span>
             <span>
               <strong>Edmunds lease basis</strong> ({leaseTermSel} mo, {LEASE_ASSUMPTIONS}):
               {' '}{scrapedLease.residualValue}% residual{scrapedLease.taxesAndFees != null ? `, ${formatCurrency(scrapedLease.taxesAndFees)} taxes & fees` : ''}{scrapedLease.cashIncentives ? `, ${formatCurrency(scrapedLease.cashIncentives)} cash incentive` : ''}. Residual and money factor are applied below; edit either to match your actual quote.
-              {scrapedLease.moneyFactor != null && <> The seeded MF ({scrapedLease.moneyFactor.toFixed(5)}, {(scrapedLease.moneyFactor * 2400).toFixed(2)}% APR) is the Edmunds market rate — manufacturer promotional programs often use a much lower MF.</>}
+              {scrapedLease.moneyFactor != null && <> The seeded MF ({scrapedLease.moneyFactor.toFixed(5)}, {(scrapedLease.moneyFactor * 2400).toFixed(2)}% APR) is the Edmunds market rate, manufacturer promotional programs often use a much lower MF.</>}
               {nyOffer?.leaseCash > 0 && (
                 <> <strong>−{formatCurrency(nyOffer.leaseCash)} lease cash</strong> applied to the cap cost.</>
               )}
             </span>
           </div>
         )}
-        {/* Complimentary Electrify America charging — reflected in charging cost */}
+        {/* Complimentary Electrify America charging, reflected in charging cost */}
         {eaOffer && (
           <div className="mb-4 flex items-start gap-2 rounded-lg border border-status-green/30 bg-status-green-bg px-3 py-2 text-[12px] leading-snug text-status-green">
             <span aria-hidden="true"></span>
             <span>
               <strong>{eaOffer.provider} complimentary charging:</strong> {eaOffer.summary}.
               {eaSavings.monthly > 0 && <> About <strong>{formatCurrency(eaSavings.monthly)}/mo</strong> of free DC fast charging is reflected in the charging cost (amortized over {userPrefs.ownershipYears || 5} yrs).</>}
-              {' '}Enroll via {eaOffer.enroll}. Terms vary — verify the current offer.
+              {' '}Enroll via {eaOffer.enroll}. Terms vary, verify the current offer.
             </span>
           </div>
         )}
@@ -714,7 +714,7 @@ export default function CostCalculator({ vehicle }) {
         {activeTab === 3 && <SummaryTab tco={tco} vehicle={vehicle} calc={calc} userPrefs={userPrefs} effectiveProgramSavings={effectiveProgramSavings} />}
       </div>
 
-      {/* Live True Cost bar — persists across every tab so the running
+      {/* Live True Cost bar, persists across every tab so the running
           total stays visible while editing charging, ongoing costs, etc. */}
       <LiveCostBar tco={tco} mode={calc.mode} ownershipYears={userPrefs.ownershipYears} leaseTermMonths={calc.leaseTermMonths} />
     </div>
@@ -771,7 +771,7 @@ function PurchaseTab({ vehicle, calc, set, userPrefs, effectiveProgramSavings, p
             >
               {vehicle.trims.map((t, i) => (
                 <option key={i} value={i}>
-                  {t.name} — {formatCurrency(t.msrp)}{t.specs?.range ? ` · ${t.specs.range} mi` : ''}
+                  {t.name}, {formatCurrency(t.msrp)}{t.specs?.range ? ` · ${t.specs.range} mi` : ''}
                 </option>
               ))}
             </select>
@@ -828,11 +828,11 @@ function PurchaseTab({ vehicle, calc, set, userPrefs, effectiveProgramSavings, p
           </div>
           {usingUserPrice ? (
             <p className="text-xs text-status-green mt-1">
-              Using your online price of {formatCurrency(calc.userInputPrice)} — MSRP is {formatCurrency(baseMsrp)}.
+              Using your online price of {formatCurrency(calc.userInputPrice)}, MSRP is {formatCurrency(baseMsrp)}.
             </p>
           ) : (
             <p className="text-xs text-ink-subtle mt-1">
-              Found this car listed online for a different price? Paste it here — specs stay the same.
+              Found this car listed online for a different price? Paste it here, specs stay the same.
             </p>
           )}
         </div>
@@ -857,7 +857,7 @@ function PurchaseTab({ vehicle, calc, set, userPrefs, effectiveProgramSavings, p
         {/* Annual mileage */}
         <div className="sm:col-span-2">
           <label className="section-label block mb-1.5">
-            Annual Mileage — {userPrefs.annualMileage?.toLocaleString()} miles/year
+            Annual Mileage, {userPrefs.annualMileage?.toLocaleString()} miles/year
           </label>
           <input
             type="range"
@@ -872,11 +872,11 @@ function PurchaseTab({ vehicle, calc, set, userPrefs, effectiveProgramSavings, p
           </div>
         </div>
 
-        {/* Ownership years — hidden for leases (term is fixed by the lease contract) */}
+        {/* Ownership years, hidden for leases (term is fixed by the lease contract) */}
         {calc.mode !== 'lease' && (
           <div className="sm:col-span-2">
             <label className="section-label block mb-1.5">
-              Ownership Period — {userPrefs.ownershipYears} year{userPrefs.ownershipYears !== 1 ? 's' : ''}
+              Ownership Period, {userPrefs.ownershipYears} year{userPrefs.ownershipYears !== 1 ? 's' : ''}
             </label>
             <input
               type="range"
@@ -975,7 +975,7 @@ function FinanceLeaseTab({ vehicle, calc, set, userPrefs, stateData, tco }) {
       <div className="text-center py-8 text-ink-muted">
         <div className="text-4xl mb-3"></div>
         <p className="font-medium text-ink">Cash Purchase</p>
-        <p className="text-sm mt-1">No financing — see the True Cost Summary tab for total costs.</p>
+        <p className="text-sm mt-1">No financing, see the True Cost Summary tab for total costs.</p>
       </div>
     )
   }
@@ -1150,7 +1150,7 @@ function LeaseInputs({ calc, set, trim, msrp, vehicle, userPrefs, stateData, tco
               return (
                 <>
                   <span className={`badge badge-${pct.color}`}>{pct.label}</span>
-                  <span className={`badge badge-${ls.color}`}>LeaseHackr Score: {ld.leaseHackrScore.toFixed(1)}% — {ls.label}</span>
+                  <span className={`badge badge-${ls.color}`}>LeaseHackr Score: {ld.leaseHackrScore.toFixed(1)}%, {ls.label}</span>
                 </>
               )
             })()}
@@ -1169,7 +1169,7 @@ function LeaseInputs({ calc, set, trim, msrp, vehicle, userPrefs, stateData, tco
             <div className="bg-status-yellow-bg border border-status-yellow/30 rounded-lg p-3 text-xs text-status-yellow mt-2">
               <strong>Possible dealer markup:</strong> The money factor you entered ({mf.toFixed(5)}) is
               more than 0.0001 above the advertised buy-rate ({buyRateMf.toFixed(5)}).
-              Ask your dealer for the <em>buy-rate money factor</em> — dealers can mark it up and
+              Ask your dealer for the <em>buy-rate money factor</em>, dealers can mark it up and
               keep the spread as profit.
             </div>
           )}
@@ -1182,7 +1182,7 @@ function LeaseInputs({ calc, set, trim, msrp, vehicle, userPrefs, stateData, tco
               low rate. The residual shown ({residual}%) is below the typical market
               benchmark of {benchmark.min}–{benchmark.max}% for this vehicle class and term.
               A lower residual means you're paying more depreciation per month.
-              Run the numbers — the attractive rate may not beat a standard lease with a higher residual.
+              Run the numbers, the attractive rate may not beat a standard lease with a higher residual.
             </div>
           )}
         </div>
@@ -1206,7 +1206,7 @@ function IncentivesTab({ vehicle, calc, set, userPrefs, stateData, stateIncentiv
 
   return (
     <div className="space-y-6">
-      {/* Manual override — the user's real number beats our estimates */}
+      {/* Manual override, the user's real number beats our estimates */}
       <div className={`rounded-lg border p-4 ${usingManualOverride ? 'border-brand-blue bg-brand-blue-light' : 'border-border bg-surface-sunken'}`}>
         <div className="flex items-center gap-2 mb-1.5">
           <span className="text-lg">✏</span>
@@ -1243,8 +1243,8 @@ function IncentivesTab({ vehicle, calc, set, userPrefs, stateData, stateIncentiv
         </div>
         <p className={`text-xs mt-1.5 ${usingManualOverride ? 'text-brand-blue' : 'text-ink-subtle'}`}>
           {usingManualOverride
-            ? `Using your figure of ${formatCurrency(calc.manualIncentiveOverride)} — the estimates below are ignored in totals.`
-            : `Site estimate for ${stateData?.name || 'your state'}: ${formatCurrency(estimatedStateTotal)} (state only — federal credit repealed).`}
+            ? `Using your figure of ${formatCurrency(calc.manualIncentiveOverride)}, the estimates below are ignored in totals.`
+            : `Site estimate for ${stateData?.name || 'your state'}: ${formatCurrency(estimatedStateTotal)} (state only, federal credit repealed).`}
         </p>
       </div>
 
@@ -1275,7 +1275,7 @@ function IncentivesTab({ vehicle, calc, set, userPrefs, stateData, stateIncentiv
 
       {/* State incentives */}
       <div>
-        <h3 className="font-semibold text-ink mb-3">State Incentives — {stateData?.name}</h3>
+        <h3 className="font-semibold text-ink mb-3">State Incentives, {stateData?.name}</h3>
         {stateIncentives.length > 0 ? (
           <div className="space-y-2">
             {stateIncentives.filter((i) => i.appliesTo?.includes('new')).map((incentive, idx) => (
@@ -1302,7 +1302,7 @@ function IncentivesTab({ vehicle, calc, set, userPrefs, stateData, stateIncentiv
           </div>
         ) : (
           <div className="bg-surface-sunken rounded-lg p-4 text-sm text-ink-muted">
-            No state EV rebates found for {stateData?.name}. State incentive programs change frequently — verify directly with your state energy office.
+            No state EV rebates found for {stateData?.name}. State incentive programs change frequently, verify directly with your state energy office.
           </div>
         )}
       </div>
@@ -1580,7 +1580,7 @@ function ShareCalcButton({ vehicle, calc, userPrefs }) {
       const url = buildShareUrl(vehicle.id, calc, userPrefs)
       if (navigator.share && /mobile|android|iphone/i.test(navigator.userAgent)) {
         await navigator.share({
-          title: `${vehicle.year} ${vehicle.make} ${vehicle.model} — Cost Estimate`,
+          title: `${vehicle.year} ${vehicle.make} ${vehicle.model}, Cost Estimate`,
           text: `My cost estimate for the ${vehicle.year} ${vehicle.make} ${vehicle.model} on EVsense`,
           url,
         })
@@ -1603,7 +1603,7 @@ function ShareCalcButton({ vehicle, calc, userPrefs }) {
       {status === 'copied' ? (
         <>✓ Link copied!</>
       ) : status === 'error' ? (
-        <>Copy failed — try again</>
+        <>Copy failed, try again</>
       ) : (
         <>Share this calculation</>
       )}
@@ -1701,12 +1701,12 @@ function SummaryTab({ tco, vehicle, calc, userPrefs, effectiveProgramSavings }) 
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 pt-2 border-t border-border">
         <ShareCalcButton vehicle={vehicle} calc={calc} userPrefs={userPrefs} />
         <p className="text-xs text-ink-subtle">
-          Share a link with your exact scenario pre-filled — useful for comparing quotes with a partner or saving for later.
+          Share a link with your exact scenario pre-filled, useful for comparing quotes with a partner or saving for later.
         </p>
       </div>
 
       <p className="text-xs text-ink-subtle border-t border-border pt-3">
-        Pricing data sourced from public manufacturer websites. Dealer program savings are estimates —
+        Pricing data sourced from public manufacturer websites. Dealer program savings are estimates,
         actual amounts depend on current regional offers and dealer participation.
         All calculations are estimates. Last data update: January 2025.
       </p>

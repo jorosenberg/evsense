@@ -40,7 +40,7 @@ export function useVehicleDetail(vehicleId) {
           return
         }
       }
-    } catch { /* sessionStorage unavailable — continue */ }
+    } catch { /* sessionStorage unavailable, continue */ }
 
     // Edmunds EV Range Test results (optional). Attach testedRange/consumption.
     async function attachTested(data) {
@@ -82,7 +82,7 @@ export function useVehicleDetail(vehicleId) {
           return
         }
       } catch {
-        // Network error — fall through to Firestore
+        // Network error, fall through to Firestore
       }
 
       // 3) Firestore (only if configured)

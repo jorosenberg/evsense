@@ -1,5 +1,5 @@
 /**
- * leaseCalcData.js — Edmunds lease-calculator data (scraped per trim + term).
+ * leaseCalcData.js, Edmunds lease-calculator data (scraped per trim + term).
  *
  * Loads /data/lease_calc_by_vehicle.json (from scrape_lease_calculator.py) which
  * holds, per vehicle → Edmunds style → 24/36-mo term:
@@ -10,7 +10,7 @@
  * numbers), so we IGNORE it and compute the lease payment ourselves from the
  * trustworthy residual % + selling price via the app's lease math.
  *
- * Assumptions baked into the scrape: Excellent credit, 10,000 mi/yr — surfaced
+ * Assumptions baked into the scrape: Excellent credit, 10,000 mi/yr, surfaced
  * in the UI so users know the basis.
  */
 
@@ -105,13 +105,13 @@ export function leaseCalcFor(rec, trimName, term = 36) {
   // Term-strict: only use the requested term's scraped data. Previously this
   // fell back to the other term (36↔24) when one was missing, which could show
   // a 24-month residual under a "36 months" label. Returning null instead lets
-  // callers render "—" for the missing term rather than a mislabeled figure.
+  // callers render "-" for the missing term rather than a mislabeled figure.
   const e = style?.[String(term)]
   if (!e || !e.msrp) return null
   const usedTerm = term
 
   // Money factor for THIS trim+term, from the scrape (or derived from a scraped
-  // APR: MF = APR% / 2400). Null when the scrape didn't capture one — callers
+  // APR: MF = APR% / 2400). Null when the scrape didn't capture one, callers
   // then keep their own default rather than being seeded with a placeholder.
   // The payment math still falls back to DEFAULT_MF so the computed monthly is
   // unchanged until real per-term money factors are scraped.
@@ -147,7 +147,7 @@ export function leaseCalcFor(rec, trimName, term = 36) {
   }
 }
 
-/** Both terms (24 & 36) for a trim — used by the detail-page panel. */
+/** Both terms (24 & 36) for a trim, used by the detail-page panel. */
 export function leaseCalcBothTerms(rec, trimName) {
   return { '24': leaseCalcFor(rec, trimName, 24), '36': leaseCalcFor(rec, trimName, 36) }
 }

@@ -1,5 +1,5 @@
 /**
- * costPerMile.test.js — tests for the cost-per-mile and luxury score utilities.
+ * costPerMile.test.js, tests for the cost-per-mile and luxury score utilities.
  */
 import { describe, it, expect } from 'vitest'
 import {
@@ -28,7 +28,7 @@ describe('costPerMile', () => {
   it('formatCentsPerMile shows tenth-cent precision', () => {
     expect(formatCentsPerMile(0.034)).toBe('3.4¢')
     expect(formatCentsPerMile(0.125)).toBe('12.5¢')
-    expect(formatCentsPerMile(null)).toBe('—')
+    expect(formatCentsPerMile(null)).toBe('-')
   })
 })
 

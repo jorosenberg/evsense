@@ -1,16 +1,16 @@
 /**
- * luxuryScore.js — Per-vehicle luxury rating + feature list
+ * luxuryScore.js, Per-vehicle luxury rating + feature list
  *
  * Each curated vehicle has a hand-tuned features array. The luxury score
  * (0-10) is derived from feature weights so adding/removing features stays
  * traceable and the score is reproducible.
  *
  * Tier labels:
- *   9-10  Ultra-luxury    — Maybach-tier interior, every box checked
- *   7-8   Luxury          — Genuine premium materials, full driver-assist
- *   5-6   Premium         — Above-average comfort + good tech
- *   3-4   Standard        — Mainstream EV with expected basics
- *   1-2   Economy / Utility — Stripped or work-oriented
+ *   9-10  Ultra-luxury   , Maybach-tier interior, every box checked
+ *   7-8   Luxury         , Genuine premium materials, full driver-assist
+ *   5-6   Premium        , Above-average comfort + good tech
+ *   3-4   Standard       , Mainstream EV with expected basics
+ *   1-2   Economy / Utility, Stripped or work-oriented
  */
 
 // ─── Feature weights ─────────────────────────────────────────────────────────
@@ -201,7 +201,7 @@ export const VEHICLE_FEATURES = {
     'hud', 'highway-assist', 'auto-park', '360-camera',
   ],
   // NOTE: Tesla upholstery is synthetic (vegan), not genuine leather, and
-  // Full Self-Driving is a paid software add-on — neither is standard equipment,
+  // Full Self-Driving is a paid software add-on, neither is standard equipment,
   // so both are excluded here. This keeps the Model 3 a (correct) Premium-tier
   // car rather than over-scoring it into Luxury/Ultra.
   'tesla-model3-2026': [
@@ -318,7 +318,7 @@ export const VEHICLE_FEATURES = {
 /**
  * Calculate luxury score (0-10) from a feature list.
  * Score is clamped to 10. The 0-10 scale is normalized against a 20-point
- * baseline — calibrated so flagships (Lucid Air, BMW i7, Model S/X, EQS) reach
+ * baseline, calibrated so flagships (Lucid Air, BMW i7, Model S/X, EQS) reach
  * Ultra (≥8.5) while mainstream EVs land in Premium/Standard. A 14-point
  * baseline saturated the curve (~40% of the fleet scored Ultra), which is why
  * a loaded Model 3 was mislabeled "Ultra-luxury".

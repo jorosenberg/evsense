@@ -5,7 +5,7 @@ import { useVehicles } from '../hooks/useVehicles'
 import { vehicleImgSrc } from '../utils/vehicleImage'
 import { estimateFinanceMonthly } from '../utils/quickTco'
 
-// Vehicles surfaced in the recommendations dial — each gets a superlative note.
+// Vehicles surfaced in the recommendations dial, each gets a superlative note.
 const REC_PICKS = [
   { id: 'hyundai-ioniq-6-2026', tag: 'Best value' },
   { id: 'tesla-model3-2026', tag: 'Best sedan' },
@@ -19,7 +19,7 @@ const REC_PICKS = [
   { id: 'tesla-models-2026', tag: 'Quickest 0–60' },
 ]
 
-const money = (n) => (n ? `$${Math.round(n).toLocaleString()}` : '—')
+const money = (n) => (n ? `$${Math.round(n).toLocaleString()}` : '-')
 
 function Arrow({ stroke = '#6E8BFF', size = '40%' }) {
   return (
@@ -55,7 +55,7 @@ function ActionCard({ to, title, sub, icon, accent }) {
   )
 }
 
-// Recommendations dial — wide, short, chrome-free cards. The hovered one fans
+// Recommendations dial, wide, short, chrome-free cards. The hovered one fans
 // forward in 3D and gets a gradient pop; the rest recede and desaturate. The
 // superlative note shows on every card; MSRP/range expand on hover.
 function RecCard({ vehicle, tag, idx, focusIdx, groupHover, onEnter }) {
@@ -91,7 +91,7 @@ function RecCard({ vehicle, tag, idx, focusIdx, groupHover, onEnter }) {
         transition: 'transform .46s cubic-bezier(.2,.9,.25,1), opacity .36s ease, filter .36s ease, box-shadow .36s ease, background .36s ease',
       }}
     >
-      {/* Photo — fades in saturation + brightness toward the hovered/focused state */}
+      {/* Photo, fades in saturation + brightness toward the hovered/focused state */}
       <div className="shrink-0 w-[112px] h-12 grid place-items-center overflow-hidden">
         {src
           ? <img src={src} alt={name} loading="lazy"
@@ -113,7 +113,7 @@ function RecCard({ vehicle, tag, idx, focusIdx, groupHover, onEnter }) {
         <div className="text-xs text-ink-subtle whitespace-nowrap capitalize">{vehicle.bodyStyle || 'EV'}</div>
       </div>
 
-      {/* Details — slide open on hover (highlighted "from /mo" + MSRP + range + arrow) */}
+      {/* Details, slide open on hover (highlighted "from /mo" + MSRP + range + arrow) */}
       <div
         className="flex items-center gap-4 overflow-hidden"
         style={{
@@ -124,7 +124,7 @@ function RecCard({ vehicle, tag, idx, focusIdx, groupHover, onEnter }) {
       >
         <div className="whitespace-nowrap rounded-lg bg-brand-blue/15 border border-brand-blue/30 px-2.5 py-1">
           <div className="text-nano text-brand-indigo font-bold uppercase tracking-wide">From / mo</div>
-          <div className="font-grotesk font-bold text-sm text-brand-indigo">{monthly ? `$${monthly.toLocaleString()}` : '—'}</div>
+          <div className="font-grotesk font-bold text-sm text-brand-indigo">{monthly ? `$${monthly.toLocaleString()}` : '-'}</div>
         </div>
         <div className="whitespace-nowrap">
           <div className="text-nano text-ink-subtle font-bold uppercase tracking-wide">MSRP</div>
@@ -132,7 +132,7 @@ function RecCard({ vehicle, tag, idx, focusIdx, groupHover, onEnter }) {
         </div>
         <div className="whitespace-nowrap">
           <div className="text-nano text-ink-subtle font-bold uppercase tracking-wide">Range</div>
-          <div className="font-grotesk font-semibold text-sm">{vehicle.rangeEpa ? `${vehicle.rangeEpa} mi` : '—'}</div>
+          <div className="font-grotesk font-semibold text-sm">{vehicle.rangeEpa ? `${vehicle.rangeEpa} mi` : '-'}</div>
         </div>
         <div className="shrink-0 w-9 h-9 rounded-full bg-brand-blue grid place-items-center">
           <Arrow stroke="#fff" size="14" />
@@ -148,7 +148,7 @@ export default function HomePage() {
   const stageRef = useRef(null)
   const dialRef = useRef(null)
 
-  // Mouse parallax — write normalized offset to CSS vars on the stage so the
+  // Mouse parallax, write normalized offset to CSS vars on the stage so the
   // layers translate via calc() with no React re-renders.
   useEffect(() => {
     const stage = stageRef.current
@@ -175,7 +175,7 @@ export default function HomePage() {
   const groupHover = focusIdx >= 0
   const evCount = allVehicles.filter((v) => !v.comingSoon).length || 0
 
-  // Hovering a card scrolls the dial so that card centers — so reaching the
+  // Hovering a card scrolls the dial so that card centers, so reaching the
   // bottom car scrolls down and pulls the lower picks into view.
   useEffect(() => {
     const el = dialRef.current
@@ -191,8 +191,8 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>EVsense — Find the EV that actually fits your life</title>
-        <meta name="description" content="EVsense shows the real cost of owning an electric vehicle — charging, incentives, depreciation and fees. A portfolio project built from public data." />
+        <title>EVsense, Find the EV that actually fits your life</title>
+        <meta name="description" content="EVsense shows the real cost of owning an electric vehicle, charging, incentives, depreciation and fees. A portfolio project built from public data." />
       </Helmet>
 
       <section ref={stageRef} className="relative overflow-hidden min-h-[calc(100vh-4rem)] lg:h-[calc(100vh-4rem)]" style={{ '--px': 0, '--py': 0 }}>
@@ -236,7 +236,7 @@ export default function HomePage() {
           </div>
           {[
             { v: `${evCount}+`, l: 'EVs compared head-to-head', d: '0s' },
-            { v: '50', l: 'states — incentives & fees built in', d: '.4s' },
+            { v: '50', l: 'states, incentives & fees built in', d: '.4s' },
             { v: 'Real $/mo', l: 'true cost to own, not just MSRP', d: '.8s' },
           ].map((s) => (
             <div key={s.l} className="animate-float bg-surface-raised/90 border border-border rounded-2xl px-4 py-3 shadow-card-hover w-[238px]" style={{ animationDelay: s.d }}>
@@ -248,10 +248,12 @@ export default function HomePage() {
 
         {/* Headline */}
         <div className="relative z-[5] lg:absolute lg:top-[7%] px-6 sm:px-10 pt-10 lg:pt-0 max-w-[600px]" style={px(-8, -5)}>
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-pill bg-surface-raised border border-border text-[12.5px] font-semibold text-brand-indigo mb-5 shadow-card">
-            <span className="w-[7px] h-[7px] rounded-full bg-status-green" style={{ boxShadow: '0 0 0 3px rgba(0,200,110,.2)' }} />
-            Real ownership costs, not sticker prices
-          </div>
+          <img
+            src="/data/edmunds/tesla-models-2026.avif"
+            alt="Tesla Model S"
+            className="h-16 w-auto mb-5 select-none pointer-events-none"
+            style={{ filter: 'drop-shadow(0 8px 22px rgba(0,0,0,.5))' }}
+          />
           <h1 className="font-display text-white" style={{ fontSize: 'clamp(48px, 5.6vw, 92px)', lineHeight: 0.99, letterSpacing: '-0.015em', textShadow: '0 4px 34px rgba(0,0,0,.55)' }}>
             Find the EV<br />that <span className="italic text-[#C9D6FF]">actually</span><br />fits your{' '}
             <span className="relative whitespace-nowrap italic">

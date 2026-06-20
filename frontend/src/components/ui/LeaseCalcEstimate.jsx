@@ -1,18 +1,18 @@
 /**
- * LeaseCalcEstimate — shows the Edmunds lease-calculator-based estimate.
+ * LeaseCalcEstimate, shows the Edmunds lease-calculator-based estimate.
  *
  * Driven by scraped residual % + price (see utils/leaseCalcData). The monthly is
  * computed from those, so it's labeled an estimate, with the scrape assumptions
  * (Excellent credit, 10k mi/yr) surfaced.
  *
  * variant:
- *   "chip"  — compact pill for Browse / Matcher cards
- *   "panel" — full 24 & 36-mo breakdown for the detail page
+ *   "chip" , compact pill for Browse / Matcher cards
+ *   "panel", full 24 & 36-mo breakdown for the detail page
  */
 import { leaseCalcFor, leaseCalcBothTerms } from '../../utils/leaseCalcData'
 
 function fmt(n) {
-  return n == null ? '—' : `$${Math.round(n).toLocaleString()}`
+  return n == null ? '-' : `$${Math.round(n).toLocaleString()}`
 }
 
 export default function LeaseCalcEstimate({ rec, trimName = null, term = 36, variant = 'chip' }) {
@@ -47,7 +47,7 @@ export default function LeaseCalcEstimate({ rec, trimName = null, term = 36, var
                       )}
                     </dl>
                   </>
-                ) : <div className="text-sm text-ink-subtle">—</div>}
+                ) : <div className="text-sm text-ink-subtle">-</div>}
               </div>
             )
           })}

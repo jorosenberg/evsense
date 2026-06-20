@@ -7,7 +7,7 @@
  * `null` and the UI falls back to state-average electricity rates.
  *
  * OCM returns charging station POIs with metadata about connectors,
- * networks, and usage cost. Cost data on OCM is user-reported and patchy —
+ * networks, and usage cost. Cost data on OCM is user-reported and patchy,
  * we treat it as a sanity check on top of a network-average lookup.
  */
 

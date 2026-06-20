@@ -1,5 +1,5 @@
 /**
- * DriveAwayBreakdown — "What you'll actually pay at the dealer"
+ * DriveAwayBreakdown, "What you'll actually pay at the dealer"
  *
  * Shows a full itemized breakdown from MSRP → drive-away price,
  * including all the fees consumers don't expect until they're at the desk.
@@ -52,7 +52,7 @@ function LineItem({ label, value, sign = '+', isSubtotal = false, isSavings = fa
         isSubtotal ? 'text-ink font-semibold' : 'text-ink'
       }`}>
         {isSavings && value > 0 ? '−' : sign !== '+' ? sign + ' ' : '+ '}
-        {value > 0 ? formatCurrency(value) : value === 0 ? '—' : formatCurrency(Math.abs(value))}
+        {value > 0 ? formatCurrency(value) : value === 0 ? '-' : formatCurrency(Math.abs(value))}
       </div>
     </div>
   )
@@ -78,7 +78,7 @@ export default function DriveAwayBreakdown({ vehicle, stateAbbr = 'TX' }) {
 
   // Price before tax
   const priceBeforeTax = msrp + destinationCharge + docFee
-  // Sales tax applies to different bases in different states — approximate
+  // Sales tax applies to different bases in different states, approximate
   const taxBase = taxExemption ? 0 : priceBeforeTax
   const salesTax = Math.round(taxBase * (taxRate / 100))
 
@@ -126,7 +126,7 @@ export default function DriveAwayBreakdown({ vehicle, stateAbbr = 'TX' }) {
                 <LineItem label={`Dealer doc fee (${stateAbbr} avg)`} value={docFee} tooltip="doc fee" />
 
                 {taxExemption ? (
-                  <LineItem label={`Sales tax (${taxRate}%) — EXEMPT in ${stateAbbr}`} value={0} isSavings dimmed />
+                  <LineItem label={`Sales tax (${taxRate}%), EXEMPT in ${stateAbbr}`} value={0} isSavings dimmed />
                 ) : (
                   <LineItem label={`Sales tax (${taxRate}%)`} value={salesTax} />
                 )}

@@ -1,5 +1,5 @@
 /**
- * Vehicle safety ratings — NHTSA and IIHS
+ * Vehicle safety ratings, NHTSA and IIHS
  * Sources: nhtsa.gov/ratings, iihs.org/ratings
  * Last verified: 2025-2026 model year data
  *

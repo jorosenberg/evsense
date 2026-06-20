@@ -1,5 +1,5 @@
 /**
- * NearbyChargersWidget — "Find DCFC chargers near you"
+ * NearbyChargersWidget, "Find DCFC chargers near you"
  *
  * Shows up to 5 nearby DC Fast Charging stations for a given vehicle,
  * sourced from Open Charge Map (openchargedmap.org).
@@ -8,7 +8,7 @@
  *   1. Browser Geolocation API (primary)
  *   2. ZIP code entry → Nominatim geocode (fallback)
  *
- * No mapping library required — stations shown as a card list with
+ * No mapping library required, stations shown as a card list with
  * distance, connector types, power output, and Google Maps deep-links.
  */
 import { useState, useCallback } from 'react'
@@ -225,7 +225,7 @@ export default function NearbyChargersWidget({ vehicle }) {
         <h3 className="font-semibold text-ink">Nearby DCFC Charging Stations</h3>
         <p className="text-xs text-ink-muted mt-0.5">
           DC Fast Chargers within 25 miles
-          {vehiclePort && ` — filtered for ${vehiclePort} compatible stations`}
+          {vehiclePort && `, filtered for ${vehiclePort} compatible stations`}
         </p>
       </div>
 
@@ -275,7 +275,7 @@ export default function NearbyChargersWidget({ vehicle }) {
           </div>
         )}
 
-        {/* Already have location — show refresh controls compactly */}
+        {/* Already have location, show refresh controls compactly */}
         {location && (
           <div className="flex items-center justify-between gap-2 text-xs text-ink-muted">
             <span>Showing results near <span className="font-medium text-ink">{location.label}</span></span>

@@ -1,24 +1,24 @@
 /**
- * quickTco.js — Lightweight TCO calculator for card display
+ * quickTco.js, Lightweight TCO calculator for card display
  *
  * The full TCO calculator (tcoCalculator.js) needs the entire calculator
- * state — too heavy to instantiate on every card render. This module gives
+ * state, too heavy to instantiate on every card render. This module gives
  * a quick "good enough" monthly TCO using sensible defaults so we can show
  * the all-in monthly cost upfront, prominently, on every vehicle card.
  *
  * Components (monthly):
- *   • Payment       — lease (preferred) or finance estimate (60mo, 6% APR)
- *   • Charging      — blended home/L2/DCFC based on charging mix
- *   • Insurance     — vehicle.insuranceEstimateAnnual or fallback by body class
- *   • Maintenance   — $50/mo (EV average per AAA 2024)
- *   • Reg + road fee — from stateFeesData
+ *   • Payment      , lease (preferred) or finance estimate (60mo, 6% APR)
+ *   • Charging     , blended home/L2/DCFC based on charging mix
+ *   • Insurance    , vehicle.insuranceEstimateAnnual or fallback by body class
+ *   • Maintenance  , $50/mo (EV average per AAA 2024)
+ *   • Reg + road fee, from stateFeesData
  */
 
 import { getCostBreakdown, blendedCostPerMile } from './costPerMile'
 import { STATE_FEES } from './stateFeesData'
 import { eaMonthlyChargingSavings } from './electrifyAmerica'
 
-// Default monthly estimates (USD) — used when no vehicle-specific data
+// Default monthly estimates (USD), used when no vehicle-specific data
 const DEFAULT_INSURANCE_BY_BODY = {
   sedan:     150,
   suv:       160,
@@ -47,16 +47,16 @@ export function estimateFinanceMonthly(msrp) {
 /**
  * Quick monthly TCO + cost per mile, suitable for card display.
  *
- * @param {object} vehicle — from vehicles_summary.json (or detail page)
+ * @param {object} vehicle, from vehicles_summary.json (or detail page)
  * @param {object} opts
  * @param {string} [opts.stateCode='TX']
  * @param {number} [opts.annualMiles=12000]
  * @param {object} [opts.chargingMix={home:80, publicL2:10, dcFast:10}]
- * @param {number} [opts.homeRateOverride] — ¢/kWh
- * @param {number} [opts.dcfcRateOverride] — $/kWh (e.g. from OCM)
- * @param {number} [opts.l2RateOverride] — $/kWh public Level 2
- * @param {number} [opts.subscriptionMonthly=0] — flat charging-network $/mo
- * @param {'lease'|'finance'} [opts.mode='lease'] — which payment to use
+ * @param {number} [opts.homeRateOverride], ¢/kWh
+ * @param {number} [opts.dcfcRateOverride], $/kWh (e.g. from OCM)
+ * @param {number} [opts.l2RateOverride], $/kWh public Level 2
+ * @param {number} [opts.subscriptionMonthly=0], flat charging-network $/mo
+ * @param {'lease'|'finance'} [opts.mode='lease'], which payment to use
  * @returns {{
  *   monthlyTco: number,
  *   payment: number,
@@ -86,7 +86,7 @@ export function quickTco(vehicle, opts = {}) {
   } = opts
 
   // ── Payment ──
-  // Cash buyers carry no monthly payment — their monthly TCO is operating
+  // Cash buyers carry no monthly payment, their monthly TCO is operating
   // costs only, so ranking falls to range/efficiency/sticker (the budget
   // penalty in scoreVehicle still penalizes over-budget sticker prices).
   let payment = 0
@@ -137,7 +137,7 @@ export function quickTco(vehicle, opts = {}) {
     ? eaMonthlyChargingSavings({
         offer: eaOffer,
         annualMiles,
-        // breakdown.efficiency is an object — use its numeric mi/kWh.
+        // breakdown.efficiency is an object, use its numeric mi/kWh.
         milesPerKwh: breakdown.efficiency?.mi_per_kwh || vehicle.milesPerKwh || 3.5,
         dcFastSharePct: chargingMix?.dcFast ?? DEFAULT_MIX.dcFast,
         dcfcRate: breakdown.dcfc.ratePerKwh,
@@ -176,7 +176,7 @@ export function quickTco(vehicle, opts = {}) {
     fees: Math.round(fees),
     costPerMile: blended,
     centsPerMile: Number((blended * 100).toFixed(1)),
-    // Pure DC fast charging cost per mile — useful as a "worst case / road trip" figure.
+    // Pure DC fast charging cost per mile, useful as a "worst case / road trip" figure.
     // Uses the user's customized DCFC rate if set, otherwise the national average.
     fastCostPerMile: breakdown.dcfc.costPerMile,
     fastCentsPerMile: Number((breakdown.dcfc.costPerMile * 100).toFixed(1)),

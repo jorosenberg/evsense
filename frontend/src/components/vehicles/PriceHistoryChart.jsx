@@ -55,7 +55,7 @@ export default function PriceHistoryChart({ priceHistory = [], currentMsrp, make
         <p className="text-sm font-medium text-ink mb-1">Price History</p>
         <p className="text-xs text-ink-muted">
           {data.length === 1
-            ? `Current MSRP: ${formatCurrency(data[0].msrp)} — price history will appear after multiple scrape runs.`
+            ? `Current MSRP: ${formatCurrency(data[0].msrp)}, price history will appear after multiple scrape runs.`
             : 'No price history available yet for this vehicle.'}
         </p>
       </div>
@@ -187,7 +187,7 @@ export default function PriceHistoryChart({ priceHistory = [], currentMsrp, make
 }
 
 function formatChartDate(isoString) {
-  if (!isoString) return '—'
+  if (!isoString) return '-'
   const d = new Date(isoString)
   return d.toLocaleDateString('en-US', { month: 'short', year: '2-digit' })
 }

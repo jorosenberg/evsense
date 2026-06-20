@@ -200,12 +200,12 @@ input[type='range']::-moz-range-thumb {
 .ev-scroll::-webkit-scrollbar { height: 8px; width: 8px; }
 .ev-scroll::-webkit-scrollbar-thumb { background: #38415A; border-radius: 999px; }
 
-/* Stale / notice banner — dark */
+/* Stale / notice banner, dark */
 .stale-banner {
   @apply flex items-center gap-2 text-sm px-4 py-2 bg-status-yellow-bg border-b border-status-yellow/40 text-status-yellow;
 }
 
-/* Skeleton shimmer — dark */
+/* Skeleton shimmer, dark */
 @keyframes shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }

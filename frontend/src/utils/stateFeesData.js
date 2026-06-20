@@ -1,5 +1,5 @@
 /**
- * State fees data — all 50 states + DC
+ * State fees data, all 50 states + DC
  * Includes: sales tax, registration, title, inspection, EV surcharge,
  * annual EV road fee, and whether the state taxes full cap cost at lease inception.
  *

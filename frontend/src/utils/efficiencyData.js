@@ -1,19 +1,19 @@
 /**
- * efficiencyData.js — Real-world efficiency lookup per vehicle
+ * efficiencyData.js, Real-world efficiency lookup per vehicle
  *
  * Sources:
  *  • EPA combined: from manufacturer + monroney sticker
  *  • Highway (70mph constant): Edmunds EV Range Test
  *      https://www.edmunds.com/car-news/electric-car-range-and-consumption-epa-vs-edmunds.html
  *  • City (regen-heavy urban cycle): ev-database.org
- *      https://ev-database.org/  (Real range — City — Mild Weather)
+ *      https://ev-database.org/  (Real range, City, Mild Weather)
  *  • Edmunds tested combined: Edmunds 70mph + city blend
  *
  * Units: mi/kWh (higher = more efficient = cheaper to drive)
  *
  * NOTE: Edmunds tested values are typically 8-15% WORSE than EPA combined.
  * City values are typically 10-20% BETTER than highway due to regen braking.
- * These figures are the truth users feel at the plug — EPA is the optimistic
+ * These figures are the truth users feel at the plug, EPA is the optimistic
  * sticker number; we expose all three so they can pick which scenario fits.
  */
 
@@ -169,7 +169,7 @@ export const EFFICIENCY_DATA = {
  * when the vehicle isn't in our hand-curated set.
  *
  * @param {string} vehicleId
- * @param {number} [epaFallback] — if no entry exists, use this EPA value with ratios
+ * @param {number} [epaFallback], if no entry exists, use this EPA value with ratios
  * @returns {{ epa: number, hwy: number, city: number, edmunds: number, epaRange?: number, edmundsRange?: number, source: 'curated'|'estimated' }}
  */
 export function getEfficiency(vehicleId, epaFallback = null) {

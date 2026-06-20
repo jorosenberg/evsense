@@ -115,7 +115,7 @@ export default function QuickEstimateCard({ vehicle, onExpand }) {
         {/* Annual mileage */}
         <div>
           <label className="section-label block mb-1.5">
-            Annual Mileage — {userPrefs.annualMileage?.toLocaleString()} mi/yr
+            Annual Mileage, {userPrefs.annualMileage?.toLocaleString()} mi/yr
           </label>
           <input
             type="range" min={5000} max={25000} step={1000}
@@ -186,7 +186,7 @@ export default function QuickEstimateCard({ vehicle, onExpand }) {
           onClick={onExpand}
           className="w-full btn-primary justify-center py-3 text-sm"
         >
-          Full Calculator — 7 tabs →
+          Full Calculator, 7 tabs →
         </button>
         <p className="text-center text-xs text-ink-subtle mt-2">
           Includes lease calculator, dealer programs, depreciation & more

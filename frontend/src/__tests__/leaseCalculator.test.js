@@ -44,7 +44,7 @@ const base = {
 }
 
 // ─── Core monthly payment ─────────────────────────────────────────────────────
-describe('calculateLeasePayment — core monthly math', () => {
+describe('calculateLeasePayment, core monthly math', () => {
   it('produces correct adjustedCapCost', () => {
     const r = calculateLeasePayment(base)
     // grossCapCost = 48000 + 695 + 499 = 49194
@@ -88,7 +88,7 @@ describe('calculateLeasePayment — core monthly math', () => {
 })
 
 // ─── Selling price vs MSRP discount ──────────────────────────────────────────
-describe('calculateLeasePayment — selling price effect', () => {
+describe('calculateLeasePayment, selling price effect', () => {
   it('lower selling price reduces monthly payment', () => {
     const atMsrp = calculateLeasePayment({ ...base, sellingPrice: 50000 })
     const discounted = calculateLeasePayment({ ...base, sellingPrice: 46000 })
@@ -103,7 +103,7 @@ describe('calculateLeasePayment — selling price effect', () => {
 })
 
 // ─── Rebates & credits ────────────────────────────────────────────────────────
-describe('calculateLeasePayment — rebates and federal credit', () => {
+describe('calculateLeasePayment, rebates and federal credit', () => {
   it('state rebate applied to cap reduces adjustedCapCost', () => {
     const noRebate = calculateLeasePayment(base)
     const withRebate = calculateLeasePayment({ ...base, stateRebate: 2000 })
@@ -127,7 +127,7 @@ describe('calculateLeasePayment — rebates and federal credit', () => {
 })
 
 // ─── Money factor & MSD ───────────────────────────────────────────────────────
-describe('calculateLeasePayment — money factor and MSDs', () => {
+describe('calculateLeasePayment, money factor and MSDs', () => {
   it('lower money factor reduces monthly payment', () => {
     const high = calculateLeasePayment({ ...base, moneyFactor: 0.00200 })
     const low  = calculateLeasePayment({ ...base, moneyFactor: 0.00050 })
@@ -155,7 +155,7 @@ describe('calculateLeasePayment — money factor and MSDs', () => {
 })
 
 // ─── Cap cost taxed states (TX, MN, OH) ───────────────────────────────────────
-describe('calculateLeasePayment — cap cost taxed states', () => {
+describe('calculateLeasePayment, cap cost taxed states', () => {
   it('leaseCapCostTaxed=true charges upfront tax instead of monthly tax', () => {
     const normal = calculateLeasePayment({ ...base, salesTaxRate: 0.0625, leaseCapCostTaxed: false })
     const capTaxed = calculateLeasePayment({ ...base, salesTaxRate: 0.0625, leaseCapCostTaxed: true })
@@ -170,7 +170,7 @@ describe('calculateLeasePayment — cap cost taxed states', () => {
 })
 
 // ─── 1% rule and LeaseHackr score ────────────────────────────────────────────
-describe('calculateLeasePayment — 1% rule and LH score', () => {
+describe('calculateLeasePayment, 1% rule and LH score', () => {
   it('percentageRule = totalMonthly / MSRP * 100', () => {
     const r = calculateLeasePayment(base)
     expect(r.percentageRule).toBeCloseTo((r.totalMonthly / base.msrp) * 100, 4)
@@ -190,7 +190,7 @@ describe('calculateLeasePayment — 1% rule and LH score', () => {
 })
 
 // ─── One-pay lease ────────────────────────────────────────────────────────────
-describe('calculateLeasePayment — one-pay lease', () => {
+describe('calculateLeasePayment, one-pay lease', () => {
   it('returns onePay object when isOnePay=true', () => {
     const r = calculateLeasePayment({ ...base, isOnePay: true })
     expect(r.onePay).not.toBeNull()

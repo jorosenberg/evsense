@@ -1,5 +1,5 @@
 /**
- * refinePanel.test.js — Verifies the pure `applyRefinements()` filter logic.
+ * refinePanel.test.js, Verifies the pure `applyRefinements()` filter logic.
  */
 import { describe, it, expect } from 'vitest'
 import { applyRefinements, REFINE_DEFAULTS } from '../components/matcher/RefinePanel.jsx'

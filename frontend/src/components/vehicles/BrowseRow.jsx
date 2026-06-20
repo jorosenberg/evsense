@@ -1,9 +1,9 @@
 /**
- * BrowseRow — full-width vehicle row.
+ * BrowseRow, full-width vehicle row.
  *
  * Hover behaviour: the car photo sits faded behind the name by default; on
  * hover it un-fades and lands with its base right on the "specs line" (the top
- * border of the spec drawer), directly below the name + range — both of which
+ * border of the spec drawer), directly below the name + range, both of which
  * carry a heavy text-shadow so they stay readable over the image. The spec
  * drawer also reveals a selectable trim list (name · MSRP · range); picking one
  * updates this card AND persists (shared with the detail page via the
@@ -22,7 +22,7 @@ import { useLeaseCalc } from '../../utils/leaseCalcData'
 import { resolveCardEconomics } from '../../utils/cardTco'
 import { vehicleImgSrc } from '../../utils/vehicleImage'
 
-const fmt = (n) => (n || n === 0 ? formatCurrency(n) : '—')
+const fmt = (n) => (n || n === 0 ? formatCurrency(n) : '-')
 const SHADOW = '0 2px 14px rgba(8,10,16,0.95), 0 1px 3px rgba(8,10,16,0.9)'
 
 function Stat({ label, value, accent, dot, shadow }) {
@@ -109,7 +109,7 @@ export default function BrowseRow({ vehicle }) {
   const src = vehicleImgSrc(vehicle, 800)
   const name = `${vehicle.make} ${vehicle.model}`
   const rating = vehicle.expertRating != null ? Number(vehicle.expertRating).toFixed(1) : null
-  const accel = vehicle.zeroToSixty ? `${vehicle.zeroToSixty}s` : '—'
+  const accel = vehicle.zeroToSixty ? `${vehicle.zeroToSixty}s` : '-'
   const tagline = [displayRange ? `${displayRange} mi EPA` : null, vehicle.chargingPort].filter(Boolean).join(' · ')
 
   const yrs = ownershipYears || 5
@@ -126,7 +126,7 @@ export default function BrowseRow({ vehicle }) {
       onMouseEnter={() => setHovered(true)}
       className="group relative overflow-hidden rounded-[22px] cursor-pointer transition-colors duration-200 hover:bg-surface-raised/60"
     >
-      {/* Car photo — anchored to the whole card so on hover it moves + shrinks
+      {/* Car photo, anchored to the whole card so on hover it moves + shrinks
           down into the spec drawer's left gutter (it transposes, not fades). */}
       {src && (
         <img
@@ -160,7 +160,7 @@ export default function BrowseRow({ vehicle }) {
           <div className="flex-1 hidden md:grid grid-cols-4 gap-3.5 min-w-0">
             <Stat label="MSRP" value={fmt(displayMsrp)} shadow />
             <Stat label="Mo. TCO" value={<>{fmt(tco?.monthlyTco)}<span className="text-[11px] text-ink-subtle font-medium">/mo</span></>} accent dot shadow />
-            <Stat label="Range" value={vehicle.rangeEpa ? `up to ${vehicle.rangeEpa} mi` : '—'} shadow />
+            <Stat label="Range" value={vehicle.rangeEpa ? `up to ${vehicle.rangeEpa} mi` : '-'} shadow />
             <Stat label="0–60" value={accel} shadow />
           </div>
 
@@ -188,30 +188,30 @@ export default function BrowseRow({ vehicle }) {
         <div className="relative z-[1] md:hidden grid grid-cols-4 gap-2 mt-4">
           <Stat label="MSRP" value={fmt(displayMsrp)} shadow />
           <Stat label="Mo. TCO" value={fmt(tco?.monthlyTco)} accent dot shadow />
-          <Stat label="Range" value={vehicle.rangeEpa ? `up to ${vehicle.rangeEpa} mi` : '—'} shadow />
+          <Stat label="Range" value={vehicle.rangeEpa ? `up to ${vehicle.rangeEpa} mi` : '-'} shadow />
           <Stat label="0–60" value={accel} shadow />
         </div>
       </div>
 
-      {/* Spec drawer — on hover the photo transposes here: small + crisp, left of the details */}
+      {/* Spec drawer, on hover the photo transposes here: small + crisp, left of the details */}
       <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all duration-300 ease-out">
         <div className="overflow-hidden">
           {/* Left gutter (sm+) reserved for the photo that moves + shrinks into place on hover */}
           <div className="border-t border-border px-5 sm:px-7 sm:pl-[180px] py-5">
             <div className="min-w-0">
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                <SpecCell label="Power" value={vehicle.horsepower ? `${vehicle.horsepower} hp` : '—'} />
-                <SpecCell label="Battery" value={vehicle.batteryKwh ? `${vehicle.batteryKwh} kWh` : '—'} />
-                <SpecCell label="Fast charge" value={vehicle.chargingSpeedDcFastKw ? `${vehicle.chargingSpeedDcFastKw} kW` : (vehicle.chargingPort || '—')} />
-                <SpecCell label="Drivetrain" value={vehicle.drivetrains?.join(' / ') || '—'} />
-                <SpecCell label="Seats" value={vehicle.seatingCapacity || '—'} />
-                <SpecCell label="Efficiency" value={vehicle.milesPerKwh ? `${vehicle.milesPerKwh} mi/kWh` : '—'} />
+                <SpecCell label="Power" value={vehicle.horsepower ? `${vehicle.horsepower} hp` : '-'} />
+                <SpecCell label="Battery" value={vehicle.batteryKwh ? `${vehicle.batteryKwh} kWh` : '-'} />
+                <SpecCell label="Fast charge" value={vehicle.chargingSpeedDcFastKw ? `${vehicle.chargingSpeedDcFastKw} kW` : (vehicle.chargingPort || '-')} />
+                <SpecCell label="Drivetrain" value={vehicle.drivetrains?.join(' / ') || '-'} />
+                <SpecCell label="Seats" value={vehicle.seatingCapacity || '-'} />
+                <SpecCell label="Efficiency" value={vehicle.milesPerKwh ? `${vehicle.milesPerKwh} mi/kWh` : '-'} />
               </div>
 
-              {/* Trims — click to select; choice persists and updates the card */}
+              {/* Trims, click to select; choice persists and updates the card */}
               {trims.length > 1 && (
                 <div data-stop onClick={(e) => e.stopPropagation()} className="mt-4">
-                  <div className="text-nano text-ink-subtle font-bold uppercase tracking-wide mb-2">Trims — tap to set this card</div>
+                  <div className="text-nano text-ink-subtle font-bold uppercase tracking-wide mb-2">Trims, tap to set this card</div>
                   <div className="flex flex-wrap gap-2">
                     {trims.map((t, i) => {
                       const active = i === selectedTrimIndex

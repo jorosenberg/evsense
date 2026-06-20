@@ -27,7 +27,7 @@ async function detectState(setState) {
       return
     }
   } catch {
-    // Silently fall through — ip-api may be unavailable or HTTPS required
+    // Silently fall through, ip-api may be unavailable or HTTPS required
   }
   // Default to New York
   setState('NY', 'default')

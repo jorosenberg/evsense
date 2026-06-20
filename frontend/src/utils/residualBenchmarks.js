@@ -1,7 +1,7 @@
 /**
  * Market residual value benchmarks by vehicle class and lease term.
  * Used by lease calculator subvention warning system.
- * Source: ALG (J.D. Power), market observations — approximate only.
+ * Source: ALG (J.D. Power), market observations, approximate only.
  * Last updated: 2025-01
  */
 export const RESIDUAL_BENCHMARKS = {

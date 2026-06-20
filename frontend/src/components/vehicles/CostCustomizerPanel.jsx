@@ -1,10 +1,10 @@
 /**
- * CostCustomizerPanel.jsx — Live cost controls for the Browse page.
+ * CostCustomizerPanel.jsx, Live cost controls for the Browse page.
  *
  * Sits in the right rail of the Browse grid. Every control writes straight to
  * the userPreferencesStore, and because each VehicleCard reads those same
  * fields through quickTco, the "/mo all-in" and ¢/mi figures on every card
- * recompute the instant a slider moves — no API calls, no page reload.
+ * recompute the instant a slider moves, no API calls, no page reload.
  *
  * Mirrors the perfect-car-picker (Matcher) RefinePanel interaction model:
  * collapsible header, slider rows, an active-count badge, and a reset link.
@@ -85,7 +85,7 @@ const PURCHASE_MODES = [
 const DEFAULT_L2_CENTS = 22
 const DEFAULT_DCFC_CENTS = 45
 
-// Store defaults — used to compute the "N changes" active badge.
+// Store defaults, used to compute the "N changes" active badge.
 const PREF_DEFAULTS = Object.freeze({
   purchaseMode: 'finance',
   leaseTermMonths: 36,
@@ -123,11 +123,11 @@ function Slider({ label, hint, min, max, step, value, onChange, format, isActive
 }
 
 // Detection status shape:
-//   null                               — not run yet
-//   'detecting'                        — in-progress
-//   { source:'nearby', l2, dcfc, total } — found stations
-//   { source:'default' }               — geolocation denied / API failed
-//   { source:'error' }                 — unexpected failure
+//   null                              , not run yet
+//   'detecting'                       , in-progress
+//   { source:'nearby', l2, dcfc, total }, found stations
+//   { source:'default' }              , geolocation denied / API failed
+//   { source:'error' }                , unexpected failure
 
 export default function CostCustomizerPanel() {
   const [open, setOpen] = useState(true)
@@ -224,7 +224,7 @@ export default function CostCustomizerPanel() {
           </svg>
           <span className="w-2 h-2 rounded-full bg-accent-lime" />
           <span className="text-sm font-semibold text-ink">Customize your costs</span>
-          <span className="hidden sm:inline text-[11px] text-ink-subtle font-normal">— every price updates to how you really drive</span>
+          <span className="hidden sm:inline text-[11px] text-ink-subtle font-normal">Every price updates to how you really drive</span>
           {activeCount > 0 && (
             <span className="text-[11px] font-medium bg-brand-blue text-white rounded-full px-2 py-0.5">
               {activeCount}
@@ -260,14 +260,14 @@ export default function CostCustomizerPanel() {
             </div>
             <p className="text-[10px] text-ink-subtle mt-1">
               {purchaseMode === 'cash'
-                ? 'Cash buyers carry no monthly payment — cards show operating cost only.'
+                ? 'Cash buyers carry no monthly payment, cards show operating cost only.'
                 : purchaseMode === 'lease'
                   ? 'Uses advertised lease offers where available.'
                   : 'Uses advertised finance offers, or a 60-mo / 6% APR estimate.'}
             </p>
           </div>
 
-          {/* Lease term — only when leasing */}
+          {/* Lease term, only when leasing */}
           {purchaseMode === 'lease' && (
             <div>
               <label className="text-xs font-medium text-ink block mb-1.5">Lease term</label>
@@ -527,7 +527,7 @@ export default function CostCustomizerPanel() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                         d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    Using nationwide defaults — location unavailable
+                    Using nationwide defaults, location unavailable
                   </>
                 )}
               </div>

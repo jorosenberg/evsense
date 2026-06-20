@@ -1,5 +1,5 @@
 /**
- * useNearbyChargers — fetches DCFC stations from Open Charge Map API
+ * useNearbyChargers, fetches DCFC stations from Open Charge Map API
  *
  * OCM is a crowd-sourced EVSE database with 550k+ locations worldwide.
  * API docs: https://openchargemap.org/site/develop/api
@@ -84,7 +84,7 @@ export const OCM_CONNECTOR_LABELS = {
  * Returns true if the station has a compatible DCFC connector.
  */
 export function isCompatible(vehiclePort, connections = []) {
-  if (!vehiclePort) return true // unknown — show everything
+  if (!vehiclePort) return true // unknown, show everything
 
   const portUpper = vehiclePort.toUpperCase()
 

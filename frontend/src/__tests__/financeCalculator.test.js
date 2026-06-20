@@ -22,7 +22,7 @@ const base = {
 }
 
 // ─── Basic payment math ───────────────────────────────────────────────────────
-describe('calculateFinancePayment — payment math', () => {
+describe('calculateFinancePayment, payment math', () => {
   it('returns $500/mo at 0% APR, 60 months, $30k vehicle, no fees', () => {
     const result = calculateFinancePayment({ ...base, apr: 0, termMonths: 60 })
     expect(result.monthlyPayment).toBeCloseTo(500, 2)
@@ -57,7 +57,7 @@ describe('calculateFinancePayment — payment math', () => {
 })
 
 // ─── Incentives ───────────────────────────────────────────────────────────────
-describe('calculateFinancePayment — federal credit & state rebate', () => {
+describe('calculateFinancePayment, federal credit & state rebate', () => {
   it('$7,500 federal credit reduces amount financed by $7,500', () => {
     const noCredit = calculateFinancePayment({ ...base, apr: 5.99, termMonths: 60 })
     const withCredit = calculateFinancePayment({ ...base, apr: 5.99, termMonths: 60, federalCredit: 7500 })
@@ -86,7 +86,7 @@ describe('calculateFinancePayment — federal credit & state rebate', () => {
 })
 
 // ─── Fees & taxes ─────────────────────────────────────────────────────────────
-describe('calculateFinancePayment — fees and sales tax', () => {
+describe('calculateFinancePayment, fees and sales tax', () => {
   it('sales tax is calculated on vehicle price + doc fee', () => {
     const result = calculateFinancePayment({
       ...base,
@@ -114,7 +114,7 @@ describe('calculateFinancePayment — fees and sales tax', () => {
 })
 
 // ─── Total interest ───────────────────────────────────────────────────────────
-describe('calculateFinancePayment — interest calculations', () => {
+describe('calculateFinancePayment, interest calculations', () => {
   it('totalInterest is 0 at 0% APR', () => {
     const result = calculateFinancePayment({ ...base, apr: 0, termMonths: 60 })
     expect(result.totalInterest).toBeCloseTo(0, 2)
@@ -141,7 +141,7 @@ describe('calculateFinancePayment — interest calculations', () => {
 })
 
 // ─── Real-world scenario ──────────────────────────────────────────────────────
-describe('calculateFinancePayment — real-world Tesla Model 3 scenario', () => {
+describe('calculateFinancePayment, real-world Tesla Model 3 scenario', () => {
   it('$42,990 Model 3, $5k down, $7500 credit, 6.99% APR, 60 months, TX (6.25% tax, $599 doc)', () => {
     const result = calculateFinancePayment({
       vehiclePrice: 42990,

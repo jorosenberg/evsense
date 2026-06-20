@@ -9,7 +9,7 @@ import ErrorBoundary, { SectionErrorBoundary } from './components/ErrorBoundary'
 import { useStateDetection } from './hooks/useStateDetection'
 import ChargingLocationPopup from './components/calculator/ChargingLocationPopup'
 
-// Code-split every page — each loads as a separate JS chunk
+// Code-split every page, each loads as a separate JS chunk
 const HomePage             = lazy(() => import('./pages/HomePage'))
 const BrowsePage           = lazy(() => import('./pages/BrowsePage'))
 const VehicleDetailPage    = lazy(() => import('./pages/VehicleDetailPage'))
@@ -135,7 +135,7 @@ export default function App() {
         <Footer />
         <CompareBar />
         <BottomNav />
-        {/* Location prompt — auto-opens once for new users, modal only (no visible button) */}
+        {/* Location prompt, auto-opens once for new users, modal only (no visible button) */}
         <ChargingLocationPopup hideButton />
       </div>
     </ErrorBoundary>

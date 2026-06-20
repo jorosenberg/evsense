@@ -1,5 +1,5 @@
 /**
- * useMatcherVehicles.test.js — verifies the data hook's load + fallback logic
+ * useMatcherVehicles.test.js, verifies the data hook's load + fallback logic
  * without rendering React (we drive its inner loader directly).
  */
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
@@ -31,9 +31,9 @@ describe('matcher_vehicles loader', () => {
       ],
     }
     // loadMatcherVehicles makes three fetches in sequence:
-    //   1. matcher_vehicles.json  — primary source
-    //   2. vehicle_scores.json    — optional expert ratings (silently ignored on failure)
-    //   3. tested_specs.json      — optional real-world range (silently ignored on failure)
+    //   1. matcher_vehicles.json , primary source
+    //   2. vehicle_scores.json   , optional expert ratings (silently ignored on failure)
+    //   3. tested_specs.json     , optional real-world range (silently ignored on failure)
     global.fetch = vi.fn()
       .mockResolvedValueOnce({ ok: true,  json: async () => sample })  // matcher_vehicles.json
       .mockResolvedValueOnce({ ok: false, status: 404 })               // vehicle_scores.json (not present)

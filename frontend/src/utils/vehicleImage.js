@@ -1,11 +1,11 @@
 /**
- * vehicleImage.js — one place to resolve a vehicle's photo URL.
+ * vehicleImage.js, one place to resolve a vehicle's photo URL.
  *
  * Priority:
- *   1. EDMUNDS_IMG — curated Edmunds range-test thumbnails (matched by model),
+ *   1. EDMUNDS_IMG, curated Edmunds range-test thumbnails (matched by model),
  *      copied into /data/edmunds. Consistent studio side-profiles that suit the
  *      dark image discs across Browse / Compare / recommendations.
- *   2. imagesCdnBase — the app's image pipeline (400/800/1200w.webp).
+ *   2. imagesCdnBase, the app's image pipeline (400/800/1200w.webp).
  *   3. raw imageUrl.
  * Returns null when none exist so callers can render a styled placeholder.
  */

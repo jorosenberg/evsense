@@ -211,13 +211,13 @@ export default function ComparePage() {
                   </div>
                 </div>
                 <div>
-                  <label className="section-label block mb-1.5">Annual Miles — {sharedConfig.annualMileage.toLocaleString()}</label>
+                  <label className="section-label block mb-1.5">Annual Miles, {sharedConfig.annualMileage.toLocaleString()}</label>
                   <input type="range" min={5000} max={25000} step={1000} value={sharedConfig.annualMileage}
                     onChange={e => setSharedConfig(c => ({ ...c, annualMileage: Number(e.target.value) }))}
                     className="w-full accent-brand-blue mt-2" />
                 </div>
                 <div>
-                  <label className="section-label block mb-1.5">Ownership — {sharedConfig.ownershipYears} yr</label>
+                  <label className="section-label block mb-1.5">Ownership, {sharedConfig.ownershipYears} yr</label>
                   <input type="range" min={1} max={10} step={1} value={sharedConfig.ownershipYears}
                     onChange={e => setSharedConfig(c => ({ ...c, ownershipYears: Number(e.target.value) }))}
                     className="w-full accent-brand-blue mt-2" />
@@ -396,7 +396,7 @@ function SpecSectionBlock({ section, vehicleIds }) {
         if (allNull) return null
 
         function fmt(v) {
-          if (v == null) return '—'
+          if (v == null) return '-'
           if (row.format === 'string') return String(v)
           if (row.format === 'number') return `${formatNumber(v)}${row.unit ? ' ' + row.unit : ''}`
           if (row.format === 'decimal1') return `${Number(v).toFixed(1)}${row.unit ? ' ' + row.unit : ''}`

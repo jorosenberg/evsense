@@ -1,12 +1,12 @@
 /**
- * costPerMile.js — Per-mile driving cost calculations
+ * costPerMile.js, Per-mile driving cost calculations
  *
  * Cost per mile = ($/kWh) / (mi/kWh)
  *
  * Three scenarios are supported:
  *   1. Home charging at state residential rate
  *   2. Public L2 (default $0.22/kWh national average)
- *   3. DCFC — uses OCM-provided pricing if available, else $0.45/kWh average
+ *   3. DCFC, uses OCM-provided pricing if available, else $0.45/kWh average
  *
  * The "blended" calculation weights these by the user's charging mix
  * (default 80/10/10 home/L2/DCFC).
@@ -21,8 +21,8 @@ export const DEFAULT_L2_RATE    = 0.22  // $/kWh
 
 // ─── Single-rate cost per mile ────────────────────────────────────────────────
 /**
- * @param {number} milesPerKwh — vehicle efficiency
- * @param {number} ratePerKwh  — $/kWh
+ * @param {number} milesPerKwh, vehicle efficiency
+ * @param {number} ratePerKwh , $/kWh
  * @returns {number} $/mile
  */
 export function costPerMile(milesPerKwh, ratePerKwh) {
@@ -34,7 +34,7 @@ export function costPerMile(milesPerKwh, ratePerKwh) {
  * Helper to format cents/mile for display, e.g. 0.034 → "3.4¢"
  */
 export function formatCentsPerMile(dollarsPerMile) {
-  if (!dollarsPerMile) return '—'
+  if (!dollarsPerMile) return '-'
   return `${(dollarsPerMile * 100).toFixed(1)}¢`
 }
 
@@ -44,11 +44,11 @@ export function formatCentsPerMile(dollarsPerMile) {
  *
  * @param {object} args
  * @param {string} args.vehicleId
- * @param {number} args.fallbackMilesPerKwh — used when efficiency lookup fails
+ * @param {number} args.fallbackMilesPerKwh, used when efficiency lookup fails
  * @param {string} [args.stateCode='TX']
- * @param {number} [args.dcfcRateOverride] — $/kWh, e.g. from OCM lookup
- * @param {number} [args.homeRateOverride] — ¢/kWh user override
- * @param {'hwy'|'city'|'edmunds'|'epa'} [args.scenario='edmunds'] — efficiency curve
+ * @param {number} [args.dcfcRateOverride], $/kWh, e.g. from OCM lookup
+ * @param {number} [args.homeRateOverride], ¢/kWh user override
+ * @param {'hwy'|'city'|'edmunds'|'epa'} [args.scenario='edmunds'], efficiency curve
  */
 export function getCostBreakdown({
   vehicleId,
@@ -100,8 +100,8 @@ export function getCostBreakdown({
 /**
  * Blended cost per mile based on the user's charging mix.
  *
- * @param {object} breakdown — from getCostBreakdown()
- * @param {{home: number, publicL2: number, dcFast: number}} mixPercent — sums to 100
+ * @param {object} breakdown, from getCostBreakdown()
+ * @param {{home: number, publicL2: number, dcFast: number}} mixPercent, sums to 100
  * @returns {number} $/mile blended
  */
 export function blendedCostPerMile(breakdown, mixPercent = { home: 80, publicL2: 10, dcFast: 10 }) {

@@ -45,7 +45,7 @@ function getEfficiencyRating(milesPerKwh) {
  * optimized srcSet pointing at /400w.webp /800w.webp /1200w.webp. Otherwise
  * fall back to the raw URL (Wikipedia, manufacturer, etc).
  *
- * The cdnBase is only meaningful for the primary image — gallery images
+ * The cdnBase is only meaningful for the primary image, gallery images
  * remain as raw URLs for now.
  */
 function CardImage({ url, cdnBase, isPrimary, alt }) {
@@ -99,10 +99,10 @@ function CardImageCarousel({ images, cdnBase, alt }) {
         url={all[idx]}
         cdnBase={cdnBase}
         isPrimary={idx === 0}
-        alt={`${alt} — photo ${idx + 1}`}
+        alt={`${alt}, photo ${idx + 1}`}
       />
 
-      {/* Prev / Next — only visible on hover when >1 image */}
+      {/* Prev / Next, only visible on hover when >1 image */}
       {all.length > 1 && (
         <>
           <button
@@ -228,13 +228,13 @@ export default function VehicleCard({ vehicle }) {
   const dealScore = getDealScore(vehicle)
   const effRating = getEfficiencyRating(vehicle.milesPerKwh)
 
-  // Price drop — from lastPriceChange if we have it in summary
+  // Price drop, from lastPriceChange if we have it in summary
   const hasPriceDrop = vehicle.lastPriceChange?.direction === 'decrease'
     && (Date.now() - new Date(vehicle.lastPriceChange.date)) < 90 * 24 * 60 * 60 * 1000
 
   // effectivePrice (after-incentive sticker) comes from resolveCardEconomics.
 
-  // Gallery images — use imageGallery array if available, else just primary
+  // Gallery images, use imageGallery array if available, else just primary
   const images = vehicle.imageUrl
     ? [vehicle.imageUrl, ...(vehicle.imageGallery || [])]
     : vehicle.imageGallery || []
@@ -290,7 +290,7 @@ export default function VehicleCard({ vehicle }) {
             {luxuryTier && (
               <span
                 className={`text-[11px] font-semibold px-2 py-0.5 rounded-full border ${luxuryTier.color}`}
-                title={`Luxury score: ${luxuryScore}/10 — based on premium features`}
+                title={`Luxury score: ${luxuryScore}/10, based on premium features`}
               >
                 {luxuryTier.label}
               </span>
@@ -343,14 +343,14 @@ export default function VehicleCard({ vehicle }) {
           <p className="text-xs text-ink-subtle mt-0.5 capitalize">{vehicle.bodyStyle} · {vehicle.drivetrains?.join(' / ')}</p>
         </div>
 
-        {/* Row 3: Key specs — Recharged-style stat row */}
+        {/* Row 3: Key specs, Recharged-style stat row */}
         <div className="grid grid-cols-3 gap-2 py-3 border-y border-border">
           {[
             vehicle.testedRange
               ? { label: 'Tested Range', value: `${vehicle.testedRange} mi` }
-              : { label: 'Range', value: vehicle.rangeEpa ? `up to ${vehicle.rangeEpa} mi` : '—' },
-            { label: 'Charging', value: vehicle.chargingPort || '—' },
-            { label: 'Seating', value: vehicle.seatingCapacity ? `${vehicle.seatingCapacity}` : '—' },
+              : { label: 'Range', value: vehicle.rangeEpa ? `up to ${vehicle.rangeEpa} mi` : '-' },
+            { label: 'Charging', value: vehicle.chargingPort || '-' },
+            { label: 'Seating', value: vehicle.seatingCapacity ? `${vehicle.seatingCapacity}` : '-' },
           ].map(({ label, value }) => (
             <div key={label} className="text-center">
               <div className="font-semibold text-sm text-ink">{value}</div>
@@ -374,7 +374,7 @@ export default function VehicleCard({ vehicle }) {
           <OfferExpiryChip offerExpiresAt={vehicle.offerExpiresAt} />
         </div>
 
-        {/* Row 5: Payment options (secondary — TCO is the headline).
+        {/* Row 5: Payment options (secondary, TCO is the headline).
             Reflects the NY (ZIP 10005) manufacturer offer when present. */}
         {(displayLeaseFrom || displayFinanceFrom) && (
           <div className="flex gap-3 text-xs text-ink-muted">
@@ -430,7 +430,7 @@ export default function VehicleCard({ vehicle }) {
         {eaOffer && (
           <div
             className="inline-flex items-center gap-1 self-start rounded-full bg-status-green-bg border border-status-green/30 text-status-green px-2 py-0.5 text-[11px] font-medium cursor-help"
-            title={`${eaOffer.provider}: ${eaOffer.summary}. Enroll via ${eaOffer.enroll}. ${tco.eaSavings ? `≈ ${formatCurrency(tco.eaSavings)}/mo of free DC fast charging is reflected in the charging cost above.` : ''} Terms vary — verify current offer.`}
+            title={`${eaOffer.provider}: ${eaOffer.summary}. Enroll via ${eaOffer.enroll}. ${tco.eaSavings ? `≈ ${formatCurrency(tco.eaSavings)}/mo of free DC fast charging is reflected in the charging cost above.` : ''} Terms vary, verify current offer.`}
           >
             Free EA charging{eaOffer.years ? ` · ${eaOffer.years} yr${eaOffer.years > 1 ? 's' : ''}` : ''}
             {tco.eaSavings ? <span className="text-status-green"> (−{formatCurrency(tco.eaSavings)}/mo)</span> : null}

@@ -87,7 +87,7 @@ export default function ImageGallery({ images = [], primaryImage, alt = 'Vehicle
           <div className="aspect-[16/9]">
             <img
               src={allImages[activeIndex]}
-              alt={`${alt} — photo ${activeIndex + 1}`}
+              alt={`${alt}, photo ${activeIndex + 1}`}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               loading="eager"
             />
@@ -179,7 +179,7 @@ export default function ImageGallery({ images = [], primaryImage, alt = 'Vehicle
                 <motion.img
                   key={lightboxIndex}
                   src={allImages[lightboxIndex]}
-                  alt={`${alt} — photo ${lightboxIndex + 1}`}
+                  alt={`${alt}, photo ${lightboxIndex + 1}`}
                   className="max-w-full max-h-full object-contain select-none"
                   initial={{ opacity: 0, scale: 0.97 }}
                   animate={{ opacity: 1, scale: 1 }}

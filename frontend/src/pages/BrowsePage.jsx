@@ -12,7 +12,7 @@ import EstimateNotice from '../components/ui/EstimateNotice'
 
 const PAGE_SIZE = 12
 
-// Category quick-filters — Recharged-style visual category row
+// Category quick-filters, Recharged-style visual category row
 const CATEGORIES = [
   {
     label: 'Sedans',
@@ -106,7 +106,7 @@ export default function BrowsePage() {
   return (
     <>
       <Helmet>
-        <title>Browse EVs — EVsense: EV Buyer's Guide</title>
+        <title>Browse EVs, EVsense: EV Buyer's Guide</title>
         <meta name="description" content="Browse all electric vehicles with real pricing, range, and estimated total cost of ownership. Filter by price, range, drivetrain, and more." />
       </Helmet>
 
@@ -141,7 +141,7 @@ export default function BrowsePage() {
         <EstimateNotice className="mb-3" />
         <IncentiveNotice className="mb-5" />
 
-        {/* Customize costs — friendly bar at the top of Browse */}
+        {/* Customize costs, friendly bar at the top of Browse */}
         <CostCustomizerPanel />
 
         {/* Filters & sort toggle */}
@@ -187,7 +187,7 @@ export default function BrowsePage() {
         )}
 
         <div className={filtersVisible ? "grid lg:grid-cols-[280px_1fr] gap-7 items-start" : ""}>
-          {/* Sidebar — desktop */}
+          {/* Sidebar, desktop */}
           {filtersVisible && (
           <aside className="hidden lg:block">
             <FilterSidebar />
@@ -281,7 +281,7 @@ export default function BrowsePage() {
               </>
             )}
 
-            {/* Extended catalog — search the full ev-database.org dataset */}
+            {/* Extended catalog, search the full ev-database.org dataset */}
             <div className="mt-10">
               <EvDatabaseSearch curatedIds={new Set(vehicles.map(v => v.id))} />
             </div>

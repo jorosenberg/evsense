@@ -1,5 +1,5 @@
 /**
- * sw.js — EVsense Service Worker
+ * sw.js, EVsense Service Worker
  *
  * Strategy: Cache-first for app shell + static assets, network-first for API calls.
  *
@@ -9,7 +9,7 @@
  *   - favicon, icons, fonts
  *
  * What stays network-only:
- *   - Firestore requests (vehicle detail — requires fresh data)
+ *   - Firestore requests (vehicle detail, requires fresh data)
  *   - ip-api.com (state detection)
  *   - External images (manufacturer CDNs)
  *
@@ -34,7 +34,7 @@ const STATIC_ASSETS = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      // Cache what we can — don't fail install if some assets are missing
+      // Cache what we can, don't fail install if some assets are missing
       return Promise.allSettled(
         STATIC_ASSETS.map(url => cache.add(url).catch(() => {}))
       )
@@ -66,7 +66,7 @@ self.addEventListener('fetch', (event) => {
   // Skip non-GET requests
   if (request.method !== 'GET') return
 
-  // Skip Firestore, Analytics, ip-api, and other external APIs — always network
+  // Skip Firestore, Analytics, ip-api, and other external APIs, always network
   const skipDomains = [
     'firestore.googleapis.com',
     'firebase.googleapis.com',
@@ -116,7 +116,7 @@ async function cacheFirst(request) {
     }
     return response
   } catch {
-    return new Response('Offline — content not available', {
+    return new Response('Offline, content not available', {
       status: 503,
       headers: { 'Content-Type': 'text/plain' },
     })
@@ -152,7 +152,7 @@ function offlinePage() {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Offline — EVsense</title>
+  <title>Offline, EVsense</title>
   <style>
     body { font-family: system-ui, sans-serif; display: flex; align-items: center;
            justify-content: center; min-height: 100vh; margin: 0; background: #fff; }

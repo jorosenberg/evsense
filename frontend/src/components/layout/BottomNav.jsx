@@ -1,5 +1,5 @@
 /**
- * BottomNav — mobile-only bottom tab bar
+ * BottomNav, mobile-only bottom tab bar
  * Visible on screens < md (768px). Each tab shows an icon + label.
  * Tabs: Browse · Find My EV · Compare · EV 101
  *

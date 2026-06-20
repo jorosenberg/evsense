@@ -14,22 +14,22 @@
 
 export const STATE_ELECTRICITY_RATES = {
   AL: 13.0,  // Alabama
-  AK: 23.0,  // Alaska — high due to generation costs
+  AK: 23.0,  // Alaska, high due to generation costs
   AZ: 13.0,  // Arizona
   AR: 11.0,  // Arkansas
-  CA: 27.0,  // California — highest in continental US
+  CA: 27.0,  // California, highest in continental US
   CO: 13.0,  // Colorado
   CT: 25.0,  // Connecticut
   DE: 14.0,  // Delaware
   FL: 13.0,  // Florida
   GA: 12.0,  // Georgia
-  HI: 41.0,  // Hawaii — highest in US by far
-  ID: 10.0,  // Idaho — hydro power keeps rates low
+  HI: 41.0,  // Hawaii, highest in US by far
+  ID: 10.0,  // Idaho, hydro power keeps rates low
   IL: 13.0,  // Illinois
   IN: 13.0,  // Indiana
   IA: 12.0,  // Iowa
   KS: 12.0,  // Kansas
-  KY: 11.0,  // Kentucky — coal keeps rates low
+  KY: 11.0,  // Kentucky, coal keeps rates low
   LA: 10.0,  // Louisiana
   ME: 20.0,  // Maine
   MD: 15.0,  // Maryland
@@ -49,17 +49,17 @@ export const STATE_ELECTRICITY_RATES = {
   ND: 10.0,  // North Dakota
   OH: 13.0,  // Ohio
   OK: 10.0,  // Oklahoma
-  OR: 11.0,  // Oregon — hydro
+  OR: 11.0,  // Oregon, hydro
   PA: 15.0,  // Pennsylvania
   RI: 24.0,  // Rhode Island
   SC: 13.0,  // South Carolina
   SD: 12.0,  // South Dakota
-  TN: 12.0,  // Tennessee — TVA rates
-  TX: 12.0,  // Texas — ERCOT market, can spike
+  TN: 12.0,  // Tennessee, TVA rates
+  TX: 12.0,  // Texas, ERCOT market, can spike
   UT: 10.0,  // Utah
   VT: 20.0,  // Vermont
   VA: 13.0,  // Virginia
-  WA: 10.0,  // Washington — hydro, lowest in continental US
+  WA: 10.0,  // Washington, hydro, lowest in continental US
   WV: 11.0,  // West Virginia
   WI: 15.0,  // Wisconsin
   WY: 10.0,  // Wyoming
@@ -68,7 +68,7 @@ export const STATE_ELECTRICITY_RATES = {
 
 /**
  * Common off-peak TOU rates where available (cents/kWh).
- * Many utilities offer overnight EV rates — these are representative examples.
+ * Many utilities offer overnight EV rates, these are representative examples.
  * Users should check their specific utility for actual rates.
  */
 export const STATE_OFFPEAK_RATES = {
@@ -102,5 +102,5 @@ export function getStateOffPeakRate(stateAbbr) {
   return STATE_OFFPEAK_RATES[stateAbbr?.toUpperCase()] ?? null
 }
 
-/** National average (continental US) — used as fallback */
+/** National average (continental US), used as fallback */
 export const NATIONAL_AVERAGE_RATE_CENTS = 15.0

@@ -101,9 +101,9 @@ export const SMART_CHARGE_PROGRAMS = [
     name: 'ComEd Real-Time Pricing',
     state: 'IL',
     utilities: ['ComEd', 'Commonwealth Edison'],
-    description: 'Hourly market pricing — can be very cheap overnight (under $0.05/kWh) but variable. Best with a smart charger that auto-schedules.',
+    description: 'Hourly market pricing, can be very cheap overnight (under $0.05/kWh) but variable. Best with a smart charger that auto-schedules.',
     offPeakRate: 5.0, // approximate average overnight
-    offPeakHours: 'Variable — typically cheapest 10pm–6am',
+    offPeakHours: 'Variable, typically cheapest 10pm–6am',
     signupUrl: 'https://hourlypricing.comed.com',
     requiresSmartCharger: true,
     variable: true,
