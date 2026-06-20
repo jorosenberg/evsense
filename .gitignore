@@ -72,6 +72,7 @@ terraform/*_override.tf.json
 !frontend/public/data/lease_calc_by_vehicle.json
 !frontend/public/data/upcoming_radar.json
 !frontend/public/data/us_ev_catalog.json
+!frontend/public/data/ev_database.json
 !frontend/public/data/gcc_scores.json
 !frontend/public/data/electrify_america_offers.json
 !frontend/public/data/vehicles/*.json

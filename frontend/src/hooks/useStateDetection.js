@@ -29,6 +29,6 @@ async function detectState(setState) {
   } catch {
     // Silently fall through — ip-api may be unavailable or HTTPS required
   }
-  // Default to California (largest EV market)
-  setState('CA', 'default')
+  // Default to New York
+  setState('NY', 'default')
 }

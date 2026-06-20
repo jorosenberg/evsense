@@ -78,9 +78,9 @@ jobs:
         id: tf
         working-directory: terraform
         run: |
-          terraform init -input=false
-          echo "bucket=$(terraform output -raw site_bucket_name)" >> $GITHUB_OUTPUT
-          echo "dist_id=$(terraform output -raw site_cloudfront_id)" >> $GITHUB_OUTPUT
+          terraform init -input=false -no-color
+          echo "bucket=$(terraform output -raw -no-color site_bucket_name)" >> $GITHUB_OUTPUT
+          echo "dist_id=$(terraform output -raw -no-color site_cloudfront_id)" >> $GITHUB_OUTPUT
         env:
           TF_VAR_domain_name: ${{ vars.DOMAIN_NAME }}
 

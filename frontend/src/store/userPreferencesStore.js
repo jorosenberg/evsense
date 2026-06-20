@@ -4,9 +4,9 @@ import { persist } from 'zustand/middleware'
 export const useUserPreferencesStore = create(
   persist(
     (set, get) => ({
-      // Location — demo defaults to New York (the only state modeled; see
-      // IncentiveNotice). Manufacturer incentives are scraped for ZIP 10005.
+      // Location — defaults to New York.
       state: 'NY',
+      zip: '10001',                    // US ZIP; drives nearby station lookup + state
       stateDetectionMethod: 'default', // "ip" | "manual" | "default"
       electricityRateCentsPerKwh: null, // null = use state default
       hasOffPeakRate: false,
@@ -60,6 +60,9 @@ export const useUserPreferencesStore = create(
       setState: (stateAbbr, method = 'manual') =>
         set({ state: stateAbbr, stateDetectionMethod: method }),
 
+      setZip: (zip, stateAbbr) =>
+        set({ zip, ...(stateAbbr ? { state: stateAbbr, stateDetectionMethod: 'manual' } : {}) }),
+
       setElectricityRate: (rate) => set({ electricityRateCentsPerKwh: rate }),
       setDcfcRate: (rate) => set({ dcfcRateCentsPerKwh: rate }),
       setPublicL2Rate: (rate) => set({ publicL2RateCentsPerKwh: rate }),
@@ -94,7 +97,7 @@ export const useUserPreferencesStore = create(
     }),
     {
       name: 'ev-explorer-prefs',
-      version: 4,
+      version: 5,
       migrate: (state, version) => {
         if (version < 2) {
           state = {
@@ -110,6 +113,9 @@ export const useUserPreferencesStore = create(
         }
         if (version < 4) {
           state = { ...state, leaseTermMonths: 36, includeIncentives: true }
+        }
+        if (version < 5) {
+          state = { ...state, zip: '10001' }
         }
         return state
       },
