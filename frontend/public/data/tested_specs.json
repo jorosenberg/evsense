@@ -1,0 +1,41 @@
+{
+  "source": "edmunds.com EV Range Test",
+  "importedAt": "2026-05-31T00:00:00+00:00",
+  "note": "Edmunds real-world tested range. Model-level testedRange = longest current-gen tested trim (shown on cards). 'trims' maps trim name → tested range. Stale figures for superseded models (Model S/X) dropped so they fall back to EPA. Tesla US naming: RWD/Standard = Standard, Premium = Long Range, Performance = Performance.",
+  "vehicles": {
+    "tesla-model3-2026": {
+      "testedRange": 393, "epaRange": 363, "testedConsumption": null,
+      "sourceName": "2026 Tesla Model 3 Long Range RWD",
+      "trims": { "RWD": 339, "Premium RWD": 393, "Premium AWD": 338, "Performance AWD": 292 }
+    },
+    "tesla-modely-2026": {
+      "testedRange": 337, "epaRange": 321, "testedConsumption": null,
+      "sourceName": "2026 Tesla Model Y Standard",
+      "trims": { "Standard RWD": 337, "Long Range AWD": 327, "Performance AWD": 293 }
+    },
+    "tesla-cybertruck-2026":      { "testedRange": 334, "epaRange": 340, "sourceName": "2024 Tesla Cybertruck Foundation Series" },
+    "hyundai-ioniq-5-2026":       { "testedRange": 290, "epaRange": 259, "sourceName": "2025 Hyundai Ioniq 5 Limited AWD", "trims": { "Limited AWD": 290 } },
+    "hyundai-ioniq-9-2026":       { "testedRange": 366, "epaRange": 320, "sourceName": "2026 Hyundai Ioniq 9 SEL" },
+    "kia-ev6-2026":               { "testedRange": 323, "epaRange": 310, "sourceName": "2024 Kia EV6 Wind RWD" },
+    "kia-ev9-2026":               { "testedRange": 306, "epaRange": 270, "sourceName": "2024 Kia EV9 GT-Line" },
+    "ford-mustang-mach-e-2026":   { "testedRange": 341, "epaRange": 300, "sourceName": "Ford Mustang Mach-E Premium Ext Range RWD" },
+    "ford-f-150-lightning-2026":  { "testedRange": 345, "epaRange": 320, "sourceName": "Ford F-150 Lightning Lariat ER" },
+    "chevrolet-equinox-ev-2026":  { "testedRange": 356, "epaRange": 319, "sourceName": "2025 Chevrolet Equinox EV 2LT" },
+    "chevrolet-blazer-ev-2026":   { "testedRange": 320, "epaRange": 279, "sourceName": "2024 Chevrolet Blazer EV RS AWD" },
+    "chevrolet-silverado-ev-2026":{ "testedRange": 539, "epaRange": 492, "sourceName": "Chevrolet Silverado EV WT (Max Range)" },
+    "rivian-r1t-2026":            { "testedRange": 390, "epaRange": 410, "sourceName": "Rivian R1T Performance Dual Motor" },
+    "rivian-r1s-2026":            { "testedRange": 386, "epaRange": 410, "sourceName": "Rivian R1S Performance Dual Motor Max" },
+    "bmw-i4-2026":                { "testedRange": 292, "epaRange": 295, "sourceName": "2025 BMW i4 eDrive40" },
+    "bmw-i5-2026":                { "testedRange": 321, "epaRange": 270, "sourceName": "2024 BMW i5 eDrive40" },
+    "bmw-i7-2026":                { "testedRange": 320, "epaRange": 308, "sourceName": "2023 BMW i7 xDrive60" },
+    "bmw-ix-2026":                { "testedRange": 338, "epaRange": 279, "sourceName": "2026 BMW iX xDrive45" },
+    "volkswagen-id4-2026":        { "testedRange": 299, "epaRange": 291, "sourceName": "2024 Volkswagen ID.4 Pro S" },
+    "lucid-air-2026":             { "testedRange": 349, "epaRange": 372, "sourceName": "2025 Lucid Air Pure" },
+    "lucid-gravity-2026":         { "testedRange": 400, "epaRange": 450, "sourceName": "2026 Lucid Gravity Grand Touring" },
+    "polestar-polestar-2-2026":   { "testedRange": 362, "epaRange": 307, "sourceName": "2024 Polestar 2 Single Motor Long Range" },
+    "polestar-polestar-3-2026":   { "testedRange": 344, "epaRange": 350, "sourceName": "2025 Polestar 3 Single Motor" },
+    "polestar-polestar-4-2026":   { "testedRange": 286, "epaRange": 255, "sourceName": "2026 Polestar 4 Dual Motor" },
+    "toyota-bz-2026":             { "testedRange": 331, "epaRange": 314, "sourceName": "2026 Toyota bZ XLE Plus FWD" },
+    "mercedes-benz-cla-2026":     { "testedRange": 434, "epaRange": 374, "sourceName": "2026 Mercedes-Benz CLA 250+" }
+  }
+}

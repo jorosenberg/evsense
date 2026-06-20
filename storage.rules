@@ -1,0 +1,26 @@
+// Firebase Storage Security Rules for EVsense
+//
+// Storage is used for vehicle images (downloaded from manufacturer sites,
+// resized to 3 breakpoints, converted to WebP by the scraper pipeline).
+//
+// All images are publicly readable; writes are admin-only (service account).
+
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // ── Vehicle images ─────────────────────────────────────────────────────
+    // Path: /vehicles/{vehicleId}/{size}.webp
+    // Sizes: 400, 800, 1200 (width in px)
+    match /vehicles/{vehicleId}/{fileName} {
+      allow read: if true;
+      allow write: if false;  // Admin SDK only
+    }
+
+    // ── Deny everything else ───────────────────────────────────────────────
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

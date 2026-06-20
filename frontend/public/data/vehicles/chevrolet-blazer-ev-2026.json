@@ -1,0 +1,391 @@
+{
+  "id": "chevrolet-blazer-ev-2026",
+  "make": "Chevrolet",
+  "model": "Blazer EV",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.chevrolet.com/electric/blazer-ev",
+  "imageUrl": "/data/images/chevrolet-blazer-ev-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/chevrolet-blazer-ev-2026/default.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-1.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-2.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-3.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-4.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-5.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-6.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-7.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-8.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-9.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-10.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-11.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-12.jpg",
+    "/data/images/chevrolet-blazer-ev-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 56715
+    },
+    {
+      "date": "2024-09-01T00:00:00+00:00",
+      "msrp": 50195
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 42995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "LT",
+      "msrp": 48795,
+      "sellingPrice": 47585,
+      "drivetrain": "FWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 389,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4099,
+          "moneyFactor": 0.00098,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT 4dr SUV (electric DD)"
+    },
+    {
+      "name": "LT AWD",
+      "msrp": 52425,
+      "sellingPrice": 50179,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 519,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4699,
+          "moneyFactor": 0.00135,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "RS",
+      "msrp": 55620,
+      "sellingPrice": 52819,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4399,
+          "moneyFactor": 0.00112,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "RS 4dr SUV (electric DD)"
+    },
+    {
+      "name": "RS AWD",
+      "msrp": 59120,
+      "sellingPrice": 55722,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 519,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4699,
+          "moneyFactor": 0.00135,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "RS 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "SS AWD",
+      "msrp": 64820,
+      "sellingPrice": 62635,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 639,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5299,
+          "moneyFactor": 0.00155,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SS 4dr SUV AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 102,
+    "milesPerKwh": 3.5,
+    "zeroToSixty": 6.0,
+    "topSpeed": 122,
+    "torqueLbFt": 333,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 59.1,
+    "frunkVolumeCuFt": 0,
+    "towingCapacityLbs": 1500,
+    "groundClearanceIn": 8.0,
+    "weightLbs": 5700,
+    "chargingSpeedDcFastKw": 190,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 324,
+    "epaRangeCity": 356,
+    "epaRangeHwy": 292,
+    "horsepower": 220,
+    "drivetrain": "FWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 595,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 32,
+    "year2Percent": 44,
+    "year3Percent": 52,
+    "year5Percent": 62,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1560,
+    "average": 2110,
+    "high": 3010,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 48795
+}

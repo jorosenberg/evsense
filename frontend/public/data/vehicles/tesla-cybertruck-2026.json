@@ -1,0 +1,362 @@
+{
+  "id": "tesla-cybertruck-2026",
+  "make": "Tesla",
+  "model": "Cybertruck",
+  "year": 2026,
+  "type": "new",
+  "category": "truck",
+  "bodyStyle": "truck",
+  "manufacturerUrl": "https://www.tesla.com/cybertruck",
+  "imageUrl": "/data/images/tesla-cybertruck-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/tesla-cybertruck-2026/default.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-1.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-2.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-3.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-4.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-5.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-6.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-7.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-8.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-9.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-10.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-11.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-12.jpg",
+    "/data/images/tesla-cybertruck-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-11-01T00:00:00+00:00",
+      "msrp": 99990
+    },
+    {
+      "date": "2024-06-01T00:00:00+00:00",
+      "msrp": 79990
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 69990
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Long Range RWD",
+      "msrp": 69990,
+      "destinationFee": 1395,
+      "drivetrain": "RWD",
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 79990,
+        "changeDollars": -10000,
+        "direction": "decrease"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 779,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 7999,
+          "moneyFactor": 0.0021,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 335,
+        "milesPerKwh": 2.31
+      }
+    },
+    {
+      "name": "Dual Motor AWD",
+      "msrp": 69990,
+      "sellingPrice": 71985,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 325,
+        "milesPerKwh": 2.33,
+        "horsepower": 602
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Dual Motor 4dr Crew Cab AWD SB (electric DD)"
+    },
+    {
+      "name": "All-Wheel Drive",
+      "msrp": 79990,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 79990,
+        "changeDollars": -10000,
+        "direction": "decrease"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 899,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 8999,
+          "moneyFactor": 0.0022,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 325,
+        "milesPerKwh": 2.33
+      }
+    },
+    {
+      "name": "AWD w/Prod. End 2/26",
+      "msrp": 79990,
+      "sellingPrice": 81985,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 325,
+        "milesPerKwh": 2.33,
+        "horsepower": 602
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "4dr Crew Cab AWD SB w/Prod. End 2/26 (electric DD)"
+    },
+    {
+      "name": "Premium AWD",
+      "msrp": 79990,
+      "sellingPrice": 81985,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 325,
+        "milesPerKwh": 2.33,
+        "horsepower": 602
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Premium 4dr Crew Cab AWD SB (electric DD)"
+    },
+    {
+      "name": "Cyberbeast",
+      "msrp": 99990,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 79990,
+        "changeDollars": -10000,
+        "direction": "decrease"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1199,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 9999,
+          "moneyFactor": 0.0024,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 325,
+        "milesPerKwh": 2.33
+      }
+    },
+    {
+      "name": "Cyberbeast AWD",
+      "msrp": 99990,
+      "sellingPrice": 101985,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 325,
+        "milesPerKwh": 2.33,
+        "horsepower": 602
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Cyberbeast 4dr Crew Cab AWD SB (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 123,
+    "milesPerKwh": 2.5,
+    "zeroToSixty": 4.1,
+    "topSpeed": 130,
+    "torqueLbFt": 7435,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 67.1,
+    "frunkVolumeCuFt": 7.1,
+    "towingCapacityLbs": 11000,
+    "groundClearanceIn": 16.0,
+    "weightLbs": 6843,
+    "chargingSpeedDcFastKw": 250,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 150000,
+    "range": 335,
+    "epaRangeCity": 374,
+    "epaRangeHwy": 306,
+    "horsepower": 315,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 690,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 25,
+    "year2Percent": 38,
+    "year3Percent": 46,
+    "year5Percent": 58,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 2300,
+    "average": 3100,
+    "high": 4500,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 69990
+}

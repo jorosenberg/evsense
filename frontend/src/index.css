@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Serif+Display:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-ink;
+    background:
+      radial-gradient(rgba(47, 91, 255, 0.09) 1px, transparent 1px) 0 0 / 26px 26px,
+      linear-gradient(180deg, #0B0E16 0%, #0E121C 45%, #090C13 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: #CFF44A;
+    color: #0C0E14;
+  }
+
+  /* Serif display headings use DM Serif Display via .font-display; default
+     UI headings stay in DM Sans, medium weight, tight tracking. */
+  h1, h2, h3, h4 {
+    @apply font-sans font-medium tracking-tight;
+  }
+}
+
+@layer components {
+  /* ── Card ───────────────────────────────────────────────── */
+  .card {
+    @apply bg-surface-raised border border-border rounded-card shadow-card;
+  }
+
+  .card-hover {
+    @apply hover:border-border-strong hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-150;
+  }
+
+  /* ── Buttons ────────────────────────────────────────────── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 bg-brand-blue text-white font-semibold rounded-pill
+    hover:bg-brand-blue-hover active:scale-95 transition-all duration-100 text-sm;
+  }
+
+  /* Lime "Find my EV" style primary CTA */
+  .btn-lime {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 bg-accent-lime text-[#0C0E14] font-semibold rounded-pill
+    shadow-lime hover:-translate-y-0.5 active:scale-95 transition-all duration-100 text-sm;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 bg-surface-raised text-ink border border-border font-semibold rounded-pill
+    hover:bg-surface-sunken hover:border-border-strong active:scale-95 transition-all duration-100 text-sm;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-4 py-2 text-ink-muted font-semibold rounded-pill
+    hover:bg-surface-sunken hover:text-ink transition-all duration-100 text-sm;
+  }
+
+  /* ── Inputs ─────────────────────────────────────────────── */
+  .input-base {
+    @apply w-full px-3 py-2 border border-border rounded-lg text-sm bg-surface-sunken text-ink
+    focus:outline-none focus:ring-2 focus:ring-brand-blue/30 focus:border-brand-blue
+    placeholder:text-ink-subtle transition-colors;
+  }
+
+  .input-error {
+    @apply border-status-red focus:border-status-red focus:ring-status-red/30;
+  }
+
+  /* ── Tabs ───────────────────────────────────────────────── */
+  .tab-active {
+    @apply text-brand-blue border-b-2 border-brand-blue font-semibold;
+  }
+
+  .tab-inactive {
+    @apply text-ink-muted border-b-2 border-transparent hover:text-ink hover:border-border-strong;
+  }
+
+  /* Pill tab group (detail TCO tabs) */
+  .pill-tab-active {
+    @apply px-4 py-1.5 rounded-pill bg-brand-blue text-white text-sm font-semibold transition-all;
+  }
+
+  .pill-tab-inactive {
+    @apply px-4 py-1.5 rounded-pill text-ink-muted text-sm font-semibold hover:text-ink transition-all;
+  }
+
+  /* ── Badge ──────────────────────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-pill text-xs font-medium;
+  }
+
+  .badge-blue {
+    @apply badge bg-brand-blue/15 text-brand-indigo;
+  }
+
+  .badge-green {
+    @apply badge bg-status-green-bg text-status-green;
+  }
+
+  .badge-yellow {
+    @apply badge bg-status-yellow-bg text-status-yellow;
+  }
+
+  .badge-red {
+    @apply badge bg-status-red-bg text-status-red;
+  }
+
+  .badge-grey {
+    @apply badge bg-white/[0.06] text-ink-muted;
+  }
+
+  .badge-lime {
+    @apply badge text-[#5a7a00];
+    background: rgba(207, 244, 74, 0.16);
+  }
+
+  /* ── Section / stat ─────────────────────────────────────── */
+  .section-label {
+    @apply text-xs font-bold uppercase tracking-widest text-ink-subtle;
+  }
+
+  .stat-value {
+    @apply font-grotesk text-2xl font-semibold text-ink tabular-nums;
+  }
+
+  .stat-label {
+    @apply text-nano font-bold uppercase tracking-wider text-ink-subtle;
+  }
+
+  /* ── Type helpers ───────────────────────────────────────── */
+  .font-display {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-weight: 400;
+  }
+
+  /* ── Surfaces used across screens ───────────────────────── */
+  /* Dark "image disc" behind vehicle PNGs */
+  .image-disc {
+    background: radial-gradient(circle at 50% 40%, #1C2233, #1A2031);
+  }
+
+  /* Blue→purple gradient panel (customize-costs, incentive callouts) */
+  .panel-grad {
+    background:
+      radial-gradient(rgba(255, 255, 255, 0.10) 1px, transparent 1px) 0 0 / 15px 15px,
+      linear-gradient(150deg, #2F5BFF 0%, #5365FF 50%, #6B5CFF 100%);
+  }
+}
+
+/* ── Custom range slider ──────────────────────────────────── */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: #2A3140;
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #2F5BFF;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(47, 91, 255, 0.35);
+  cursor: pointer;
+  transition: transform 0.12s;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2F5BFF;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+
+/* Lime-thumb variant for the gradient cost panel */
+.ev-range-lime::-webkit-slider-thumb { background: #CFF44A; }
+.ev-range-lime::-moz-range-thumb { background: #CFF44A; }
+
+/* Scrollbar (compare row, dropdowns) */
+.ev-scroll::-webkit-scrollbar { height: 8px; width: 8px; }
+.ev-scroll::-webkit-scrollbar-thumb { background: #38415A; border-radius: 999px; }
+
+/* Stale / notice banner — dark */
+.stale-banner {
+  @apply flex items-center gap-2 text-sm px-4 py-2 bg-status-yellow-bg border-b border-status-yellow/40 text-status-yellow;
+}
+
+/* Skeleton shimmer — dark */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #161A26 25%, #1F2533 50%, #161A26 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  @apply rounded;
+}
+
+/* Mobile bottom nav safe-area padding */
+@media (max-width: 767px) {
+  .pb-bottom-nav {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+@media (min-width: 768px) {
+  .pb-bottom-nav {
+    padding-bottom: 0;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

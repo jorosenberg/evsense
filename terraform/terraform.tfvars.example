@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# EVsense — Terraform variable values.
+# Copy to terraform.tfvars and edit. These are ALL the values you'd normally
+# change; anything omitted uses the default in variables.tf.
+#
+#   cp terraform.tfvars.example terraform.tfvars
+#   terraform init && terraform apply
+#
+# DO NOT commit terraform.tfvars — it's gitignored. Put secrets in TF_VAR_* env
+# vars or GitHub Actions secrets, not in this file.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Basics ──
+project_name = "evsense"
+environment  = "prod"
+aws_region   = "us-east-1"   # must be us-east-1 — CloudFront requires ACM certs in this region
+
+# ── Custom domain + HTTPS ──
+# Set to serve the site at your domain via ACM certificate + CloudFront alias.
+# Leave empty ("") to use the default *.cloudfront.net URL.
+domain_name = "evsense.jonahrosenberg.work"
+
+# ── Deployment profile ──
+# Defaults below = the fully free-tier path: a static S3 + CloudFront site, with
+# the scraper running in GitHub Actions (free). Flip these on only if you want
+# server-hosted frontend or a cloud-scheduled scraper.
+enable_static_site   = true    # S3 + CloudFront hosting for the React app   (FREE)
+enable_ec2_frontend  = false   # always-on EC2 + nginx instead               (NOT free: ~$3.60/mo IPv4)
+enable_cloud_scraper = false   # Lambda + ECR + API Gateway + EventBridge    (mostly free; ECR may exceed free tier)
+enable_rds           = false   # PostgreSQL — not needed (app uses static JSON)
+
+# ── Only needed when enable_ec2_frontend = true ──
+# key_name        = "evsense-keypair"   # existing EC2 key pair name
+# github_repo_url = "https://github.com/YOUR_USER/ev-true-cost-explorer.git"
+# instance_type   = "t3.micro"
+
+# ── Only needed when enable_cloud_scraper = true (stored in SSM Parameter Store, free) ──
+# Prefer TF_VAR_ocm_api_key / TF_VAR_nrel_api_key env vars over plaintext here.
+# ocm_api_key                   = ""   # openchargemap.org/site/develop/api
+# nrel_api_key                  = ""   # signup.developer.nrel.gov
+# firebase_service_account_json = ""
+
+# ── Only needed when enable_rds = true ──
+# db_name     = "evsensedb"
+# db_username = "evsenseadmin"
+# db_password is best set via TF_VAR_db_password, not here.

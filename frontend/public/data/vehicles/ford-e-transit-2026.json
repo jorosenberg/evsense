@@ -1,0 +1,319 @@
+{
+  "id": "ford-e-transit-2026",
+  "make": "Ford",
+  "model": "E-Transit",
+  "year": 2026,
+  "type": "new",
+  "category": "van",
+  "bodyStyle": "van",
+  "manufacturerUrl": "https://www.ford.com/commercial-trucks/e-transit",
+  "imageUrl": "/data/images/ford-e-transit-2026/default.jpg",
+  "imageGallery": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ford_E-Transit_350L_Trend_2022_%281Y7A6203%29.jpg/1280px-Ford_E-Transit_350L_Trend_2022_%281Y7A6203%29.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 53995
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 49995
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 51995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "350",
+      "msrp": 57650,
+      "sellingPrice": 55894,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 539,
+          "termMonths": 36,
+          "mileagePerYear": 12000,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00135,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "350 Low Roof 3dr Van (electric DD)"
+    },
+    {
+      "name": "350 Medium Roof",
+      "msrp": 59820,
+      "sellingPrice": 56962,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 12000,
+          "dueAtSigning": 4999,
+          "moneyFactor": 0.00145,
+          "residualPercent": 44,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "350 Medium Roof 3dr Van (electric DD)"
+    },
+    {
+      "name": "350",
+      "msrp": 61500,
+      "sellingPrice": 58550,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 539,
+          "termMonths": 36,
+          "mileagePerYear": 12000,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00135,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "350 High Roof 3dr Ext Van (electric DD)"
+    },
+    {
+      "name": "350",
+      "msrp": 61620,
+      "sellingPrice": 58664,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 539,
+          "termMonths": 36,
+          "mileagePerYear": 12000,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00135,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "350 High Roof 3dr Van (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 89,
+    "milesPerKwh": 2.1,
+    "zeroToSixty": 8.5,
+    "topSpeed": 75,
+    "torqueLbFt": 317,
+    "seatingCapacity": 2,
+    "cargoVolumeCuFt": 487.3,
+    "frunkVolumeCuFt": 0,
+    "towingCapacityLbs": 4500,
+    "groundClearanceIn": 6.5,
+    "weightLbs": 7385,
+    "chargingSpeedDcFastKw": 115,
+    "chargingSpeedL2Kw": 11.3,
+    "chargingPort": "CCS",
+    "autopilot": false,
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 126,
+    "epaRangeCity": 139,
+    "epaRangeHwy": 113,
+    "horsepower": 266,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 580,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 32,
+    "year2Percent": 45,
+    "year3Percent": 53,
+    "year5Percent": 63,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1620,
+    "average": 2200,
+    "high": 3140,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 57650
+}

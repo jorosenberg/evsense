@@ -1,0 +1,367 @@
+{
+  "lastUpdated": "2026-05-29T21:15:33.978277+00:00",
+  "federal": {
+    "amountUsd": 0,
+    "name": "unknown",
+    "error": "[Errno 11001] getaddrinfo failed"
+  },
+  "byState": {
+    "AL": {
+      "state": "AL",
+      "lastUpdated": "2026-05-29T21:15:34.005686+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "AK": {
+      "state": "AK",
+      "lastUpdated": "2026-05-29T21:15:34.407822+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "AZ": {
+      "state": "AZ",
+      "lastUpdated": "2026-05-29T21:15:34.809097+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "AR": {
+      "state": "AR",
+      "lastUpdated": "2026-05-29T21:15:35.210274+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "CA": {
+      "state": "CA",
+      "lastUpdated": "2026-05-29T21:15:35.611317+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "CO": {
+      "state": "CO",
+      "lastUpdated": "2026-05-29T21:15:36.012749+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "CT": {
+      "state": "CT",
+      "lastUpdated": "2026-05-29T21:15:36.413588+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "DE": {
+      "state": "DE",
+      "lastUpdated": "2026-05-29T21:15:36.814619+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "FL": {
+      "state": "FL",
+      "lastUpdated": "2026-05-29T21:15:37.215657+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "GA": {
+      "state": "GA",
+      "lastUpdated": "2026-05-29T21:15:37.616643+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "HI": {
+      "state": "HI",
+      "lastUpdated": "2026-05-29T21:15:38.017691+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "ID": {
+      "state": "ID",
+      "lastUpdated": "2026-05-29T21:15:38.418832+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "IL": {
+      "state": "IL",
+      "lastUpdated": "2026-05-29T21:15:38.838397+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "IN": {
+      "state": "IN",
+      "lastUpdated": "2026-05-29T21:15:39.239416+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "IA": {
+      "state": "IA",
+      "lastUpdated": "2026-05-29T21:15:39.640879+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "KS": {
+      "state": "KS",
+      "lastUpdated": "2026-05-29T21:15:40.045147+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "KY": {
+      "state": "KY",
+      "lastUpdated": "2026-05-29T21:15:40.446075+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "LA": {
+      "state": "LA",
+      "lastUpdated": "2026-05-29T21:15:40.847123+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "ME": {
+      "state": "ME",
+      "lastUpdated": "2026-05-29T21:15:41.248150+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MD": {
+      "state": "MD",
+      "lastUpdated": "2026-05-29T21:15:41.649250+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MA": {
+      "state": "MA",
+      "lastUpdated": "2026-05-29T21:15:42.050341+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MI": {
+      "state": "MI",
+      "lastUpdated": "2026-05-29T21:15:42.451483+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MN": {
+      "state": "MN",
+      "lastUpdated": "2026-05-29T21:15:42.852566+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MS": {
+      "state": "MS",
+      "lastUpdated": "2026-05-29T21:15:43.253523+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MO": {
+      "state": "MO",
+      "lastUpdated": "2026-05-29T21:15:43.654490+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "MT": {
+      "state": "MT",
+      "lastUpdated": "2026-05-29T21:15:44.071361+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NE": {
+      "state": "NE",
+      "lastUpdated": "2026-05-29T21:15:44.472628+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NV": {
+      "state": "NV",
+      "lastUpdated": "2026-05-29T21:15:44.873917+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NH": {
+      "state": "NH",
+      "lastUpdated": "2026-05-29T21:15:45.274944+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NJ": {
+      "state": "NJ",
+      "lastUpdated": "2026-05-29T21:15:45.676164+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NM": {
+      "state": "NM",
+      "lastUpdated": "2026-05-29T21:15:46.077130+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NY": {
+      "state": "NY",
+      "lastUpdated": "2026-05-29T21:15:46.478632+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "NC": {
+      "state": "NC",
+      "lastUpdated": "2026-05-29T21:15:46.879793+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "ND": {
+      "state": "ND",
+      "lastUpdated": "2026-05-29T21:15:47.281192+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "OH": {
+      "state": "OH",
+      "lastUpdated": "2026-05-29T21:15:47.682668+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "OK": {
+      "state": "OK",
+      "lastUpdated": "2026-05-29T21:15:48.083903+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "OR": {
+      "state": "OR",
+      "lastUpdated": "2026-05-29T21:15:48.484918+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "PA": {
+      "state": "PA",
+      "lastUpdated": "2026-05-29T21:15:48.903879+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "RI": {
+      "state": "RI",
+      "lastUpdated": "2026-05-29T21:15:49.305021+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "SC": {
+      "state": "SC",
+      "lastUpdated": "2026-05-29T21:15:49.706285+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "SD": {
+      "state": "SD",
+      "lastUpdated": "2026-05-29T21:15:50.107632+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "TN": {
+      "state": "TN",
+      "lastUpdated": "2026-05-29T21:15:50.508800+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "TX": {
+      "state": "TX",
+      "lastUpdated": "2026-05-29T21:15:50.910052+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "UT": {
+      "state": "UT",
+      "lastUpdated": "2026-05-29T21:15:51.311046+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "VT": {
+      "state": "VT",
+      "lastUpdated": "2026-05-29T21:15:51.712242+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "VA": {
+      "state": "VA",
+      "lastUpdated": "2026-05-29T21:15:52.113581+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "WA": {
+      "state": "WA",
+      "lastUpdated": "2026-05-29T21:15:52.514902+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "WV": {
+      "state": "WV",
+      "lastUpdated": "2026-05-29T21:15:52.916120+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "WI": {
+      "state": "WI",
+      "lastUpdated": "2026-05-29T21:15:53.317117+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "WY": {
+      "state": "WY",
+      "lastUpdated": "2026-05-29T21:15:53.718059+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    },
+    "DC": {
+      "state": "DC",
+      "lastUpdated": "2026-05-29T21:15:54.139552+00:00",
+      "federalCreditUsd": 0,
+      "summaryRebateUsd": 0,
+      "incentives": []
+    }
+  }
+}

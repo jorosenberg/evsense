@@ -1,0 +1,543 @@
+{
+  "id": "volkswagen-id-buzz-2026",
+  "make": "Volkswagen",
+  "model": "ID. Buzz",
+  "year": 2026,
+  "type": "new",
+  "category": "van",
+  "bodyStyle": "van",
+  "manufacturerUrl": "https://www.vw.com/en/models/id-buzz.html",
+  "imageUrl": "/data/images/volkswagen-id-buzz-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/volkswagen-id-buzz-2026/default.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-1.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-2.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-3.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-4.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-5.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-6.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-7.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-8.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-9.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-10.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-11.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-12.jpg",
+    "/data/images/volkswagen-id-buzz-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "msrp": 59995
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 59995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Pro S",
+      "msrp": 62390,
+      "sellingPrice": 57882,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 234,
+        "milesPerKwh": 2.45
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5495,
+          "moneyFactor": 0.00145,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pro S 4dr Minivan (electric DD)"
+    },
+    {
+      "name": "Pro S w/Two-Tone Paint",
+      "msrp": 63405,
+      "sellingPrice": 58821,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 234,
+        "milesPerKwh": 2.45
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5495,
+          "moneyFactor": 0.00145,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pro S 4dr Minivan w/Two-Tone Paint (electric DD)"
+    },
+    {
+      "name": "1st Edition",
+      "msrp": 67885,
+      "sellingPrice": 63911,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 234,
+        "milesPerKwh": 2.45
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 649,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5895,
+          "moneyFactor": 0.0015,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "1st Edition 4dr Minivan (electric DD)"
+    },
+    {
+      "name": "Pro S Plus w/Two-Tone Paint",
+      "msrp": 68554,
+      "sellingPrice": 63588,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 234,
+        "milesPerKwh": 2.45
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 649,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5895,
+          "moneyFactor": 0.0015,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pro S Plus 4dr Minivan w/Two-Tone Paint (electric DD)"
+    },
+    {
+      "name": "Pro S Plus",
+      "msrp": 68577,
+      "sellingPrice": 63610,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 234,
+        "milesPerKwh": 2.45
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5495,
+          "moneyFactor": 0.00145,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pro S Plus 4dr Minivan (electric DD)"
+    },
+    {
+      "name": "1st Edition AWD",
+      "msrp": 72385,
+      "sellingPrice": 67805,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 231,
+        "milesPerKwh": 2.38,
+        "horsepower": 389
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "1st Edition 4dr Minivan AWD (electric DD)"
+    },
+    {
+      "name": "Pro S Plus AWD w/Two-Tone Paint",
+      "msrp": 72489,
+      "sellingPrice": 69096,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 231,
+        "milesPerKwh": 2.38
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 679,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5895,
+          "moneyFactor": 0.00155,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pro S Plus 4dr Minivan AWD w/Two-Tone Paint (electric DD)"
+    },
+    {
+      "name": "Pro S Plus AWD",
+      "msrp": 72709,
+      "sellingPrice": 69306,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 231,
+        "milesPerKwh": 2.38
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 679,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5895,
+          "moneyFactor": 0.00155,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pro S Plus 4dr Minivan AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 91,
+    "milesPerKwh": 2.8,
+    "zeroToSixty": 7.9,
+    "topSpeed": 99,
+    "torqueLbFt": 413,
+    "seatingCapacity": 7,
+    "cargoVolumeCuFt": 145.5,
+    "frunkVolumeCuFt": 0,
+    "towingCapacityLbs": 2700,
+    "groundClearanceIn": 7.0,
+    "weightLbs": 6197,
+    "chargingSpeedDcFastKw": 200,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "CCS",
+    "autopilot": false,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 234,
+    "epaRangeCity": 257,
+    "epaRangeHwy": 211,
+    "horsepower": 282,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 615,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 29,
+    "year2Percent": 41,
+    "year3Percent": 49,
+    "year5Percent": 59,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1690,
+    "average": 2300,
+    "high": 3290,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 62390
+}

@@ -1,0 +1,1507 @@
+{
+  "source": "NHTSA vPIC",
+  "source_url": "https://vpic.nhtsa.dot.gov/api/",
+  "scraped_at": "2026-05-31T02:17:05+00:00",
+  "model_years": [
+    2027,
+    2028
+  ],
+  "count": 166,
+  "new_count": 140,
+  "candidates": [
+    {
+      "make": "Acura",
+      "model": "ZDX",
+      "model_year": 2027,
+      "vpic_model_id": 1867,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Audi",
+      "model": "e-tron GT",
+      "model_year": 2027,
+      "vpic_model_id": 29994,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Audi",
+      "model": "RS e-tron GT",
+      "model_year": 2027,
+      "vpic_model_id": 28998,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Audi",
+      "model": "S e-tron GT",
+      "model_year": 2027,
+      "vpic_model_id": 35659,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "BMW",
+      "model": "i5",
+      "model_year": 2027,
+      "vpic_model_id": 32328,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "BMW",
+      "model": "iX",
+      "model_year": 2027,
+      "vpic_model_id": 29578,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Celestiq",
+      "model_year": 2027,
+      "vpic_model_id": 34303,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade IQ",
+      "model_year": 2027,
+      "vpic_model_id": 34058,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade IQL",
+      "model_year": 2027,
+      "vpic_model_id": 35680,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Lyriq",
+      "model_year": 2027,
+      "vpic_model_id": 30011,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Optiq",
+      "model_year": 2027,
+      "vpic_model_id": 34854,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Vistiq",
+      "model_year": 2027,
+      "vpic_model_id": 35294,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "model_year": 2027,
+      "vpic_model_id": 36838,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Bolt Incomplete",
+      "model_year": 2027,
+      "vpic_model_id": 24257,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Onix",
+      "model_year": 2027,
+      "vpic_model_id": 27445,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Fiat",
+      "model": "500e",
+      "model_year": 2027,
+      "vpic_model_id": 33815,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Ford",
+      "model": "Classic Sedan",
+      "model_year": 2027,
+      "vpic_model_id": 18237,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "model_year": 2027,
+      "vpic_model_id": 27440,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Genesis",
+      "model": "GV60",
+      "model_year": 2027,
+      "vpic_model_id": 29588,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Genesis",
+      "model": "GV60 Magma",
+      "model_year": 2027,
+      "vpic_model_id": 37966,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "GMC",
+      "model": "Hummer EV Pickup",
+      "model_year": 2027,
+      "vpic_model_id": 32046,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "GMC",
+      "model": "Hummer EV SUV",
+      "model_year": 2027,
+      "vpic_model_id": 29077,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "CR250R",
+      "model_year": 2027,
+      "vpic_model_id": 10960,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "FourTrax Recon",
+      "model_year": 2027,
+      "vpic_model_id": 11837,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "Prologue",
+      "model_year": 2027,
+      "vpic_model_id": 33174,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "VTR250 (Interceptor 250)",
+      "model_year": 2027,
+      "vpic_model_id": 37544,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "XR250R",
+      "model_year": 2027,
+      "vpic_model_id": 11409,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "model_year": 2027,
+      "vpic_model_id": 28983,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5 N",
+      "model_year": 2027,
+      "vpic_model_id": 33664,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 6",
+      "model_year": 2027,
+      "vpic_model_id": 31360,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 6 N",
+      "model_year": 2027,
+      "vpic_model_id": 36896,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 9",
+      "model_year": 2027,
+      "vpic_model_id": 35749,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Jeep",
+      "model": "Recon",
+      "model_year": 2027,
+      "vpic_model_id": 37249,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Jeep",
+      "model": "Wagoneer S",
+      "model_year": 2027,
+      "vpic_model_id": 34270,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Kia",
+      "model": "EV6",
+      "model_year": 2027,
+      "vpic_model_id": 29462,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Kia",
+      "model": "EV9",
+      "model_year": 2027,
+      "vpic_model_id": 32587,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Lexus",
+      "model": "RZ",
+      "model_year": 2027,
+      "vpic_model_id": 31443,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Lucid",
+      "model": "Air",
+      "model_year": 2027,
+      "vpic_model_id": 28593,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Lucid",
+      "model": "Gravity",
+      "model_year": 2027,
+      "vpic_model_id": 35254,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2085,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLA-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2083,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2081,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE-Class Sedan",
+      "model_year": 2027,
+      "vpic_model_id": 30229,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE-Class SUV",
+      "model_year": 2027,
+      "vpic_model_id": 31097,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQS-Class Sedan",
+      "model_year": 2027,
+      "vpic_model_id": 29045,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQS-Class SUV",
+      "model_year": 2027,
+      "vpic_model_id": 30265,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "G-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2131,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLA-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2084,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLB-Class",
+      "model_year": 2027,
+      "vpic_model_id": 26498,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLC-Class",
+      "model_year": 2027,
+      "vpic_model_id": 5885,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLE-Class",
+      "model_year": 2027,
+      "vpic_model_id": 5886,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLS-Class",
+      "model_year": 2027,
+      "vpic_model_id": 14005,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2086,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class",
+      "model_year": 2027,
+      "vpic_model_id": 2079,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mini",
+      "model": "MiniMixx",
+      "model_year": 2027,
+      "vpic_model_id": 16309,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Nissan",
+      "model": "Ariya MPV",
+      "model_year": 2027,
+      "vpic_model_id": 36667,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Nissan",
+      "model": "Leaf",
+      "model_year": 2027,
+      "vpic_model_id": 1905,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 2",
+      "model_year": 2027,
+      "vpic_model_id": 27554,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 3",
+      "model_year": 2027,
+      "vpic_model_id": 32388,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 4",
+      "model_year": 2027,
+      "vpic_model_id": 34853,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar Trailers, Inc.",
+      "model_year": 2027,
+      "vpic_model_id": 28165,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Porsche",
+      "model": "Taycan",
+      "model_year": 2027,
+      "vpic_model_id": 28090,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Rivian",
+      "model": "R1T",
+      "model_year": 2027,
+      "vpic_model_id": 28467,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Rivian",
+      "model": "R2",
+      "model_year": 2027,
+      "vpic_model_id": 37617,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Subaru",
+      "model": "BRZ",
+      "model_year": 2027,
+      "vpic_model_id": 2238,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Subaru",
+      "model": "Solterra",
+      "model_year": 2027,
+      "vpic_model_id": 30191,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Cybertruck",
+      "model_year": 2027,
+      "vpic_model_id": 33135,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "model_year": 2027,
+      "vpic_model_id": 17834,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model S",
+      "model_year": 2027,
+      "vpic_model_id": 1685,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model X",
+      "model_year": 2027,
+      "vpic_model_id": 10199,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model Y",
+      "model_year": 2027,
+      "vpic_model_id": 27027,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ",
+      "model_year": 2027,
+      "vpic_model_id": 37150,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ Woodland",
+      "model_year": 2027,
+      "vpic_model_id": 37355,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "VinFast",
+      "model": "VF 8",
+      "model_year": 2027,
+      "vpic_model_id": 30336,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "VinFast",
+      "model": "VF 9",
+      "model_year": 2027,
+      "vpic_model_id": 30337,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "model_year": 2027,
+      "vpic_model_id": 35143,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_year": 2027,
+      "vpic_model_id": 28219,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EC40",
+      "model_year": 2027,
+      "vpic_model_id": 34313,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX30",
+      "model_year": 2027,
+      "vpic_model_id": 34308,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX30 CC",
+      "model_year": 2027,
+      "vpic_model_id": 36146,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX40",
+      "model_year": 2027,
+      "vpic_model_id": 34314,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX90",
+      "model_year": 2027,
+      "vpic_model_id": 34309,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "XC40",
+      "model_year": 2027,
+      "vpic_model_id": 23714,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Acura",
+      "model": "ZDX",
+      "model_year": 2028,
+      "vpic_model_id": 1867,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Audi",
+      "model": "e-tron GT",
+      "model_year": 2028,
+      "vpic_model_id": 29994,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Audi",
+      "model": "RS e-tron GT",
+      "model_year": 2028,
+      "vpic_model_id": 28998,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Audi",
+      "model": "S e-tron GT",
+      "model_year": 2028,
+      "vpic_model_id": 35659,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "BMW",
+      "model": "i5",
+      "model_year": 2028,
+      "vpic_model_id": 32328,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "BMW",
+      "model": "iX",
+      "model_year": 2028,
+      "vpic_model_id": 29578,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Celestiq",
+      "model_year": 2028,
+      "vpic_model_id": 34303,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade IQ",
+      "model_year": 2028,
+      "vpic_model_id": 34058,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade IQL",
+      "model_year": 2028,
+      "vpic_model_id": 35680,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Lyriq",
+      "model_year": 2028,
+      "vpic_model_id": 30011,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Optiq",
+      "model_year": 2028,
+      "vpic_model_id": 34854,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Cadillac",
+      "model": "Vistiq",
+      "model_year": 2028,
+      "vpic_model_id": 35294,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "model_year": 2028,
+      "vpic_model_id": 36838,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Bolt Incomplete",
+      "model_year": 2028,
+      "vpic_model_id": 24257,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Onix",
+      "model_year": 2028,
+      "vpic_model_id": 27445,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Fiat",
+      "model": "500e",
+      "model_year": 2028,
+      "vpic_model_id": 33815,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Ford",
+      "model": "Classic Sedan",
+      "model_year": 2028,
+      "vpic_model_id": 18237,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "model_year": 2028,
+      "vpic_model_id": 27440,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Genesis",
+      "model": "GV60",
+      "model_year": 2028,
+      "vpic_model_id": 29588,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Genesis",
+      "model": "GV60 Magma",
+      "model_year": 2028,
+      "vpic_model_id": 37966,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "GMC",
+      "model": "Hummer EV Pickup",
+      "model_year": 2028,
+      "vpic_model_id": 32046,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "GMC",
+      "model": "Hummer EV SUV",
+      "model_year": 2028,
+      "vpic_model_id": 29077,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "CR250R",
+      "model_year": 2028,
+      "vpic_model_id": 10960,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "FourTrax Recon",
+      "model_year": 2028,
+      "vpic_model_id": 11837,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "Prologue",
+      "model_year": 2028,
+      "vpic_model_id": 33174,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "VTR250 (Interceptor 250)",
+      "model_year": 2028,
+      "vpic_model_id": 37544,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Honda",
+      "model": "XR250R",
+      "model_year": 2028,
+      "vpic_model_id": 11409,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "model_year": 2028,
+      "vpic_model_id": 28983,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5 N",
+      "model_year": 2028,
+      "vpic_model_id": 33664,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 6",
+      "model_year": 2028,
+      "vpic_model_id": 31360,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 6 N",
+      "model_year": 2028,
+      "vpic_model_id": 36896,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 9",
+      "model_year": 2028,
+      "vpic_model_id": 35749,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Jeep",
+      "model": "Recon",
+      "model_year": 2028,
+      "vpic_model_id": 37249,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Jeep",
+      "model": "Wagoneer S",
+      "model_year": 2028,
+      "vpic_model_id": 34270,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Kia",
+      "model": "EV6",
+      "model_year": 2028,
+      "vpic_model_id": 29462,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Kia",
+      "model": "EV9",
+      "model_year": 2028,
+      "vpic_model_id": 32587,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Lexus",
+      "model": "RZ",
+      "model_year": 2028,
+      "vpic_model_id": 31443,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Lucid",
+      "model": "Air",
+      "model_year": 2028,
+      "vpic_model_id": 28593,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Lucid",
+      "model": "Gravity",
+      "model_year": 2028,
+      "vpic_model_id": 35254,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2085,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLA-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2083,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2081,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE-Class Sedan",
+      "model_year": 2028,
+      "vpic_model_id": 30229,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE-Class SUV",
+      "model_year": 2028,
+      "vpic_model_id": 31097,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQS-Class Sedan",
+      "model_year": 2028,
+      "vpic_model_id": 29045,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQS-Class SUV",
+      "model_year": 2028,
+      "vpic_model_id": 30265,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "G-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2131,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLA-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2084,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLB-Class",
+      "model_year": 2028,
+      "vpic_model_id": 26498,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLC-Class",
+      "model_year": 2028,
+      "vpic_model_id": 5885,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLE-Class",
+      "model_year": 2028,
+      "vpic_model_id": 5886,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLS-Class",
+      "model_year": 2028,
+      "vpic_model_id": 14005,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2086,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class",
+      "model_year": 2028,
+      "vpic_model_id": 2079,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Mini",
+      "model": "MiniMixx",
+      "model_year": 2028,
+      "vpic_model_id": 16309,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Nissan",
+      "model": "Ariya MPV",
+      "model_year": 2028,
+      "vpic_model_id": 36667,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Nissan",
+      "model": "Leaf",
+      "model_year": 2028,
+      "vpic_model_id": 1905,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 2",
+      "model_year": 2028,
+      "vpic_model_id": 27554,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 3",
+      "model_year": 2028,
+      "vpic_model_id": 32388,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 4",
+      "model_year": 2028,
+      "vpic_model_id": 34853,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar Trailers, Inc.",
+      "model_year": 2028,
+      "vpic_model_id": 28165,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Porsche",
+      "model": "Taycan",
+      "model_year": 2028,
+      "vpic_model_id": 28090,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Rivian",
+      "model": "R1T",
+      "model_year": 2028,
+      "vpic_model_id": 28467,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Rivian",
+      "model": "R2",
+      "model_year": 2028,
+      "vpic_model_id": 37617,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Subaru",
+      "model": "BRZ",
+      "model_year": 2028,
+      "vpic_model_id": 2238,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Subaru",
+      "model": "Solterra",
+      "model_year": 2028,
+      "vpic_model_id": 30191,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Cybertruck",
+      "model_year": 2028,
+      "vpic_model_id": 33135,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "model_year": 2028,
+      "vpic_model_id": 17834,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model S",
+      "model_year": 2028,
+      "vpic_model_id": 1685,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model X",
+      "model_year": 2028,
+      "vpic_model_id": 10199,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model Y",
+      "model_year": 2028,
+      "vpic_model_id": 27027,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ",
+      "model_year": 2028,
+      "vpic_model_id": 37150,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ Woodland",
+      "model_year": 2028,
+      "vpic_model_id": 37355,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "VinFast",
+      "model": "VF 8",
+      "model_year": 2028,
+      "vpic_model_id": 30336,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "VinFast",
+      "model": "VF 9",
+      "model_year": 2028,
+      "vpic_model_id": 30337,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "model_year": 2028,
+      "vpic_model_id": 35143,
+      "already_in_catalog": true,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_year": 2028,
+      "vpic_model_id": 28219,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EC40",
+      "model_year": 2028,
+      "vpic_model_id": 34313,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX30",
+      "model_year": 2028,
+      "vpic_model_id": 34308,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX30 CC",
+      "model_year": 2028,
+      "vpic_model_id": 36146,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX40",
+      "model_year": 2028,
+      "vpic_model_id": 34314,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "EX90",
+      "model_year": 2028,
+      "vpic_model_id": 34309,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    },
+    {
+      "make": "Volvo",
+      "model": "XC40",
+      "model_year": 2028,
+      "vpic_model_id": 23714,
+      "already_in_catalog": false,
+      "status": "upcoming",
+      "source": "NHTSA vPIC"
+    }
+  ]
+}

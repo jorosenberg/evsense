@@ -1,0 +1,374 @@
+{
+  "id": "hyundai-ioniq-9-2026",
+  "make": "Hyundai",
+  "model": "IONIQ 9",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-9",
+  "imageUrl": "/data/images/hyundai-ioniq-9-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/hyundai-ioniq-9-2026/default.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-1.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-2.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-3.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-4.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-5.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-6.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-7.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-8.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-9.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-10.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-11.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-12.jpg",
+    "/data/images/hyundai-ioniq-9-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-11-01T00:00:00+00:00",
+      "msrp": 68490
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 68490
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "S",
+      "msrp": 61505,
+      "sellingPrice": 60354,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 335,
+        "milesPerKwh": 2.7
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 619,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5499,
+          "moneyFactor": 0.0015,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "S 4dr SUV (electric DD)"
+    },
+    {
+      "name": "SE AWD",
+      "msrp": 65380,
+      "sellingPrice": 64199,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 311,
+        "milesPerKwh": 2.5
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 679,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5999,
+          "moneyFactor": 0.0016,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SE 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "SEL AWD",
+      "msrp": 69075,
+      "sellingPrice": 68103,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 311,
+        "milesPerKwh": 2.5,
+        "horsepower": 211
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SEL 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Performance Limited AWD",
+      "msrp": 74005,
+      "sellingPrice": 72877,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 311,
+        "milesPerKwh": 2.5,
+        "horsepower": 211
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Performance Limited 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Performance Calligraphy AWD",
+      "msrp": 77700,
+      "sellingPrice": 76912,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 311,
+        "milesPerKwh": 2.5
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 739,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6499,
+          "moneyFactor": 0.00175,
+          "residualPercent": 49,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Performance Calligraphy 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Performance Calligraphy Design AWD",
+      "msrp": 79555,
+      "sellingPrice": 78747,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 311,
+        "milesPerKwh": 2.5
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 739,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6499,
+          "moneyFactor": 0.00175,
+          "residualPercent": 49,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Performance Calligraphy Design 4dr SUV AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 110.3,
+    "milesPerKwh": 3.1,
+    "zeroToSixty": 6.2,
+    "topSpeed": 124,
+    "torqueLbFt": 516,
+    "seatingCapacity": 7,
+    "cargoVolumeCuFt": 88.0,
+    "frunkVolumeCuFt": 3.0,
+    "towingCapacityLbs": 5000,
+    "groundClearanceIn": 6.8,
+    "weightLbs": 5723,
+    "chargingSpeedDcFastKw": 350,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 5,
+    "batteryWarrantyYears": 10,
+    "batteryWarrantyMiles": 100000,
+    "range": 335,
+    "epaRangeCity": 369,
+    "epaRangeHwy": 302,
+    "horsepower": 215,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 610,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 28,
+    "year2Percent": 41,
+    "year3Percent": 50,
+    "year5Percent": 60,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1840,
+    "average": 2480,
+    "high": 3540,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 61505
+}

@@ -1,0 +1,84 @@
+# Markdown -- keep only README.md
+*.md
+!README.md
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+.vite/
+
+# Python / scraper
+scraper/venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+scraper/reports/
+!scraper/reports/.gitkeep
+scraper/incentives/.chrome-profile/
+scraper/incentives/deals_html/
+
+# Firebase
+firebase-debug.log
+.firebase/
+firebase-functions/functions/node_modules/
+firebase-functions/functions/lib/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/*.tfstate.*.backup
+terraform/.terraform.tfstate.lock.info
+terraform/terraform.tfvars
+terraform/*.auto.tfvars
+terraform/crash.log
+terraform/crash.*.log
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/*_override.tf.json
+
+# Credentials -- never commit
+*.pem
+*.key
+!frontend/src/**/*.key
+*firebase-adminsdk*.json
+*service-account*.json
+*service_account*.json
+
+# JSON: block all, then allowlist what the app and toolchain need
+*.json
+# App data (served statically)
+!frontend/public/data/vehicles_summary.json
+!frontend/public/data/matcher_vehicles.json
+!frontend/public/data/vehicle_scores.json
+!frontend/public/data/tested_specs.json
+!frontend/public/data/incentives_by_vehicle.json
+!frontend/public/data/incentives_by_state.json
+!frontend/public/data/lease_calc_by_vehicle.json
+!frontend/public/data/upcoming_radar.json
+!frontend/public/data/us_ev_catalog.json
+!frontend/public/data/gcc_scores.json
+!frontend/public/data/electrify_america_offers.json
+!frontend/public/data/vehicles/*.json
+!frontend/public/manifest.json
+# Firebase config
+!firebase.json
+!firestore.indexes.json
+!firebase-functions/functions/package.json
+!firebase-functions/functions/package-lock.json
+# Node
+!frontend/package.json
+!frontend/package-lock.json

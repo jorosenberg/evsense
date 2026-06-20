@@ -1,0 +1,359 @@
+{
+  "id": "ford-mustang-mach-e-2026",
+  "make": "Ford",
+  "model": "Mustang Mach-E",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.ford.com/suvs/mach-e",
+  "imageUrl": "/data/images/ford-mustang-mach-e-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/ford-mustang-mach-e-2026/default.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-1.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-2.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-3.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-4.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-5.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-6.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-7.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-8.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-9.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-10.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-11.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-12.jpg",
+    "/data/images/ford-mustang-mach-e-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 45995
+    },
+    {
+      "date": "2024-04-01T00:00:00+00:00",
+      "msrp": 39995
+    },
+    {
+      "date": "2024-10-01T00:00:00+00:00",
+      "msrp": 42995
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 42995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Premium",
+      "msrp": 50970,
+      "sellingPrice": 49438,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 260,
+        "batteryKwh": 72,
+        "milesPerKwh": 3.18,
+        "zeroToSixty": 6.3,
+        "horsepower": 266
+      },
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 339,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 3899,
+          "moneyFactor": 0.00075,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Premium 4dr Hatchback (electric DD)"
+    },
+    {
+      "name": "Premium AWD",
+      "msrp": 54605,
+      "sellingPrice": 52993,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 280,
+        "batteryKwh": 91,
+        "milesPerKwh": 2.67,
+        "zeroToSixty": 4.8,
+        "horsepower": 346
+      },
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00098,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Premium 4dr Hatchback AWD (electric DD)"
+    },
+    {
+      "name": "Rally AWD",
+      "msrp": 59995,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 240,
+        "batteryKwh": 91,
+        "milesPerKwh": 2.97,
+        "zeroToSixty": 3.4,
+        "horsepower": 480
+      },
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 629,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 5299,
+          "moneyFactor": 0.00145,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "GT AWD",
+      "msrp": 62305,
+      "sellingPrice": 60293,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 255,
+        "batteryKwh": 91,
+        "milesPerKwh": 2.49,
+        "zeroToSixty": 3.5,
+        "horsepower": 480
+      },
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 569,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 4999,
+          "moneyFactor": 0.00135,
+          "residualPercent": 49,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "GT 4dr Hatchback AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 91,
+    "milesPerKwh": 3.5,
+    "zeroToSixty": 4.8,
+    "topSpeed": 124,
+    "torqueLbFt": 428,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 59.7,
+    "frunkVolumeCuFt": 4.7,
+    "towingCapacityLbs": 1500,
+    "groundClearanceIn": 5.7,
+    "weightLbs": 4890,
+    "chargingSpeedDcFastKw": 150,
+    "chargingSpeedL2Kw": 10.5,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 280,
+    "epaRangeCity": 275,
+    "epaRangeHwy": 225,
+    "horsepower": 266,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 600,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 31,
+    "year2Percent": 43,
+    "year3Percent": 51,
+    "year5Percent": 62,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1590,
+    "average": 2180,
+    "high": 3120,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 50970
+}

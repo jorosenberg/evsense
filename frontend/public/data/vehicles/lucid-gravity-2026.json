@@ -1,0 +1,363 @@
+{
+  "id": "lucid-gravity-2026",
+  "make": "Lucid",
+  "model": "Gravity",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://lucidmotors.com/gravity",
+  "imageUrl": "/data/images/lucid-gravity-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/lucid-gravity-2026/default.jpg",
+    "/data/images/lucid-gravity-2026/gallery-1.jpg",
+    "/data/images/lucid-gravity-2026/gallery-2.jpg",
+    "/data/images/lucid-gravity-2026/gallery-3.jpg",
+    "/data/images/lucid-gravity-2026/gallery-4.jpg",
+    "/data/images/lucid-gravity-2026/gallery-5.jpg",
+    "/data/images/lucid-gravity-2026/gallery-6.jpg",
+    "/data/images/lucid-gravity-2026/gallery-7.jpg",
+    "/data/images/lucid-gravity-2026/gallery-8.jpg",
+    "/data/images/lucid-gravity-2026/gallery-9.jpg",
+    "/data/images/lucid-gravity-2026/gallery-10.jpg",
+    "/data/images/lucid-gravity-2026/gallery-11.jpg",
+    "/data/images/lucid-gravity-2026/gallery-12.jpg",
+    "/data/images/lucid-gravity-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-11-01T00:00:00+00:00",
+      "msrp": 94900
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 94900
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "AWD · 337 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 337,
+        "milesPerKwh": 3.3,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 378 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 378,
+        "milesPerKwh": 2.66,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 378 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 378,
+        "milesPerKwh": 2.66,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 386 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 386,
+        "milesPerKwh": 2.74,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 386 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 386,
+        "milesPerKwh": 2.74,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 407 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 407,
+        "milesPerKwh": 2.91,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 407 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 407,
+        "milesPerKwh": 2.91,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 420 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 420,
+        "milesPerKwh": 2.95,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 437 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 437,
+        "milesPerKwh": 3.08,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 450 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 450,
+        "milesPerKwh": 3.22,
+        "horsepower": 535
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "Touring",
+      "msrp": 94900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1049,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 8995,
+          "moneyFactor": 0.00205,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 337,
+        "milesPerKwh": 3.3
+      }
+    },
+    {
+      "name": "Grand Touring",
+      "msrp": 109900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1199,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 9995,
+          "moneyFactor": 0.00215,
+          "residualPercent": 49,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 337,
+        "milesPerKwh": 3.3
+      }
+    }
+  ],
+  "specs": {
+    "batteryKwh": 120,
+    "milesPerKwh": 3.7,
+    "zeroToSixty": 3.4,
+    "topSpeed": 155,
+    "torqueLbFt": 686,
+    "seatingCapacity": 7,
+    "cargoVolumeCuFt": 112.0,
+    "frunkVolumeCuFt": 8.0,
+    "towingCapacityLbs": 6000,
+    "groundClearanceIn": 9.0,
+    "weightLbs": 6100,
+    "chargingSpeedDcFastKw": 400,
+    "chargingSpeedL2Kw": 19.2,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 450,
+    "epaRangeCity": 484,
+    "epaRangeHwy": 396,
+    "horsepower": 620,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 720,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 43,
+    "year3Percent": 51,
+    "year5Percent": 62,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 2180,
+    "average": 2960,
+    "high": 4220,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "id": "hyundai-ioniq-5-2026",
+  "make": "Hyundai",
+  "model": "IONIQ 5",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5",
+  "imageUrl": "/data/images/hyundai-ioniq-5-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/hyundai-ioniq-5-2026/default.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-1.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-2.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-3.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-4.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-5.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-6.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-7.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-8.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-9.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-10.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-11.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-12.jpg",
+    "/data/images/hyundai-ioniq-5-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 41800
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 41450
+    },
+    {
+      "date": "2026-01-01T00:00:00+00:00",
+      "msrp": 35000
+    }
+  ],
+  "lastUpdated": "2026-05-29T00:00:00+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "SE Standard Range",
+      "msrp": 37110,
+      "sellingPrice": 36696,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 245,
+        "batteryKwh": 63,
+        "milesPerKwh": 3.45,
+        "zeroToSixty": 7.4,
+        "horsepower": 168
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 299,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00112,
+          "residualPercent": 56,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SE Standard Range 4dr SUV (electric DD)"
+    },
+    {
+      "name": "SE RWD",
+      "msrp": 37500,
+      "destinationFee": 1600,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 318,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.33,
+        "zeroToSixty": 7.4,
+        "horsepower": 225
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 329,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00112,
+          "residualPercent": 55,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "SE",
+      "msrp": 39685,
+      "sellingPrice": 39106,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 245,
+        "batteryKwh": 63,
+        "milesPerKwh": 3.45,
+        "zeroToSixty": 7.4,
+        "horsepower": 168
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 299,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00112,
+          "residualPercent": 56,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SE 4dr SUV (electric DD)"
+    },
+    {
+      "name": "SEL",
+      "msrp": 42150,
+      "sellingPrice": 41296,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 318,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.33,
+        "zeroToSixty": 7.4,
+        "horsepower": 225
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 359,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00118,
+          "residualPercent": 54,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SEL 4dr SUV (electric DD)"
+    },
+    {
+      "name": "SE AWD",
+      "msrp": 43190,
+      "sellingPrice": 42795,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 290,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.16,
+        "zeroToSixty": 5.0,
+        "horsepower": 320
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 389,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00122,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SE 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "SEL AWD",
+      "msrp": 45740,
+      "sellingPrice": 45209,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 290,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.16,
+        "zeroToSixty": 5.0,
+        "horsepower": 320
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 419,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00125,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "SEL 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Limited",
+      "msrp": 47505,
+      "sellingPrice": 46963,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 245,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.45,
+        "zeroToSixty": 7.4,
+        "horsepower": 225
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 5.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 459,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4999,
+          "moneyFactor": 0.0013,
+          "residualPercent": 52,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Limited 4dr SUV (electric DD)"
+    },
+    {
+      "name": "XRT AWD",
+      "msrp": 48700,
+      "sellingPrice": 47951,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 290,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.16,
+        "zeroToSixty": 5.0,
+        "horsepower": 320
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 389,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00122,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "XRT 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "XRT AWD w/Tow Hitch",
+      "msrp": 49260,
+      "sellingPrice": 48502,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 290,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.16,
+        "zeroToSixty": 5.0,
+        "horsepower": 320
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 389,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00122,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "XRT 4dr SUV AWD w/Tow Hitch (electric DD)"
+    },
+    {
+      "name": "Limited AWD",
+      "msrp": 51400,
+      "sellingPrice": 51105,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 259,
+        "batteryKwh": 84,
+        "milesPerKwh": 2.8,
+        "zeroToSixty": 4.5,
+        "horsepower": 320
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 5.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 499,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4999,
+          "moneyFactor": 0.00145,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Limited 4dr SUV AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 84,
+    "milesPerKwh": 3.7,
+    "zeroToSixty": 7.4,
+    "topSpeed": 115,
+    "torqueLbFt": 258,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 59.3,
+    "frunkVolumeCuFt": 0.85,
+    "towingCapacityLbs": 2300,
+    "groundClearanceIn": 6.1,
+    "weightLbs": 4663,
+    "chargingSpeedDcFastKw": 350,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 5,
+    "batteryWarrantyYears": 10,
+    "batteryWarrantyMiles": 100000,
+    "range": 318,
+    "epaRangeCity": 264,
+    "epaRangeHwy": 216,
+    "horsepower": 225,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 540,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking."
+  },
+  "depreciation": {
+    "year1Percent": 28,
+    "year2Percent": 40,
+    "year3Percent": 48,
+    "year5Percent": 58,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1480,
+    "average": 2030,
+    "high": 2900,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-29T00:00:00+00:00"
+  },
+  "msrpFrom": 37110
+}

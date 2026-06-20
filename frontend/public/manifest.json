@@ -1,0 +1,72 @@
+{
+  "name": "EVsense — EV Buyer's Guide",
+  "short_name": "EVsense",
+  "description": "Know what your EV will actually cost you. True cost of ownership for every major EV.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0E16",
+  "theme_color": "#0B0E16",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "shopping", "utilities"],
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/browse.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "label": "Browse all EVs with filtering"
+    },
+    {
+      "src": "/screenshots/calculator.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "label": "True cost calculator with dealer programs"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse EVs",
+      "short_name": "Browse",
+      "url": "/browse",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Compare EVs",
+      "short_name": "Compare",
+      "url": "/compare",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Charging Cost Chart",
+      "short_name": "Charging",
+      "url": "/tools/charging-cost-chart",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

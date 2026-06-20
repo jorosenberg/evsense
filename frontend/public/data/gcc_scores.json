@@ -1,0 +1,1655 @@
+{
+  "source": "greencarscompare.com",
+  "scrapedAt": "2026-05-30T19:04:50+00:00",
+  "rankingPages": [
+    "gcc-score-total",
+    "gcc-score-range-and-efficiency",
+    "range-epa",
+    "efficiency-kwh-range",
+    "efficiency-range-kwh",
+    "top-speed",
+    "motor-power-hp",
+    "weight",
+    "cargo-volume-maximum"
+  ],
+  "matchedCount": 54,
+  "unmatchedCount": 642,
+  "unmatchedSlugs": [
+    "abarth-500e-convertible",
+    "abarth-500e-hatchback",
+    "abarth-600e-scorpionissima-2024",
+    "abarth-600e-turismo-2024",
+    "alfa-romeo-junior-elettrica-54-kwh-2024",
+    "alfa-romeo-junior-elettrica-54-kwh-veloce-2024",
+    "alpine-a290-180-hp-2024",
+    "alpine-a290-220-hp-2024",
+    "audi-a6-avant-e-tron-2024",
+    "audi-a6-avant-e-tron-performance-2024",
+    "audi-a6-avant-e-tron-quattro-2024",
+    "audi-a6-sportback-e-tron-2024",
+    "audi-a6-sportback-e-tron-performance-2024",
+    "audi-a6-sportback-e-tron-quattro-2024",
+    "audi-e-tron-50-quattro",
+    "audi-e-tron-quattro",
+    "audi-e-tron-s",
+    "audi-e-tron-s-sportback",
+    "audi-e-tron-sportback",
+    "audi-e-tron-sportback-55-quattro",
+    "audi-q4-40-sportback",
+    "audi-q4-45-quattro-sportback",
+    "audi-q4-45-sportback",
+    "audi-q4-55-quattro-sportback",
+    "audi-q4-e-tron",
+    "audi-q4-e-tron-35-2024",
+    "audi-q4-e-tron-40",
+    "audi-q4-e-tron-40-2025",
+    "audi-q4-e-tron-45",
+    "audi-q4-e-tron-45-quattro",
+    "audi-q4-e-tron-50-quattro",
+    "audi-q4-e-tron-55-quattro",
+    "audi-q4-e-tron-sportback",
+    "audi-q4-sportback-e-tron-35-2024",
+    "audi-q4-sportback-e-tron-40-2025",
+    "audi-q4-sportback-e-tron-50-quattro",
+    "audi-q6-sportback-e-tron-2025",
+    "audi-q6-sportback-e-tron-performance-2025",
+    "audi-q6-sportback-e-tron-quattro-2025",
+    "audi-q8-e-tron-50-quattro",
+    "audi-q8-e-tron-50-quattro-sportback",
+    "audi-q8-e-tron-55-quattro",
+    "audi-q8-e-tron-55-quattro-sportback",
+    "audi-s6-avant-e-tron-2024",
+    "audi-s6-sportback-e-tron-2024",
+    "audi-sq6-sportback-e-tron-2025",
+    "audi-sq8-e-tron",
+    "audi-sq8-e-tron-sportback",
+    "automobili-pininfarina-battista-2022",
+    "bmw-i3-bev-120-ah"
+  ],
+  "vehicles": {
+    "lucid-gravity-2026": {
+      "gccSlug": "lucid-gravity-grand-touring-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/lucid-gravity-grand-touring-2024/",
+      "ranks": {
+        "gccScoreTotal": 1,
+        "gccRangeEfficiency": 8,
+        "rangeEpa": 11,
+        "efficiencyKwhPer100mi": 77,
+        "efficiencyMiPerKwh": 114,
+        "topSpeedMph": 12,
+        "horsepower": 21,
+        "weightLbs": 99,
+        "cargoVolumeMax": 14
+      },
+      "values": {
+        "gccScoreTotal": 9.1,
+        "gccRangeEfficiency": 9.2,
+        "rangeEpa": 440.0,
+        "efficiencyKwhPer100mi": 28.2,
+        "efficiencyMiPerKwh": 3.55,
+        "topSpeedMph": 168.0,
+        "horsepower": 828.0,
+        "weightLbs": 5560.0,
+        "cargoVolumeMax": 120.0,
+        "cargoVolumeCuFt": 5.0
+      },
+      "gccRankOverall": 1,
+      "gccScoreTotal": 9.1
+    },
+    "lucid-air-2026": {
+      "gccSlug": "lucid-air-dream-edition",
+      "gccUrl": "https://www.greencarscompare.com/car/lucid-air-dream-edition/",
+      "ranks": {
+        "gccScoreTotal": 2,
+        "gccRangeEfficiency": 1,
+        "rangeEpa": 3,
+        "efficiencyKwhPer100mi": 20,
+        "efficiencyMiPerKwh": 25,
+        "topSpeedMph": 6,
+        "horsepower": 5,
+        "weightLbs": 128,
+        "cargoVolumeMax": 200
+      },
+      "values": {
+        "gccScoreTotal": 8.4,
+        "gccRangeEfficiency": 10.0,
+        "rangeEpa": 520.0,
+        "efficiencyKwhPer100mi": 22.5,
+        "efficiencyMiPerKwh": 4.45,
+        "topSpeedMph": 205.0,
+        "horsepower": 1218.0,
+        "weightLbs": 5336.0,
+        "cargoVolumeMax": 22.1,
+        "cargoVolumeCuFt": 2022.0
+      },
+      "gccRankOverall": 2,
+      "gccScoreTotal": 8.4
+    },
+    "us-gmc-hummerevpickup-2027": {
+      "gccSlug": "gmc-hummer-ev-pickup-3x-extended-range",
+      "gccUrl": "https://www.greencarscompare.com/car/gmc-hummer-ev-pickup-3x-extended-range/",
+      "ranks": {
+        "gccScoreTotal": 4,
+        "gccRangeEfficiency": 44,
+        "rangeEpa": 25,
+        "efficiencyKwhPer100mi": 219,
+        "efficiencyMiPerKwh": 250,
+        "topSpeedMph": 42,
+        "horsepower": 11,
+        "weightLbs": 2
+      },
+      "values": {
+        "gccScoreTotal": 8.2,
+        "gccRangeEfficiency": 5.6,
+        "rangeEpa": 381.0,
+        "efficiencyKwhPer100mi": 56.6,
+        "efficiencyMiPerKwh": 1.77,
+        "topSpeedMph": 112.0,
+        "horsepower": 1000.0,
+        "weightLbs": 9063.0,
+        "cargoVolumeCuFt": 3.0
+      },
+      "gccRankOverall": 4,
+      "gccScoreTotal": 8.2
+    },
+    "tesla-modelx-2026": {
+      "gccSlug": "tesla-model-x-performance",
+      "gccUrl": "https://www.greencarscompare.com/car/tesla-model-x-performance/",
+      "ranks": {
+        "gccScoreTotal": 4,
+        "gccRangeEfficiency": 14,
+        "rangeEpa": 29,
+        "efficiencyKwhPer100mi": 79,
+        "efficiencyMiPerKwh": 117,
+        "topSpeedMph": 14,
+        "horsepower": 9,
+        "weightLbs": 104,
+        "cargoVolumeMax": 27
+      },
+      "values": {
+        "gccScoreTotal": 8.2,
+        "gccRangeEfficiency": 8.6,
+        "rangeEpa": 371.0,
+        "efficiencyKwhPer100mi": 28.4,
+        "efficiencyMiPerKwh": 3.52,
+        "topSpeedMph": 163.0,
+        "horsepower": 1020.0,
+        "weightLbs": 5531.0,
+        "cargoVolumeMax": 88.0,
+        "priceUsd": 2021.0,
+        "cargoVolumeCuFt": 5.0
+      },
+      "gccRankOverall": 4,
+      "gccScoreTotal": 8.2
+    },
+    "tesla-cybertruck-2026": {
+      "gccSlug": "tesla-cybertruck-tri-motor-awd",
+      "gccUrl": "https://www.greencarscompare.com/car/tesla-cybertruck-tri-motor-awd/",
+      "ranks": {
+        "gccScoreTotal": 4,
+        "gccRangeEfficiency": 28,
+        "rangeEpa": 41,
+        "efficiencyKwhPer100mi": 144,
+        "efficiencyMiPerKwh": 184,
+        "topSpeedMph": 32,
+        "horsepower": 18,
+        "weightLbs": 9,
+        "cargoVolumeMax": 12
+      },
+      "values": {
+        "gccScoreTotal": 8.2,
+        "gccRangeEfficiency": 7.2,
+        "rangeEpa": 350.0,
+        "efficiencyKwhPer100mi": 35.2,
+        "efficiencyMiPerKwh": 2.84,
+        "topSpeedMph": 130.0,
+        "horsepower": 845.0,
+        "weightLbs": 6863.0,
+        "cargoVolumeMax": 120.7,
+        "cargoVolumeCuFt": 18.5
+      },
+      "gccRankOverall": 4,
+      "gccScoreTotal": 8.2
+    },
+    "rivian-r1s-2026": {
+      "gccSlug": "rivian-r1s-performance-dual-motor-max-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/rivian-r1s-performance-dual-motor-max-2025/",
+      "ranks": {
+        "gccScoreTotal": 4,
+        "gccRangeEfficiency": 24,
+        "rangeEpa": 18,
+        "efficiencyKwhPer100mi": 139,
+        "efficiencyMiPerKwh": 180,
+        "topSpeedMph": 32,
+        "horsepower": 17,
+        "weightLbs": 10,
+        "cargoVolumeMax": 25
+      },
+      "values": {
+        "gccScoreTotal": 8.2,
+        "gccRangeEfficiency": 7.6,
+        "rangeEpa": 410.0,
+        "efficiencyKwhPer100mi": 34.7,
+        "efficiencyMiPerKwh": 2.88,
+        "topSpeedMph": 130.0,
+        "horsepower": 850.0,
+        "weightLbs": 6826.0,
+        "cargoVolumeMax": 90.7,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 1.0
+      },
+      "gccRankOverall": 4,
+      "gccScoreTotal": 8.2
+    },
+    "rivian-r1t-2026": {
+      "gccSlug": "rivian-r1t-performance-dual-motor-max-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/rivian-r1t-performance-dual-motor-max-2025/",
+      "ranks": {
+        "gccScoreTotal": 4,
+        "gccRangeEfficiency": 21,
+        "rangeEpa": 15,
+        "efficiencyKwhPer100mi": 139,
+        "efficiencyMiPerKwh": 180,
+        "topSpeedMph": 32,
+        "horsepower": 17,
+        "weightLbs": 11,
+        "cargoVolumeMax": 67
+      },
+      "values": {
+        "gccScoreTotal": 8.2,
+        "gccRangeEfficiency": 7.9,
+        "rangeEpa": 420.0,
+        "efficiencyKwhPer100mi": 34.7,
+        "efficiencyMiPerKwh": 2.88,
+        "topSpeedMph": 130.0,
+        "horsepower": 850.0,
+        "weightLbs": 6812.0,
+        "cargoVolumeMax": 59.9,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 1.0
+      },
+      "gccRankOverall": 4,
+      "gccScoreTotal": 8.2
+    },
+    "chevrolet-silverado-ev-2026": {
+      "gccSlug": "chevrolet-silverado-ev",
+      "gccUrl": "https://www.greencarscompare.com/car/chevrolet-silverado-ev/",
+      "ranks": {
+        "gccScoreTotal": 4,
+        "gccRangeEfficiency": 34,
+        "rangeEpa": 6,
+        "efficiencyKwhPer100mi": 197,
+        "efficiencyMiPerKwh": 229,
+        "topSpeedMph": 41,
+        "horsepower": 25,
+        "weightLbs": 3
+      },
+      "values": {
+        "gccScoreTotal": 8.2,
+        "gccRangeEfficiency": 6.6,
+        "rangeEpa": 493.0,
+        "efficiencyKwhPer100mi": 42.9,
+        "efficiencyMiPerKwh": 2.33,
+        "topSpeedMph": 113.0,
+        "horsepower": 760.0,
+        "weightLbs": 8943.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 233.1
+      },
+      "gccRankOverall": 4,
+      "gccScoreTotal": 8.2
+    },
+    "us-cadillac-escaladeiq-2027": {
+      "gccSlug": "cadillac-escalade-iq",
+      "gccUrl": "https://www.greencarscompare.com/car/cadillac-escalade-iq/",
+      "ranks": {
+        "gccScoreTotal": 5,
+        "gccRangeEfficiency": 39,
+        "rangeEpa": 9,
+        "efficiencyKwhPer100mi": 215,
+        "efficiencyMiPerKwh": 246,
+        "topSpeedMph": 42,
+        "horsepower": 28,
+        "weightLbs": 1,
+        "cargoVolumeMax": 16
+      },
+      "values": {
+        "gccScoreTotal": 8.1,
+        "gccRangeEfficiency": 6.1,
+        "rangeEpa": 460.0,
+        "efficiencyKwhPer100mi": 48.7,
+        "efficiencyMiPerKwh": 2.05,
+        "topSpeedMph": 112.0,
+        "horsepower": 750.0,
+        "weightLbs": 9064.0,
+        "cargoVolumeMax": 119.1,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 55.0
+      },
+      "gccRankOverall": 5,
+      "gccScoreTotal": 8.1
+    },
+    "us-bmw-ix3-2027": {
+      "gccSlug": "bmw-ix3-50-xdrive-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/bmw-ix3-50-xdrive-2025/",
+      "ranks": {
+        "gccScoreTotal": 5,
+        "gccRangeEfficiency": 7,
+        "rangeEpa": 21,
+        "efficiencyKwhPer100mi": 70,
+        "efficiencyMiPerKwh": 106,
+        "topSpeedMph": 30,
+        "horsepower": 87,
+        "weightLbs": 148,
+        "cargoVolumeMax": 60
+      },
+      "values": {
+        "gccScoreTotal": 8.1,
+        "gccRangeEfficiency": 9.3,
+        "rangeEpa": 400.0,
+        "efficiencyKwhPer100mi": 27.5,
+        "efficiencyMiPerKwh": 3.63,
+        "topSpeedMph": 132.0,
+        "horsepower": 463.0,
+        "weightLbs": 5203.0,
+        "cargoVolumeMax": 61.8,
+        "cargoVolumeCuFt": 3.0
+      },
+      "gccRankOverall": 5,
+      "gccScoreTotal": 8.1
+    },
+    "us-gmc-hummerevsuv-2027": {
+      "gccSlug": "gmc-hummer-ev-suv-3x",
+      "gccUrl": "https://www.greencarscompare.com/car/gmc-hummer-ev-suv-3x/",
+      "ranks": {
+        "gccScoreTotal": 7,
+        "gccRangeEfficiency": 54,
+        "rangeEpa": 66,
+        "efficiencyKwhPer100mi": 220,
+        "efficiencyMiPerKwh": 251,
+        "topSpeedMph": 42,
+        "horsepower": 20,
+        "weightLbs": 6,
+        "cargoVolumeMax": 32
+      },
+      "values": {
+        "gccScoreTotal": 7.9,
+        "gccRangeEfficiency": 4.6,
+        "rangeEpa": 314.0,
+        "efficiencyKwhPer100mi": 58.1,
+        "efficiencyMiPerKwh": 1.72,
+        "topSpeedMph": 112.0,
+        "horsepower": 830.0,
+        "weightLbs": 8660.0,
+        "cargoVolumeMax": 81.8,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 3.0
+      },
+      "gccRankOverall": 7,
+      "gccScoreTotal": 7.9
+    },
+    "tesla-models-2026": {
+      "gccSlug": "tesla-model-s-performance",
+      "gccUrl": "https://www.greencarscompare.com/car/tesla-model-s-performance/",
+      "ranks": {
+        "gccScoreTotal": 8,
+        "gccRangeEfficiency": 6,
+        "rangeEpa": 18,
+        "efficiencyKwhPer100mi": 54,
+        "efficiencyMiPerKwh": 83,
+        "topSpeedMph": 8,
+        "horsepower": 9,
+        "weightLbs": 168,
+        "cargoVolumeMax": 61
+      },
+      "values": {
+        "gccScoreTotal": 7.8,
+        "gccRangeEfficiency": 9.4,
+        "rangeEpa": 410.0,
+        "efficiencyKwhPer100mi": 25.9,
+        "efficiencyMiPerKwh": 3.86,
+        "topSpeedMph": 200.0,
+        "horsepower": 1020.0,
+        "weightLbs": 5105.0,
+        "cargoVolumeMax": 61.4,
+        "priceUsd": 2021.0,
+        "cargoVolumeCuFt": 26.3
+      },
+      "gccRankOverall": 8,
+      "gccScoreTotal": 7.8
+    },
+    "tesla-modely-2026": {
+      "gccSlug": "tesla-model-y-premium-awd-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/tesla-model-y-premium-awd-2025/",
+      "ranks": {
+        "gccScoreTotal": 8,
+        "gccRangeEfficiency": 4,
+        "rangeEpa": 39,
+        "efficiencyKwhPer100mi": 20,
+        "efficiencyMiPerKwh": 25,
+        "topSpeedMph": 19,
+        "horsepower": 49,
+        "weightLbs": 335,
+        "cargoVolumeMax": 39
+      },
+      "values": {
+        "gccScoreTotal": 7.8,
+        "gccRangeEfficiency": 9.7,
+        "rangeEpa": 357.0,
+        "efficiencyKwhPer100mi": 22.5,
+        "efficiencyMiPerKwh": 4.45,
+        "topSpeedMph": 155.0,
+        "horsepower": 618.0,
+        "weightLbs": 4466.0,
+        "cargoVolumeMax": 76.2,
+        "cargoVolumeCuFt": 30.2
+      },
+      "gccRankOverall": 8,
+      "gccScoreTotal": 7.8
+    },
+    "hyundai-ioniq-9-2026": {
+      "gccSlug": "hyundai-ioniq-9-performance-awd-2025-",
+      "gccUrl": "https://www.greencarscompare.com/car/hyundai-ioniq-9-performance-awd-2025-/",
+      "ranks": {
+        "gccScoreTotal": 8,
+        "gccRangeEfficiency": 25,
+        "rangeEpa": 49,
+        "efficiencyKwhPer100mi": 123,
+        "efficiencyMiPerKwh": 164,
+        "topSpeedMph": 36,
+        "horsepower": 95,
+        "weightLbs": 48,
+        "cargoVolumeMax": 28
+      },
+      "values": {
+        "gccScoreTotal": 7.8,
+        "gccRangeEfficiency": 7.5,
+        "rangeEpa": 335.0,
+        "efficiencyKwhPer100mi": 32.8,
+        "efficiencyMiPerKwh": 3.05,
+        "topSpeedMph": 124.0,
+        "horsepower": 422.0,
+        "weightLbs": 5994.0,
+        "cargoVolumeMax": 86.9,
+        "priceUsd": 73000.0,
+        "cargoVolumeCuFt": 9.0
+      },
+      "gccRankOverall": 8,
+      "gccScoreTotal": 7.8
+    },
+    "us-audi-q6-e-tron-2027": {
+      "gccSlug": "audi-q6-e-tron-quattro",
+      "gccUrl": "https://www.greencarscompare.com/car/audi-q6-e-tron-quattro/",
+      "ranks": {
+        "gccScoreTotal": 10,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 59,
+        "efficiencyKwhPer100mi": 77,
+        "efficiencyMiPerKwh": 114,
+        "topSpeedMph": 32,
+        "horsepower": 104,
+        "weightLbs": 165,
+        "cargoVolumeMax": 101
+      },
+      "values": {
+        "gccScoreTotal": 7.6,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 321.0,
+        "efficiencyKwhPer100mi": 28.2,
+        "efficiencyMiPerKwh": 3.55,
+        "topSpeedMph": 130.0,
+        "horsepower": 382.0,
+        "weightLbs": 5126.0,
+        "cargoVolumeMax": 53.6,
+        "cargoVolumeCuFt": 6.0
+      },
+      "gccRankOverall": 10,
+      "gccScoreTotal": 7.6
+    },
+    "us-audi-sq6-e-tron-2027": {
+      "gccSlug": "audi-sq6-e-tron",
+      "gccUrl": "https://www.greencarscompare.com/car/audi-sq6-e-tron/",
+      "ranks": {
+        "gccScoreTotal": 10,
+        "gccRangeEfficiency": 28,
+        "rangeEpa": 103,
+        "efficiencyKwhPer100mi": 113,
+        "efficiencyMiPerKwh": 155,
+        "topSpeedMph": 25,
+        "horsepower": 72,
+        "weightLbs": 156,
+        "cargoVolumeMax": 101
+      },
+      "values": {
+        "gccScoreTotal": 7.6,
+        "gccRangeEfficiency": 7.2,
+        "rangeEpa": 275.0,
+        "efficiencyKwhPer100mi": 31.8,
+        "efficiencyMiPerKwh": 3.14,
+        "topSpeedMph": 143.0,
+        "horsepower": 510.0,
+        "weightLbs": 5181.0,
+        "cargoVolumeMax": 53.6,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 6.0
+      },
+      "gccRankOverall": 10,
+      "gccScoreTotal": 7.6
+    },
+    "mercedes-benz-cla-2026": {
+      "gccSlug": "mercedes-cla-350-4matic-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/mercedes-cla-350-4matic-2025/",
+      "ranks": {
+        "gccScoreTotal": 10,
+        "gccRangeEfficiency": 1,
+        "rangeEpa": 12,
+        "efficiencyKwhPer100mi": 7,
+        "efficiencyMiPerKwh": 8,
+        "topSpeedMph": 32,
+        "horsepower": 112,
+        "weightLbs": 278
+      },
+      "values": {
+        "gccScoreTotal": 7.6,
+        "gccRangeEfficiency": 10.0,
+        "rangeEpa": 431.0,
+        "efficiencyKwhPer100mi": 21.0,
+        "efficiencyMiPerKwh": 4.76,
+        "topSpeedMph": 130.0,
+        "horsepower": 349.0,
+        "weightLbs": 4707.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 350.0
+      },
+      "gccRankOverall": 10,
+      "gccScoreTotal": 7.6
+    },
+    "bmw-ix-2026": {
+      "gccSlug": "bmw-ix-xdrive60-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/bmw-ix-xdrive60-2025/",
+      "ranks": {
+        "gccScoreTotal": 11,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 33,
+        "efficiencyKwhPer100mi": 55,
+        "efficiencyMiPerKwh": 84,
+        "topSpeedMph": 19,
+        "horsepower": 40,
+        "weightLbs": 60,
+        "cargoVolumeMax": 60
+      },
+      "values": {
+        "gccScoreTotal": 7.5,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 364.0,
+        "efficiencyKwhPer100mi": 26.0,
+        "efficiencyMiPerKwh": 3.85,
+        "topSpeedMph": 155.0,
+        "horsepower": 650.0,
+        "weightLbs": 5853.0,
+        "cargoVolumeMax": 61.8,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 60.0
+      },
+      "gccRankOverall": 11,
+      "gccScoreTotal": 7.5
+    },
+    "ford-f-150-lightning-2026": {
+      "gccSlug": "ford-f-150-lightning-extended-range",
+      "gccUrl": "https://www.greencarscompare.com/car/ford-f-150-lightning-extended-range/",
+      "ranks": {
+        "gccScoreTotal": 11,
+        "gccRangeEfficiency": 47,
+        "rangeEpa": 60,
+        "efficiencyKwhPer100mi": 198,
+        "efficiencyMiPerKwh": 229,
+        "topSpeedMph": 44,
+        "horsepower": 58,
+        "weightLbs": 26
+      },
+      "values": {
+        "gccScoreTotal": 7.5,
+        "gccRangeEfficiency": 5.3,
+        "rangeEpa": 320.0,
+        "efficiencyKwhPer100mi": 43.0,
+        "efficiencyMiPerKwh": 2.33,
+        "topSpeedMph": 110.0,
+        "horsepower": 581.0,
+        "weightLbs": 6361.0,
+        "priceUsd": 2025.0
+      },
+      "gccRankOverall": 11,
+      "gccScoreTotal": 7.5
+    },
+    "us-cadillac-vistiq-2027": {
+      "gccSlug": "cadillac-vistiq-awd-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/cadillac-vistiq-awd-2025/",
+      "ranks": {
+        "gccScoreTotal": 11,
+        "gccRangeEfficiency": 38,
+        "rangeEpa": 80,
+        "efficiencyKwhPer100mi": 150,
+        "efficiencyMiPerKwh": 189,
+        "topSpeedMph": 30,
+        "horsepower": 51,
+        "weightLbs": 28,
+        "cargoVolumeMax": 35
+      },
+      "values": {
+        "gccScoreTotal": 7.5,
+        "gccRangeEfficiency": 6.2,
+        "rangeEpa": 300.0,
+        "efficiencyKwhPer100mi": 35.8,
+        "efficiencyMiPerKwh": 2.79,
+        "topSpeedMph": 132.0,
+        "horsepower": 615.0,
+        "weightLbs": 6326.0,
+        "cargoVolumeMax": 80.2,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 6.0
+      },
+      "gccRankOverall": 11,
+      "gccScoreTotal": 7.5
+    },
+    "tesla-model3-2026": {
+      "gccSlug": "tesla-model-3-premium-awd-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/tesla-model-3-premium-awd-2025/",
+      "ranks": {
+        "gccScoreTotal": 12,
+        "gccRangeEfficiency": 1,
+        "rangeEpa": 34,
+        "efficiencyKwhPer100mi": 6,
+        "efficiencyMiPerKwh": 7,
+        "topSpeedMph": 14,
+        "horsepower": 49,
+        "weightLbs": 414,
+        "cargoVolumeMax": 145
+      },
+      "values": {
+        "gccScoreTotal": 7.4,
+        "gccRangeEfficiency": 10.0,
+        "rangeEpa": 363.0,
+        "efficiencyKwhPer100mi": 20.9,
+        "efficiencyMiPerKwh": 4.77,
+        "topSpeedMph": 163.0,
+        "horsepower": 618.0,
+        "weightLbs": 4072.0,
+        "cargoVolumeMax": 43.6,
+        "cargoVolumeCuFt": 3.0
+      },
+      "gccRankOverall": 12,
+      "gccScoreTotal": 7.4
+    },
+    "hyundai-ioniq-5-2026": {
+      "gccSlug": "hyundai-ioniq-5-long-range-awd-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/hyundai-ioniq-5-long-range-awd-2024/",
+      "ranks": {
+        "gccScoreTotal": 13,
+        "gccRangeEfficiency": 19,
+        "rangeEpa": 62,
+        "efficiencyKwhPer100mi": 50,
+        "efficiencyMiPerKwh": 76,
+        "topSpeedMph": 15,
+        "horsepower": 44,
+        "weightLbs": 232,
+        "cargoVolumeMax": 77
+      },
+      "values": {
+        "gccScoreTotal": 7.3,
+        "gccRangeEfficiency": 8.1,
+        "rangeEpa": 318.0,
+        "efficiencyKwhPer100mi": 25.5,
+        "efficiencyMiPerKwh": 3.93,
+        "topSpeedMph": 162.0,
+        "horsepower": 641.0,
+        "weightLbs": 4861.0,
+        "cargoVolumeMax": 58.5,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 5.0
+      },
+      "gccRankOverall": 13,
+      "gccScoreTotal": 7.3
+    },
+    "us-volvo-ex90-2027": {
+      "gccSlug": "volvo-ex90-twin-motor-performance",
+      "gccUrl": "https://www.greencarscompare.com/car/volvo-ex90-twin-motor-performance/",
+      "ranks": {
+        "gccScoreTotal": 13,
+        "gccRangeEfficiency": 29,
+        "rangeEpa": 70,
+        "efficiencyKwhPer100mi": 125,
+        "efficiencyMiPerKwh": 166,
+        "topSpeedMph": 42,
+        "horsepower": 72,
+        "weightLbs": 36,
+        "cargoVolumeMax": 50
+      },
+      "values": {
+        "gccScoreTotal": 7.3,
+        "gccRangeEfficiency": 7.1,
+        "rangeEpa": 310.0,
+        "efficiencyKwhPer100mi": 33.0,
+        "efficiencyMiPerKwh": 3.03,
+        "topSpeedMph": 112.0,
+        "horsepower": 510.0,
+        "weightLbs": 6144.0,
+        "cargoVolumeMax": 67.6,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 90.0
+      },
+      "gccRankOverall": 13,
+      "gccScoreTotal": 7.3
+    },
+    "kia-ev9-2026": {
+      "gccSlug": "kia-ev9-99-8-kwh-awd",
+      "gccUrl": "https://www.greencarscompare.com/car/kia-ev9-99-8-kwh-awd/",
+      "ranks": {
+        "gccScoreTotal": 13,
+        "gccRangeEfficiency": 31,
+        "rangeEpa": 75,
+        "efficiencyKwhPer100mi": 122,
+        "efficiencyMiPerKwh": 163,
+        "topSpeedMph": 27,
+        "horsepower": 76,
+        "weightLbs": 63,
+        "cargoVolumeMax": 31
+      },
+      "values": {
+        "gccScoreTotal": 7.3,
+        "gccRangeEfficiency": 6.9,
+        "rangeEpa": 305.0,
+        "efficiencyKwhPer100mi": 32.7,
+        "efficiencyMiPerKwh": 3.06,
+        "topSpeedMph": 137.0,
+        "horsepower": 501.0,
+        "weightLbs": 5838.0,
+        "cargoVolumeMax": 84.5,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 9.0
+      },
+      "gccRankOverall": 13,
+      "gccScoreTotal": 7.3
+    },
+    "us-porsche-taycan-2027": {
+      "gccSlug": "porsche-taycan-turbo-sport-turismo-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/porsche-taycan-turbo-sport-turismo-2024/",
+      "ranks": {
+        "gccScoreTotal": 13,
+        "gccRangeEfficiency": 18,
+        "rangeEpa": 62,
+        "efficiencyKwhPer100mi": 84,
+        "efficiencyMiPerKwh": 123,
+        "topSpeedMph": 9,
+        "horsepower": 10,
+        "weightLbs": 131,
+        "cargoVolumeMax": 148
+      },
+      "values": {
+        "gccScoreTotal": 7.3,
+        "gccRangeEfficiency": 8.2,
+        "rangeEpa": 318.0,
+        "efficiencyKwhPer100mi": 28.9,
+        "efficiencyMiPerKwh": 3.46,
+        "topSpeedMph": 190.0,
+        "horsepower": 1019.0,
+        "weightLbs": 5302.0,
+        "cargoVolumeMax": 42.8,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 14.3
+      },
+      "gccRankOverall": 13,
+      "gccScoreTotal": 7.3
+    },
+    "kia-ev6-2026": {
+      "gccSlug": "kia-ev6-long-range-awd-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/kia-ev6-long-range-awd-2024/",
+      "ranks": {
+        "gccScoreTotal": 14,
+        "gccRangeEfficiency": 15,
+        "rangeEpa": 61,
+        "efficiencyKwhPer100mi": 47,
+        "efficiencyMiPerKwh": 73,
+        "topSpeedMph": 15,
+        "horsepower": 44,
+        "weightLbs": 233,
+        "cargoVolumeMax": 116
+      },
+      "values": {
+        "gccScoreTotal": 7.2,
+        "gccRangeEfficiency": 8.5,
+        "rangeEpa": 319.0,
+        "efficiencyKwhPer100mi": 25.2,
+        "efficiencyMiPerKwh": 3.96,
+        "topSpeedMph": 162.0,
+        "horsepower": 641.0,
+        "weightLbs": 4850.0,
+        "cargoVolumeMax": 50.2,
+        "cargoVolumeCuFt": 6.0
+      },
+      "gccRankOverall": 14,
+      "gccScoreTotal": 7.2
+    },
+    "us-jeep-wagoneers-2027": {
+      "gccSlug": "jeep-wagoneer-s",
+      "gccUrl": "https://www.greencarscompare.com/car/jeep-wagoneer-s/",
+      "ranks": {
+        "gccScoreTotal": 14,
+        "gccRangeEfficiency": 33,
+        "rangeEpa": 80,
+        "efficiencyKwhPer100mi": 124,
+        "efficiencyMiPerKwh": 165,
+        "topSpeedMph": 36,
+        "horsepower": 55,
+        "weightLbs": 85,
+        "cargoVolumeMax": 53
+      },
+      "values": {
+        "gccScoreTotal": 7.2,
+        "gccRangeEfficiency": 6.7,
+        "rangeEpa": 300.0,
+        "efficiencyKwhPer100mi": 32.9,
+        "efficiencyMiPerKwh": 3.04,
+        "topSpeedMph": 124.0,
+        "horsepower": 600.0,
+        "weightLbs": 5667.0,
+        "cargoVolumeMax": 64.0,
+        "cargoVolumeCuFt": 45.0,
+        "priceUsd": 3.0
+      },
+      "gccRankOverall": 14,
+      "gccScoreTotal": 7.2
+    },
+    "us-cadillac-lyriq-2027": {
+      "gccSlug": "cadillac-lyriq",
+      "gccUrl": "https://www.greencarscompare.com/car/cadillac-lyriq/",
+      "ranks": {
+        "gccScoreTotal": 14,
+        "gccRangeEfficiency": 27,
+        "rangeEpa": 56,
+        "efficiencyKwhPer100mi": 124,
+        "efficiencyMiPerKwh": 165,
+        "topSpeedMph": 30,
+        "horsepower": 51,
+        "weightLbs": 50,
+        "cargoVolumeMax": 63
+      },
+      "values": {
+        "gccScoreTotal": 7.2,
+        "gccRangeEfficiency": 7.3,
+        "rangeEpa": 326.0,
+        "efficiencyKwhPer100mi": 32.9,
+        "efficiencyMiPerKwh": 3.04,
+        "topSpeedMph": 132.0,
+        "horsepower": 615.0,
+        "weightLbs": 5980.0,
+        "cargoVolumeMax": 60.8,
+        "cargoVolumeCuFt": 33.0
+      },
+      "gccRankOverall": 14,
+      "gccScoreTotal": 7.2
+    },
+    "bmw-i5-2026": {
+      "gccSlug": "bmw-i5-touring-m60-xdrive-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/bmw-i5-touring-m60-xdrive-2025/",
+      "ranks": {
+        "gccScoreTotal": 14,
+        "gccRangeEfficiency": 17,
+        "rangeEpa": 70,
+        "efficiencyKwhPer100mi": 62,
+        "efficiencyMiPerKwh": 95,
+        "topSpeedMph": 25,
+        "horsepower": 56,
+        "weightLbs": 126,
+        "cargoVolumeMax": 66
+      },
+      "values": {
+        "gccScoreTotal": 7.2,
+        "gccRangeEfficiency": 8.3,
+        "rangeEpa": 310.0,
+        "efficiencyKwhPer100mi": 26.7,
+        "efficiencyMiPerKwh": 3.74,
+        "topSpeedMph": 143.0,
+        "horsepower": 593.0,
+        "weightLbs": 5346.0,
+        "cargoVolumeMax": 60.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 5.0
+      },
+      "gccRankOverall": 14,
+      "gccScoreTotal": 7.2
+    },
+    "chevrolet-blazer-ev-2026": {
+      "gccSlug": "chevrolet-blazer-ev-performance-awd",
+      "gccUrl": "https://www.greencarscompare.com/car/chevrolet-blazer-ev-performance-awd/",
+      "ranks": {
+        "gccScoreTotal": 15,
+        "gccRangeEfficiency": 22,
+        "rangeEpa": 50,
+        "efficiencyKwhPer100mi": 82,
+        "efficiencyMiPerKwh": 121,
+        "topSpeedMph": 39,
+        "horsepower": 51,
+        "weightLbs": 77,
+        "cargoVolumeMax": 73
+      },
+      "values": {
+        "gccScoreTotal": 7.1,
+        "gccRangeEfficiency": 7.8,
+        "rangeEpa": 334.0,
+        "efficiencyKwhPer100mi": 28.7,
+        "efficiencyMiPerKwh": 3.48,
+        "topSpeedMph": 118.0,
+        "horsepower": 615.0,
+        "weightLbs": 5730.0,
+        "cargoVolumeMax": 59.1,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 17.7
+      },
+      "gccRankOverall": 15,
+      "gccScoreTotal": 7.1
+    },
+    "volkswagen-id4-2026": {
+      "gccSlug": "volkswagen-id-4-gtx-2023",
+      "gccUrl": "https://www.greencarscompare.com/car/volkswagen-id-4-gtx-2023/",
+      "ranks": {
+        "gccScoreTotal": 16,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 88,
+        "efficiencyKwhPer100mi": 60,
+        "efficiencyMiPerKwh": 92,
+        "topSpeedMph": 43,
+        "horsepower": 116,
+        "weightLbs": 200,
+        "cargoVolumeMax": 51
+      },
+      "values": {
+        "gccScoreTotal": 7.0,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 291.0,
+        "efficiencyKwhPer100mi": 26.5,
+        "efficiencyMiPerKwh": 3.77,
+        "topSpeedMph": 111.0,
+        "horsepower": 335.0,
+        "weightLbs": 4974.0,
+        "cargoVolumeMax": 64.2,
+        "cargoVolumeCuFt": 12.9
+      },
+      "gccRankOverall": 16,
+      "gccScoreTotal": 7.0
+    },
+    "us-audi-etrongt-2027": {
+      "gccSlug": "audi-e-tron-gt-quattro-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/audi-e-tron-gt-quattro-2025/",
+      "ranks": {
+        "gccScoreTotal": 16,
+        "gccRangeEfficiency": 19,
+        "rangeEpa": 80,
+        "efficiencyKwhPer100mi": 93,
+        "efficiencyMiPerKwh": 134,
+        "topSpeedMph": 19,
+        "horsepower": 14,
+        "weightLbs": 137,
+        "cargoVolumeMax": 204
+      },
+      "values": {
+        "gccScoreTotal": 7.0,
+        "gccRangeEfficiency": 8.1,
+        "rangeEpa": 300.0,
+        "efficiencyKwhPer100mi": 29.8,
+        "efficiencyMiPerKwh": 3.35,
+        "topSpeedMph": 155.0,
+        "horsepower": 912.0,
+        "weightLbs": 5280.0,
+        "cargoVolumeMax": 14.3,
+        "cargoVolumeCuFt": 14.3
+      },
+      "gccRankOverall": 16,
+      "gccScoreTotal": 7.0
+    },
+    "ford-mustang-mach-e-2026": {
+      "gccSlug": "ford-mustang-mach-e-er-rwd",
+      "gccUrl": "https://www.greencarscompare.com/car/ford-mustang-mach-e-er-rwd/",
+      "ranks": {
+        "gccScoreTotal": 16,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 60,
+        "efficiencyKwhPer100mi": 84,
+        "efficiencyMiPerKwh": 124,
+        "topSpeedMph": 36,
+        "horsepower": 84,
+        "weightLbs": 188,
+        "cargoVolumeMax": 68
+      },
+      "values": {
+        "gccScoreTotal": 7.0,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 320.0,
+        "efficiencyKwhPer100mi": 28.9,
+        "efficiencyMiPerKwh": 3.45,
+        "topSpeedMph": 124.0,
+        "horsepower": 480.0,
+        "weightLbs": 5018.0,
+        "cargoVolumeMax": 59.7,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 15.5
+      },
+      "gccRankOverall": 16,
+      "gccScoreTotal": 7.0
+    },
+    "us-lexus-rz-2027": {
+      "gccSlug": "lexus-rz-350e",
+      "gccUrl": "https://www.greencarscompare.com/car/lexus-rz-350e/",
+      "ranks": {
+        "gccScoreTotal": 16,
+        "gccRangeEfficiency": 9,
+        "rangeEpa": 109,
+        "efficiencyKwhPer100mi": 23,
+        "efficiencyMiPerKwh": 30,
+        "topSpeedMph": 52,
+        "horsepower": 99,
+        "weightLbs": 278,
+        "cargoVolumeMax": 111
+      },
+      "values": {
+        "gccScoreTotal": 7.0,
+        "gccRangeEfficiency": 9.1,
+        "rangeEpa": 266.0,
+        "efficiencyKwhPer100mi": 22.8,
+        "efficiencyMiPerKwh": 4.39,
+        "topSpeedMph": 99.0,
+        "horsepower": 402.0,
+        "weightLbs": 4707.0,
+        "cargoVolumeMax": 51.2,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 350.0
+      },
+      "gccRankOverall": 16,
+      "gccScoreTotal": 7.0
+    },
+    "us-genesis-gv60-2027": {
+      "gccSlug": "genesis-gv60-performance-awd-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/genesis-gv60-performance-awd-2025/",
+      "ranks": {
+        "gccScoreTotal": 16,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 74,
+        "efficiencyKwhPer100mi": 63,
+        "efficiencyMiPerKwh": 96,
+        "topSpeedMph": 23,
+        "horsepower": 83,
+        "weightLbs": 211,
+        "cargoVolumeMax": 109
+      },
+      "values": {
+        "gccScoreTotal": 7.0,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 306.0,
+        "efficiencyKwhPer100mi": 26.8,
+        "efficiencyMiPerKwh": 3.73,
+        "topSpeedMph": 146.0,
+        "horsepower": 483.0,
+        "weightLbs": 4945.0,
+        "cargoVolumeMax": 51.6,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 60.0
+      },
+      "gccRankOverall": 16,
+      "gccScoreTotal": 7.0
+    },
+    "us-acura-zdx-2027": {
+      "gccSlug": "acura-zdx-a-spec-rwd-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/acura-zdx-a-spec-rwd-2024/",
+      "ranks": {
+        "gccScoreTotal": 16,
+        "gccRangeEfficiency": 33,
+        "rangeEpa": 67,
+        "efficiencyKwhPer100mi": 134,
+        "efficiencyMiPerKwh": 176,
+        "topSpeedMph": 31,
+        "horsepower": 78,
+        "weightLbs": 43,
+        "cargoVolumeMax": 57
+      },
+      "values": {
+        "gccScoreTotal": 7.0,
+        "gccRangeEfficiency": 6.7,
+        "rangeEpa": 313.0,
+        "efficiencyKwhPer100mi": 34.2,
+        "efficiencyMiPerKwh": 2.92,
+        "topSpeedMph": 131.0,
+        "horsepower": 499.0,
+        "weightLbs": 6052.0,
+        "cargoVolumeMax": 63.0,
+        "priceUsd": 64500.0,
+        "cargoVolumeCuFt": 5.0
+      },
+      "gccRankOverall": 16,
+      "gccScoreTotal": 7.0
+    },
+    "us-volvo-xc40-2027": {
+      "gccSlug": "volvo-xc40-recharge-twin-motor",
+      "gccUrl": "https://www.greencarscompare.com/car/volvo-xc40-recharge-twin-motor/",
+      "ranks": {
+        "gccScoreTotal": 17,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 86,
+        "efficiencyKwhPer100mi": 65,
+        "efficiencyMiPerKwh": 99,
+        "topSpeedMph": 42,
+        "horsepower": 99,
+        "weightLbs": 241,
+        "cargoVolumeMax": 83
+      },
+      "values": {
+        "gccScoreTotal": 6.9,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 293.0,
+        "efficiencyKwhPer100mi": 27.0,
+        "efficiencyMiPerKwh": 3.7,
+        "topSpeedMph": 112.0,
+        "horsepower": 402.0,
+        "weightLbs": 4824.0,
+        "cargoVolumeMax": 57.5,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 40.0
+      },
+      "gccRankOverall": 17,
+      "gccScoreTotal": 6.9
+    },
+    "bmw-i7-2026": {
+      "gccSlug": "bmw-i7-xdrive60",
+      "gccUrl": "https://www.greencarscompare.com/car/bmw-i7-xdrive60/",
+      "ranks": {
+        "gccScoreTotal": 18,
+        "gccRangeEfficiency": 23,
+        "rangeEpa": 59,
+        "efficiencyKwhPer100mi": 112,
+        "efficiencyMiPerKwh": 153,
+        "topSpeedMph": 19,
+        "horsepower": 40,
+        "weightLbs": 34,
+        "cargoVolumeMax": 203
+      },
+      "values": {
+        "gccScoreTotal": 6.8,
+        "gccRangeEfficiency": 7.7,
+        "rangeEpa": 321.0,
+        "efficiencyKwhPer100mi": 31.7,
+        "efficiencyMiPerKwh": 3.16,
+        "topSpeedMph": 155.0,
+        "horsepower": 650.0,
+        "weightLbs": 6191.0,
+        "cargoVolumeMax": 17.7,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 7.0
+      },
+      "gccRankOverall": 18,
+      "gccScoreTotal": 6.8
+    },
+    "volkswagen-id-buzz-2026": {
+      "gccSlug": "volkswagen-id-buzz-long-gtx",
+      "gccUrl": "https://www.greencarscompare.com/car/volkswagen-id-buzz-long-gtx/",
+      "ranks": {
+        "gccScoreTotal": 18,
+        "gccRangeEfficiency": 42,
+        "rangeEpa": 138,
+        "efficiencyKwhPer100mi": 126,
+        "efficiencyMiPerKwh": 166,
+        "topSpeedMph": 52,
+        "horsepower": 116,
+        "weightLbs": 33,
+        "cargoVolumeMax": 7
+      },
+      "values": {
+        "gccScoreTotal": 6.8,
+        "gccRangeEfficiency": 5.8,
+        "rangeEpa": 234.0,
+        "efficiencyKwhPer100mi": 33.1,
+        "efficiencyMiPerKwh": 3.03,
+        "topSpeedMph": 99.0,
+        "horsepower": 335.0,
+        "weightLbs": 6197.0,
+        "cargoVolumeMax": 145.5,
+        "cargoVolumeCuFt": 75.5
+      },
+      "gccRankOverall": 18,
+      "gccScoreTotal": 6.8
+    },
+    "us-cadillac-optiq-2027": {
+      "gccSlug": "cadillac-optiq-v-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/cadillac-optiq-v-2025/",
+      "ranks": {
+        "gccScoreTotal": 18,
+        "gccRangeEfficiency": 26,
+        "rangeEpa": 78,
+        "efficiencyKwhPer100mi": 91,
+        "efficiencyMiPerKwh": 131,
+        "topSpeedMph": 41,
+        "horsepower": 70,
+        "weightLbs": 112,
+        "cargoVolumeMax": 85
+      },
+      "values": {
+        "gccScoreTotal": 6.8,
+        "gccRangeEfficiency": 7.4,
+        "rangeEpa": 302.0,
+        "efficiencyKwhPer100mi": 29.6,
+        "efficiencyMiPerKwh": 3.38,
+        "topSpeedMph": 113.0,
+        "horsepower": 519.0,
+        "weightLbs": 5445.0,
+        "cargoVolumeMax": 57.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 33.0
+      },
+      "gccRankOverall": 18,
+      "gccScoreTotal": 6.8
+    },
+    "toyota-bz-2026": {
+      "gccSlug": "toyota-bz4x-73-kwh-awd",
+      "gccUrl": "https://www.greencarscompare.com/car/toyota-bz4x-73-kwh-awd/",
+      "ranks": {
+        "gccScoreTotal": 18,
+        "gccRangeEfficiency": 9,
+        "rangeEpa": 66,
+        "efficiencyKwhPer100mi": 22,
+        "efficiencyMiPerKwh": 29,
+        "topSpeedMph": 52,
+        "horsepower": 115,
+        "weightLbs": 356
+      },
+      "values": {
+        "gccScoreTotal": 6.8,
+        "gccRangeEfficiency": 9.1,
+        "rangeEpa": 314.0,
+        "efficiencyKwhPer100mi": 22.7,
+        "efficiencyMiPerKwh": 4.41,
+        "topSpeedMph": 99.0,
+        "horsepower": 338.0,
+        "weightLbs": 4376.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 4.0
+      },
+      "gccRankOverall": 18,
+      "gccScoreTotal": 6.8
+    },
+    "us-cadillac-celestiq-2026": {
+      "gccSlug": "cadillac-celestiq-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/cadillac-celestiq-2024/",
+      "ranks": {
+        "gccScoreTotal": 18,
+        "gccRangeEfficiency": 43,
+        "rangeEpa": 77,
+        "efficiencyKwhPer100mi": 174,
+        "efficiencyMiPerKwh": 209,
+        "topSpeedMph": 32,
+        "horsepower": 39,
+        "weightLbs": 47
+      },
+      "values": {
+        "gccScoreTotal": 6.8,
+        "gccRangeEfficiency": 5.7,
+        "rangeEpa": 303.0,
+        "efficiencyKwhPer100mi": 38.5,
+        "efficiencyMiPerKwh": 2.59,
+        "topSpeedMph": 130.0,
+        "horsepower": 655.0,
+        "weightLbs": 6000.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 55.0
+      },
+      "gccRankOverall": 18,
+      "gccScoreTotal": 6.8
+    },
+    "us-vinfast-vf9-2027": {
+      "gccSlug": "vinfast-vf-9-eco",
+      "gccUrl": "https://www.greencarscompare.com/car/vinfast-vf-9-eco/",
+      "ranks": {
+        "gccScoreTotal": 19,
+        "gccRangeEfficiency": 39,
+        "rangeEpa": 52,
+        "efficiencyKwhPer100mi": 178,
+        "efficiencyMiPerKwh": 212,
+        "topSpeedMph": 36,
+        "horsepower": 99,
+        "weightLbs": 20,
+        "cargoVolumeMax": 181
+      },
+      "values": {
+        "gccScoreTotal": 6.7,
+        "gccRangeEfficiency": 6.1,
+        "rangeEpa": 330.0,
+        "efficiencyKwhPer100mi": 39.2,
+        "efficiencyMiPerKwh": 2.55,
+        "topSpeedMph": 124.0,
+        "horsepower": 402.0,
+        "weightLbs": 6543.0,
+        "cargoVolumeMax": 32.7,
+        "cargoVolumeCuFt": 3.0,
+        "priceUsd": 2025.0
+      },
+      "gccRankOverall": 19,
+      "gccScoreTotal": 6.7
+    },
+    "chevrolet-equinox-ev-2026": {
+      "gccSlug": "chevrolet-equinox-ev-fwd",
+      "gccUrl": "https://www.greencarscompare.com/car/chevrolet-equinox-ev-fwd/",
+      "ranks": {
+        "gccScoreTotal": 19,
+        "gccRangeEfficiency": 20,
+        "rangeEpa": 61,
+        "efficiencyKwhPer100mi": 76,
+        "efficiencyMiPerKwh": 113,
+        "topSpeedMph": 41,
+        "horsepower": 133,
+        "cargoVolumeMax": 84
+      },
+      "values": {
+        "gccScoreTotal": 6.7,
+        "gccRangeEfficiency": 8.0,
+        "rangeEpa": 319.0,
+        "efficiencyKwhPer100mi": 28.1,
+        "efficiencyMiPerKwh": 3.56,
+        "topSpeedMph": 113.0,
+        "horsepower": 288.0,
+        "cargoVolumeMax": 57.2,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 17.7
+      },
+      "gccRankOverall": 19,
+      "gccScoreTotal": 6.7
+    },
+    "us-honda-prologue-2027": {
+      "gccSlug": "honda-prologue-awd-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/honda-prologue-awd-2025/",
+      "ranks": {
+        "gccScoreTotal": 19,
+        "gccRangeEfficiency": 22,
+        "rangeEpa": 72,
+        "efficiencyKwhPer100mi": 78,
+        "efficiencyMiPerKwh": 116,
+        "topSpeedMph": 40,
+        "horsepower": 128,
+        "weightLbs": 147,
+        "cargoVolumeMax": 82
+      },
+      "values": {
+        "gccScoreTotal": 6.7,
+        "gccRangeEfficiency": 7.8,
+        "rangeEpa": 308.0,
+        "efficiencyKwhPer100mi": 28.3,
+        "efficiencyMiPerKwh": 3.53,
+        "topSpeedMph": 115.0,
+        "horsepower": 300.0,
+        "weightLbs": 5207.0,
+        "cargoVolumeMax": 57.7,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 121.8
+      },
+      "gccRankOverall": 19,
+      "gccScoreTotal": 6.7
+    },
+    "bmw-i4-2026": {
+      "gccSlug": "bmw-i4-m60-xdrive-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/bmw-i4-m60-xdrive-2025/",
+      "ranks": {
+        "gccScoreTotal": 20,
+        "gccRangeEfficiency": 17,
+        "rangeEpa": 73,
+        "efficiencyKwhPer100mi": 58,
+        "efficiencyMiPerKwh": 89,
+        "topSpeedMph": 26,
+        "horsepower": 56,
+        "weightLbs": 182,
+        "cargoVolumeMax": 135
+      },
+      "values": {
+        "gccScoreTotal": 6.6,
+        "gccRangeEfficiency": 8.3,
+        "rangeEpa": 307.0,
+        "efficiencyKwhPer100mi": 26.3,
+        "efficiencyMiPerKwh": 3.8,
+        "topSpeedMph": 140.0,
+        "horsepower": 593.0,
+        "weightLbs": 5048.0,
+        "cargoVolumeMax": 45.6,
+        "cargoVolumeCuFt": 4.0
+      },
+      "gccRankOverall": 20,
+      "gccScoreTotal": 6.6
+    },
+    "us-volvo-ex30-2027": {
+      "gccSlug": "volvo-ex30-twin-motor-performance",
+      "gccUrl": "https://www.greencarscompare.com/car/volvo-ex30-twin-motor-performance/",
+      "ranks": {
+        "gccScoreTotal": 20,
+        "gccRangeEfficiency": 25,
+        "rangeEpa": 113,
+        "efficiencyKwhPer100mi": 50,
+        "efficiencyMiPerKwh": 77,
+        "topSpeedMph": 42,
+        "horsepower": 95,
+        "weightLbs": 357,
+        "cargoVolumeMax": 190
+      },
+      "values": {
+        "gccScoreTotal": 6.6,
+        "gccRangeEfficiency": 7.5,
+        "rangeEpa": 261.0,
+        "efficiencyKwhPer100mi": 25.5,
+        "efficiencyMiPerKwh": 3.92,
+        "topSpeedMph": 112.0,
+        "horsepower": 422.0,
+        "weightLbs": 4372.0,
+        "cargoVolumeMax": 29.8,
+        "cargoVolumeCuFt": 30.0
+      },
+      "gccRankOverall": 20,
+      "gccScoreTotal": 6.6
+    },
+    "us-vinfast-vf8-2027": {
+      "gccSlug": "vinfast-vf-8-eco-2024",
+      "gccUrl": "https://www.greencarscompare.com/car/vinfast-vf-8-eco-2024/",
+      "ranks": {
+        "gccScoreTotal": 21,
+        "gccRangeEfficiency": 45,
+        "rangeEpa": 160,
+        "efficiencyKwhPer100mi": 144,
+        "efficiencyMiPerKwh": 184,
+        "topSpeedMph": 36,
+        "horsepower": 99,
+        "weightLbs": 76,
+        "cargoVolumeMax": 125
+      },
+      "values": {
+        "gccScoreTotal": 6.5,
+        "gccRangeEfficiency": 5.5,
+        "rangeEpa": 207.0,
+        "efficiencyKwhPer100mi": 35.2,
+        "efficiencyMiPerKwh": 2.84,
+        "topSpeedMph": 124.0,
+        "horsepower": 402.0,
+        "weightLbs": 5732.0,
+        "cargoVolumeMax": 48.0,
+        "cargoVolumeCuFt": 2025.0
+      },
+      "gccRankOverall": 21,
+      "gccScoreTotal": 6.5
+    },
+    "us-mini-countryman-2027": {
+      "gccSlug": "mini-countryman-e",
+      "gccUrl": "https://www.greencarscompare.com/car/mini-countryman-e/",
+      "ranks": {
+        "gccScoreTotal": 25,
+        "gccRangeEfficiency": 29,
+        "rangeEpa": 155,
+        "efficiencyKwhPer100mi": 60,
+        "efficiencyMiPerKwh": 92,
+        "topSpeedMph": 42,
+        "horsepower": 125,
+        "weightLbs": 305,
+        "cargoVolumeMax": 111
+      },
+      "values": {
+        "gccScoreTotal": 6.1,
+        "gccRangeEfficiency": 7.1,
+        "rangeEpa": 212.0,
+        "efficiencyKwhPer100mi": 26.5,
+        "efficiencyMiPerKwh": 3.77,
+        "topSpeedMph": 112.0,
+        "horsepower": 308.0,
+        "weightLbs": 4588.0,
+        "cargoVolumeMax": 51.2,
+        "cargoVolumeCuFt": 2025.0
+      },
+      "gccRankOverall": 25,
+      "gccScoreTotal": 6.1
+    },
+    "us-subaru-solterra-2027": {
+      "gccSlug": "subaru-solterra",
+      "gccUrl": "https://www.greencarscompare.com/car/subaru-solterra/",
+      "ranks": {
+        "gccScoreTotal": 26,
+        "gccRangeEfficiency": 34,
+        "rangeEpa": 144,
+        "efficiencyKwhPer100mi": 72,
+        "efficiencyMiPerKwh": 108,
+        "topSpeedMph": 52,
+        "horsepower": 158,
+        "weightLbs": 362,
+        "cargoVolumeMax": 55
+      },
+      "values": {
+        "gccScoreTotal": 6.0,
+        "gccRangeEfficiency": 6.6,
+        "rangeEpa": 227.0,
+        "efficiencyKwhPer100mi": 27.7,
+        "efficiencyMiPerKwh": 3.61,
+        "topSpeedMph": 99.0,
+        "horsepower": 215.0,
+        "weightLbs": 4354.0,
+        "cargoVolumeMax": 63.5,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 8.0
+      },
+      "gccRankOverall": 26,
+      "gccScoreTotal": 6.0
+    },
+    "us-nissan-leaf-2026": {
+      "gccSlug": "nissan-leaf-75-kwh-2025",
+      "gccUrl": "https://www.greencarscompare.com/car/nissan-leaf-75-kwh-2025/",
+      "ranks": {
+        "gccScoreTotal": 27,
+        "gccRangeEfficiency": 16,
+        "rangeEpa": 77,
+        "efficiencyKwhPer100mi": 5,
+        "efficiencyMiPerKwh": 6,
+        "topSpeedMph": 47,
+        "horsepower": 158,
+        "weightLbs": 394,
+        "cargoVolumeMax": 94
+      },
+      "values": {
+        "gccScoreTotal": 5.9,
+        "gccRangeEfficiency": 8.4,
+        "rangeEpa": 303.0,
+        "efficiencyKwhPer100mi": 20.8,
+        "efficiencyMiPerKwh": 4.8,
+        "topSpeedMph": 106.0,
+        "horsepower": 215.0,
+        "weightLbs": 4187.0,
+        "cargoVolumeMax": 55.5,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 20.0
+      },
+      "gccRankOverall": 27,
+      "gccScoreTotal": 5.9
+    },
+    "us-chevrolet-bolt-2027": {
+      "gccSlug": "chevrolet-bolt-euv",
+      "gccUrl": "https://www.greencarscompare.com/car/chevrolet-bolt-euv/",
+      "ranks": {
+        "gccScoreTotal": 28,
+        "gccRangeEfficiency": 25,
+        "rangeEpa": 115,
+        "efficiencyKwhPer100mi": 46,
+        "efficiencyMiPerKwh": 71,
+        "topSpeedMph": 58,
+        "horsepower": 164,
+        "weightLbs": 473,
+        "cargoVolumeMax": 85
+      },
+      "values": {
+        "gccScoreTotal": 5.8,
+        "gccRangeEfficiency": 7.5,
+        "rangeEpa": 259.0,
+        "efficiencyKwhPer100mi": 25.1,
+        "efficiencyMiPerKwh": 3.98,
+        "topSpeedMph": 91.0,
+        "horsepower": 201.0,
+        "weightLbs": 3680.0,
+        "cargoVolumeMax": 57.0,
+        "priceUsd": 2023.0,
+        "cargoVolumeCuFt": 2023.0
+      },
+      "gccRankOverall": 28,
+      "gccScoreTotal": 5.8
+    },
+    "us-vinfast-vf-7-2027": {
+      "gccSlug": "vinfast-vf-7-plus",
+      "gccUrl": "https://www.greencarscompare.com/car/vinfast-vf-7-plus/",
+      "ranks": {
+        "gccScoreTotal": 28,
+        "gccRangeEfficiency": 40,
+        "efficiencyKwhPer100mi": 111,
+        "efficiencyMiPerKwh": 153,
+        "topSpeedMph": 45,
+        "horsepower": 112,
+        "weightLbs": 232
+      },
+      "values": {
+        "gccScoreTotal": 5.8,
+        "gccRangeEfficiency": 6.0,
+        "efficiencyKwhPer100mi": 31.6,
+        "efficiencyMiPerKwh": 3.16,
+        "topSpeedMph": 109.0,
+        "horsepower": 349.0,
+        "weightLbs": 4861.0,
+        "priceUsd": 2025.0,
+        "cargoVolumeCuFt": 7.0,
+        "rangeEpa": 75.3
+      },
+      "gccRankOverall": 28,
+      "gccScoreTotal": 5.8
+    },
+    "us-fiat-500e-2027": {
+      "gccSlug": "fiat-500e-3-plus-1-42-kwh",
+      "gccUrl": "https://www.greencarscompare.com/car/fiat-500e-3-plus-1-42-kwh/",
+      "ranks": {
+        "gccScoreTotal": 35,
+        "gccRangeEfficiency": 34,
+        "rangeEpa": 167,
+        "efficiencyKwhPer100mi": 8,
+        "efficiencyMiPerKwh": 9,
+        "topSpeedMph": 55,
+        "horsepower": 193,
+        "weightLbs": 550,
+        "cargoVolumeMax": 202
+      },
+      "values": {
+        "gccScoreTotal": 5.1,
+        "gccRangeEfficiency": 6.6,
+        "rangeEpa": 149.0,
+        "efficiencyKwhPer100mi": 21.1,
+        "efficiencyMiPerKwh": 4.74,
+        "topSpeedMph": 94.0,
+        "horsepower": 117.0,
+        "weightLbs": 3097.0,
+        "cargoVolumeMax": 19.4,
+        "cargoVolumeCuFt": 500.0
+      },
+      "gccRankOverall": 35,
+      "gccScoreTotal": 5.1
+    }
+  }
+}

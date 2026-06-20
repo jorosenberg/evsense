@@ -1,0 +1,236 @@
+{
+  "id": "tesla-models-2026",
+  "make": "Tesla",
+  "model": "Model S",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://www.tesla.com/models",
+  "imageUrl": "/data/images/tesla-models-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/tesla-models-2026/default.jpg",
+    "/data/images/tesla-models-2026/gallery-1.jpg",
+    "/data/images/tesla-models-2026/gallery-2.jpg",
+    "/data/images/tesla-models-2026/gallery-3.jpg",
+    "/data/images/tesla-models-2026/gallery-4.jpg",
+    "/data/images/tesla-models-2026/gallery-5.jpg",
+    "/data/images/tesla-models-2026/gallery-6.jpg",
+    "/data/images/tesla-models-2026/gallery-7.jpg",
+    "/data/images/tesla-models-2026/gallery-8.jpg",
+    "/data/images/tesla-models-2026/gallery-9.jpg",
+    "/data/images/tesla-models-2026/gallery-10.jpg",
+    "/data/images/tesla-models-2026/gallery-11.jpg",
+    "/data/images/tesla-models-2026/gallery-12.jpg",
+    "/data/images/tesla-models-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 94990
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 74990
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 74990
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Long Range AWD",
+      "msrp": 74990,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 849,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 7499,
+          "moneyFactor": 0.0021,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 368,
+        "milesPerKwh": 3.27
+      }
+    },
+    {
+      "name": "AWD",
+      "msrp": 96380,
+      "sellingPrice": 96380,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 368,
+        "milesPerKwh": 3.27,
+        "horsepower": 335
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "4dr Sedan AWD (electric DD)"
+    },
+    {
+      "name": "Plaid AWD",
+      "msrp": 111380,
+      "sellingPrice": 111380,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 368,
+        "milesPerKwh": 3.27
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1149,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 9499,
+          "moneyFactor": 0.00235,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Plaid 4dr Sedan AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 100,
+    "milesPerKwh": 3.9,
+    "zeroToSixty": 3.1,
+    "topSpeed": 149,
+    "torqueLbFt": 723,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 28.4,
+    "frunkVolumeCuFt": 3.1,
+    "towingCapacityLbs": 0,
+    "groundClearanceIn": 4.6,
+    "weightLbs": 4561,
+    "chargingSpeedDcFastKw": 250,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 150000,
+    "range": 368,
+    "epaRangeCity": 446,
+    "epaRangeHwy": 364,
+    "horsepower": 670,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 720,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 26,
+    "year2Percent": 39,
+    "year3Percent": 48,
+    "year5Percent": 60,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 2100,
+    "average": 2850,
+    "high": 4200,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 74990
+}

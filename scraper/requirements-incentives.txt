@@ -1,0 +1,10 @@
+# Dependencies for the monthly NY/ZIP-10005 manufacturer-incentive scrape
+# (scraper/incentives/edmunds_incentives.py). Kept minimal on purpose so the
+# scheduled GitHub Action installs fast.
+curl_cffi>=0.7
+beautifulsoup4>=4.12
+PyYAML>=6.0
+# Browser fallback for Cloudflare-challenged deal pages. Chromium is installed
+# in the workflow via `playwright install --with-deps chromium`.
+playwright>=1.44
+playwright-stealth>=1.0.6

@@ -1,0 +1,425 @@
+{
+  "id": "lucid-air-2026",
+  "make": "Lucid",
+  "model": "Air",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://lucidmotors.com/air",
+  "imageUrl": "/data/images/lucid-air-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/lucid-air-2026/default.jpg",
+    "/data/images/lucid-air-2026/gallery-1.jpg",
+    "/data/images/lucid-air-2026/gallery-2.jpg",
+    "/data/images/lucid-air-2026/gallery-3.jpg",
+    "/data/images/lucid-air-2026/gallery-4.jpg",
+    "/data/images/lucid-air-2026/gallery-5.jpg",
+    "/data/images/lucid-air-2026/gallery-6.jpg",
+    "/data/images/lucid-air-2026/gallery-7.jpg",
+    "/data/images/lucid-air-2026/gallery-8.jpg",
+    "/data/images/lucid-air-2026/gallery-9.jpg",
+    "/data/images/lucid-air-2026/gallery-10.jpg",
+    "/data/images/lucid-air-2026/gallery-11.jpg",
+    "/data/images/lucid-air-2026/gallery-12.jpg",
+    "/data/images/lucid-air-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 87400
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 71400
+    },
+    {
+      "date": "2024-09-01T00:00:00+00:00",
+      "msrp": 69900
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 69900
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Pure",
+      "msrp": 71400,
+      "sellingPrice": 71400,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 372,
+        "milesPerKwh": 3.83
+      },
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 749,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6995,
+          "moneyFactor": 0.00185,
+          "residualPercent": 52,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Pure 4dr Sedan (electric DD)"
+    },
+    {
+      "name": "Touring AWD",
+      "msrp": 80400,
+      "sellingPrice": 80400,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 361,
+        "milesPerKwh": 3.46
+      },
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 879,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 7995,
+          "moneyFactor": 0.00195,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Touring 4dr Sedan AWD (electric DD)"
+    },
+    {
+      "name": "Grand Touring",
+      "msrp": 110900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1199,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 9995,
+          "moneyFactor": 0.00215,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 361,
+        "milesPerKwh": 3.46
+      }
+    },
+    {
+      "name": "Grand Touring AWD",
+      "msrp": 112400,
+      "sellingPrice": 112400,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 361,
+        "milesPerKwh": 3.46
+      },
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 879,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 7995,
+          "moneyFactor": 0.00195,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Grand Touring 4dr Sedan AWD (electric DD)"
+    },
+    {
+      "name": "Sapphire",
+      "msrp": 249000,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Stellar White",
+          "hexPreview": "#EBEBEC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Cosmos Silver",
+          "hexPreview": "#A8AAAD",
+          "pricePremium": 0
+        },
+        {
+          "name": "Infinite Black",
+          "hexPreview": "#000000",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Quantum Grey",
+          "hexPreview": "#5B5F65",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Zenith Red",
+          "hexPreview": "#7A1313",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 2799,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 14995,
+          "moneyFactor": 0.00245,
+          "residualPercent": 45,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 361,
+        "milesPerKwh": 3.46
+      }
+    },
+    {
+      "name": "Sapphire AWD",
+      "msrp": 250500,
+      "sellingPrice": 250500,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 361,
+        "milesPerKwh": 3.46,
+        "horsepower": 819
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Sapphire 4dr Sedan AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 118,
+    "milesPerKwh": 5.0,
+    "zeroToSixty": 4.5,
+    "topSpeed": 168,
+    "torqueLbFt": 406,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 22.1,
+    "frunkVolumeCuFt": 9.1,
+    "towingCapacityLbs": 0,
+    "groundClearanceIn": 5.5,
+    "weightLbs": 4564,
+    "chargingSpeedDcFastKw": 300,
+    "chargingSpeedL2Kw": 19.2,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 372,
+    "epaRangeCity": 461,
+    "epaRangeHwy": 377,
+    "horsepower": 430,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 685,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 33,
+    "year2Percent": 47,
+    "year3Percent": 56,
+    "year5Percent": 67,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 2040,
+    "average": 2780,
+    "high": 3970,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 71400
+}

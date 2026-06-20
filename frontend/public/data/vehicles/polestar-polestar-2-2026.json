@@ -1,0 +1,281 @@
+{
+  "id": "polestar-polestar-2-2026",
+  "make": "Polestar",
+  "model": "Polestar 2",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://www.polestar.com/us/polestar-2",
+  "imageUrl": "/data/images/polestar-polestar-2-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/polestar-polestar-2-2026/default.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-1.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-2.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-3.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-4.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-5.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-6.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-7.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-8.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-9.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-10.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-11.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-12.jpg",
+    "/data/images/polestar-polestar-2-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 49900
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 49900
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 44900
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Long Range Single Motor",
+      "msrp": 44900,
+      "destinationFee": 1395,
+      "drivetrain": "RWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 49900,
+        "changeDollars": -5000,
+        "direction": "decrease"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 419,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00135,
+          "residualPercent": 52,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Long Range Dual Motor",
+      "msrp": 49900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 49900,
+        "changeDollars": -5000,
+        "direction": "decrease"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 489,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4699,
+          "moneyFactor": 0.00148,
+          "residualPercent": 50,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "BST Edition 270",
+      "msrp": 64900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 49900,
+        "changeDollars": -5000,
+        "direction": "decrease"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 649,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5499,
+          "moneyFactor": 0.00175,
+          "residualPercent": 47,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    }
+  ],
+  "specs": {
+    "batteryKwh": 82,
+    "milesPerKwh": 3.7,
+    "zeroToSixty": 4.2,
+    "topSpeed": 127,
+    "torqueLbFt": 546,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 14.3,
+    "frunkVolumeCuFt": 1.3,
+    "towingCapacityLbs": 2000,
+    "groundClearanceIn": 5.9,
+    "weightLbs": 4670,
+    "chargingSpeedDcFastKw": 205,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "CCS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 320,
+    "epaRangeCity": 352,
+    "epaRangeHwy": 288,
+    "horsepower": 299,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 625,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 32,
+    "year2Percent": 45,
+    "year3Percent": 54,
+    "year5Percent": 64,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1650,
+    "average": 2240,
+    "high": 3210,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "id": "polestar-polestar-4-2026",
+  "make": "Polestar",
+  "model": "Polestar 4",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.polestar.com/us/polestar-4",
+  "imageUrl": "/data/images/polestar-polestar-4-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/polestar-polestar-4-2026/default.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-1.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-2.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-3.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-4.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-5.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-6.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-7.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-8.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-9.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-10.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-11.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-12.jpg",
+    "/data/images/polestar-polestar-4-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-09-01T00:00:00+00:00",
+      "msrp": 54900
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 56900
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Long Range Single Motor",
+      "msrp": 57800,
+      "sellingPrice": 57800,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5495,
+          "moneyFactor": 0.0016,
+          "residualPercent": 51,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range Single Motor 4dr Hatchback (electric DD)"
+    },
+    {
+      "name": "Long Range Dual Motor AWD",
+      "msrp": 64300,
+      "sellingPrice": 64300,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 689,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5995,
+          "moneyFactor": 0.00175,
+          "residualPercent": 49,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range Dual Motor 4dr Hatchback AWD (electric DD)"
+    },
+    {
+      "name": "Long Range Single Motor Plus",
+      "msrp": 67000,
+      "sellingPrice": 67000,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5495,
+          "moneyFactor": 0.0016,
+          "residualPercent": 51,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range Single Motor Plus 4dr Hatchback (electric DD)"
+    },
+    {
+      "name": "Performance Pack",
+      "msrp": 72900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 54900,
+        "changeDollars": 2000,
+        "direction": "increase"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 779,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6495,
+          "moneyFactor": 0.00185,
+          "residualPercent": 48,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Long Range Dual Motor Plus AWD",
+      "msrp": 74300,
+      "sellingPrice": 74300,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 689,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5995,
+          "moneyFactor": 0.00175,
+          "residualPercent": 49,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range Dual Motor Plus 4dr Hatchback AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 100,
+    "milesPerKwh": 3.0,
+    "zeroToSixty": 3.7,
+    "topSpeed": 124,
+    "torqueLbFt": 506,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 18.8,
+    "frunkVolumeCuFt": 0.5,
+    "towingCapacityLbs": 3500,
+    "groundClearanceIn": 6.5,
+    "weightLbs": 5320,
+    "chargingSpeedDcFastKw": 200,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "CCS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 300,
+    "epaRangeCity": 330,
+    "epaRangeHwy": 270,
+    "horsepower": 272,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 660,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 43,
+    "year3Percent": 52,
+    "year5Percent": 63,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1880,
+    "average": 2560,
+    "high": 3660,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 57800
+}

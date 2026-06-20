@@ -1,0 +1,375 @@
+{
+  "id": "bmw-i4-2026",
+  "make": "BMW",
+  "model": "i4",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://www.bmwusa.com/vehicles/bmwi/i4.html",
+  "imageUrl": "/data/images/bmw-i4-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/bmw-i4-2026/default.jpg",
+    "/data/images/bmw-i4-2026/gallery-1.jpeg",
+    "/data/images/bmw-i4-2026/gallery-2.jpeg",
+    "/data/images/bmw-i4-2026/gallery-3.jpeg",
+    "/data/images/bmw-i4-2026/gallery-4.jpeg",
+    "/data/images/bmw-i4-2026/gallery-5.jpeg",
+    "/data/images/bmw-i4-2026/gallery-6.jpeg",
+    "/data/images/bmw-i4-2026/gallery-7.jpeg",
+    "/data/images/bmw-i4-2026/gallery-8.jpeg",
+    "/data/images/bmw-i4-2026/gallery-9.jpeg",
+    "/data/images/bmw-i4-2026/gallery-10.jpeg",
+    "/data/images/bmw-i4-2026/gallery-11.jpeg",
+    "/data/images/bmw-i4-2026/gallery-12.jpeg",
+    "/data/images/bmw-i4-2026/gallery-13.jpeg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 56395
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 52200
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 52200
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "eDrive35",
+      "msrp": 52200,
+      "destinationFee": 1395,
+      "drivetrain": "RWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 499,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5495,
+          "moneyFactor": 0.00139,
+          "residualPercent": 56,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 251,
+        "milesPerKwh": 3.24
+      }
+    },
+    {
+      "name": "xDrive40",
+      "msrp": 60200,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 609,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5995,
+          "moneyFactor": 0.00155,
+          "residualPercent": 54,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 278,
+        "milesPerKwh": 2.91
+      }
+    },
+    {
+      "name": "eDrive40",
+      "msrp": 64025,
+      "sellingPrice": 59601,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 251,
+        "milesPerKwh": 3.24
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 569,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5895,
+          "moneyFactor": 0.00145,
+          "residualPercent": 55,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "eDrive40 4dr Sedan (electric DD)"
+    },
+    {
+      "name": "xDrive40 AWD",
+      "msrp": 69125,
+      "sellingPrice": 65325,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 278,
+        "milesPerKwh": 2.91,
+        "horsepower": 603
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "xDrive40 4dr Sedan AWD (electric DD)"
+    },
+    {
+      "name": "M50 xDrive",
+      "msrp": 72300,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 779,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6995,
+          "moneyFactor": 0.00175,
+          "residualPercent": 52,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 278,
+        "milesPerKwh": 2.91
+      }
+    },
+    {
+      "name": "M60 AWD",
+      "msrp": 77525,
+      "sellingPrice": 73106,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 278,
+        "milesPerKwh": 2.91,
+        "horsepower": 603
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "M60 4dr Sedan AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 81,
+    "milesPerKwh": 3.7,
+    "zeroToSixty": 5.5,
+    "topSpeed": 140,
+    "torqueLbFt": 317,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 17.0,
+    "frunkVolumeCuFt": 0,
+    "towingCapacityLbs": 0,
+    "groundClearanceIn": 5.4,
+    "weightLbs": 4680,
+    "chargingSpeedDcFastKw": 200,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "CCS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 278,
+    "epaRangeCity": 282,
+    "epaRangeHwy": 230,
+    "horsepower": 282,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 695,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 43,
+    "year3Percent": 52,
+    "year5Percent": 63,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1840,
+    "average": 2510,
+    "high": 3590,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 52200
+}

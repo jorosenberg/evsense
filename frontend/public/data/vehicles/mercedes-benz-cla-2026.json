@@ -1,0 +1,117 @@
+{
+  "id": "mercedes-benz-cla-2026",
+  "make": "Mercedes-Benz",
+  "model": "CLA",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://www.mbusa.com/en/vehicles/class/cla/sedan",
+  "imageUrl": "/data/images/mercedes-benz-cla-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/mercedes-benz-cla-2026/default.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-1.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-2.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-3.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-4.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-5.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-6.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-7.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-8.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-9.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-10.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-11.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-12.jpg",
+    "/data/images/mercedes-benz-cla-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-01-01T00:00:00+00:00",
+      "msrp": 52000
+    }
+  ],
+  "lastUpdated": "2026-05-29T00:00:00+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "CLA 250+ w/EQ Technology",
+      "msrp": 52120,
+      "sellingPrice": 48355,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 320,
+        "batteryKwh": 85,
+        "milesPerKwh": 4.6,
+        "zeroToSixty": 6.6,
+        "horsepower": 268
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "CLA 250+ w/EQ Technology 4dr Sedan (electric 2A)"
+    },
+    {
+      "name": "CLA 350 4MATIC w/EQ Technology AWD",
+      "msrp": 54520,
+      "sellingPrice": 50573,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 290,
+        "batteryKwh": 85,
+        "milesPerKwh": 4.1,
+        "zeroToSixty": 4.8,
+        "horsepower": 349
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "CLA 350 4MATIC w/EQ Technology 4dr Sedan AWD (electric 2A)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 85,
+    "milesPerKwh": 4.6,
+    "zeroToSixty": 6.6,
+    "seatingCapacity": 5,
+    "towingCapacityLbs": 0,
+    "chargingSpeedDcFastKw": 320,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "NACS",
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 320,
+    "horsepower": 268,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 700,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "Estimated EV maintenance; luxury-brand service intervals."
+  },
+  "depreciation": {
+    "year1Percent": 24,
+    "year2Percent": 35,
+    "year3Percent": 44,
+    "year5Percent": 56,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1700,
+    "average": 2300,
+    "high": 3200,
+    "source": "Estimated"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The federal EV tax credit (IRA Section 30D) was repealed in 2025.",
+    "lastVerified": "2026-05-29T00:00:00+00:00"
+  },
+  "msrpFrom": 47910
+}

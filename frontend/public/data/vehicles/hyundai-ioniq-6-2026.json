@@ -1,0 +1,266 @@
+{
+  "id": "hyundai-ioniq-6-2026",
+  "make": "Hyundai",
+  "model": "IONIQ 6",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-6",
+  "imageUrl": "/data/images/hyundai-ioniq-6-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/hyundai-ioniq-6-2026/default.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-1.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-2.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-3.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-4.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-5.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-6.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-7.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-8.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-9.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-10.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-11.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-12.jpg",
+    "/data/images/hyundai-ioniq-6-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 41600
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 38615
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 38615
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "SE Standard Range RWD",
+      "msrp": 38615,
+      "destinationFee": 1395,
+      "drivetrain": "RWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 309,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3499,
+          "moneyFactor": 0.00098,
+          "residualPercent": 56,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "SE Long Range RWD",
+      "msrp": 42715,
+      "destinationFee": 1395,
+      "drivetrain": "RWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 349,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3699,
+          "moneyFactor": 0.0011,
+          "residualPercent": 54,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "Limited AWD",
+      "msrp": 53715,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 489,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00135,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    }
+  ],
+  "specs": {
+    "batteryKwh": 77.4,
+    "milesPerKwh": 5.1,
+    "zeroToSixty": 5.1,
+    "topSpeed": 115,
+    "torqueLbFt": 446,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 11.2,
+    "frunkVolumeCuFt": 0.5,
+    "towingCapacityLbs": 0,
+    "groundClearanceIn": 5.3,
+    "weightLbs": 4407,
+    "chargingSpeedDcFastKw": 350,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 5,
+    "batteryWarrantyYears": 10,
+    "batteryWarrantyMiles": 100000,
+    "range": 240,
+    "epaRangeCity": 264,
+    "epaRangeHwy": 216,
+    "horsepower": 149,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 525,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 42,
+    "year3Percent": 51,
+    "year5Percent": 61,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1420,
+    "average": 1960,
+    "high": 2780,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  }
+}

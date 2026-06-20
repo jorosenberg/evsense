@@ -1,0 +1,93 @@
+name: Firebase Deploy (DISABLED — AWS is now the primary deploy path)
+
+# DISABLED 2026-05-27.
+# Per the AWS-free-tier consolidation, the Firebase Hosting / Functions /
+# Firestore deploy is no longer the primary path. The Terraform stack in
+# `terraform/` and the `aws-deploy.yml` workflow now own deploys.
+#
+# This file is kept (instead of being deleted) so the Firebase rules /
+# functions code remains discoverable if you ever want to flip back. To
+# re-enable, restore the original `on:` block from git history.
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'What to deploy (only runs if you explicitly trigger this disabled workflow)'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - functions
+          - firestore
+          - storage
+
+concurrency:
+  group: firebase-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy to Firebase
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: firebase-functions/functions/package-lock.json
+
+      - name: Install Functions dependencies
+        working-directory: firebase-functions/functions
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools@latest
+
+      - name: Determine deploy target
+        id: target
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TARGET="${{ inputs.target }}"
+          else
+            TARGET="all"
+          fi
+
+          case "$TARGET" in
+            functions)  ONLY="--only functions" ;;
+            firestore)  ONLY="--only firestore:rules,firestore:indexes" ;;
+            storage)    ONLY="--only storage" ;;
+            all)        ONLY="--only functions,firestore:rules,firestore:indexes,storage" ;;
+            *)          ONLY="--only functions,firestore:rules,storage" ;;
+          esac
+
+          echo "only=$ONLY" >> $GITHUB_OUTPUT
+          echo "Deploying: $ONLY"
+
+      - name: Deploy to Firebase
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          if [ -z "$FIREBASE_TOKEN" ]; then
+            echo "::error::FIREBASE_TOKEN secret not set. Run 'firebase login:ci' locally and add the token to GitHub Secrets."
+            exit 1
+          fi
+          firebase deploy ${{ steps.target.outputs.only }} --non-interactive --force
+
+      - name: Verify functions exist
+        if: contains(steps.target.outputs.only, 'functions')
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          echo "### Deployed Functions" >> $GITHUB_STEP_SUMMARY
+          firebase functions:list --json | jq -r '.[] | "- `" + .id + "` (region: " + .region + ")"' >> $GITHUB_STEP_SUMMARY || true

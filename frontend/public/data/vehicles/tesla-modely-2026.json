@@ -1,0 +1,420 @@
+{
+  "id": "tesla-modely-2026",
+  "make": "Tesla",
+  "model": "Model Y",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.tesla.com/modely",
+  "imageUrl": "/data/images/tesla-modely-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/tesla-modely-2026/default.jpg",
+    "/data/images/tesla-modely-2026/gallery-1.jpg",
+    "/data/images/tesla-modely-2026/gallery-2.jpg",
+    "/data/images/tesla-modely-2026/gallery-3.jpg",
+    "/data/images/tesla-modely-2026/gallery-4.jpg",
+    "/data/images/tesla-modely-2026/gallery-5.jpg",
+    "/data/images/tesla-modely-2026/gallery-6.jpg",
+    "/data/images/tesla-modely-2026/gallery-7.jpg",
+    "/data/images/tesla-modely-2026/gallery-8.jpg",
+    "/data/images/tesla-modely-2026/gallery-9.jpg",
+    "/data/images/tesla-modely-2026/gallery-10.jpg",
+    "/data/images/tesla-modely-2026/gallery-11.jpg",
+    "/data/images/tesla-modely-2026/gallery-12.jpg",
+    "/data/images/tesla-modely-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 65990
+    },
+    {
+      "date": "2023-07-01T00:00:00+00:00",
+      "msrp": 50490
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 43990
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 43990
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "4dr SUV (electric DD)",
+      "msrp": 39990,
+      "sellingPrice": 41380,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 321,
+        "milesPerKwh": 4.11,
+        "horsepower": 632
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "4dr SUV (electric DD)"
+    },
+    {
+      "name": "Standard w/Prod. End 2/26",
+      "msrp": 39990,
+      "sellingPrice": 41380,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 321,
+        "milesPerKwh": 4.11,
+        "horsepower": 632
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Standard 4dr SUV w/Prod. End 2/26 (electric DD)"
+    },
+    {
+      "name": "AWD",
+      "msrp": 41990,
+      "sellingPrice": 43380,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 294,
+        "milesPerKwh": 3.77,
+        "horsepower": 390
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Long Range w/Prod. End 10/25",
+      "msrp": 45990,
+      "sellingPrice": 46380,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 321,
+        "milesPerKwh": 4.11
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 399,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00145,
+          "residualPercent": 53,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range 4dr SUV w/Prod. End 10/25 (electric DD)"
+    },
+    {
+      "name": "Premium",
+      "msrp": 45990,
+      "sellingPrice": 46380,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 321,
+        "milesPerKwh": 4.11,
+        "horsepower": 632
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Premium 4dr SUV (electric DD)"
+    },
+    {
+      "name": "Long Range AWD",
+      "msrp": 49990,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 469,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4499,
+          "moneyFactor": 0.00175,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 294,
+        "milesPerKwh": 3.77
+      }
+    },
+    {
+      "name": "Long Range AWD w/Prod. End 10/25",
+      "msrp": 49990,
+      "sellingPrice": 50380,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 306,
+        "milesPerKwh": 3.13,
+        "horsepower": 390
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range 4dr SUV AWD w/Prod. End 10/25 (electric DD)"
+    },
+    {
+      "name": "Premium AWD",
+      "msrp": 49990,
+      "sellingPrice": 50380,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 294,
+        "milesPerKwh": 3.77,
+        "horsepower": 390
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Premium 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Performance AWD",
+      "msrp": 57990,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White Multi-Coat",
+          "hexPreview": "#F0F0EC",
+          "pricePremium": 0
+        },
+        {
+          "name": "Stealth Grey",
+          "hexPreview": "#6B6B6B",
+          "pricePremium": 0
+        },
+        {
+          "name": "Deep Blue Metallic",
+          "hexPreview": "#2B4C7E",
+          "pricePremium": 1000
+        },
+        {
+          "name": "Ultra Red",
+          "hexPreview": "#8B1A1A",
+          "pricePremium": 2000
+        },
+        {
+          "name": "Solid Black",
+          "hexPreview": "#0A0A0A",
+          "pricePremium": 1500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 599,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4999,
+          "moneyFactor": 0.00195,
+          "residualPercent": 49,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 294,
+        "milesPerKwh": 3.77
+      }
+    },
+    {
+      "name": "Performance AWD",
+      "msrp": 57990,
+      "sellingPrice": 58880,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 294,
+        "milesPerKwh": 3.77,
+        "horsepower": 390
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Performance 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Long Range Launch Series AWD w/Prod. End 4/25",
+      "msrp": 61380,
+      "sellingPrice": 61380,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 306,
+        "milesPerKwh": 3.13,
+        "horsepower": 390
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Long Range Launch Series 4dr SUV AWD w/Prod. End 4/25 (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 75,
+    "milesPerKwh": 4.1,
+    "zeroToSixty": 4.8,
+    "topSpeed": 135,
+    "torqueLbFt": 376,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 76.2,
+    "frunkVolumeCuFt": 4.1,
+    "towingCapacityLbs": 3500,
+    "groundClearanceIn": 6.6,
+    "weightLbs": 4416,
+    "chargingSpeedDcFastKw": 250,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 120000,
+    "range": 321,
+    "epaRangeCity": 352,
+    "epaRangeHwy": 288,
+    "horsepower": 295,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 590,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 21,
+    "year2Percent": 32,
+    "year3Percent": 40,
+    "year5Percent": 51,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1620,
+    "average": 2240,
+    "high": 3150,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 39990
+}

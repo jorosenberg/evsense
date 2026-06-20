@@ -1,0 +1,2234 @@
+{
+  "lastUpdated": "2026-06-11T18:22:37.888718+00:00",
+  "source": "edmunds",
+  "zip": "10005",
+  "region": "NY",
+  "note": "DEMO SCOPE: manufacturer offers localized to NY (ZIP 10005). cash/finance/lease only; no state purchase rebate. Per-trim offers under each vehicle's `trims`.",
+  "vehicles": {
+    "ford-mustang-mach-e-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "ford-mustang-mach-e-2026__default.html",
+        "ford-mustang-mach-e-2026__gt-4dr-hatchback-awd.html",
+        "ford-mustang-mach-e-2026__premium-4dr-hatchback-awd.html",
+        "ford-mustang-mach-e-2026__premium-4dr-hatchback.html",
+        "ford-mustang-mach-e-2026__select-4dr-hatchback-awd.html",
+        "ford-mustang-mach-e-2026__select-4dr-hatchback.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 17350,
+            "items": [
+              {
+                "label": "Educator Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Loyalty Offer",
+                "amount": 2000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 2000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "First Responder Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Loyalty Offer",
+                "amount": 1000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Customer Cash",
+                "amount": 1000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Customer Bonus Cash",
+                "amount": 1000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 500,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Affiliations, Clubs or Groups Offer",
+                "amount": 1000,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Student or College Grad Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Complimentary Charging Offer",
+                "amount": 2000,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Payment Assistance",
+                "amount": 500,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Student or College Grad Offer",
+                "amount": 750,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Affiliations, Clubs or Groups Offer",
+                "amount": 1500,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 0.9,
+            "termMonths": 60,
+            "rebate": 17350,
+            "items": [
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 0.9,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 5.9,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 48
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 5.9,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 4.9,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.9,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 3.9,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 2.9,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Promotional Offer",
+                "rates": [
+                  {
+                    "apr": 6.89,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 6.99,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.69,
+                    "termMonths": 60
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 5.9,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 4.9,
+                    "termMonths": 66
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-07"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 1000,
+            "items": [
+              {
+                "label": "Lease Bonus",
+                "amount": 1000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Lease Bonus",
+                "amount": 250,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 17350,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 1000,
+      "financeApr": 0.9,
+      "financeTerm": 60,
+      "totalIncentiveValue": 17350
+    },
+    "chevrolet-equinox-ev-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "chevrolet-equinox-ev-2026__lt-1-4dr-suv.html",
+        "chevrolet-equinox-ev-2026__lt-2-4dr-suv.html",
+        "chevrolet-equinox-ev-2026__rs-4dr-suv.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 4850,
+            "items": [
+              {
+                "label": "First Responder Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 1250,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Educator Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 2.9,
+            "termMonths": 36,
+            "rebate": 4850,
+            "items": [
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 2.9,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 5.9,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 5.9,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 4.9,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.8,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 3.9,
+                    "termMonths": 48
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 6.69,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 6.44,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 4000,
+            "items": [
+              {
+                "label": "Early Lease Termination Offer",
+                "amount": 4000,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Lease Loyalty or Conquest Offer",
+                "amount": 500,
+                "expires": "2026-07-08"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 4850,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 4000,
+      "financeApr": 2.9,
+      "financeTerm": 36,
+      "totalIncentiveValue": 4850
+    },
+    "hyundai-ioniq-6-2026": {
+      "edmundsUrl": "https://www.edmunds.com/hyundai/ioniq-6/2025/deals/",
+      "yearUsed": 2025,
+      "scrapedAt": "2026-05-28T18:30:28.803136+00:00",
+      "scraped": true,
+      "error": null,
+      "deals": [
+        {
+          "type": "REBATE",
+          "amount": 500,
+          "description": "Bonus Cash\n- Expires\n06/02/2026\n$500"
+        },
+        {
+          "type": "REBATE",
+          "amount": 400,
+          "description": "Bonus Cash\n$400"
+        },
+        {
+          "type": "REBATE",
+          "amount": 11500,
+          "description": "Bonus Cash\n$11,500"
+        },
+        {
+          "type": "REBATE",
+          "amount": 10250,
+          "description": "Bonus Cash\n$10,250"
+        },
+        {
+          "type": "REBATE",
+          "amount": 10000,
+          "description": "Bonus Cash\n$10,000"
+        },
+        {
+          "type": "REBATE",
+          "amount": 12500,
+          "description": "Bonus Cash\n$12,500"
+        },
+        {
+          "type": "REBATE",
+          "amount": 7000,
+          "description": "Customer Cash and Alternative APR\nAvailable for:\nFinance\nRequirements and Restrictions:\n$7,000"
+        },
+        {
+          "type": "APR",
+          "apr": 6.49,
+          "description": "6.49 % APR"
+        },
+        {
+          "type": "APR",
+          "apr": 7.89,
+          "description": "7.89 % APR"
+        },
+        {
+          "type": "APR",
+          "apr": 5.39,
+          "description": "5.39% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 5.39,
+          "description": "5.39% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 5.39,
+          "description": "5.39% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 5.39,
+          "description": "5.39% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 5.99,
+          "description": "5.99% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 0.0,
+          "description": "0.0% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 0.0,
+          "description": "0.0% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 0.0,
+          "description": "0.0% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 0.0,
+          "description": "0.0% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 1.99,
+          "description": "1.99% APR"
+        },
+        {
+          "type": "APR",
+          "apr": 6.49,
+          "description": "6.49% APR"
+        }
+      ],
+      "cashRebate": 12500,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": null,
+      "financeApr": 0.0,
+      "financeTerm": 60,
+      "totalIncentiveValue": 12500
+    },
+    "tesla-model3-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "tesla-model3-2026__4dr-sedan.html",
+        "tesla-model3-2026__performance-4dr-sedan-awd.html",
+        "tesla-model3-2026__premium-4dr-sedan-awd.html",
+        "tesla-model3-2026__premium-4dr-sedan.html",
+        "tesla-model3-2026__standard-4dr-sedan-w-prod-end-2-26.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 2100,
+            "items": [
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": null,
+            "termMonths": 60,
+            "rebate": 2100,
+            "items": []
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 0,
+            "items": []
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 2100,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 2100
+    },
+    "volkswagen-id4-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "volkswagen-id4-2026__awd-pro-4dr-suv-awd.html",
+        "volkswagen-id4-2026__awd-pro-s-4dr-suv-awd.html",
+        "volkswagen-id4-2026__awd-pro-s-plus-4dr-suv-awd.html",
+        "volkswagen-id4-2026__pro-4dr-suv.html",
+        "volkswagen-id4-2026__pro-s-4dr-suv.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 8100,
+            "items": [
+              {
+                "label": "Adaptive Equipment Allowance",
+                "amount": 1000,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Customer Bonus Cash",
+                "amount": 6000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Military and First Responders Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 500,
+                "expires": "2027-01-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": null,
+            "termMonths": 60,
+            "rebate": 8100,
+            "items": []
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 0,
+            "items": []
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 8100,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 8100
+    },
+    "hyundai-ioniq-5-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "hyundai-ioniq-5-2026__limited-4dr-suv-awd.html",
+        "hyundai-ioniq-5-2026__limited-4dr-suv.html",
+        "hyundai-ioniq-5-2026__se-4dr-suv-awd.html",
+        "hyundai-ioniq-5-2026__se-4dr-suv.html",
+        "hyundai-ioniq-5-2026__se-standard-range-4dr-suv.html",
+        "hyundai-ioniq-5-2026__sel-4dr-suv-awd.html",
+        "hyundai-ioniq-5-2026__sel-4dr-suv.html",
+        "hyundai-ioniq-5-2026__xrt-4dr-suv-awd-w-tow-hitch.html",
+        "hyundai-ioniq-5-2026__xrt-4dr-suv-awd.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 4500,
+            "items": [
+              {
+                "label": "First Responder Offer",
+                "amount": 500,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Lender Offer",
+                "amount": 1000,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Student Lender Offer",
+                "amount": 400,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 0.0,
+            "termMonths": 60,
+            "rebate": 7000,
+            "items": [
+              {
+                "label": "Customer Cash and Alternative APR",
+                "rates": [
+                  {
+                    "apr": 5.39,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 5.39,
+                    "termMonths": 24
+                  },
+                  {
+                    "apr": 5.39,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 5.99,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 5.39,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 7000,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 6.49,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 24
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-07"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 8500,
+            "items": [
+              {
+                "label": "Limited Term Lease Offer",
+                "amount": 6000,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Limited Term Lease Offer",
+                "amount": 7250,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Limited Term Lease Offer",
+                "amount": 8500,
+                "expires": "2026-07-07"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 4500,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 8500,
+      "financeApr": 0.0,
+      "financeTerm": 60,
+      "totalIncentiveValue": 4500
+    },
+    "chevrolet-silverado-ev-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "chevrolet-silverado-ev-2026__lt-extended-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__lt-max-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__lt-standard-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__trail-boss-extended-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__trail-boss-max-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__work-truck-extended-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__work-truck-max-range-4dr-crew-cab-4wd-sb.html",
+        "chevrolet-silverado-ev-2026__work-truck-standard-range-4dr-crew-cab-4wd-sb.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 5850,
+            "items": [
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 250,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "First Responder Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Customer Cash",
+                "amount": 4000,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Educator Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 0.0,
+            "termMonths": 48,
+            "rebate": 5850,
+            "items": [
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 6.19,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.44,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 6.69,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.19,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 4000,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 2.9,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 72
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 6.64,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 6.89,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 72
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 6.4,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.4,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 6.4,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 6.9,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.4,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 6.65,
+                    "termMonths": 75
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 4000,
+            "items": [
+              {
+                "label": "Early Lease Termination Offer",
+                "amount": 4000,
+                "expires": "2026-07-08"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 5850,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 4000,
+      "financeApr": 0.0,
+      "financeTerm": 48,
+      "totalIncentiveValue": 5850
+    },
+    "kia-ev6-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "kia-ev6-2026__default.html",
+        "kia-ev6-2026__gt-line-4dr-suv-awd.html",
+        "kia-ev6-2026__gt-line-4dr-suv.html",
+        "kia-ev6-2026__light-4dr-suv.html",
+        "kia-ev6-2026__light-long-range-4dr-suv-awd.html",
+        "kia-ev6-2026__light-long-range-4dr-suv.html",
+        "kia-ev6-2026__wind-4dr-suv-awd.html",
+        "kia-ev6-2026__wind-4dr-suv.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 12100,
+            "items": [
+              {
+                "label": "First Responder Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Educator Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 2000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Loyalty Offer",
+                "amount": 1000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Loyalty Offer",
+                "amount": 2000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 500,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Customer Cash",
+                "amount": 3000,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 0.0,
+            "termMonths": 60,
+            "rebate": 12100,
+            "items": [
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 2.9,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 2.9,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 5.9,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 2.9,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 6.58,
+                    "termMonths": 84
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 0.0,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 0.99,
+                    "termMonths": 66
+                  },
+                  {
+                    "apr": 2.49,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 1.49,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 7.25,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 7.25,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 7.5,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 8.25,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 8.25,
+                    "termMonths": 66
+                  }
+                ],
+                "rebate": 3000,
+                "expires": "2026-07-07"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 7500,
+            "items": [
+              {
+                "label": "Lease Bonus",
+                "amount": 250,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Limited Term Lease Offer",
+                "amount": 7500,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Limited Term Lease Offer",
+                "amount": 6500,
+                "expires": "2026-07-07"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 12100,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 7500,
+      "financeApr": 0.0,
+      "financeTerm": 60,
+      "totalIncentiveValue": 12100
+    },
+    "chevrolet-blazer-ev-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "chevrolet-blazer-ev-2026__default.html",
+        "chevrolet-blazer-ev-2026__lt-4dr-suv-awd.html",
+        "chevrolet-blazer-ev-2026__lt-4dr-suv.html",
+        "chevrolet-blazer-ev-2026__rs-4dr-suv-awd.html",
+        "chevrolet-blazer-ev-2026__rs-4dr-suv.html",
+        "chevrolet-blazer-ev-2026__ss-4dr-suv-awd.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 8600,
+            "items": [
+              {
+                "label": "Customer Cash",
+                "amount": 3500,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 1250,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "First Responder Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "Educator Offer",
+                "amount": 500,
+                "expires": "2027-01-05"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 500,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Customer Cash",
+                "amount": 1000,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 750,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 0.0,
+            "termMonths": 36,
+            "rebate": 8600,
+            "items": [
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 6.39,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 6.64,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 6.89,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 3500,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 0.0,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 2.9,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 0.0,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 0.9,
+                    "termMonths": 75
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Alternative APR",
+                "rates": [
+                  {
+                    "apr": 6.39,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 6.39,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 6.89,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 6.64,
+                    "termMonths": 75
+                  }
+                ],
+                "rebate": 1000,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 4.9,
+                    "termMonths": 84
+                  },
+                  {
+                    "apr": 3.9,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 3.9,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 2.9,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 3.9,
+                    "termMonths": 75
+                  },
+                  {
+                    "apr": 1.9,
+                    "termMonths": 36
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-08"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 4000,
+            "items": [
+              {
+                "label": "Early Lease Termination Offer",
+                "amount": 4000,
+                "expires": "2026-07-08"
+              },
+              {
+                "label": "Lease Loyalty or Conquest Offer",
+                "amount": 1000,
+                "expires": "2026-07-08"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 8600,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 4000,
+      "financeApr": 0.0,
+      "financeTerm": 36,
+      "totalIncentiveValue": 8600
+    },
+    "tesla-modely-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "tesla-modely-2026__4dr-suv-awd.html",
+        "tesla-modely-2026__4dr-suv.html",
+        "tesla-modely-2026__default.html",
+        "tesla-modely-2026__long-range-4dr-suv-awd-w-prod-end-10-25.html",
+        "tesla-modely-2026__long-range-4dr-suv-w-prod-end-10-25.html",
+        "tesla-modely-2026__long-range-launch-series-4dr-suv-awd-w-prod-end-4-25.html",
+        "tesla-modely-2026__performance-4dr-suv-awd.html",
+        "tesla-modely-2026__premium-4dr-suv-awd.html",
+        "tesla-modely-2026__premium-4dr-suv.html",
+        "tesla-modely-2026__standard-4dr-suv-w-prod-end-2-26.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 3600,
+            "items": [
+              {
+                "label": "Conquest or Loyalty Offer",
+                "amount": 500,
+                "expires": "2026-07-07"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2027-04-01"
+              },
+              {
+                "label": "Student or College Grad Offer",
+                "amount": 500,
+                "expires": "2027-04-01"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": 2.99,
+            "termMonths": 36,
+            "rebate": 3600,
+            "items": [
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 3.99,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 4.99,
+                    "termMonths": 72
+                  },
+                  {
+                    "apr": 2.99,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 2.99,
+                    "termMonths": 24
+                  },
+                  {
+                    "apr": 3.99,
+                    "termMonths": 60
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-07"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 0,
+            "items": []
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 3600,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": 2.99,
+      "financeTerm": 36,
+      "totalIncentiveValue": 3600
+    },
+    "polestar-polestar-2-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "polestar-polestar-2-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "ford-f-150-lightning-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "ford-f-150-lightning-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "ford-e-transit-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "ford-e-transit-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "bmw-i4-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "bmw-i4-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "kia-ev9-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "kia-ev9-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "polestar-polestar-4-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "polestar-polestar-4-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "volkswagen-id-buzz-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "volkswagen-id-buzz-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "bmw-i5-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "bmw-i5-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "hyundai-ioniq-9-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "hyundai-ioniq-9-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "rivian-r1t-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "rivian-r1t-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "lucid-air-2026": {
+      "edmundsUrl": "https://lucidmotors.com/offers",
+      "yearUsed": 2026,
+      "scrapedAt": "2026-06-12T12:00:00+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "lucid-manual",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "note": "Curated from Lucid Motors offers (2026 Air). 0% APR up to 60 mo on select models + up to ~$4,500 Lucid Credit when financing; cash purchases up to $5,000 Lucid Credit; advertised lease from $649/mo for 36 mo (~$6,139 due at signing, Air Pure). Conditional (not modeled in totals): $2,000 Conquest bonus, up to $4,000 trade-in allowance, 2 yr / 24k-mi complimentary maintenance.",
+      "trims": {},
+      "cashRebate": 5000,
+      "loyaltyBonus": 0,
+      "leaseMonthly": 649,
+      "leaseDownPayment": 6139,
+      "leaseTerm": 36,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": 0.0,
+      "financeTerm": 60,
+      "totalIncentiveValue": 5000
+    },
+    "tesla-cybertruck-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "tesla-cybertruck-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "polestar-polestar-3-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "polestar-polestar-3-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "tesla-models-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "tesla-models-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "rivian-r1s-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "rivian-r1s-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "tesla-modelx-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "tesla-modelx-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "bmw-ix-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "bmw-ix-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "lucid-gravity-2026": {
+      "edmundsUrl": "https://lucidmotors.com/offers",
+      "yearUsed": 2026,
+      "scrapedAt": "2026-06-12T12:00:00+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "lucid-manual",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "note": "Curated from Lucid Motors offers (2026 Gravity). $7,500 Lucid Advantage Lease Credit (lease only — shown as lease cash, not in totals); 0% APR up to 60 mo on Gravity Touring; advertised lease from ~$799/mo (Touring, ~39 mo advertised; stored under 36 mo). Up to ~$12,500 stackable. Conditional (not modeled in totals): $2,000 Conquest bonus, up to $5,000 trade-in allowance, 2 yr / 24k-mi complimentary maintenance.",
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": 799,
+      "leaseDownPayment": 5999,
+      "leaseTerm": 36,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 7500,
+      "financeApr": 0.0,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "bmw-i7-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "bmw-i7-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "rivian-r2-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "rivian-r2-2026__default.html"
+      ],
+      "trims": {},
+      "cashRebate": 0,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 0,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 0
+    },
+    "mercedes-benz-cla-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "mercedes-benz-cla-2026__amg-cla-35-4dr-sedan-awd.html",
+        "mercedes-benz-cla-2026__amg-cla-45-s-4dr-sedan-awd.html",
+        "mercedes-benz-cla-2026__cla-250-4dr-sedan.html",
+        "mercedes-benz-cla-2026__cla-250-4matic-4dr-sedan-awd.html",
+        "mercedes-benz-cla-2026__cla-250-w-eq-technology-4dr-sedan.html",
+        "mercedes-benz-cla-2026__cla-350-4matic-w-eq-technology-4dr-sedan-awd.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 1500,
+            "items": [
+              {
+                "label": "EV Customer Cash",
+                "amount": 1500,
+                "taxable": true
+              }
+            ]
+          },
+          "finance": {
+            "apr": 3.4,
+            "termMonths": 24,
+            "rebate": 0,
+            "items": [
+              {
+                "label": "Special APR",
+                "rates": [
+                  {
+                    "apr": 7.99,
+                    "termMonths": 66
+                  },
+                  {
+                    "apr": 5.99,
+                    "termMonths": 48
+                  },
+                  {
+                    "apr": 5.99,
+                    "termMonths": 36
+                  },
+                  {
+                    "apr": 5.99,
+                    "termMonths": 60
+                  },
+                  {
+                    "apr": 3.4,
+                    "termMonths": 24
+                  },
+                  {
+                    "apr": 7.99,
+                    "termMonths": 72
+                  }
+                ],
+                "rebate": 0,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 5500,
+            "items": [
+              {
+                "label": "EV Lease Cash (cap-cost reduction)",
+                "amount": 5500,
+                "taxable": false
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 1500,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 5500,
+      "financeApr": 3.4,
+      "financeTerm": 24,
+      "totalIncentiveValue": 7000
+    },
+    "toyota-bz-2026": {
+      "edmundsUrl": "https://www.edmunds.com/ (local file)",
+      "yearUsed": null,
+      "scrapedAt": "2026-06-11T18:22:37.888718+00:00",
+      "scraped": true,
+      "error": null,
+      "source": "edmunds-local",
+      "zip": "10005",
+      "region": "NY",
+      "schemaVersion": 2,
+      "filesParsed": [
+        "toyota-bz-2026__limited-4dr-suv-awd.html",
+        "toyota-bz-2026__limited-4dr-suv.html",
+        "toyota-bz-2026__xle-4dr-suv-awd.html",
+        "toyota-bz-2026__xle-4dr-suv.html",
+        "toyota-bz-2026__xle-plus-4dr-suv.html"
+      ],
+      "trims": {
+        "All trims": {
+          "cash": {
+            "rebate": 8600,
+            "items": [
+              {
+                "label": "Student or College Grad Offer",
+                "amount": 500,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Lender Offer",
+                "amount": 2500,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Military Offer",
+                "amount": 500,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "Conquest Offer",
+                "amount": 3000,
+                "expires": "2026-07-01"
+              },
+              {
+                "label": "State Rebate",
+                "amount": 2000,
+                "expires": "2027-01-01"
+              },
+              {
+                "label": "Third Party EV Charger Offer",
+                "amount": 100,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "finance": {
+            "apr": null,
+            "termMonths": 60,
+            "rebate": 8600,
+            "items": []
+          },
+          "lease": {
+            "terms": {},
+            "leaseCash": 5000,
+            "items": [
+              {
+                "label": "Lease Bonus",
+                "amount": 5000,
+                "expires": "2026-07-01"
+              }
+            ]
+          },
+          "other": []
+        }
+      },
+      "cashRebate": 8600,
+      "loyaltyBonus": 0,
+      "leaseMonthly": null,
+      "leaseDownPayment": null,
+      "leaseTerm": null,
+      "leaseMileagePerYear": 10000,
+      "leaseCash": 5000,
+      "financeApr": null,
+      "financeTerm": 60,
+      "totalIncentiveValue": 8600
+    }
+  },
+  "schemaVersion": 2
+}

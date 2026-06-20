@@ -1,0 +1,295 @@
+{
+  "id": "chevrolet-equinox-ev-2026",
+  "make": "Chevrolet",
+  "model": "Equinox EV",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.chevrolet.com/electric/equinox-ev",
+  "imageUrl": "/data/images/chevrolet-equinox-ev-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/chevrolet-equinox-ev-2026/default.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-1.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-2.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-3.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-4.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-5.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-6.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-7.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-8.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-9.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-10.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-11.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-12.jpg",
+    "/data/images/chevrolet-equinox-ev-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 41295
+    },
+    {
+      "date": "2024-09-01T00:00:00+00:00",
+      "msrp": 34995
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 34995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "1LT FWD",
+      "msrp": 34995,
+      "destinationFee": 1395,
+      "drivetrain": "FWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 299,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3999,
+          "moneyFactor": 0.00085,
+          "residualPercent": 55,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "LT 1",
+      "msrp": 38835,
+      "sellingPrice": 37247,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT 1 4dr SUV (electric DD)"
+    },
+    {
+      "name": "2LT AWD",
+      "msrp": 41995,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 379,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4299,
+          "moneyFactor": 0.00112,
+          "residualPercent": 52,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    },
+    {
+      "name": "LT 2",
+      "msrp": 45795,
+      "sellingPrice": 43432,
+      "drivetrain": "RWD",
+      "specs": {},
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT 2 4dr SUV (electric DD)"
+    },
+    {
+      "name": "RS",
+      "msrp": 48825,
+      "sellingPrice": 46658,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4599,
+          "moneyFactor": 0.00125,
+          "residualPercent": 51,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "RS 4dr SUV (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 85,
+    "milesPerKwh": 3.8,
+    "zeroToSixty": 5.9,
+    "topSpeed": 110,
+    "torqueLbFt": 333,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 57.2,
+    "frunkVolumeCuFt": 0,
+    "towingCapacityLbs": 1500,
+    "groundClearanceIn": 7.9,
+    "weightLbs": 5572,
+    "chargingSpeedDcFastKw": 150,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 319,
+    "epaRangeCity": 351,
+    "epaRangeHwy": 287,
+    "horsepower": 213,
+    "drivetrain": "FWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 560,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 43,
+    "year3Percent": 51,
+    "year5Percent": 61,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1450,
+    "average": 1980,
+    "high": 2820,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 34995
+}

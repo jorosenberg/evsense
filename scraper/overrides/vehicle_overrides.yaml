@@ -1,0 +1,314 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# vehicle_overrides.yaml — MANUAL OVERRIDES (authoritative)
+#
+# Anything you set here WINS over the scraped/curated data when
+# `apply_overrides.py` runs (part of the pipeline). The rest of the scraping
+# (EPA catalog, NHTSA radar, incentives, GCC scores) is unchanged — this only
+# overrides the fields you fill in.
+#
+# • Keys under `vehicles:` are app vehicle IDs (the same id used in
+#   frontend/public/data/vehicles/<id>.json and vehicles_summary.json).
+# • Leave a car as `{}` to apply NO override (it keeps its scraped data).
+# • Full field reference + examples: OVERRIDES_REFERENCE.md
+# • Trims without an MSRP are hidden from the site (Edmunds-style: no price →
+#   not shown). Toggle per car with `hideUnpricedTrims`, or globally in
+#   `defaults`.
+# ─────────────────────────────────────────────────────────────────────────────
+
+defaults:
+  hideUnpricedTrims: true   # drop trims that have no msrp (no price data)
+
+vehicles:
+
+  bmw-i4-2026:
+    trims:
+      - { name: RWD · 251 mi, drivetrain: RWD, range: 251, batteryKwh: 85.4, milesPerKwh: 3.24, horsepower: 282 }
+      - { name: AWD · 278 mi, drivetrain: AWD, range: 278, batteryKwh: 85.4, milesPerKwh: 2.91, horsepower: 603 }
+      - { name: AWD · 287 mi, drivetrain: AWD, range: 287, batteryKwh: 85.4, milesPerKwh: 2.99, horsepower: 563 }
+      - { name: RWD · 333 mi, drivetrain: RWD, range: 333, batteryKwh: 85.4, milesPerKwh: 3.51, horsepower: 335 }
+      - { name: eDrive35, msrp: 52200, drivetrain: RWD, range: 251, batteryKwh: 85.4, milesPerKwh: 3.24, horsepower: 282, zeroToSixty: 6.0 }
+      - { name: eDrive40, msrp: 57900, drivetrain: RWD, range: 251, batteryKwh: 85.4, milesPerKwh: 3.24, horsepower: 335, zeroToSixty: 5.5 }
+      - { name: xDrive40, msrp: 60200, drivetrain: AWD, range: 278, batteryKwh: 85.4, milesPerKwh: 2.91, horsepower: 563 }
+      - { name: M50 xDrive, msrp: 72300, drivetrain: AWD, range: 278, batteryKwh: 85.4, milesPerKwh: 2.91, horsepower: 603 }
+
+  bmw-i5-2026:
+    trims:
+      - { name: AWD · 273 mi, drivetrain: AWD, range: 277, batteryKwh: 85.3, milesPerKwh: 2.93, horsepower: 563 }
+      - { name: AWD · 278 mi, drivetrain: AWD, range: 278, batteryKwh: 85.3, milesPerKwh: 2.91, horsepower: 563 }
+      - { name: RWD · 328 mi, drivetrain: RWD, range: 310, batteryKwh: 85.3, milesPerKwh: 3.27, horsepower: 335 }
+      - { name: eDrive40, msrp: 67900, drivetrain: RWD, range: 310, batteryKwh: 85.3, milesPerKwh: 3.27, horsepower: 335, zeroToSixty: 5.7 }
+      - { name: xDrive40, msrp: 70300, drivetrain: AWD, range: 277, batteryKwh: 85.3, milesPerKwh: 2.93, horsepower: 563 }
+      - { name: M60 xDrive, msrp: 84100, drivetrain: AWD, range: 277, batteryKwh: 85.3, milesPerKwh: 2.93, horsepower: 563, zeroToSixty: 3.7 }
+  
+  bmw-i7-2026:
+    trims:
+      - { name: AWD · 285 mi, drivetrain: AWD, range: 285, batteryKwh: 85.4, milesPerKwh: 2.36, horsepower: 738 }
+      - { name: AWD · 311 mi, drivetrain: AWD, range: 311, batteryKwh: 85.4, milesPerKwh: 2.6, horsepower: 563 }
+      - { name: RWD · 314 mi, drivetrain: RWD, range: 314, batteryKwh: 85.4, milesPerKwh: 2.62, horsepower: 449 }
+      - { name: xDrive60, msrp: 111300, drivetrain: AWD, range: 285, batteryKwh: 85.4, milesPerKwh: 2.36, horsepower: 563, zeroToSixty: 4.5 }
+      - { name: M70 xDrive, msrp: 167700, drivetrain: AWD, range: 285, batteryKwh: 85.4, milesPerKwh: 2.36, horsepower: 603, zeroToSixty: 3.5 }
+
+  bmw-ix-2026:
+    trims:
+      - { name: AWD · 303 mi, drivetrain: AWD, range: 303, milesPerKwh: 2.38, horsepower: 738 }
+      - { name: AWD · 312 mi, drivetrain: AWD, range: 312, milesPerKwh: 2.78, horsepower: 523 }
+      - { name: AWD · 364 mi, drivetrain: AWD, range: 364, milesPerKwh: 2.88, horsepower: 563 }
+      - { name: xDrive50, msrp: 87100, drivetrain: AWD, range: 303, milesPerKwh: 2.38, zeroToSixty: 4.6 }
+      - { name: M60, msrp: 111500, drivetrain: AWD, range: 303, milesPerKwh: 2.38, zeroToSixty: 3.6 }
+
+  chevrolet-blazer-ev-2026:
+    trims:
+      - { name: LT FWD, msrp: 42995, drivetrain: FWD, range: 293, batteryKwh: 102, milesPerKwh: 3.58, zeroToSixty: 6.5 }
+      - { name: RS RWD, msrp: 47595, drivetrain: RWD, range: 334, batteryKwh: 102, milesPerKwh: 3.79, zeroToSixty: 5.7 }
+      - { name: RS AWD, msrp: 53895, drivetrain: AWD, range: 279, batteryKwh: 102, milesPerKwh: 3.16, zeroToSixty: 5.1 }
+      - { name: SS AWD, msrp: 60895, drivetrain: AWD, range: 250, batteryKwh: 102, milesPerKwh: 2.78, zeroToSixty: 3.4 }
+
+  chevrolet-equinox-ev-2026:
+    trims:
+      - { name: 1LT FWD, msrp: 34995, drivetrain: FWD, range: 319, batteryKwh: 85, milesPerKwh: 3.83, zeroToSixty: 7.8 }
+      - { name: 2LT AWD, msrp: 41995, drivetrain: AWD, range: 305, batteryKwh: 85, milesPerKwh: 3.66, zeroToSixty: 6.8 }
+      - { name: RS AWD, msrp: 46995, drivetrain: AWD, range: 305, batteryKwh: 85, milesPerKwh: 3.66, zeroToSixty: 6.5 }
+
+  chevrolet-silverado-ev-2026:
+    trims:
+      - { name: Work Truck, msrp: 41995, drivetrain: AWD, range: 272, batteryKwh: 170, milesPerKwh: 1.6, zeroToSixty: 8.5 }
+      - { name: LT, msrp: 73095, drivetrain: AWD, range: 440, batteryKwh: 200, milesPerKwh: 2.59, zeroToSixty: 5.9 }
+      - { name: RST, msrp: 96495, drivetrain: AWD, range: 440, batteryKwh: 200, milesPerKwh: 2.59, zeroToSixty: 4.5 }
+
+  ford-e-transit-2026:
+    trims:
+      - { name: Cargo Van Low Roof, msrp: 51995, drivetrain: RWD, range: 126, batteryKwh: 89, milesPerKwh: 2.1, zeroToSixty: 10.0 }
+      - { name: Cargo Van Medium Roof ER, msrp: 56995, drivetrain: RWD, range: 159, batteryKwh: 89, milesPerKwh: 2.64, zeroToSixty: 10.0 }
+
+  ford-f-150-lightning-2026:
+    trims:
+      - { name: AWD · 240 mi, drivetrain: AWD, range: 240, batteryKwh: 137.8, milesPerKwh: 2.03, horsepower: 960 }
+      - { name: AWD · 300 mi, drivetrain: AWD, range: 300, batteryKwh: 137.8, milesPerKwh: 1.97, horsepower: 563 }
+      - { name: AWD · 320 mi, drivetrain: AWD, range: 320, batteryKwh: 137.8, milesPerKwh: 2.09, horsepower: 563 }
+      - { name: Pro, msrp: 49995, drivetrain: AWD, range: 240, batteryKwh: 137.8, milesPerKwh: 2.03, horsepower: 563, zeroToSixty: 7.0 }
+      - { name: XLT, msrp: 64995, drivetrain: AWD, range: 240, batteryKwh: 137.8, milesPerKwh: 2.03, zeroToSixty: 4.5 }
+      - { name: Lariat ER, msrp: 77495, drivetrain: AWD, range: 240, batteryKwh: 137.8, milesPerKwh: 2.03, horsepower: 563 }
+      - { name: Platinum ER, msrp: 87995, drivetrain: AWD, range: 240, batteryKwh: 137.8, milesPerKwh: 2.03, horsepower: 563 }
+
+  ford-mustang-mach-e-2026:
+    trims:
+      - { name: Rally AWD, msrp: 59995, drivetrain: AWD, range: 240, batteryKwh: 91, milesPerKwh: 2.97, horsepower: 480, zeroToSixty: 3.4 }
+      - { name: GT AWD, msrp: 56995, drivetrain: AWD, range: 255, batteryKwh: 91, milesPerKwh: 2.49, horsepower: 480, zeroToSixty: 3.5 }
+      - { name: Select RWD, msrp: 42995, drivetrain: RWD, range: 260, batteryKwh: 72, milesPerKwh: 3.18, horsepower: 266, zeroToSixty: 6.3 }
+      - { name: Premium AWD ER, msrp: 50095, drivetrain: AWD, range: 280, batteryKwh: 91, milesPerKwh: 2.67, horsepower: 346, zeroToSixty: 4.8 }
+      - { name: AWD · 300 mi, drivetrain: AWD, range: 300, milesPerKwh: 3.1, horsepower: 346 }
+      - { name: RWD · 320 mi, drivetrain: RWD, range: 320, milesPerKwh: 3.26, horsepower: 278 }
+
+  hyundai-ioniq-5-2026:
+    scores:
+      overall: 8.3
+      value: 8.0
+      storageMax: 59.3
+    trims:
+      - { name: SE Standard Range RWD, msrp: 35000, drivetrain: RWD, range: 245, batteryKwh: 63, milesPerKwh: 3.45, horsepower: 168, zeroToSixty: 7.4 }
+      - { name: SE RWD, msrp: 37500, drivetrain: RWD, range: 318, batteryKwh: 84, milesPerKwh: 3.7, horsepower: 225, zeroToSixty: 7.4 }
+      - { name: SEL RWD, msrp: 39800, drivetrain: RWD, range: 318, batteryKwh: 84, milesPerKwh: 3.7, horsepower: 225, zeroToSixty: 7.4 }
+      - { name: SE AWD, msrp: 41000, drivetrain: AWD, range: 290, batteryKwh: 84, milesPerKwh: 3.3, horsepower: 320, zeroToSixty: 5.0 }
+      - { name: SEL AWD, msrp: 43300, drivetrain: AWD, range: 290, batteryKwh: 84, milesPerKwh: 3.3, horsepower: 320, zeroToSixty: 5.0 }
+      - { name: Limited RWD, msrp: 45075, drivetrain: RWD, range: 269, batteryKwh: 84, milesPerKwh: 3.4, horsepower: 225, zeroToSixty: 7.4 }
+      - { name: Limited AWD, msrp: 48575, drivetrain: AWD, range: 259, batteryKwh: 84, milesPerKwh: 3.1, horsepower: 320, zeroToSixty: 4.5 }
+
+  hyundai-ioniq-6-2026:
+    trims:
+      - { name: SE Standard Range RWD, msrp: 38615, drivetrain: RWD, range: 240, batteryKwh: 53, milesPerKwh: 4.53, zeroToSixty: 7.4 }
+      - { name: SE Long Range RWD, msrp: 42715, drivetrain: RWD, range: 361, batteryKwh: 77.4, milesPerKwh: 4.66, zeroToSixty: 7.4 }
+      - { name: Limited AWD, msrp: 53715, drivetrain: AWD, range: 266, batteryKwh: 77.4, milesPerKwh: 3.44, zeroToSixty: 5.1 }
+
+  hyundai-ioniq-9-2026:
+    trims:
+      - { name: AWD · 311 mi, drivetrain: AWD, range: 311, batteryKwh: 111.7, milesPerKwh: 2.5, horsepower: 211 }
+      - { name: AWD · 320 mi, drivetrain: AWD, range: 320, batteryKwh: 111.7, milesPerKwh: 2.63, horsepower: 303 }
+      - { name: RWD · 335 mi, drivetrain: RWD, range: 335, batteryKwh: 111.7, milesPerKwh: 2.7, horsepower: 215 }
+      - { name: S RWD, msrp: 68490, drivetrain: RWD, range: 335, batteryKwh: 111.7, milesPerKwh: 2.7, horsepower: 215 }
+      - { name: SE AWD, msrp: 73490, drivetrain: AWD, range: 311, batteryKwh: 111.7, milesPerKwh: 2.5, horsepower: 303 }
+      - { name: Calligraphy AWD, msrp: 78490, drivetrain: AWD, range: 311, batteryKwh: 111.7, milesPerKwh: 2.5 }
+
+  kia-ev6-2026:
+    trims:
+      - { name: GT AWD, msrp: 63800, drivetrain: AWD, range: 231, batteryKwh: 84, milesPerKwh: 2.44, horsepower: 576, zeroToSixty: 3.4 }
+      - { name: Light RWD, msrp: 42600, drivetrain: RWD, range: 237, batteryKwh: 63, milesPerKwh: 3.42, horsepower: 167, zeroToSixty: 7.5 }
+      - { name: Wind AWD, msrp: 50900, drivetrain: AWD, range: 295, batteryKwh: 84, milesPerKwh: 3.17, horsepower: 320, zeroToSixty: 5.0 }
+      - { name: RWD · 319 mi, drivetrain: RWD, range: 319, milesPerKwh: 3.38, horsepower: 225 }
+      - { name: GT-Line AWD, msrp: 55900, drivetrain: AWD, range: 295, batteryKwh: 84, milesPerKwh: 3.17, horsepower: 320, zeroToSixty: 4.6 }
+
+  kia-ev9-2026:
+    trims:
+      - { name: RWD · 230 mi, drivetrain: RWD, range: 230, milesPerKwh: 2.63, horsepower: 215 }
+      - { name: AWD · 260 mi, drivetrain: AWD, range: 260, milesPerKwh: 2.33, horsepower: 502 }
+      - { name: AWD · 280 mi, drivetrain: AWD, range: 280, milesPerKwh: 2.44, horsepower: 189 }
+      - { name: AWD · 283 mi, drivetrain: AWD, range: 283, milesPerKwh: 2.5, horsepower: 189 }
+      - { name: RWD · 305 mi, drivetrain: RWD, range: 305, milesPerKwh: 2.63, horsepower: 215 }
+      - { name: Light RWD, msrp: 54900, drivetrain: RWD, range: 230, milesPerKwh: 2.63, zeroToSixty: 8.0 }
+      - { name: Wind AWD, msrp: 63900, drivetrain: AWD, range: 260, milesPerKwh: 2.33, zeroToSixty: 5.3 }
+      - { name: Land AWD, msrp: 71900, drivetrain: AWD, range: 260, milesPerKwh: 2.33 }
+      - { name: GT-Line AWD, msrp: 75900, drivetrain: AWD, range: 260, milesPerKwh: 2.33 }
+
+  lucid-air-2026:
+    trims:
+      - { name: AWD · 361 mi, drivetrain: AWD, range: 361, milesPerKwh: 3.46, horsepower: 819 }
+      - { name: RWD · 372 mi, drivetrain: RWD, range: 372, milesPerKwh: 3.83, horsepower: 443 }
+      - { name: AWD · 377 mi, drivetrain: AWD, range: 377, milesPerKwh: 3.6, horsepower: 819 }
+      - { name: AWD · 406 mi, drivetrain: AWD, range: 406, milesPerKwh: 3.91, horsepower: 819 }
+      - { name: RWD · 420 mi, drivetrain: RWD, range: 420, milesPerKwh: 4.32, horsepower: 443 }
+      - { name: AWD · 427 mi, drivetrain: AWD, range: 427, milesPerKwh: 3.11, horsepower: 1247 }
+      - { name: AWD · 446 mi, drivetrain: AWD, range: 446, milesPerKwh: 3.32, horsepower: 819 }
+      - { name: AWD · 480 mi, drivetrain: AWD, range: 480, milesPerKwh: 3.55, horsepower: 819 }
+      - { name: AWD · 512 mi, drivetrain: AWD, range: 512, milesPerKwh: 3.78, horsepower: 819 }
+      - { name: Pure RWD, msrp: 69900, drivetrain: RWD, range: 372, milesPerKwh: 3.83 }
+      - { name: Touring AWD, msrp: 79900, drivetrain: AWD, range: 361, milesPerKwh: 3.46 }
+      - { name: Grand Touring, msrp: 110900, drivetrain: AWD, range: 361, milesPerKwh: 3.46, zeroToSixty: 3.0 }
+      - { name: Sapphire, msrp: 249000, drivetrain: AWD, range: 361, milesPerKwh: 3.46, zeroToSixty: 1.9 }
+
+  lucid-gravity-2026:
+    trims:
+      - { name: AWD · 337 mi, drivetrain: AWD, range: 337, milesPerKwh: 3.3, horsepower: 535 }
+      - { name: AWD · 378 mi, drivetrain: AWD, range: 378, milesPerKwh: 2.66, horsepower: 535 }
+      - { name: AWD · 386 mi, drivetrain: AWD, range: 386, milesPerKwh: 2.74, horsepower: 535 }
+      - { name: AWD · 407 mi, drivetrain: AWD, range: 407, milesPerKwh: 2.91, horsepower: 535 }
+      - { name: AWD · 420 mi, drivetrain: AWD, range: 420, milesPerKwh: 2.95, horsepower: 535 }
+      - { name: AWD · 437 mi, drivetrain: AWD, range: 437, milesPerKwh: 3.08, horsepower: 535 }
+      - { name: AWD · 450 mi, drivetrain: AWD, range: 450, milesPerKwh: 3.22, horsepower: 535 }
+      - { name: Touring, msrp: 94900, drivetrain: AWD, range: 337, milesPerKwh: 3.3 }
+      - { name: Grand Touring, msrp: 109900, drivetrain: AWD, range: 337, milesPerKwh: 3.3, zeroToSixty: 3.5 }
+
+  mercedes-benz-cla-2026:
+    scores:
+      overall: null
+      value: null
+      storageMax: null
+    trims:
+      - { name: CLA 250+, msrp: 52000, drivetrain: RWD, range: 320, batteryKwh: 85, milesPerKwh: 4.6, horsepower: 268, zeroToSixty: 6.6 }
+      - { name: CLA 350 4MATIC, msrp: 57000, drivetrain: AWD, range: 290, batteryKwh: 85, milesPerKwh: 4.1, horsepower: 349, zeroToSixty: 4.8 }
+
+  polestar-polestar-2-2026:
+    trims:
+      - { name: Long Range Single Motor, msrp: 44900, drivetrain: RWD, range: 278, batteryKwh: 82, milesPerKwh: 3.39, zeroToSixty: 6.4 }
+      - { name: Long Range Dual Motor, msrp: 49900, drivetrain: AWD, range: 248, batteryKwh: 82, milesPerKwh: 3.02, zeroToSixty: 4.5 }
+      - { name: BST Edition 270, msrp: 64900, drivetrain: AWD, range: 240, batteryKwh: 82, milesPerKwh: 2.93, zeroToSixty: 3.6 }
+
+  polestar-polestar-3-2026:
+    trims:
+      - { name: Long Range Single Motor, msrp: 73400, drivetrain: RWD, range: 350, batteryKwh: 111, milesPerKwh: 3.15, zeroToSixty: 7.7 }
+      - { name: Long Range Dual Motor, msrp: 79400, drivetrain: AWD, range: 315, batteryKwh: 111, milesPerKwh: 2.84, zeroToSixty: 5.0 }
+      - { name: Performance Pack, msrp: 85400, drivetrain: AWD, range: 296, batteryKwh: 111, milesPerKwh: 2.67, zeroToSixty: 4.7 }
+
+  polestar-polestar-4-2026:
+    trims:
+      - { name: Long Range Single Motor, msrp: 56900, drivetrain: RWD, range: 300, batteryKwh: 100, milesPerKwh: 3.0, zeroToSixty: 7.4 }
+      - { name: Long Range Dual Motor, msrp: 63900, drivetrain: AWD, range: 270, batteryKwh: 100, milesPerKwh: 2.7, zeroToSixty: 4.4 }
+      - { name: Performance Pack, msrp: 72900, drivetrain: AWD, range: 255, batteryKwh: 100, milesPerKwh: 2.55, zeroToSixty: 3.8 }
+
+  rivian-r1s-2026:
+    trims:
+      - { name: AWD · 270 mi, drivetrain: AWD, range: 270, batteryKwh: 147.1, milesPerKwh: 2.51, horsepower: 279 }
+      - { name: AWD · 289 mi, drivetrain: AWD, range: 289, batteryKwh: 147.1, milesPerKwh: 2.25, horsepower: 354 }
+      - { name: AWD · 292 mi, drivetrain: AWD, range: 292, batteryKwh: 147.1, milesPerKwh: 2.13, horsepower: 354 }
+      - { name: AWD · 329 mi, drivetrain: AWD, range: 329, batteryKwh: 147.1, milesPerKwh: 2.01, horsepower: 582 }
+      - { name: AWD · 330 mi, drivetrain: AWD, range: 330, batteryKwh: 147.1, milesPerKwh: 2.44, horsepower: 354 }
+      - { name: AWD · 370 mi, drivetrain: AWD, range: 370, batteryKwh: 147.1, milesPerKwh: 2.31, horsepower: 354 }
+      - { name: AWD · 371 mi, drivetrain: AWD, range: 371, batteryKwh: 147.1, milesPerKwh: 2.24, horsepower: 582 }
+      - { name: AWD · 374 mi, drivetrain: AWD, range: 374, batteryKwh: 147.1, milesPerKwh: 2.25, horsepower: 270 }
+      - { name: AWD · 410 mi, drivetrain: AWD, range: 410, batteryKwh: 147.1, milesPerKwh: 2.5, horsepower: 354 }
+      - { name: Dual Standard, msrp: 75900, drivetrain: AWD, range: 270, batteryKwh: 147.1, milesPerKwh: 2.51, horsepower: 279 }
+      - { name: Dual Large, msrp: 81900, drivetrain: AWD, range: 385, batteryKwh: 147.1, milesPerKwh: 2.58, horsepower: 354 }
+      - { name: Tri Max, msrp: 105900, drivetrain: AWD, range: 321, batteryKwh: 147.1, milesPerKwh: 2.14, horsepower: 582 }
+      - { name: Quad Max, msrp: 121900, drivetrain: AWD, range: 321, batteryKwh: 147.1, milesPerKwh: 2.14, horsepower: 270 }
+
+  rivian-r1t-2026:
+    trims:
+      - { name: AWD · 270 mi, drivetrain: AWD, range: 270, batteryKwh: 147.1, milesPerKwh: 2.51, horsepower: 279 }
+      - { name: AWD · 289 mi, drivetrain: AWD, range: 289, batteryKwh: 147.1, milesPerKwh: 2.25, horsepower: 354 }
+      - { name: AWD · 292 mi, drivetrain: AWD, range: 292, batteryKwh: 147.1, milesPerKwh: 2.13, horsepower: 354 }
+      - { name: AWD · 329 mi, drivetrain: AWD, range: 329, batteryKwh: 147.1, milesPerKwh: 2.01, horsepower: 582 }
+      - { name: AWD · 330 mi, drivetrain: AWD, range: 330, batteryKwh: 147.1, milesPerKwh: 2.44, horsepower: 354 }
+      - { name: AWD · 370 mi, drivetrain: AWD, range: 370, batteryKwh: 147.1, milesPerKwh: 2.31, horsepower: 354 }
+      - { name: AWD · 371 mi, drivetrain: AWD, range: 371, batteryKwh: 147.1, milesPerKwh: 2.24, horsepower: 582 }
+      - { name: AWD · 374 mi, drivetrain: AWD, range: 374, batteryKwh: 147.1, milesPerKwh: 2.25, horsepower: 270 }
+      - { name: AWD · 420 mi, drivetrain: AWD, range: 420, batteryKwh: 147.1, milesPerKwh: 2.57, horsepower: 354 }
+      - { name: Dual Standard, msrp: 69900, drivetrain: AWD, range: 270, batteryKwh: 147.1, milesPerKwh: 2.51, horsepower: 279 }
+      - { name: Dual Large, msrp: 75900, drivetrain: AWD, range: 390, batteryKwh: 147.1, milesPerKwh: 2.6, horsepower: 354 }
+      - { name: Tri Max, msrp: 99900, drivetrain: AWD, range: 321, batteryKwh: 147.1, milesPerKwh: 2.14, horsepower: 582 }
+      - { name: Quad Max, msrp: 115900, drivetrain: AWD, range: 321, batteryKwh: 147.1, milesPerKwh: 2.14, horsepower: 270 }
+
+  rivian-r2-2026:
+    trims:
+      - { name: AWD · 330 mi, drivetrain: AWD, range: 330, batteryKwh: 95.5, milesPerKwh: 3.11, horsepower: 402 }
+      - { name: Standard Pack AWD, msrp: 45000, drivetrain: AWD, range: 330, batteryKwh: 95.5, milesPerKwh: 3.11, horsepower: 402 }
+      - { name: Large Pack AWD, msrp: 51000, drivetrain: AWD, range: 330, batteryKwh: 95.5, milesPerKwh: 3.11, horsepower: 402 }
+
+  tesla-cybertruck-2026:
+    trims:
+      - { name: AWD · 325 mi, drivetrain: AWD, range: 325, batteryKwh: 130.5, milesPerKwh: 2.33, horsepower: 602 }
+      - { name: RWD · 335 mi, drivetrain: RWD, range: 335, batteryKwh: 130.5, milesPerKwh: 2.31, horsepower: 322 }
+      - { name: Long Range RWD, msrp: 69990, drivetrain: RWD, range: 335, batteryKwh: 130.5, milesPerKwh: 2.31, horsepower: 322 }
+      - { name: All-Wheel Drive, msrp: 79990, drivetrain: AWD, range: 325, batteryKwh: 130.5, milesPerKwh: 2.33 }
+      - { name: Cyberbeast, msrp: 99990, drivetrain: AWD, range: 325, batteryKwh: 130.5, milesPerKwh: 2.33, zeroToSixty: 2.6 }
+
+  tesla-model3-2026:
+    scores:
+      overall: 8.1
+      value: 8.4
+      storageMax: 24.1
+    trims:
+      - { name: RWD, msrp: 36990, drivetrain: RWD, range: 272, batteryKwh: 60, milesPerKwh: 4.3, horsepower: 271, zeroToSixty: 5.8 }
+      - { name: Premium RWD, msrp: 42490, drivetrain: RWD, range: 363, batteryKwh: 79, milesPerKwh: 4.4, horsepower: 295, zeroToSixty: 4.9 }
+      - { name: Premium AWD, msrp: 47490, drivetrain: AWD, range: 346, batteryKwh: 79, milesPerKwh: 4.0, horsepower: 394, zeroToSixty: 4.2 }
+      - { name: Performance AWD, msrp: 54990, drivetrain: AWD, range: 298, batteryKwh: 79, milesPerKwh: 3.5, horsepower: 510, zeroToSixty: 2.9 }
+
+  tesla-models-2026:
+    trims:
+      - { name: AWD · 368 mi, drivetrain: AWD, range: 368, milesPerKwh: 3.27, horsepower: 335 }
+      - { name: AWD · 410 mi, drivetrain: AWD, range: 410, milesPerKwh: 3.69, horsepower: 658 }
+      - { name: Long Range AWD, msrp: 74990, drivetrain: AWD, range: 368, milesPerKwh: 3.27, zeroToSixty: 3.1 }
+      - { name: Plaid AWD, msrp: 94990, drivetrain: AWD, range: 368, milesPerKwh: 3.27 }
+
+  tesla-modelx-2026:
+    trims:
+      - { name: AWD · 335 mi, drivetrain: AWD, range: 335, milesPerKwh: 2.97, horsepower: 308 }
+      - { name: AWD · 352 mi, drivetrain: AWD, range: 352, milesPerKwh: 3.11, horsepower: 666 }
+      - { name: Long Range AWD, msrp: 79990, drivetrain: AWD, range: 335, milesPerKwh: 2.97 }
+      - { name: Plaid AWD, msrp: 99990, drivetrain: AWD, range: 335, milesPerKwh: 2.97 }
+
+  tesla-modely-2026:
+    scores:
+      overall: 8.2
+      value: 8.4
+      storageMax: 76
+    trims:
+      - { name: Standard RWD, msrp: 39990, drivetrain: RWD, range: 321, batteryKwh: 75, milesPerKwh: 3.7, horsepower: 295, zeroToSixty: 5.9 }
+      - { name: Long Range AWD, msrp: 41990, drivetrain: AWD, range: 327, batteryKwh: 79, milesPerKwh: 3.6, horsepower: 384, zeroToSixty: 4.6 }
+      - { name: Performance AWD, msrp: 58880, drivetrain: AWD, range: 277, batteryKwh: 79, milesPerKwh: 3.3, horsepower: 510, zeroToSixty: 3.3 }
+
+  toyota-bz-2026:
+    scores:
+      overall: 7.5
+      value: 7.8
+      storageMax: 27.7
+    trims:
+      - { name: XLE FWD, msrp: 34900, drivetrain: FWD, range: 236, batteryKwh: 57.7, milesPerKwh: 3.6, horsepower: 168, zeroToSixty: 8.6 }
+      - { name: XLE Plus FWD, msrp: 37900, drivetrain: FWD, range: 314, batteryKwh: 74.7, milesPerKwh: 3.9, horsepower: 221, zeroToSixty: 7.5 }
+      - { name: XLE Plus AWD, msrp: 39900, drivetrain: AWD, range: 288, batteryKwh: 74.7, milesPerKwh: 3.6, horsepower: 338, zeroToSixty: 4.9 }
+      - { name: Limited FWD, msrp: 43300, drivetrain: FWD, range: 299, batteryKwh: 74.7, milesPerKwh: 3.7, horsepower: 221, zeroToSixty: 7.5 }
+      - { name: Limited AWD, msrp: 45300, drivetrain: AWD, range: 278, batteryKwh: 74.7, milesPerKwh: 3.5, horsepower: 338, zeroToSixty: 4.9 }
+
+  volkswagen-id-buzz-2026:
+    trims:
+      - { name: AWD · 231 mi, drivetrain: AWD, range: 231, batteryKwh: 86.0, milesPerKwh: 2.38, horsepower: 389 }
+      - { name: RWD · 234 mi, drivetrain: RWD, range: 234, batteryKwh: 86.0, milesPerKwh: 2.45, horsepower: 282 }
+      - { name: Pro S RWD, msrp: 59995, drivetrain: RWD, range: 234, batteryKwh: 86.0, milesPerKwh: 2.45 }
+      - { name: Pro S Plus 1st Edition, msrp: 65000, drivetrain: RWD, range: 234, batteryKwh: 86.0, milesPerKwh: 2.45 }
+      - { name: Pro S 4Motion, msrp: 65000, drivetrain: AWD, range: 231, batteryKwh: 86.0, milesPerKwh: 2.38, horsepower: 389 }
+
+  volkswagen-id4-2026:
+    trims:
+      - { name: RWD · 206 mi, drivetrain: RWD, range: 206, milesPerKwh: 3.16, horsepower: 282 }
+      - { name: AWD · 263 mi, drivetrain: AWD, range: 263, milesPerKwh: 3.03, horsepower: 563 }
+      - { name: RWD · 291 mi, drivetrain: RWD, range: 291, milesPerKwh: 3.36, horsepower: 282 }
+      - { name: Standard RWD, msrp: 38995, drivetrain: RWD, range: 206, milesPerKwh: 3.16 }
+      - { name: S RWD, msrp: 42795, drivetrain: RWD, range: 206, milesPerKwh: 3.16 }
+      - { name: Pro AWD, msrp: 46795, drivetrain: AWD, range: 263, milesPerKwh: 3.03 }

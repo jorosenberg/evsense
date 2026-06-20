@@ -1,0 +1,551 @@
+{
+  "id": "kia-ev6-2026",
+  "make": "Kia",
+  "model": "EV6",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.kia.com/us/en/ev6",
+  "imageUrl": "/data/images/kia-ev6-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/kia-ev6-2026/default.jpg",
+    "/data/images/kia-ev6-2026/gallery-1.jpg",
+    "/data/images/kia-ev6-2026/gallery-2.jpg",
+    "/data/images/kia-ev6-2026/gallery-3.jpg",
+    "/data/images/kia-ev6-2026/gallery-4.jpg",
+    "/data/images/kia-ev6-2026/gallery-5.jpg",
+    "/data/images/kia-ev6-2026/gallery-6.jpg",
+    "/data/images/kia-ev6-2026/gallery-7.jpg",
+    "/data/images/kia-ev6-2026/gallery-8.jpg",
+    "/data/images/kia-ev6-2026/gallery-9.jpg",
+    "/data/images/kia-ev6-2026/gallery-10.jpg",
+    "/data/images/kia-ev6-2026/gallery-11.jpg",
+    "/data/images/kia-ev6-2026/gallery-12.jpg",
+    "/data/images/kia-ev6-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 48700
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 42600
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 42600
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Light",
+      "msrp": 39445,
+      "sellingPrice": 38735,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 237,
+        "batteryKwh": 63,
+        "milesPerKwh": 3.42,
+        "zeroToSixty": 7.5,
+        "horsepower": 167
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 339,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3699,
+          "moneyFactor": 0.00108,
+          "residualPercent": 55,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Light 4dr SUV (electric DD)"
+    },
+    {
+      "name": "Light Long Range",
+      "msrp": 42745,
+      "sellingPrice": 41929,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 237,
+        "batteryKwh": 63,
+        "milesPerKwh": 3.42,
+        "zeroToSixty": 7.5,
+        "horsepower": 167
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 339,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3699,
+          "moneyFactor": 0.00108,
+          "residualPercent": 55,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Light Long Range 4dr SUV (electric DD)"
+    },
+    {
+      "name": "Wind",
+      "msrp": 46345,
+      "sellingPrice": 45458,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 237,
+        "batteryKwh": 63,
+        "milesPerKwh": 3.42,
+        "zeroToSixty": 7.5,
+        "horsepower": 167
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 339,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 3699,
+          "moneyFactor": 0.00108,
+          "residualPercent": 55,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Wind 4dr SUV (electric DD)"
+    },
+    {
+      "name": "Light Long Range AWD",
+      "msrp": 46745,
+      "sellingPrice": 45564,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 231,
+        "batteryKwh": 84,
+        "milesPerKwh": 2.44,
+        "zeroToSixty": 3.4,
+        "horsepower": 576
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 729,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 5999,
+          "moneyFactor": 0.00195,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Light Long Range 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "GT-Line",
+      "msrp": 50245,
+      "sellingPrice": 49093,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 295,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.17,
+        "zeroToSixty": 4.6,
+        "horsepower": 320
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 519,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4699,
+          "moneyFactor": 0.00145,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "GT-Line 4dr SUV (electric DD)"
+    },
+    {
+      "name": "Wind AWD",
+      "msrp": 50345,
+      "sellingPrice": 49070,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 295,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.17,
+        "zeroToSixty": 5.0,
+        "horsepower": 320
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4199,
+          "moneyFactor": 0.00135,
+          "residualPercent": 52,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Wind 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "GT-Line AWD",
+      "msrp": 54545,
+      "sellingPrice": 53490,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 295,
+        "batteryKwh": 84,
+        "milesPerKwh": 3.17,
+        "zeroToSixty": 4.6,
+        "horsepower": 320
+      },
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 519,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4699,
+          "moneyFactor": 0.00145,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "GT-Line 4dr SUV AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 84,
+    "milesPerKwh": 3.9,
+    "zeroToSixty": 5.0,
+    "topSpeed": 117,
+    "torqueLbFt": 446,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 50.2,
+    "frunkVolumeCuFt": 0.85,
+    "towingCapacityLbs": 2300,
+    "groundClearanceIn": 6.1,
+    "weightLbs": 4502,
+    "chargingSpeedDcFastKw": 350,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 5,
+    "batteryWarrantyYears": 10,
+    "batteryWarrantyMiles": 100000,
+    "range": 295,
+    "epaRangeCity": 255,
+    "epaRangeHwy": 209,
+    "horsepower": 167,
+    "drivetrain": "RWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 545,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 28,
+    "year2Percent": 41,
+    "year3Percent": 49,
+    "year5Percent": 59,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1510,
+    "average": 2070,
+    "high": 2950,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 39445
+}

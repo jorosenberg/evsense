@@ -1,0 +1,414 @@
+{
+  "id": "ford-f-150-lightning-2026",
+  "make": "Ford",
+  "model": "F-150 Lightning",
+  "year": 2026,
+  "type": "new",
+  "category": "truck",
+  "bodyStyle": "truck",
+  "manufacturerUrl": "https://www.ford.com/trucks/f150/f150-lightning",
+  "imageUrl": "/data/images/ford-f-150-lightning-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/ford-f-150-lightning-2026/default.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-1.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-2.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-3.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-4.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-5.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-6.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-7.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-8.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-9.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-10.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-11.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-12.jpg",
+    "/data/images/ford-f-150-lightning-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 56995
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 49995
+    },
+    {
+      "date": "2024-12-01T00:00:00+00:00",
+      "msrp": 49995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "AWD · 240 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 240,
+        "milesPerKwh": 2.03,
+        "horsepower": 960
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 300 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 300,
+        "milesPerKwh": 1.97,
+        "horsepower": 563
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 300 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 300,
+        "milesPerKwh": 1.97,
+        "horsepower": 563
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 320 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 320,
+        "milesPerKwh": 2.09,
+        "horsepower": 563
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "AWD · 320 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 320,
+        "milesPerKwh": 2.09,
+        "horsepower": 563
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "Pro",
+      "msrp": 49995,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 4.99,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 429,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 4999,
+          "moneyFactor": 0.00098,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": true,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 240,
+        "milesPerKwh": 2.03
+      }
+    },
+    {
+      "name": "XLT",
+      "msrp": 64995,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 549,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 5499,
+          "moneyFactor": 0.00125,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 240,
+        "milesPerKwh": 2.03
+      }
+    },
+    {
+      "name": "Lariat ER",
+      "msrp": 77495,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 749,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 6499,
+          "moneyFactor": 0.00145,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 240,
+        "milesPerKwh": 2.03
+      }
+    },
+    {
+      "name": "Platinum ER",
+      "msrp": 87995,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 869,
+          "termMonths": 36,
+          "mileagePerYear": 10500,
+          "dueAtSigning": 7299,
+          "moneyFactor": 0.00155,
+          "residualPercent": 45,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 240,
+        "milesPerKwh": 2.03
+      }
+    }
+  ],
+  "specs": {
+    "batteryKwh": 131,
+    "milesPerKwh": 2.4,
+    "zeroToSixty": 4.0,
+    "topSpeed": 110,
+    "torqueLbFt": 775,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 52.8,
+    "frunkVolumeCuFt": 14.1,
+    "towingCapacityLbs": 10000,
+    "groundClearanceIn": 9.4,
+    "weightLbs": 6855,
+    "chargingSpeedDcFastKw": 150,
+    "chargingSpeedL2Kw": 19.2,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 320,
+    "epaRangeCity": 264,
+    "epaRangeHwy": 216,
+    "horsepower": 452,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 720,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 42,
+    "year3Percent": 50,
+    "year5Percent": 60,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1820,
+    "average": 2470,
+    "high": 3540,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  }
+}

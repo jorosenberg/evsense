@@ -1,0 +1,58 @@
+// Firestore Security Rules for EVsense
+//
+// Architecture: this app is primarily static-data-driven (JSON files in /public/data/).
+// Firestore is used only as a fallback for vehicle detail pages that don't have a
+// static JSON file yet (i.e. freshly scraped vehicles not yet committed).
+//
+// Rule design:
+//  - All Firestore reads are PUBLIC — vehicle data is not sensitive.
+//  - ALL writes from the client are DENIED — data is written only via
+//    the backend scraper (using the Admin SDK with a service account, which
+//    bypasses these rules).
+//  - No user authentication is required or implemented.
+//
+// To deploy: firebase deploy --only firestore:rules
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── Vehicles collection ────────────────────────────────────────────────
+    // Public read, no client writes.
+    match /vehicles/{vehicleId} {
+      allow read: if true;
+      allow write: if false;
+
+      // Trims subcollection (if used in future)
+      match /trims/{trimId} {
+        allow read: if true;
+        allow write: if false;
+      }
+    }
+
+    // ── Price history subcollection ────────────────────────────────────────
+    match /vehicles/{vehicleId}/priceHistory/{entryId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // ── Offer snapshots ────────────────────────────────────────────────────
+    match /offers/{offerId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // ── Scraper metadata (internal) ────────────────────────────────────────
+    // Read-only; no client access needed.
+    match /scraperMeta/{docId} {
+      allow read: if false;
+      allow write: if false;
+    }
+
+    // ── Deny everything else ───────────────────────────────────────────────
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

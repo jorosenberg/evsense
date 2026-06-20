@@ -1,0 +1,442 @@
+{
+  "id": "rivian-r1t-2026",
+  "make": "Rivian",
+  "model": "R1T",
+  "year": 2026,
+  "type": "new",
+  "category": "truck",
+  "bodyStyle": "truck",
+  "manufacturerUrl": "https://rivian.com/r1t",
+  "imageUrl": "/data/images/rivian-r1t-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/rivian-r1t-2026/default.jpg",
+    "/data/images/rivian-r1t-2026/gallery-1.jpg",
+    "/data/images/rivian-r1t-2026/gallery-2.jpg",
+    "/data/images/rivian-r1t-2026/gallery-3.jpg",
+    "/data/images/rivian-r1t-2026/gallery-4.jpg",
+    "/data/images/rivian-r1t-2026/gallery-5.jpg",
+    "/data/images/rivian-r1t-2026/gallery-6.jpg",
+    "/data/images/rivian-r1t-2026/gallery-7.jpg",
+    "/data/images/rivian-r1t-2026/gallery-8.jpg",
+    "/data/images/rivian-r1t-2026/gallery-9.jpg",
+    "/data/images/rivian-r1t-2026/gallery-10.jpg",
+    "/data/images/rivian-r1t-2026/gallery-11.jpg",
+    "/data/images/rivian-r1t-2026/gallery-12.jpg",
+    "/data/images/rivian-r1t-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 73000
+    },
+    {
+      "date": "2024-06-01T00:00:00+00:00",
+      "msrp": 69900
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 69900
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Dual Standard",
+      "msrp": 69900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Glacier White",
+          "hexPreview": "#F2F4F4",
+          "pricePremium": 0
+        },
+        {
+          "name": "Forest Green",
+          "hexPreview": "#2B4A35",
+          "pricePremium": 0
+        },
+        {
+          "name": "Limestone",
+          "hexPreview": "#C7C0AF",
+          "pricePremium": 0
+        },
+        {
+          "name": "Storm Blue",
+          "hexPreview": "#28455E",
+          "pricePremium": 1750
+        },
+        {
+          "name": "Compass Yellow",
+          "hexPreview": "#D8B73B",
+          "pricePremium": 2500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 819,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6999,
+          "moneyFactor": 0.0021,
+          "residualPercent": 50,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51
+      }
+    },
+    {
+      "name": "Dual Standard AWD w/Standard Battery, Adventure Interior",
+      "msrp": 72885,
+      "sellingPrice": 72885,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51,
+        "horsepower": 279
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Dual Standard 4dr Crew Cab AWD SB w/Standard Battery, Adventure Interior (electric DD)"
+    },
+    {
+      "name": "Dual Large",
+      "msrp": 75900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Glacier White",
+          "hexPreview": "#F2F4F4",
+          "pricePremium": 0
+        },
+        {
+          "name": "Forest Green",
+          "hexPreview": "#2B4A35",
+          "pricePremium": 0
+        },
+        {
+          "name": "Limestone",
+          "hexPreview": "#C7C0AF",
+          "pricePremium": 0
+        },
+        {
+          "name": "Storm Blue",
+          "hexPreview": "#28455E",
+          "pricePremium": 1750
+        },
+        {
+          "name": "Compass Yellow",
+          "hexPreview": "#D8B73B",
+          "pricePremium": 2500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 879,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 7499,
+          "moneyFactor": 0.00215,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51
+      }
+    },
+    {
+      "name": "Dual AWD w/Large Battery, Adventure Interior",
+      "msrp": 79885,
+      "sellingPrice": 79885,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51,
+        "horsepower": 279
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Dual 4dr Crew Cab AWD SB w/Large Battery, Adventure Interior (electric DD)"
+    },
+    {
+      "name": "Dual AWD w/Max Battery, Adventure Interior",
+      "msrp": 86885,
+      "sellingPrice": 86885,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51,
+        "horsepower": 279
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Dual 4dr Crew Cab AWD SB w/Max Battery, Adventure Interior (electric DD)"
+    },
+    {
+      "name": "Tri Max",
+      "msrp": 99900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Glacier White",
+          "hexPreview": "#F2F4F4",
+          "pricePremium": 0
+        },
+        {
+          "name": "Forest Green",
+          "hexPreview": "#2B4A35",
+          "pricePremium": 0
+        },
+        {
+          "name": "Limestone",
+          "hexPreview": "#C7C0AF",
+          "pricePremium": 0
+        },
+        {
+          "name": "Storm Blue",
+          "hexPreview": "#28455E",
+          "pricePremium": 1750
+        },
+        {
+          "name": "Compass Yellow",
+          "hexPreview": "#D8B73B",
+          "pricePremium": 2500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1149,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 8999,
+          "moneyFactor": 0.00235,
+          "residualPercent": 47,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51
+      }
+    },
+    {
+      "name": "Tri AWD w/Max Battery, Ascend Interior",
+      "msrp": 102885,
+      "sellingPrice": 102885,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51,
+        "horsepower": 279
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Tri 4dr Crew Cab AWD SB w/Max Battery, Ascend Interior (electric DD)"
+    },
+    {
+      "name": "Quad Max",
+      "msrp": 115900,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Glacier White",
+          "hexPreview": "#F2F4F4",
+          "pricePremium": 0
+        },
+        {
+          "name": "Forest Green",
+          "hexPreview": "#2B4A35",
+          "pricePremium": 0
+        },
+        {
+          "name": "Limestone",
+          "hexPreview": "#C7C0AF",
+          "pricePremium": 0
+        },
+        {
+          "name": "Storm Blue",
+          "hexPreview": "#28455E",
+          "pricePremium": 1750
+        },
+        {
+          "name": "Compass Yellow",
+          "hexPreview": "#D8B73B",
+          "pricePremium": 2500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1349,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 9999,
+          "moneyFactor": 0.0025,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51
+      }
+    },
+    {
+      "name": "Quad AWD w/Max Battery",
+      "msrp": 117885,
+      "sellingPrice": 117885,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51,
+        "horsepower": 279
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Quad 4dr Crew Cab AWD SB w/Max Battery (electric DD)"
+    },
+    {
+      "name": "Quad Launch Edition AWD w/Max Battery",
+      "msrp": 121885,
+      "sellingPrice": 121885,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 270,
+        "milesPerKwh": 2.51,
+        "horsepower": 279
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Quad Launch Edition 4dr Crew Cab AWD SB w/Max Battery (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 141.5,
+    "milesPerKwh": 2.8,
+    "zeroToSixty": 3.0,
+    "topSpeed": 125,
+    "torqueLbFt": 1198,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 67.6,
+    "frunkVolumeCuFt": 11.6,
+    "towingCapacityLbs": 11000,
+    "groundClearanceIn": 14.4,
+    "weightLbs": 7148,
+    "chargingSpeedDcFastKw": 220,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 5,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 175000,
+    "range": 270,
+    "epaRangeCity": 297,
+    "epaRangeHwy": 243,
+    "horsepower": 533,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 695,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 26,
+    "year2Percent": 38,
+    "year3Percent": 46,
+    "year5Percent": 57,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 2050,
+    "average": 2780,
+    "high": 3970,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 69900
+}

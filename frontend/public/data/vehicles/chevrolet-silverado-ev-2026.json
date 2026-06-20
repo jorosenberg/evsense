@@ -1,0 +1,625 @@
+{
+  "id": "chevrolet-silverado-ev-2026",
+  "make": "Chevrolet",
+  "model": "Silverado EV",
+  "year": 2026,
+  "type": "new",
+  "category": "truck",
+  "bodyStyle": "truck",
+  "manufacturerUrl": "https://www.chevrolet.com/electric/silverado-ev",
+  "imageUrl": "/data/images/chevrolet-silverado-ev-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/chevrolet-silverado-ev-2026/default.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-1.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-2.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-3.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-4.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-5.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-6.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-7.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-8.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-9.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-10.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-11.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-12.jpg",
+    "/data/images/chevrolet-silverado-ev-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 73095
+    },
+    {
+      "date": "2024-11-01T00:00:00+00:00",
+      "msrp": 41995
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 41995
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "Work Standard Range 4WD",
+      "msrp": 58185,
+      "sellingPrice": 54800,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4799,
+          "moneyFactor": 0.00125,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Work Truck Standard Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "LT Standard Range 4WD",
+      "msrp": 65070,
+      "sellingPrice": 61507,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 779,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6499,
+          "moneyFactor": 0.00148,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT Standard Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "Work Extended Range 4WD",
+      "msrp": 69335,
+      "sellingPrice": 66515,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4799,
+          "moneyFactor": 0.00125,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Work Truck Extended Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "LT Extended Range 4WD",
+      "msrp": 76315,
+      "sellingPrice": 72960,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 779,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6499,
+          "moneyFactor": 0.00148,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT Extended Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "Work Max Range 4WD",
+      "msrp": 77435,
+      "sellingPrice": 74110,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4799,
+          "moneyFactor": 0.00125,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Work Truck Max Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "Trail Boss Extended Range 4WD",
+      "msrp": 78715,
+      "sellingPrice": 76296,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4799,
+          "moneyFactor": 0.00125,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Trail Boss Extended Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "Trail Boss Max Range 4WD",
+      "msrp": 91825,
+      "sellingPrice": 88559,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 449,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 4799,
+          "moneyFactor": 0.00125,
+          "residualPercent": 48,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Trail Boss Max Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "LT Max Range 4WD",
+      "msrp": 93925,
+      "sellingPrice": 88150,
+      "drivetrain": "AWD",
+      "specs": {},
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 779,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 6499,
+          "moneyFactor": 0.00148,
+          "residualPercent": 46,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "LT Max Range 4dr Crew Cab 4WD SB (electric DD)"
+    },
+    {
+      "name": "RST",
+      "msrp": 96495,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Iconic Silver",
+          "hexPreview": "#B5B9BB",
+          "pricePremium": 0
+        },
+        {
+          "name": "Antimatter Blue",
+          "hexPreview": "#1F3B66",
+          "pricePremium": 0
+        },
+        {
+          "name": "Agate Black",
+          "hexPreview": "#0E0F12",
+          "pricePremium": 595
+        },
+        {
+          "name": "Rapid Red",
+          "hexPreview": "#8E1B1B",
+          "pricePremium": 595
+        },
+        {
+          "name": "Atlas Blue",
+          "hexPreview": "#3C6AA8",
+          "pricePremium": 595
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 999,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 8499,
+          "moneyFactor": 0.00165,
+          "residualPercent": 44,
+          "acquisitionFee": 695,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ]
+    }
+  ],
+  "specs": {
+    "batteryKwh": 205,
+    "milesPerKwh": 2.2,
+    "zeroToSixty": 4.5,
+    "topSpeed": 110,
+    "torqueLbFt": 785,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 71.1,
+    "frunkVolumeCuFt": 10.7,
+    "towingCapacityLbs": 10000,
+    "groundClearanceIn": 11.0,
+    "weightLbs": 8700,
+    "chargingSpeedDcFastKw": 350,
+    "chargingSpeedL2Kw": 19.2,
+    "chargingPort": "NACS",
+    "autopilot": false,
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 393,
+    "epaRangeCity": 432,
+    "epaRangeHwy": 354,
+    "horsepower": 510,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 740,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 30,
+    "year2Percent": 42,
+    "year3Percent": 50,
+    "year5Percent": 60,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1900,
+    "average": 2580,
+    "high": 3690,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 58185
+}

@@ -1,0 +1,638 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# vehicle_images.yaml — image sources per vehicle (and per trim).
+# Auto-written by scraper/scrape_usnews_images.py (US News galleries, via CDP).
+# Re-download into the app:  python scraper/processors/fetch_vehicle_images.py
+# ─────────────────────────────────────────────────────────────────────────────
+
+defaults:
+  preferLocal: true
+
+vehicles:
+
+  bmw-i4-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/bmw/i4/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/bmw/i4/photos-interior
+    default: "https://www.usnews.com/object/image/0000019c-2584-df5a-a99e-f79dcbae0000/p90546632-highres-the-new-bmw-i4-m50-x.jpg?update-time=1770155985269&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb50720000/p90546632.jpeg?update-time=1727730830692&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4dd70000/p90546649.jpeg?update-time=1738768467853&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4e120000/p90546644.jpeg?update-time=1727730830084&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4f010000/p90546641.jpeg?update-time=1727730830323&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4f8a0000/p90546635.jpeg?update-time=1727730830460&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4ff30000/p90546636.jpeg?update-time=1727730830566&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4bde0000/p90546682.jpeg?update-time=1727730829520&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb51110000/p90546629.jpeg?update-time=1727730830851&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4d960000/p90546651.jpeg?update-time=1727730829960&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4c550000/p90546683.jpeg?update-time=1727730829640&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4c9f0000/p90546658.jpeg?update-time=1727730829713&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4b910000/p90546684.jpeg?update-time=1727730829443&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44c8-da52-a5f7-7eeb4ce10000/p90546657.jpeg?update-time=1727730829780&size=responsiveGallery&format=webp"
+    trims: {}
+
+  bmw-i5-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/bmw/i5/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/bmw/i5/photos-interior
+    default: "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb1c90000/bmw-i5-frontquarter.jpeg?update-time=1771868827123&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb2a30000/bmw-i5-rearquarter.jpeg?update-time=1771868827342&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb2d30000/bmw-i5-side.jpeg?update-time=1771868827389&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb1a70000/bmw-i5-front.jpeg?update-time=1771868827090&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb26d0000/bmw-i5-rear.jpeg?update-time=1771868827287&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb3380000/bmw-i5-trunk.jpeg?update-time=1771868827490&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8b9c-dee6-abfe-fffcb1490000/bmw-i5-engine.jpeg?update-time=1771868826995&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e5900000/bmw-i5-dashboard.jpeg?update-time=1771869168761&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e5d70000/bmw-i5-frontseats.jpeg?update-time=1771869168832&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e5ff0000/bmw-i5-rear-seats.jpeg?update-time=1771869168872&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e55d0000/bmw-i5-climatecontrols.jpeg?update-time=1771869168710&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e66b0000/bmw-i5-shifter.jpeg?update-time=1771869168981&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e6920000/bmw-i5-steeringwheel.jpeg?update-time=1771869169019&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8ba1-d51a-ab9c-efb1e4a20000/bmw-i5-centerconsole.jpeg?update-time=1771869168524&size=responsiveGallery&format=webp"
+    trims: {}
+
+  bmw-i7-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/bmw/i7/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/bmw/i7/photos-interior
+    default: "https://www.usnews.com/object/image/0000019d-bcb3-d1f6-a9dd-bcf31ffe0000/bmw-i7-xdrive60-front-view-ak.jpg?update-time=1776987348758&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019d-bcb3-d1f6-a9dd-bcf3209b0000/bmw-i7-xdrive60-rear-angle-view-ak.jpg?update-time=1776987348916&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-bcb3-d1f6-a9dd-bcf320d30000/bmw-i7-xdrive60-side-ak.jpg?update-time=1776987348971&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-bcb3-d1f6-a9dd-bcf3203c0000/bmw-i7-xdrive60-headlight-ak.jpg?update-time=1776987348821&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-bcb3-d1f6-a9dd-bcf320ed0000/bmw-i7-xdrive60-taillight-and-badge-ak.jpg?update-time=1776987348997&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-8c40-d51a-ab9c-ee71bce30000/i7.jpeg?update-time=1771879577934&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f89c-d9b4-add5-fadd38740000/img-9805.jpeg?update-time=1743632742453&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabab670000/img-9843.jpeg?update-time=1743633099492&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabad820000/img-9854.jpeg?update-time=1743633100031&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabade50000/img-9855.jpeg?update-time=1743633100130&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabac7e0000/img-9847.jpeg?update-time=1743633099771&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabac2a0000/img-9845.jpeg?update-time=1743633099688&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabad120000/img-9849.jpeg?update-time=1743633099919&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-f8a1-d7a2-ad9d-feabad3f0000/img-9852.jpeg?update-time=1743633099964&size=responsiveGallery&format=webp"
+    trims: {}
+
+  bmw-ix-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/bmw/ix/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/bmw/ix/photos-interior
+    default: "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf78930000/2026-bmw-ix-xdrive45-by-jill-ciminillo-4.jpg?update-time=1760134395188&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf764c0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-11.jpg?update-time=1760134394605&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf780b0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-2.jpg?update-time=1760134395051&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf7eb40000/2026-bmw-ix-xdrive45-by-jill-ciminillo-76.jpg?update-time=1760134396756&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf75eb0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-10.jpg?update-time=1760134394507&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf7d1f0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-57.jpg?update-time=1760134396351&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d02f-d2fd-affd-faaf808b0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-82.jpg?update-time=1760134397228&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df4e9e0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-27.jpg?update-time=1760136350394&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df507d0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-34.jpg?update-time=1760136350873&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df537b0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-68.jpg?update-time=1760136351640&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df4e540000/2026-bmw-ix-xdrive45-by-jill-ciminillo-26.jpg?update-time=1760136350321&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df4cd30000/2026-bmw-ix-xdrive45-by-jill-ciminillo-19.jpg?update-time=1760136349935&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df4f320000/2026-bmw-ix-xdrive45-by-jill-ciminillo-29.jpg?update-time=1760136350542&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-d04d-d021-addd-f9df546a0000/2026-bmw-ix-xdrive45-by-jill-ciminillo-88.jpg?update-time=1760136351878&size=responsiveGallery&format=webp"
+    trims: {}
+
+  chevrolet-blazer-ev-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/chevrolet/blazer-ev/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/chevrolet/blazer-ev/photos-interior
+    default: "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd62ab0000/usnpx-25chevroletblazerevss-jmv-1049.jpg?update-time=1768193089632&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd60600000/usnpx-25chevroletblazerevss-jmv-0724.jpg?update-time=1768193089045&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd61bf0000/usnpx-25chevroletblazerevss-jmv-0901.jpg?update-time=1768193089396&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd5f090000/usnpx-25chevroletblazerevss-jmv-0622.jpg?update-time=1768193088702&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd5e460000/usnpx-25chevroletblazerevss-jmv-0229.jpg?update-time=1768193088507&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd60d40000/usnpx-25chevroletblazerevss-jmv-0782.jpg?update-time=1768193089162&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b085-dbe2-a9ff-f2dd628e0000/usnpx-25chevroletblazerevss-jmv-0990.jpg?update-time=1768193089603&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db793b0000/usnpx-25chevroletblazerevss-jmv-0346.jpg?update-time=1768193882032&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db798b0000/usnpx-25chevroletblazerevss-jmv-0394.jpg?update-time=1768193882112&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db7a8b0000/usnpx-25chevroletblazerevss-jmv-0447.jpg?update-time=1768193882368&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db774b0000/usnpx-25chevroletblazerevss-jmv-0182.jpg?update-time=1768193881536&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db77970000/usnpx-25chevroletblazerevss-jmv-0198.jpg?update-time=1768193881612&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db785f0000/usnpx-25chevroletblazerevss-jmv-0307.jpg?update-time=1768193881812&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-b091-d94a-a7bf-f6db75dd0000/usnpx-25chevroletblazerevss-jmv-0122.jpg?update-time=1768193881170&size=responsiveGallery&format=webp"
+    trims: {}
+
+  chevrolet-equinox-ev-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/chevrolet/equinox-ev/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/chevrolet/equinox-ev/photos-interior
+    default: "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7d95e0000/2026-chevrolet-equinox-ev-front-angle-view-ak.jpg?update-time=1765909387086&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7d9c40000/2026-chevrolet-equinox-ev-rear-angle-view-ak.jpg?update-time=1765909387187&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7dbd20000/2026-chevrolet-equinox-ev-side-ak.jpg?update-time=1765909387714&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7db470000/2026-chevrolet-equinox-ev-front-ak.jpg?update-time=1765909387575&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7daa40000/2026-chevrolet-equinox-ev-rear-ak.jpg?update-time=1765909387411&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7daf40000/2026-chevrolet-equinox-ev-doors-open-ak.jpg?update-time=1765909387491&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2866-d4f5-a1df-7df7dbb60000/2026-chevrolet-equinox-ev-headlight-ak.jpg?update-time=1765909387686&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf9a770000/2026-chevrolet-equinox-ev-forward-cabin-ak.jpg?update-time=1765911533757&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf996e0000/2026-chevrolet-equinox-ev-front-seats-ak.jpg?update-time=1765911533493&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf99d30000/2026-chevrolet-equinox-ev-rear-seats-ak.jpg?update-time=1765911533593&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf98c90000/2026-chevrolet-equinox-ev-home-screen-ak.jpg?update-time=1765911533327&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf99f50000/2026-chevrolet-equinox-ev-dashboard-ak.jpg?update-time=1765911533627&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf99190000/2026-chevrolet-equinox-ev-instrument-cluster-ak.jpg?update-time=1765911533407&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019b-2887-df84-ab9f-bdbf9a5b0000/2026-chevrolet-equinox-ev-climate-controls-ak.jpg?update-time=1765911533729&size=responsiveGallery&format=webp"
+    trims: {}
+
+  chevrolet-silverado-ev-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/chevrolet/silverado-ev/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/chevrolet/silverado-ev/photos-interior
+    default: "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfa8a0000/01-usnpx-2025chevroletsilveradoev-angularfront-jms.jpg?update-time=1740514260861&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfaee0000/02-usnpx-2025chevroletsilveradoev-angularrear-jms.jpg?update-time=1740514260962&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfb5a0000/03-usnpx-2025chevroletsilveradoev-sideview-jms.jpg?update-time=1740514261069&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfb960000/04-usnpx-2025chevroletsilveradoev-frontview-jms.jpg?update-time=1740514261130&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfbe30000/05-usnpx-2025chevroletsilveradoev-rearview-jms.jpg?update-time=1740514261206&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfc070000/06-usnpx-2025chevroletsilveradoev-tailgateopen-jms.jpg?update-time=1740514261242&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebb-df5c-afdf-bfbbfc620000/07-usnpx-2025chevroletsilveradoev-tailgateopen2-jms.jpg?update-time=1740514261333&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf69d0000/01-usnpx-2025chevroletsilveradoev-dashboard-jms.jpg?update-time=1740514326023&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf7020000/02-usnpx-2025chevroletsilveradoev-frontseats-jms.jpg?update-time=1740514326124&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf75e0000/03-usnpx-2025chevroletsilveradoev-rearseats-jms.jpg?update-time=1740514326217&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf7fc0000/04-usnpx-2025chevroletsilveradoev-audiosystem-jms.jpg?update-time=1740514326374&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf8550000/05-usnpx-2025chevroletsilveradoev-climatecontrol-jms.jpg?update-time=1740514326463&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf8b20000/06-usnpx-2025chevroletsilveradoev-steeringwheel-jms.jpg?update-time=1740514326556&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000195-3ebc-d807-a99d-fffdf9050000/07-usnpx-2025chevroletsilveradoev-instrumentcluster-jms.jpg?update-time=1740514326639&size=responsiveGallery&format=webp"
+    trims: {}
+
+  ford-e-transit-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/ford/e-transit/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/ford/e-transit/photos-interior
+    default: "https://media.ed.edmunds-media.com/stockphotos/ford/e-transit/2026/default-500x333.jpg"
+    gallery: []
+    trims: {}
+
+  ford-f-150-lightning-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/ford/f-150-lightning/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/ford/f-150-lightning/photos-interior
+    default: "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed742da20000/usnpx-25fordf150lightning-angularfront-zd.jpg?update-time=1736866802160&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed742e990000/usnpx-25fordf150lightning-angularrear-zd.jpg?update-time=1736866802407&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed7433030000/usnpx-25fordf150lightning-sideview-zd.jpg?update-time=1736866803537&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed7431230000/usnpx-25fordf150lightning-frontview-zd.jpg?update-time=1736866803057&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed7432740000/usnpx-25fordf150lightning-rearview-zd.jpg?update-time=1736866803394&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed742ef30000/usnpx-25fordf150lightning-bed-zd.jpg?update-time=1736866802497&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6554-dcf4-a5d4-ed7430b70000/usnpx-25fordf150lightning-fronttrunk-zd.jpg?update-time=1736866802949&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5732a60000/usnpx-25fordf150lightning-dashboard-zd.jpg?update-time=1736867000103&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5733230000/usnpx-25fordf150lightning-frontseats-zd.jpg?update-time=1736867000228&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5734b50000/usnpx-25fordf150lightning-rearseats-zd.jpg?update-time=1736867000630&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5731870000/usnpx-25fordf150lightning-audiosystem-zd.jpg?update-time=1736866999817&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5732530000/usnpx-25fordf150lightning-climatecontrol-zd.jpg?update-time=1736867000021&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5734ec0000/usnpx-25fordf150lightning-steeringwheel.jpg?update-time=1736867000685&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-6557-ddb7-a1f7-fd5734320000/usnpx-25fordf150lightning-instrumentcluster-zd.jpg?update-time=1736867000499&size=responsiveGallery&format=webp"
+    trims: {}
+
+  ford-mustang-mach-e-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/ford/mustang-mach-e/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/ford/mustang-mach-e/photos-interior
+    default: "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2d570000/usnpx-25fordmustangmache-jmv-0183.jpg?update-time=1774918314620&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2f1b0000/usnpx-25fordmustangmache-jmv-0516.jpg?update-time=1774918315072&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2dc70000/usnpx-25fordmustangmache-jmv-0288.jpg?update-time=1774918314732&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2c0b0000/usnpx-25fordmustangmache-jmv-0001.jpg?update-time=1774918314288&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2fc30000/usnpx-25fordmustangmache-jmv-0761.jpg?update-time=1774918315240&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2f960000/usnpx-25fordmustangmache-jmv-0705.jpg?update-time=1774918315195&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-4160-d9e9-a9ff-597c2ce30000/usnpx-25fordmustangmache-jmv-0120.jpg?update-time=1774918314504&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597efb9c0000/usnpx-25fordmustangmache-jmv-1337.jpg?update-time=1774919022957&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597efb3d0000/usnpx-25fordmustangmache-jmv-1266.jpg?update-time=1774919022862&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597ef9fb0000/usnpx-25fordmustangmache-jmv-1216.jpg?update-time=1774919022540&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597ef8ac0000/usnpx-25fordmustangmache-jmv-1112.jpg?update-time=1774919022206&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597ef88e0000/usnpx-25fordmustangmache-jmv-1078.jpg?update-time=1774919022175&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597efc150000/usnpx-25fordmustangmache-jmv-1364.jpg?update-time=1774919023078&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-416a-d9e9-a9ff-597ef8720000/usnpx-25fordmustangmache-jmv-1040.jpg?update-time=1774919022148&size=responsiveGallery&format=webp"
+    trims: {}
+
+  hyundai-ioniq-5-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/hyundai/ioniq-5/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/hyundai/ioniq-5/photos-interior
+    default: "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d2bf0000/usnpx-2026hyundaiioniq5-angularfront2-zd.jpg?update-time=1756994064216&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d2d20000/usnpx-2026hyundaiioniq5-angularrear-zd.jpg?update-time=1756994064235&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d5760000/usnpx-2026hyundaiioniq5-sideview-zd.jpg?update-time=1756994064912&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d3cd0000/usnpx-2026hyundaiioniq5-frontview-zd.jpg?update-time=1756994064486&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d5150000/usnpx-2026hyundaiioniq5-rearview-zd.jpg?update-time=1756994064814&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d45c0000/usnpx-2026hyundaiioniq5-hatchopen-zd.jpg?update-time=1756994064629&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d3b70000/usnpx-2026hyundaiioniq5-fronttrunk-zd.jpg?update-time=1756994064464&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62bc20000/usnpx-2026hyundaiioniq5-dashboard2-zd.jpg?update-time=1756994218027&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62c9d0000/usnpx-2026hyundaiioniq5-frontseats-zd.jpg?update-time=1756994218246&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62dfa0000/usnpx-2026hyundaiioniq5-rearseats-zd.jpg?update-time=1756994218595&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62b1a0000/usnpx-2026hyundaiioniq5-audiosystem-zd.jpg?update-time=1756994217859&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62b830000/usnpx-2026hyundaiioniq5-climatecontrol-zd.jpg?update-time=1756994217965&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62eb10000/usnpx-2026hyundaiioniq5-steeringwheel-zd.jpg?update-time=1756994218779&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1504-d0da-affd-7fe62d2b0000/usnpx-2026hyundaiioniq5-instrumentcluster-zd.jpg?update-time=1756994218388&size=responsiveGallery&format=webp"
+    trims: {}
+
+  hyundai-ioniq-6-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/hyundai/ioniq-6/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/hyundai/ioniq-6/photos-interior
+    default: "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1a8f0000/large-61768-2025ioniq6.jpg?update-time=1727728916417&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1b040000/large-61898-2025ioniq6se.jpg?update-time=1727728916534&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf189b0000/large-61709-2025ioniq6.jpg?update-time=1738770231165&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf19340000/large-61710-2025ioniq6.jpg?update-time=1727728916070&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf19c20000/large-61711-2025ioniq6.jpg?update-time=1734465032115&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1a060000/large-61765-2025ioniq6.jpg?update-time=1727728916280&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1a200000/large-61766-2025ioniq6.jpg?update-time=1727728916307&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1abe0000/large-61897-2025ioniq6se.jpg?update-time=1727728916464&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1d230000/large-61910-2025ioniq6se.jpg?update-time=1727728917077&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1db80000/large-61920-2025ioniq6se.jpg?update-time=1727728917226&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1ec70000/large-61975-2025ioniq6limited.jpg?update-time=1727728917497&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1ee80000/large-61976-2025ioniq6limited.jpg?update-time=1727728917530&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1f5e0000/large-61977-2025ioniq6limited.jpg?update-time=1727728917648&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-44ab-df59-adf2-4fbf1f700000/large-61978-2025ioniq6limited.jpg?update-time=1727728917666&size=responsiveGallery&format=webp"
+    trims: {}
+
+  hyundai-ioniq-9-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/hyundai/ioniq-9/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/hyundai/ioniq-9/photos-interior
+    default: "https://www.usnews.com/object/image/00000197-5a9c-d388-add7-dadc0c360000/large-64280-hmgmareveals2026ioniq9asnewestproductionvehicle.jpg?update-time=1749571865209&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000197-5a9c-d388-add7-dadc0ce90000/large-65925-assembled-in-america2026hyundaiioniq9evdelivers300milesofrangefrom58955.jpg?update-time=1749571865388&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-5a9c-d388-add7-dadc0c6a0000/large-64281-hmgmareveals2026ioniq9asnewestproductionvehicle.jpg?update-time=1749571865260&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-5a9c-d388-add7-dadc0b9c0000/large-64278-hmgmareveals2026ioniq9asnewestproductionvehicle.jpg?update-time=1749571865054&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-5a9c-d388-add7-dadc0cff0000/large-65926-assembled-in-america2026hyundaiioniq9evdelivers300milesofrangefrom58955.jpg?update-time=1749571865409&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-ae50-db7a-adf9-bfd0204c0000/large-66059-2026ioniq9.jpg?update-time=1755271143065&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000199-1501-d98b-ab9d-b739d2bf0000/usnpx-2026hyundaiioniq5-angularfront2-zd.jpg?update-time=1756994064216&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-ae50-db7a-adf9-bfd01f050000/large-66038-2026ioniq9.jpg?update-time=1755271142737&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-ae50-db7a-adf9-bfd01e900000/large-66035-2026ioniq9.jpg?update-time=1755271142620&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-ae50-db7a-adf9-bfd01f700000/large-66025-2026ioniq9.jpg?update-time=1755271142844&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-ae50-db7a-adf9-bfd0200f0000/large-66066-2026ioniq9.jpg?update-time=1755271143003&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-ae50-db7a-adf9-bfd01f5c0000/large-66036-2026ioniq9.jpg?update-time=1755271142824&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-5a9d-d149-a397-fb9d86e50000/large-64282-hmgmareveals2026ioniq9asnewestproductionvehicle.jpg?update-time=1749571962005&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-5a9d-d149-a397-fb9d87580000/large-64283-hmgmareveals2026ioniq9asnewestproductionvehicle.jpg?update-time=1749571962120&size=responsiveGallery&format=webp"
+    trims: {}
+
+  kia-ev6-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/kia/ev6/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/kia/ev6/photos-interior
+    default: "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa79a0000/usn-2026-kia-ev6-gt-line-angular-front.jpg?update-time=1764100122408&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa7c20000/usn-2026-kia-ev6-gt-line-angular-rear.jpg?update-time=1764100122447&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa9420000/usn-2026-kia-ev6-gt-line-side-iew.jpg?update-time=1764100122831&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa87e0000/usn-2026-kia-ev6-gt-line-front.jpg?update-time=1764100122635&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa92b0000/usn-2026-kia-ev6-gt-line-rear-view.jpg?update-time=1764100122808&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa8e00000/usn-2026-kia-ev6-gt-line-hatch.jpg?update-time=1764100122734&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc8f-dc96-a3db-bcffa84e0000/usn-2026-kia-ev6-gt-line-cargo-area.jpg?update-time=1764100122587&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c19e0000/usn-2026-kia-ev6-gt-line-dashboard.jpg?update-time=1764100194508&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c26f0000/usn-2026-kia-ev6-gt-line-front-seat.jpg?update-time=1764100194717&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c3820000/usn-2026-kia-ev6-gt-line-rear-seat.jpg?update-time=1764100194992&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c14e0000/usn-2026-kia-ev6-gt-line-climate-controls.jpg?update-time=1764100194428&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c43a0000/usn-2026-kia-ev6-gt-line-steering-wheel.jpg?update-time=1764100195176&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c20f0000/usn-2026-kia-ev6-gt-line-ev-screen.jpg?update-time=1764100194622&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-bc90-d672-abfb-fed2c2f20000/usn-2026-kia-ev6-gt-line-instrument-cluster.jpg?update-time=1764100194848&size=responsiveGallery&format=webp"
+    trims: {}
+
+  kia-ev9-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/kia/ev9/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/kia/ev9/photos-interior
+    default: "https://www.usnews.com/object/image/0000019a-3b83-d7f7-adfb-3bbf008d0000/img-0448.jpg?update-time=1761935032276&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019a-3b83-d7f7-adfb-3bbf02000000/img-0464.jpg?update-time=1761935032647&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b82-d7f7-adfb-3bbeff910000/img-0440.jpg?update-time=1761935032024&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b82-d7f7-adfb-3bbefffd0000/img-0445.jpg?update-time=1761935032132&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b83-d7f7-adfb-3bbf01080000/img-0458.jpg?update-time=1761935032400&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b83-d7f7-adfb-3bbf012a0000/img-0460.jpg?update-time=1761935032433&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b83-d7f7-adfb-3bbf017d0000/img-0461.jpg?update-time=1761935032516&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb631610000/img-0467-2.jpg?update-time=1761935241401&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb631b00000/img-0468.jpg?update-time=1761935241480&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb632010000/img-0469.jpg?update-time=1761935241562&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb630530001/img-0465.jpg?update-time=1761935241131&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb630b20000/img-0466.jpg?update-time=1761935241226&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb632560000/img-0473.jpg?update-time=1761935241646&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-3b86-dc55-a3de-7fb632b70000/img-0475.jpg?update-time=1761935241743&size=responsiveGallery&format=webp"
+    trims: {}
+
+  lucid-air-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/lucid/air/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/lucid/air/photos-interior
+    default: "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8e190000/2026-lucid-air-front-three-quarter-view-ak.jpg?update-time=1763514878945&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8bf00000/2026-lucid-air-rear-three-quarter-view-ak.jpg?update-time=1763514878393&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8c0e0000/2026-lucid-air-side-ak.jpg?update-time=1763514878422&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8c2e0000/2026-lucid-air-front-ak.jpg?update-time=1763514878454&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8d300000/2026-lucid-air-rear-ak.jpg?update-time=1763514878712&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8ca70000/2026-lucid-air-trunk-open-ak.jpg?update-time=1763514878576&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99ad-d51f-a7ff-b9ed8cc60000/2026-lucid-air-charging-port-ak.jpg?update-time=1763514878606&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f2750f0000/2026-lucid-air-forward-cabin-ak.jpg?update-time=1763515200019&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f273c90000/2026-lucid-air-front-seats-ak.jpg?update-time=1763515199693&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f271b80000/2026-lucid-air-back-seat-ak.jpg?update-time=1763515199165&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f270490000/2026-lucid-air-pilot-panel-ak.jpg?update-time=1763515198797&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f2733f0000/2026-lucid-air-hvac-screen-ak.jpg?update-time=1763515199555&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f2715d0000/2026-lucid-air-instrument-panel-ak.jpg?update-time=1763515199073&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-99b2-d51f-a7ff-b9f2722e0000/2026-lucid-air-steering-wheel-ak.jpg?update-time=1763515199282&size=responsiveGallery&format=webp"
+    trims: {}
+
+  lucid-gravity-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/lucid/gravity/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/lucid/gravity/photos-interior
+    default: "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb5f0b0000/2025-lucid-gravity-front-three-quarter-ak.jpg?update-time=1745590181247&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb61540000/2025-lucid-gravity-rear-three-quarter-a-ak.jpg?update-time=1745590181832&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb62130000/2025-lucid-gravity-side-ak.jpg?update-time=1745590182023&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb5ea00000/2025-lucid-gravity-front-ak.jpg?update-time=1745590181140&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb61110000/2025-lucid-gravity-rear-ak.jpg?update-time=1745590181766&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb60680000/2025-lucid-gravity-hatch-open-ak.jpg?update-time=1745590181597&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d48-d21e-afd6-6feb5f9d0000/2025-lucid-gravity-frunk-ak.jpg?update-time=1745590181393&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4eee0e0000/2025-lucid-gravity-dashboard-ak.jpg?update-time=1745590349158&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4eefba0000/2025-lucid-gravity-rear-seat-ak.jpg?update-time=1745590349586&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4ef11d0000/2025-lucid-gravity-third-row-ak.jpg?update-time=1745590349941&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4eec6c0000/2025-lucid-gravity-audio-settings-ak.jpg?update-time=1745590348741&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4eee970000/2025-lucid-gravity-hvac-controls-ak.jpg?update-time=1745590349295&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4ef0c90000/2025-lucid-gravity-squircle-steering-wheel-ak.jpg?update-time=1745590349857&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000196-6d4a-d0e4-ad9f-ed4eeb2f0000/2025-lucid-gravity-adaptive-cruise-cluster-ak.jpg?update-time=1745590348423&size=responsiveGallery&format=webp"
+    trims: {}
+
+  mercedes-benz-cla-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/mercedes-benz/cla-class/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/mercedes-benz/cla-class/photos-interior
+    default: "https://www.usnews.com/object/image/00000192-111a-d761-aff2-3bfa27e70001/23c0324-211-source.jpg?update-time=1752001909326&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000018f-cf32-d9b6-abbf-cfbada020001/24-mercedes-cla35-ext1.jpg?update-time=1717168571825&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf32-d9b6-abbf-cfbadabc0000/24-mercedes-cla35-ext2.jpg?update-time=1717168601901&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf32-d9b6-abbf-cfbadb370000/24-mercedes-cla35-ext3.jpg?update-time=1717168621729&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf32-d9b6-abbf-cfbadb6e0000/24-mercedes-cla35-ext4.jpg?update-time=1717168644396&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf32-d9b6-abbf-cfbadc9c0000/24-mercedes-cla35-ext5.jpg?update-time=1717168673653&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf32-d9b6-abbf-cfbadcdc0000/24-mercedes-cla35-ext6.jpg?update-time=1717168697156&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000192-111a-d761-aff2-3bfa284d0000/23c0324-209-source.jpg?update-time=1726863779368&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf34-dae1-a7af-df759cfa0001/24-mercedes-cla35-int1.jpg?update-time=1717168973712&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf34-dae1-a7af-df759d200000/24-mercedes-cla35-int2.jpg?update-time=1717168993690&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf34-dae1-a7af-df759d960000/24-mercedes-cla35-int3.jpg?update-time=1717169016363&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf34-dae1-a7af-df759db80000/24-mercedes-cla35-int4.jpg?update-time=1717169040088&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf34-dae1-a7af-df759dd50000/24-mercedes-cla35-int5.jpg?update-time=1717169060416&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018f-cf34-dae1-a7af-df759df30000/24-mercedes-cla35-int6.jpg?update-time=1717169081875&size=responsiveGallery&format=webp"
+    trims: {}
+
+  polestar-polestar-2-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/polestar/2/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/polestar/2/photos-interior
+    default: "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf50a60000/01-usnpx-2025polestar2-angularfront-mtv.jpg?update-time=1734383390588&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf50fd0000/02-usnpx-2025polestar2-angularrear-mtv.jpg?update-time=1734383390675&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf51410000/03-usnpx-2025polestar2-sideview-mtv.jpg?update-time=1734383390743&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf52a00000/04-usnpx-2025polestar2-frontview-mtv.jpg?update-time=1734383391094&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf53320000/05-usnpx-2025polestar2-rearview-mtv.jpg?update-time=1734383391240&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf53780000/06-usnpx-2025polestar2-grille-mtv.jpg?update-time=1734383391310&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14e-d61a-abb3-d3cf53da0000/07-usnpx-2025polestar2-headlight-mtv.jpg?update-time=1734383391409&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf645f0000/01-usnpx-2025polestar2-front-seats-mtv.jpg?update-time=1734383461173&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf64b70000/02-usnpx-2025polestar2-rearseats-mtv.jpg?update-time=1734383461261&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf64de0000/03-usnpx-2025polestar2-audiosystem-mtv.jpg?update-time=1734383461300&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf65530000/04-usnpx-2025polestar2-climatecontrol-mtv.jpg?update-time=1734383461417&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf65bd0000/05-usnpx-2025polestar2-steeringwheel-mtv.jpg?update-time=1734383461523&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf65de0000/06-usnpx-2025polestar2-instrumentcluster-mtv.jpg?update-time=1734383461557&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-d14f-d61a-abb3-d3cf66410000/07-usnpx-2025polestar2-instrumentpanel-mtv.jpg?update-time=1734383461655&size=responsiveGallery&format=webp"
+    trims: {}
+
+  polestar-polestar-3-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/polestar/3/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/polestar/3/photos-interior
+    default: "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b749060000/usnpx-2025polestar3-angularfront-zd.jpg?update-time=1748382402521&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b7495d0000/usnpx-2025polestar3-angularrear-zd.jpg?update-time=1748382402608&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b74e250000/usnpx-2025polestar3-sideview-zd.jpg?update-time=1748382403832&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b74ae90000/usnpx-2025polestar3-frontview-zd.jpg?update-time=1748382403004&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b74d5b0000/usnpx-2025polestar3-rearview-zd.jpg?update-time=1748382403630&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b749d00000/usnpx-2025polestar3-cargoarea-zd.jpg?update-time=1748382402723&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b6-dc2a-a1bf-77b74b810000/usnpx-2025polestar3-frunk-zd.jpg?update-time=1748382403156&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa60ce0000/usnpx-2025polestar3-dashboard-zd.jpg?update-time=1748382539813&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa617f0000/usnpx-2025polestar3-frontseats-zd.jpg?update-time=1748382539990&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa62230000/usnpx-2025polestar3-rearseats-zd.jpg?update-time=1748382540154&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa60b80000/usnpx-2025polestar3-audiosystem2-zd.jpg?update-time=1748382539792&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa61d10000/usnpx-2025polestar3-instrumentpanel-zd.jpg?update-time=1748382540073&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa62400000/usnpx-2025polestar3-steeringwheel-zd.jpg?update-time=1748382540183&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000197-13b8-d3fe-a99f-f7fa60270000/usnpx-2025polestar3-airvents-zd.jpg?update-time=1748382539646&size=responsiveGallery&format=webp"
+    trims: {}
+
+  polestar-polestar-4-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/polestar/4/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/polestar/4/photos-interior
+    default: "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2f160000/683182-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245152623&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2bab0000/683169-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245151748&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2c090000/683170-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245151841&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2c4f0000/683172-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245151911&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2ce20000/683173-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245152058&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2d1a0000/683174-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245152115&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f2d430000/683175-20240428-polestar-4-in-gold-with-zinc-nappa-interior-and-performance-pack.jpg?update-time=1733245152155&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f323e0000/683198-20240428-polestar-4-in-snow-with-mist-tailored-knit-interior-and-performance-pack.jpg?update-time=1733245153430&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f32880000/683200-20240428-polestar-4-in-snow-with-mist-tailored-knit-interior-and-performance-pack.jpg?update-time=1733245153504&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f32cb0000/683201-20240428-polestar-4-in-snow-with-mist-tailored-knit-interior-and-performance-pack.jpg?update-time=1733245153571&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f32e10000/683202-20240428-polestar-4-in-snow-with-mist-tailored-knit-interior-and-performance-pack.jpg?update-time=1733245153593&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f33680000/683209-20240428-polestar-4-in-snow-with-mist-tailored-knit-interior-and-performance-pack.jpg?update-time=1733245153728&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-8d76-d9c0-a1b3-ff7f337d0000/683210-20240428-polestar-4-in-snow-with-mist-tailored-knit-interior-and-performance-pack.jpg?update-time=1733245153749&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe738350000/usn-9333.jpg?update-time=1781197321712&size=responsiveGallery&format=webp"
+    trims: {}
+
+  rivian-r1s-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/rivian/r1s/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/rivian/r1s/photos-interior
+    default: "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7b330000/usnpx-2026rivianr1s-angularfront-zd.jpg?update-time=1753444284567&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7b470000/usnpx-2026rivianr1s-angularrear-zd.jpg?update-time=1753444284587&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7ca60000/usnpx-2026rivianr1s-sideview-zd.jpg?update-time=1753444284938&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7bbf0000/usnpx-2026rivianr1s-frontview-zd.jpg?update-time=1753444284707&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7c560000/usnpx-2026rivianr1s-rearview-zd.jpg?update-time=1753444284858&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7bdd0000/usnpx-2026rivianr1s-hatchopen-zd.jpg?update-time=1753444284737&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416c-de05-ad9a-dd6c7bed0000/usnpx-2026rivianr1s-hatchopen2-zd.jpg?update-time=1753444284753&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed828a0000/usnpx-2026rivianr1s-dashboard-zd.jpg?update-time=1753444352622&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed83370000/usnpx-2026rivianr1s-frontseats-zd.jpg?update-time=1753444352795&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed83930000/usnpx-2026rivianr1s-secondrow-zd.jpg?update-time=1753444352887&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed83df0000/usnpx-2026rivianr1s-thirdrow-zd.jpg?update-time=1753444352964&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed827c0000/usnpx-2026rivianr1s-audiosystem-zd.jpg?update-time=1753444352608&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed82e00000/usnpx-2026rivianr1s-drivemodes-zd.jpg?update-time=1753444352708&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-416d-dab5-a5ff-ffed83d10000/usnpx-2026rivianr1s-steeringwheel-zd.jpg?update-time=1753444352950&size=responsiveGallery&format=webp"
+    trims: {}
+
+  rivian-r1t-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/rivian/r1t/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/rivian/r1t/photos-interior
+    default: "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd384d0000/usnpx-2026rivianr1t-angularfront-zd.jpg?update-time=1753442236325&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd38640000/usnpx-2026rivianr1t-angularrear-zd.jpg?update-time=1753442236349&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd3abb0000/usnpx-2026rivianr1t-sideview-zd.jpg?update-time=1753442236948&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd390b0000/usnpx-2026rivianr1t-frontview-zd.jpg?update-time=1753442236515&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd3a750000/usnpx-2026rivianr1t-rearview-zd.jpg?update-time=1753442236878&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd38910000/usnpx-2026rivianr1t-bed-zd.jpg?update-time=1753442236393&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414d-dab5-a5ff-ffcd38fa0000/usnpx-2026rivianr1t-fronttrunk-zd.jpg?update-time=1753442236498&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2e760000/usnpx-2026rivianr1t-dashboard-zd.jpg?update-time=1753442298848&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2f0b0000/usnpx-2026rivianr1t-frontrow-zd.jpg?update-time=1753442298997&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2fcd0000/usnpx-2026rivianr1t-secondrow-zd.jpg?update-time=1753442299191&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2e4f0000/usnpx-2026rivianr1t-audiosystem-zd.jpg?update-time=1753442298809&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2e660000/usnpx-2026rivianr1t-climatecontrol-zd.jpg?update-time=1753442298832&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2fde0000/usnpx-2026rivianr1t-steeringwheel-zd.jpg?update-time=1753442299208&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000198-414e-d910-ad98-d3fe2f560000/usnpx-2026rivianr1t-instrumentcluster-zd.jpg?update-time=1753442299072&size=responsiveGallery&format=webp"
+    trims: {}
+
+  rivian-r2-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/rivian/r2/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/rivian/r2/photos-interior
+    default: "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe738350000/usn-9333.jpg?update-time=1781197321712&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe734400000/usn-9267.jpg?update-time=1781197320699&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe733de0000/usn-9259.jpg?update-time=1781197320601&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe7345a0000/usn-9273.jpg?update-time=1781197320726&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe735120000/usn-9285.jpg?update-time=1781197320909&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe736bf0000/usn-9312.jpg?update-time=1781197321338&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a2-dc1d-a9df-bfe735f90000/usn-9307.jpg?update-time=1781197321141&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe9858f0000/usn-9150.jpg?update-time=1781197734998&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe985f30000/usn-9175.jpg?update-time=1781197735099&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe986b10000/usn-9182.jpg?update-time=1781197735288&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe984f70000/usn-9138.jpg?update-time=1781197734847&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe985730000/usn-9148.jpg?update-time=1781197734971&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe988e90000/usn-9502.jpg?update-time=1781197735857&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019e-b7a8-d3e7-ad9f-bfe988330000/usn-9496.jpg?update-time=1781197735674&size=responsiveGallery&format=webp"
+    trims: {}
+
+  tesla-cybertruck-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/tesla/cybertruck/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/tesla/cybertruck/photos-interior
+    default: "https://www.usnews.com/object/image/00000193-6f2d-df6a-a7db-ef7fdfe00001/cybertruck-66.jpg?update-time=1732737097116&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000190-ebcf-d737-a9d6-ffdfe69f0001/usnpx-2024teslacybertruck-angularfront-zd.jpg?update-time=1721943715451&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebcf-d737-a9d6-ffdfe6b00000/usnpx-2024teslacybertruck-angularrear-zd.jpg?update-time=1721943735702&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebcf-d737-a9d6-ffdfe9540000/usnpx-2024teslacybertruck-sideview-zd.jpg?update-time=1721943756602&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebcf-d737-a9d6-ffdfe8090000/usnpx-2024teslacybertruck-frontview-zd.jpg?update-time=1721943774042&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebcf-d737-a9d6-ffdfe8ff0000/usnpx-2024teslacybertruck-rearview-zd.jpg?update-time=1721943791421&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebcf-d737-a9d6-ffdfea1f0000/usnpx-2024teslacybertruck-tonneaucover-zd.jpg?update-time=1721943812435&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-6f2d-df6a-a7db-ef7fdff50000/cybertruck-88.jpg?update-time=1732737097136&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebd4-d655-abfd-ffd720ca0000/usnpx-2024teslacybertruck-dashboard-zd.jpg?update-time=1721944103101&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebd4-d655-abfd-ffd7218c0000/usnpx-2024teslacybertruck-frontseats-zd.jpg?update-time=1721944123994&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebd4-d655-abfd-ffd722ea0000/usnpx-2024teslacybertruck-rearseats-zd.jpg?update-time=1721944144828&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebd4-d655-abfd-ffd71fa20000/usnpx-2024teslacybertruck-audiosystem-zd.jpg?update-time=1721944169734&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebd4-d655-abfd-ffd7204c0000/usnpx-2024teslacybertruck-climatecontrol-zd.jpg?update-time=1721944193186&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000190-ebd4-d655-abfd-ffd7233b0000/usnpx-2024teslacybertruck-steeringwheel-zd.jpg?update-time=1721944215588&size=responsiveGallery&format=webp"
+    trims: {}
+
+  tesla-model3-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/tesla/model-3/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/tesla/model-3/photos-interior
+    default: "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae6050000/usnpx-2026teslamodel3-angularfront2-zd.jpg?update-time=1774621746676&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae64c0000/usnpx-2026teslamodel3-angularrear-zd.jpg?update-time=1774621746746&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae8c90000/usnpx-2026teslamodel3-sideview-zd.jpg?update-time=1774621747383&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae7110000/usnpx-2026teslamodel3-frontview-zd.jpg?update-time=1774621746943&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae86c0000/usnpx-2026teslamodel3-rearview-zd.jpg?update-time=1774621747291&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae66c0000/usnpx-2026teslamodel3-cargoarea-zd.jpg?update-time=1774621746778&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb2-d3ae-afbd-fffae7400000/usnpx-2026teslamodel3-frunk-zd.jpg?update-time=1774621746990&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbf8e50000/usnpx-2026teslamodel3-dashboard2-zd.jpg?update-time=1774621816412&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbf9790000/usnpx-2026teslamodel3-frontseats-zd.jpg?update-time=1774621816560&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbfa630000/usnpx-2026teslamodel3-rearseats-zd.jpg?update-time=1774621816794&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbf8300000/usnpx-2026teslamodel3-audiosystem-zd.jpg?update-time=1774621816231&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbf87b0000/usnpx-2026teslamodel3-climatecontrol-zd.jpg?update-time=1774621816306&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbfa810000/usnpx-2026teslamodel3-steeringwheel-zd.jpg?update-time=1774621816824&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-2fb3-d377-a1ff-bfbbf9590000/usnpx-2026teslamodel3-doorcontrols-zd.jpg?update-time=1774621816528&size=responsiveGallery&format=webp"
+    trims: {}
+
+  tesla-models-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/tesla/model-s/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/tesla/model-s/photos-interior
+    default: "https://www.usnews.com/object/image/0000019d-3135-dc67-a5dd-33b57bc60000/models-70.jpg?update-time=1774647081129&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000193-c000-d114-afd7-e93724ed0000/models-62.jpg?update-time=1734093054347&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43a-dcce-adfd-b53ebb720000/models-70.jpg?update-time=1707857328487&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43a-dcce-adfd-b53ebad30000/models-69.jpg?update-time=1707857328327&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43a-dcce-adfd-b53eba790000/models-67.jpg?update-time=1707857328237&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43a-dcce-adfd-b53eba060001/models-66.jpg?update-time=1725549139937&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43a-dcce-adfd-b53ebba20000/models-71.jpg?update-time=1707857328534&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019d-3135-ddee-abfd-f3f5ecfb0000/models-85.jpg?update-time=1774647110874&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-c000-d114-afd7-e93725180000/models-92.jpg?update-time=1734093054390&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43b-d099-a39d-f6bbf3e10000/models-92.jpg?update-time=1707857408298&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43b-d099-a39d-f6bbf1390000/models-84.jpg?update-time=1707857407619&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43b-d099-a39d-f6bbf3fe0000/models-93.jpg?update-time=1707857408327&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43b-d099-a39d-f6bbf05a0001/models-82.jpg?update-time=1707857407395&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-a43b-d099-a39d-f6bbf0900000/models-83.jpg?update-time=1707857407449&size=responsiveGallery&format=webp"
+    trims: {}
+
+  tesla-modelx-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/tesla/model-x/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/tesla/model-x/photos-interior
+    default: "https://www.usnews.com/object/image/0000019c-4e80-d59b-a3dd-df9cd2d10000/modelx-76.jpg?update-time=1770843591101&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000193-c000-d57e-adff-f83be6000000/modelx-63.jpg?update-time=1734093103710&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbd-d23b-a7bf-fbbf5b7c0000/modelx-77.jpg?update-time=1709325506757&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbd-d23b-a7bf-fbbf5be00000/modelx-78.jpg?update-time=1709325506856&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbd-d23b-a7bf-fbbf5c150000/modelx-81.jpg?update-time=1709325506909&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbd-d23b-a7bf-fbbf5af20001/modelx-73.jpg?update-time=1709325506618&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbd-d23b-a7bf-fbbf5b6a0000/modelx-75.jpg?update-time=1709325506738&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-4e81-d26d-ad9c-5ead39ce0000/modelx-93.jpg?update-time=1770843616836&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000193-c000-d57e-adff-f83be6220000/modelx-85.jpg?update-time=1734093103744&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbf-d316-a7bf-fbff2e030000/modelx-84.jpg?update-time=1709325626790&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbf-d316-a7bf-fbff2ea70000/modelx-85.jpg?update-time=1709325626955&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbf-d316-a7bf-fbff2ded0000/modelx-83.jpg?update-time=1709325626768&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbf-d316-a7bf-fbff2dbb0000/modelx-82.jpg?update-time=1709325626719&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018d-fbbf-d316-a7bf-fbff2d860001/modelx-70.jpg?update-time=1709325626665&size=responsiveGallery&format=webp"
+    trims: {}
+
+  tesla-modely-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/tesla/model-y/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/tesla/model-y/photos-interior
+    default: "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5bef750000/usnpx-2026teslamodely-angularfront-zd.jpg?update-time=1773756215134&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5beff10000/usnpx-2026teslamodely-angularrear-zd.jpg?update-time=1773756215258&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5bf4430000/usnpx-2026teslamodely-sideview-zd.jpg?update-time=1773756216363&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5bf1410000/usnpx-2026teslamodely-frontview-zd.jpg?update-time=1773756215593&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5bf3020000/usnpx-2026teslamodely-rearview-zd.jpg?update-time=1773756216042&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5bf0550000/usnpx-2026teslamodely-cargoarea-zd.jpg?update-time=1773756215358&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1b-d4f2-a1bd-fd5bf19c0000/usnpx-2026teslamodely-frunk-zd.jpg?update-time=1773756215684&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff30a0000/usnpx-2026teslamodely-dashboard2-zd.jpg?update-time=1773756346827&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff3bd0000/usnpx-2026teslamodely-frontseats-zd.jpg?update-time=1773756347005&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff6d60000/usnpx-2026teslamodely-rearseats-zd.jpg?update-time=1773756347798&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff18d0000/usnpx-2026teslamodely-audiosystem-zd.jpg?update-time=1773756346445&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff2110000/usnpx-2026teslamodely-climatecontrol-zd.jpg?update-time=1773756346578&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff7940000/usnpx-2026teslamodely-steeringwheel-zd.jpg?update-time=1773756347989&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019c-fc1d-d365-a1dd-fe7ff5a40000/usnpx-2026teslamodely-instrumentpanel-zd.jpg?update-time=1773756347493&size=responsiveGallery&format=webp"
+    trims: {}
+
+  toyota-bz-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/toyota/bz4x/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/toyota/bz4x/photos-interior
+    default: "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef633050000/2025-bz4x-limited-awd-heavymetal-0005.jpg?update-time=1736457990053&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef6335a0000/2025-bz4x-limited-awd-heavymetal-0003.jpg?update-time=1736457990137&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef630490000/2025-toyota-bz4x-nightshade-windchillpearl-0007.jpg?update-time=1736457989352&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef630a40000/2025-toyota-bz4x-nightshade-windchillpearl-0004.jpg?update-time=1736457989443&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef630c60000/2025-toyota-bz4x-nightshade-windchillpearl-0003.jpg?update-time=1736457989477&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef630e90000/2025-toyota-bz4x-nightshade-windchillpearl-0001.jpg?update-time=1736457989512&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef6314a0000/2025-toyota-bz4x-nightshade-windchillpearl-0002.jpg?update-time=1736457989609&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef634740000/2025-bz4x-limited-awd-heavymetal-0002.jpg?update-time=1736457990419&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-4cf6-df19-a3d6-eef630060000/2025-toyota-bz4x-nightshade-windchillpearl-0006.jpg?update-time=1736457989285&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018e-c3a2-d34a-a3df-fbe7543a0001/01-2024-toyota-bz4x-dashboard-jms.JPG?update-time=1712684709383&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018e-c3a2-d34a-a3df-fbe754b10000/02-2024-toyota-bz4x-front-seats-jms.JPG?update-time=1712684731278&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018e-c3a2-d34a-a3df-fbe7551f0000/03-2024-toyota-bz4x-rear-seats-jms.JPG?update-time=1712684752264&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018e-c3a2-d34a-a3df-fbe7558c0000/04-2024-toyota-bz4x-audio-system-jms.JPG?update-time=1712684772627&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000018e-c3a2-d34a-a3df-fbe756270000/05-2024-toyota-bz4x-climate-control-jms.JPG?update-time=1712684830305&size=responsiveGallery&format=webp"
+    trims: {}
+
+  volkswagen-id-buzz-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/volkswagen/id-buzz/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/volkswagen/id-buzz/photos-interior
+    default: "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2c340000/01-usnpx-2025volkswagenidbuzz-angularfront-jmv.JPG?update-time=1735686695414&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2c930000/02-usnpx-2025volkswagenidbuzz-angularrear-jmv.JPG?update-time=1735686695509&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2ceb0000/03-usnpx-2025volkswagenidbuzz-sideview-jmv.JPG?update-time=1735686695597&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2d3d0000/04-usnpx-2025volkswagenidbuzz-frontview-jmv.JPG?update-time=1735686695679&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2daa0000/05-usnpx-2025volkswagenidbuzz-rearview-jmv.JPG?update-time=1735686695788&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2dd30000/06-usnpx-2025volkswagenidbuzz-hatchopen-jmv.JPG?update-time=1735686695829&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1efd-de56-a19c-7ffd2e390000/07-usnpx-2025volkswagenidbuzz-chargingport-jmv.JPG?update-time=1735686695931&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d3f7a0000/01-usnpx-2025volkswagenidbuzz-dashboard-jmv.JPG?update-time=1735687224620&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d47760000/jmv-8099.jpg?update-time=1735687226663&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d3fb80000/03-usnpx-2025volkswagenidbuzz-secondrowseats-jmv.JPG?update-time=1735687224682&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d3fda0000/03a-usnpx-2025volkswagenidbuzz-thirdrowseats-jmv.JPG?update-time=1735687224715&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d40110000/04-usnpx-2025volkswagenidbuzz-audiosystem-jmv.JPG?update-time=1735687224770&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d40350000/05-usnpx-2025volkswagenidbuzz-climatecontrol-jmv.JPG?update-time=1735687224806&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/00000194-1f05-d107-a3b5-9f2d47be0000/jmv-8190.jpg?update-time=1735687226735&size=responsiveGallery&format=webp"
+    trims: {}
+
+  volkswagen-id4-2026:
+    # exterior: https://cars.usnews.com/cars-trucks/volkswagen/id-4/photos-exterior
+    # interior: https://cars.usnews.com/cars-trucks/volkswagen/id-4/photos-interior
+    default: "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f02a10000/img-1994.jpg?update-time=1763137290555&size=responsiveGallery&format=webp"
+    gallery:
+      - "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f060f0000/img-2020.jpg?update-time=1763137291433&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f036d0000/img-2005.jpg?update-time=1763137290760&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f02dd0000/img-1997.jpg?update-time=1763137290615&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f057f0000/img-2016.jpg?update-time=1763137291289&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f07020000/img-2022.jpg?update-time=1763137291676&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-832c-dfc8-afbb-eb6f04c70000/img-2029.jpg?update-time=1763137291105&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f508c90000/img-2035.jpg?update-time=1763137619800&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f507dc0000/img-2032.jpg?update-time=1763137619563&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f506920000/img-2030.jpg?update-time=1763137619234&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f5076d0000/img-2033.jpg?update-time=1763137619452&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f50b560000/img-2052.jpg?update-time=1763137620453&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f50dfe0000/img-2065.jpg?update-time=1763137621133&size=responsiveGallery&format=webp"
+      - "https://www.usnews.com/object/image/0000019a-8331-d079-ab9f-97f509630000/img-2038.jpg?update-time=1763137619954&size=responsiveGallery&format=webp"
+    trims: {}
+

@@ -1,0 +1,112 @@
+{
+  "asOf": "2026-06",
+  "source": "https://www.electrifyamerica.com/premium-offers/",
+  "disclaimer": "Complimentary Electrify America (EA) charging offers vary by brand, model, and purchase/lease date and change frequently. Values below are best-effort and flagged with `verified`. Edit this file to correct terms. Enrollment is required (in the EA app or the brand's app). Idle fees, taxes, and any usage beyond the plan are not covered. NOTE: Hyundai (IONIQ 5/9) ended its complimentary Electrify America charging for new purchases/leases — removed.",
+  "plans": {
+    "unlimited_dcfc": "Complimentary 30-minute DC fast-charging sessions on the EA network for the benefit period (modeled as free DC fast charging).",
+    "kwh": "A fixed allotment of complimentary kWh on the EA network over the benefit period."
+  },
+  "vehicles": {
+    "kia-ev6-2025": {
+      "provider": "Electrify America",
+      "summary": "1,000 kWh of complimentary DC fast charging (up to 3 yrs)",
+      "plan": "kwh",
+      "kwh": 1000,
+      "years": 3,
+      "coversPublicL2": false,
+      "enroll": "Electrify America app",
+      "verified": false
+    },
+    "kia-ev9-2025": {
+      "provider": "Electrify America",
+      "summary": "1,000 kWh of complimentary DC fast charging (up to 3 yrs)",
+      "plan": "kwh",
+      "kwh": 1000,
+      "years": 3,
+      "coversPublicL2": false,
+      "enroll": "Electrify America app",
+      "verified": false
+    },
+    "volkswagen-id4-2025": {
+      "provider": "Electrify America",
+      "summary": "3 years of complimentary 30-min DC fast charging",
+      "plan": "unlimited_dcfc",
+      "years": 3,
+      "coversPublicL2": false,
+      "enroll": "Electrify America app",
+      "verified": false
+    },
+    "volkswagen-id-buzz-2025": {
+      "provider": "Electrify America",
+      "summary": "3 years of complimentary 30-min DC fast charging",
+      "plan": "unlimited_dcfc",
+      "years": 3,
+      "coversPublicL2": false,
+      "enroll": "Electrify America app",
+      "verified": false
+    },
+    "mercedes-benz-cla-2026": {
+      "provider": "Electrify America",
+      "summary": "2 years of complimentary 30-min DC fast charging",
+      "plan": "unlimited_dcfc",
+      "years": 2,
+      "coversPublicL2": false,
+      "enroll": "Mercedes me / Electrify America app",
+      "verified": false
+    },
+    "bmw-i4-2025": {
+      "provider": "Electrify America",
+      "summary": "Complimentary DC fast charging — verify current term",
+      "plan": "unlimited_dcfc",
+      "years": 1,
+      "coversPublicL2": false,
+      "enroll": "My BMW app",
+      "verified": false
+    },
+    "bmw-i5-2025": {
+      "provider": "Electrify America",
+      "summary": "Complimentary DC fast charging — verify current term",
+      "plan": "unlimited_dcfc",
+      "years": 1,
+      "coversPublicL2": false,
+      "enroll": "My BMW app",
+      "verified": false
+    },
+    "bmw-i7-2025": {
+      "provider": "Electrify America",
+      "summary": "Complimentary DC fast charging — verify current term",
+      "plan": "unlimited_dcfc",
+      "years": 1,
+      "coversPublicL2": false,
+      "enroll": "My BMW app",
+      "verified": false
+    },
+    "bmw-ix-2025": {
+      "provider": "Electrify America",
+      "summary": "Complimentary DC fast charging — verify current term",
+      "plan": "unlimited_dcfc",
+      "years": 1,
+      "coversPublicL2": false,
+      "enroll": "My BMW app",
+      "verified": false
+    },
+    "lucid-air-2025": {
+      "provider": "Electrify America",
+      "summary": "2 years of complimentary DC fast charging",
+      "plan": "unlimited_dcfc",
+      "years": 2,
+      "coversPublicL2": false,
+      "enroll": "Lucid / Electrify America app",
+      "verified": false
+    },
+    "lucid-gravity-2025": {
+      "provider": "Electrify America",
+      "summary": "2 years of complimentary DC fast charging",
+      "plan": "unlimited_dcfc",
+      "years": 2,
+      "coversPublicL2": false,
+      "enroll": "Lucid / Electrify America app",
+      "verified": false
+    }
+  }
+}

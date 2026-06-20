@@ -1,0 +1,202 @@
+{
+  "id": "rivian-r2-2026",
+  "make": "Rivian",
+  "model": "R2",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://rivian.com/r2",
+  "imageUrl": "/data/images/rivian-r2-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/rivian-r2-2026/default.jpg",
+    "/data/images/rivian-r2-2026/gallery-1.jpg",
+    "/data/images/rivian-r2-2026/gallery-2.jpg",
+    "/data/images/rivian-r2-2026/gallery-3.jpg",
+    "/data/images/rivian-r2-2026/gallery-4.jpg",
+    "/data/images/rivian-r2-2026/gallery-5.jpg",
+    "/data/images/rivian-r2-2026/gallery-6.jpg",
+    "/data/images/rivian-r2-2026/gallery-7.jpg",
+    "/data/images/rivian-r2-2026/gallery-8.jpg",
+    "/data/images/rivian-r2-2026/gallery-9.jpg",
+    "/data/images/rivian-r2-2026/gallery-10.jpg",
+    "/data/images/rivian-r2-2026/gallery-11.jpg",
+    "/data/images/rivian-r2-2026/gallery-12.jpg",
+    "/data/images/rivian-r2-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2024-03-01T00:00:00+00:00",
+      "msrp": 45000
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 45000
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": true,
+  "expectedReleaseYear": 2026,
+  "trims": [
+    {
+      "name": "AWD · 330 mi",
+      "msrp": null,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 330,
+        "milesPerKwh": 3.11,
+        "horsepower": 402
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "us_epa"
+    },
+    {
+      "name": "Standard Pack AWD",
+      "msrp": 45000,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Glacier White",
+          "hexPreview": "#F2F4F4",
+          "pricePremium": 0
+        },
+        {
+          "name": "Forest Green",
+          "hexPreview": "#2B4A35",
+          "pricePremium": 0
+        },
+        {
+          "name": "Limestone",
+          "hexPreview": "#C7C0AF",
+          "pricePremium": 0
+        },
+        {
+          "name": "Storm Blue",
+          "hexPreview": "#28455E",
+          "pricePremium": 1750
+        },
+        {
+          "name": "Compass Yellow",
+          "hexPreview": "#D8B73B",
+          "pricePremium": 2500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [],
+      "specs": {
+        "range": 330,
+        "milesPerKwh": 3.11
+      }
+    },
+    {
+      "name": "Large Pack AWD",
+      "msrp": 51000,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Glacier White",
+          "hexPreview": "#F2F4F4",
+          "pricePremium": 0
+        },
+        {
+          "name": "Forest Green",
+          "hexPreview": "#2B4A35",
+          "pricePremium": 0
+        },
+        {
+          "name": "Limestone",
+          "hexPreview": "#C7C0AF",
+          "pricePremium": 0
+        },
+        {
+          "name": "Storm Blue",
+          "hexPreview": "#28455E",
+          "pricePremium": 1750
+        },
+        {
+          "name": "Compass Yellow",
+          "hexPreview": "#D8B73B",
+          "pricePremium": 2500
+        }
+      ],
+      "lastPriceChange": null,
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [],
+      "specs": {
+        "range": 330,
+        "milesPerKwh": 3.11
+      }
+    }
+  ],
+  "specs": {
+    "batteryKwh": 95,
+    "milesPerKwh": 3.5,
+    "zeroToSixty": 4.5,
+    "topSpeed": 110,
+    "torqueLbFt": 555,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 60,
+    "frunkVolumeCuFt": 5.5,
+    "towingCapacityLbs": 3500,
+    "groundClearanceIn": 9.8,
+    "weightLbs": 5600,
+    "chargingSpeedDcFastKw": 200,
+    "chargingSpeedL2Kw": 11.5,
+    "chargingPort": "NACS",
+    "autopilot": true,
+    "warrantyYears": 5,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 175000,
+    "range": 330,
+    "epaRangeCity": 330,
+    "epaRangeHwy": 270,
+    "horsepower": 350,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 575,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 25,
+    "year2Percent": 37,
+    "year3Percent": 45,
+    "year5Percent": 56,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1690,
+    "average": 2300,
+    "high": 3280,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  }
+}

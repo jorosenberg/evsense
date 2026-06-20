@@ -1,0 +1,29 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "vehicles",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "make", "order": "ASCENDING" },
+        { "fieldPath": "msrpFrom", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "vehicles",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "bodyStyle", "order": "ASCENDING" },
+        { "fieldPath": "msrpFrom", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "vehicles",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "federalCreditEligible", "order": "ASCENDING" },
+        { "fieldPath": "msrpFrom", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

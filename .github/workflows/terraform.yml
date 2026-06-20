@@ -1,0 +1,93 @@
+name: Terraform
+
+# Manage AWS infrastructure manually.
+# Run plan first to preview changes, then apply to provision/update.
+# The S3 + DynamoDB state backend must be bootstrapped before first use
+# (see terraform/README.md for the one-time bootstrap commands).
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action to run'
+        required: true
+        default: 'plan'
+        type: choice
+        options: [plan, apply, destroy]
+
+env:
+  TF_VERSION: 1.6.6
+  AWS_REGION: us-east-1
+
+jobs:
+  terraform:
+    name: Terraform ${{ inputs.action }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60   # ACM cert validation can take up to 30 min
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+          terraform_wrapper: false
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Terraform init
+        working-directory: terraform
+        run: terraform init -input=false
+
+      - name: Terraform validate
+        working-directory: terraform
+        run: terraform validate
+
+      - name: Terraform plan
+        if: inputs.action == 'plan'
+        working-directory: terraform
+        run: terraform plan -input=false
+        env:
+          TF_VAR_domain_name: ${{ vars.DOMAIN_NAME }}
+
+      - name: Terraform apply
+        if: inputs.action == 'apply'
+        working-directory: terraform
+        run: terraform apply -auto-approve -input=false
+        env:
+          TF_VAR_domain_name: ${{ vars.DOMAIN_NAME }}
+
+      - name: Terraform destroy
+        if: inputs.action == 'destroy'
+        working-directory: terraform
+        run: terraform destroy -auto-approve -input=false
+        env:
+          TF_VAR_domain_name: ${{ vars.DOMAIN_NAME }}
+
+      - name: Deployment summary
+        if: inputs.action == 'apply'
+        working-directory: terraform
+        run: |
+          echo "### Infrastructure" >> $GITHUB_STEP_SUMMARY
+          echo "| Output | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| Site URL | $(terraform output -raw site_url) |" >> $GITHUB_STEP_SUMMARY
+          echo "| CloudFront domain | $(terraform output -raw cloudfront_domain) |" >> $GITHUB_STEP_SUMMARY
+          echo "| S3 bucket | $(terraform output -raw site_bucket_name) |" >> $GITHUB_STEP_SUMMARY
+          echo "| CloudFront ID | $(terraform output -raw site_cloudfront_id) |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### DNS records to add" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "# 1. ACM cert validation (add once, then wait ~5 min for cert to issue):" >> $GITHUB_STEP_SUMMARY
+          terraform output -json acm_validation_cnames >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "# 2. Point your domain at CloudFront:" >> $GITHUB_STEP_SUMMARY
+          echo "CNAME  evsense.jonahrosenberg.work  ->  $(terraform output -raw cloudfront_domain)" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+        env:
+          TF_VAR_domain_name: ${{ vars.DOMAIN_NAME }}

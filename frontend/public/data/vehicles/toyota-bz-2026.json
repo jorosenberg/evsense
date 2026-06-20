@@ -1,0 +1,174 @@
+{
+  "id": "toyota-bz-2026",
+  "make": "Toyota",
+  "model": "bZ",
+  "year": 2026,
+  "type": "new",
+  "category": "suv",
+  "bodyStyle": "suv",
+  "manufacturerUrl": "https://www.toyota.com/bz/",
+  "imageUrl": "/data/images/toyota-bz-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/toyota-bz-2026/default.jpg",
+    "/data/images/toyota-bz-2026/gallery-1.jpg",
+    "/data/images/toyota-bz-2026/gallery-2.jpg",
+    "/data/images/toyota-bz-2026/gallery-3.jpg",
+    "/data/images/toyota-bz-2026/gallery-4.jpg",
+    "/data/images/toyota-bz-2026/gallery-5.jpg",
+    "/data/images/toyota-bz-2026/gallery-6.jpg",
+    "/data/images/toyota-bz-2026/gallery-7.jpg",
+    "/data/images/toyota-bz-2026/gallery-8.jpg",
+    "/data/images/toyota-bz-2026/gallery-9.jpg",
+    "/data/images/toyota-bz-2026/gallery-10.jpg",
+    "/data/images/toyota-bz-2026/gallery-11.jpg",
+    "/data/images/toyota-bz-2026/gallery-12.jpg",
+    "/data/images/toyota-bz-2026/gallery-13.jpg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2026-01-01T00:00:00+00:00",
+      "msrp": 34900
+    }
+  ],
+  "lastUpdated": "2026-05-29T00:00:00+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "XLE",
+      "msrp": 37489,
+      "sellingPrice": 36334,
+      "drivetrain": "FWD",
+      "specs": {
+        "range": 236,
+        "batteryKwh": 57.7,
+        "milesPerKwh": 3.6,
+        "zeroToSixty": 8.6,
+        "horsepower": 168
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "XLE 4dr SUV (electric DD)"
+    },
+    {
+      "name": "XLE Plus",
+      "msrp": 40874,
+      "sellingPrice": 39406,
+      "drivetrain": "FWD",
+      "specs": {
+        "range": 314,
+        "batteryKwh": 74.7,
+        "milesPerKwh": 3.9,
+        "zeroToSixty": 7.5,
+        "horsepower": 221
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "XLE Plus 4dr SUV (electric DD)"
+    },
+    {
+      "name": "XLE AWD",
+      "msrp": 43164,
+      "sellingPrice": 41668,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 288,
+        "batteryKwh": 74.7,
+        "milesPerKwh": 3.6,
+        "zeroToSixty": 4.9,
+        "horsepower": 338
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "XLE 4dr SUV AWD (electric DD)"
+    },
+    {
+      "name": "Limited",
+      "msrp": 46969,
+      "sellingPrice": 45273,
+      "drivetrain": "FWD",
+      "specs": {
+        "range": 299,
+        "batteryKwh": 74.7,
+        "milesPerKwh": 3.7,
+        "zeroToSixty": 7.5,
+        "horsepower": 221
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Limited 4dr SUV (electric DD)"
+    },
+    {
+      "name": "Limited AWD",
+      "msrp": 48469,
+      "sellingPrice": 46782,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 278,
+        "batteryKwh": 74.7,
+        "milesPerKwh": 3.5,
+        "zeroToSixty": 4.9,
+        "horsepower": 338
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "Limited 4dr SUV AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 74.7,
+    "milesPerKwh": 3.9,
+    "zeroToSixty": 7.5,
+    "seatingCapacity": 5,
+    "towingCapacityLbs": 0,
+    "chargingSpeedDcFastKw": 150,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "NACS",
+    "warrantyYears": 3,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 314,
+    "horsepower": 221,
+    "drivetrain": "FWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 500,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "Toyota EV maintenance is low; includes complimentary scheduled maintenance for the first 2 years."
+  },
+  "depreciation": {
+    "year1Percent": 20,
+    "year2Percent": 31,
+    "year3Percent": 39,
+    "year5Percent": 50,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 1450,
+    "average": 1950,
+    "high": 2700,
+    "source": "Estimated"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The federal EV tax credit (IRA Section 30D) was repealed in 2025.",
+    "lastVerified": "2026-05-29T00:00:00+00:00"
+  },
+  "msrpFrom": 37489
+}

@@ -1,0 +1,279 @@
+{
+  "id": "bmw-i7-2026",
+  "make": "BMW",
+  "model": "i7",
+  "year": 2026,
+  "type": "new",
+  "category": "sedan",
+  "bodyStyle": "sedan",
+  "manufacturerUrl": "https://www.bmwusa.com/vehicles/bmwi/i7.html",
+  "imageUrl": "/data/images/bmw-i7-2026/default.jpg",
+  "imageGallery": [
+    "/data/images/bmw-i7-2026/default.jpg",
+    "/data/images/bmw-i7-2026/gallery-1.jpg",
+    "/data/images/bmw-i7-2026/gallery-2.jpg",
+    "/data/images/bmw-i7-2026/gallery-3.jpg",
+    "/data/images/bmw-i7-2026/gallery-4.jpg",
+    "/data/images/bmw-i7-2026/gallery-5.jpeg",
+    "/data/images/bmw-i7-2026/gallery-6.jpeg",
+    "/data/images/bmw-i7-2026/gallery-7.jpeg",
+    "/data/images/bmw-i7-2026/gallery-8.jpeg",
+    "/data/images/bmw-i7-2026/gallery-9.jpeg",
+    "/data/images/bmw-i7-2026/gallery-10.jpeg",
+    "/data/images/bmw-i7-2026/gallery-11.jpeg",
+    "/data/images/bmw-i7-2026/gallery-12.jpeg",
+    "/data/images/bmw-i7-2026/gallery-13.jpeg"
+  ],
+  "priceHistory": [
+    {
+      "date": "2023-01-01T00:00:00+00:00",
+      "msrp": 119300
+    },
+    {
+      "date": "2024-01-01T00:00:00+00:00",
+      "msrp": 105700
+    },
+    {
+      "date": "2025-01-01T00:00:00+00:00",
+      "msrp": 111300
+    }
+  ],
+  "lastUpdated": "2026-05-23T22:20:33+00:00",
+  "comingSoon": false,
+  "expectedReleaseYear": null,
+  "trims": [
+    {
+      "name": "xDrive60",
+      "msrp": 111300,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 105700,
+        "changeDollars": 5600,
+        "direction": "increase"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1349,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 9995,
+          "moneyFactor": 0.00195,
+          "residualPercent": 51,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 285,
+        "milesPerKwh": 2.36
+      }
+    },
+    {
+      "name": "eDrive50",
+      "msrp": 117925,
+      "sellingPrice": 109039,
+      "drivetrain": "RWD",
+      "specs": {
+        "range": 314,
+        "milesPerKwh": 2.62,
+        "horsepower": 449
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "eDrive50 4dr Sedan (electric DD)"
+    },
+    {
+      "name": "xDrive60 AWD",
+      "msrp": 132625,
+      "sellingPrice": 125238,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 285,
+        "milesPerKwh": 2.36,
+        "horsepower": 738
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "xDrive60 4dr Sedan AWD (electric DD)"
+    },
+    {
+      "name": "M70 xDrive",
+      "msrp": 167700,
+      "destinationFee": 1395,
+      "drivetrain": "AWD",
+      "availableColors": [
+        {
+          "name": "Pearl White",
+          "hexPreview": "#F2F2EE",
+          "pricePremium": 0
+        },
+        {
+          "name": "Magnetic Silver",
+          "hexPreview": "#9CA2A8",
+          "pricePremium": 0
+        },
+        {
+          "name": "Phantom Black",
+          "hexPreview": "#101012",
+          "pricePremium": 595
+        },
+        {
+          "name": "Lucid Blue",
+          "hexPreview": "#2A4A78",
+          "pricePremium": 595
+        },
+        {
+          "name": "Cherry Red",
+          "hexPreview": "#7E1818",
+          "pricePremium": 995
+        }
+      ],
+      "lastPriceChange": {
+        "date": "2025-01-01T00:00:00+00:00",
+        "previousMsrp": 105700,
+        "changeDollars": 5600,
+        "direction": "increase"
+      },
+      "cashOffers": [],
+      "financeOffers": [
+        {
+          "apr": 6.49,
+          "termMonths": 60,
+          "downPayment": 0,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "leaseOffers": [
+        {
+          "monthlyPayment": 1999,
+          "termMonths": 36,
+          "mileagePerYear": 10000,
+          "dueAtSigning": 12995,
+          "moneyFactor": 0.0022,
+          "residualPercent": 47,
+          "acquisitionFee": 925,
+          "dispositionFee": 395,
+          "isSubventioned": false,
+          "expiresAt": "2026-06-30T23:59:59+00:00"
+        }
+      ],
+      "specs": {
+        "range": 285,
+        "milesPerKwh": 2.36
+      }
+    },
+    {
+      "name": "M70 AWD",
+      "msrp": 186375,
+      "sellingPrice": 176382,
+      "drivetrain": "AWD",
+      "specs": {
+        "range": 285,
+        "milesPerKwh": 2.36,
+        "horsepower": 738
+      },
+      "availableColors": [],
+      "cashOffers": [],
+      "financeOffers": [],
+      "leaseOffers": [],
+      "specsSource": "edmunds-lease-calc",
+      "styleLabel": "M70 4dr Sedan AWD (electric DD)"
+    }
+  ],
+  "specs": {
+    "batteryKwh": 101.7,
+    "milesPerKwh": 3.1,
+    "zeroToSixty": 4.5,
+    "topSpeed": 149,
+    "torqueLbFt": 549,
+    "seatingCapacity": 5,
+    "cargoVolumeCuFt": 17.7,
+    "frunkVolumeCuFt": 0,
+    "towingCapacityLbs": 0,
+    "groundClearanceIn": 6.0,
+    "weightLbs": 5917,
+    "chargingSpeedDcFastKw": 195,
+    "chargingSpeedL2Kw": 11,
+    "chargingPort": "CCS",
+    "autopilot": true,
+    "warrantyYears": 4,
+    "batteryWarrantyYears": 8,
+    "batteryWarrantyMiles": 100000,
+    "range": 314,
+    "epaRangeCity": 350,
+    "epaRangeHwy": 286,
+    "horsepower": 536,
+    "drivetrain": "AWD"
+  },
+  "maintenance": {
+    "averageAnnualCostUsd": 990,
+    "sourceUrl": "https://repairpal.com/",
+    "notes": "EVs avoid oil changes, transmission service, and most engine maintenance. Brakes last longer thanks to regenerative braking. Costs above include tires, cabin filter, brake fluid, wiper blades, and battery coolant service."
+  },
+  "depreciation": {
+    "year1Percent": 34,
+    "year2Percent": 49,
+    "year3Percent": 58,
+    "year5Percent": 69,
+    "sourceUrl": "https://www.iseecars.com/"
+  },
+  "insuranceEstimateAnnual": {
+    "low": 2580,
+    "average": 3520,
+    "high": 5040,
+    "source": "Policygenius 2025 EV insurance comparison"
+  },
+  "federalTaxCredit": {
+    "eligibleNew": false,
+    "amount": 0,
+    "notes": "The $7,500 federal EV tax credit (IRA Section 30D) was repealed in 2025. No federal credit applies to new EV purchases.",
+    "lastVerified": "2026-05-23T22:20:33+00:00"
+  },
+  "msrpFrom": 111300
+}
