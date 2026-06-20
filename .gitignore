@@ -20,6 +20,8 @@ scraper/reports/
 !scraper/reports/.gitkeep
 scraper/incentives/.chrome-profile/
 scraper/incentives/deals_html/
+scraper/.env
+scraper/.env.local
 
 # Firebase
 firebase-debug.log

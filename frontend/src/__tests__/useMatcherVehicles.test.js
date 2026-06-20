@@ -30,22 +30,25 @@ describe('matcher_vehicles loader', () => {
         { id: 'b', make: 'Kia', model: 'EV6', dataQuality: 'full' },
       ],
     }
-    // loadMatcherVehicles makes two fetches in sequence:
-    //   1. matcher_vehicles.json    — the primary source
-    //   2. edmunds_ratings.json     — optional enrichment (silently ignored on failure)
+    // loadMatcherVehicles makes three fetches in sequence:
+    //   1. matcher_vehicles.json  — primary source
+    //   2. vehicle_scores.json    — optional expert ratings (silently ignored on failure)
+    //   3. tested_specs.json      — optional real-world range (silently ignored on failure)
     global.fetch = vi.fn()
       .mockResolvedValueOnce({ ok: true,  json: async () => sample })  // matcher_vehicles.json
-      .mockResolvedValueOnce({ ok: false, status: 404 })               // edmunds_ratings.json (not present)
+      .mockResolvedValueOnce({ ok: false, status: 404 })               // vehicle_scores.json (not present)
+      .mockResolvedValueOnce({ ok: false, status: 404 })               // tested_specs.json (not present)
 
     // Re-import the module fresh so its cache is empty, then drive the actual
     // loader (not a stand-in) so we genuinely test the load path.
     const mod = await loadHookModule()
     const result = await mod.loadMatcherVehicles()
 
-    // First call must target matcher_vehicles.json; edmunds_ratings.json is second.
-    expect(global.fetch).toHaveBeenCalledTimes(2)
+    // Call order: matcher_vehicles.json → vehicle_scores.json → tested_specs.json
+    expect(global.fetch).toHaveBeenCalledTimes(3)
     expect(global.fetch).toHaveBeenNthCalledWith(1, expect.stringContaining('data/matcher_vehicles.json'))
-    expect(global.fetch).toHaveBeenNthCalledWith(2, expect.stringContaining('data/edmunds_ratings.json'))
+    expect(global.fetch).toHaveBeenNthCalledWith(2, expect.stringContaining('data/vehicle_scores.json'))
+    expect(global.fetch).toHaveBeenNthCalledWith(3, expect.stringContaining('data/tested_specs.json'))
     expect(result.vehicles.length).toBe(2)
     expect(result.meta.source).toBe('matcher_vehicles.json')
     expect(result.meta.tierCounts).toEqual({ full: 2, estimated: 0 })
